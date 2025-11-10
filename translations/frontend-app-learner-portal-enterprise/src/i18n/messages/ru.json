@@ -170,7 +170,7 @@
   "enterprise.pathway.modal.catalog.label": "Входит в каталог",
   "enterprise.pathway.modal.learn.at.zero.cost.label": "Обучение бесплатно для вас",
   "enterprise.dashboard.pathways.progress.page.pathway.node.in.progress.badge": "",
-  "enterprise.dashboard.pathways.progress.page.pathway.node.resume.course.or.program.button.text": "Резюме {contentType}",
+  "enterprise.dashboard.pathways.progress.page.pathway.node.resume.course.or.program.button.text": "Продолжить {contentType}",
   "enterprise.dashboard.pathways.progress.page.pathway.node.view.course.or.program.button.text": "Посмотреть {contentType}",
   "enterprise.dashboard.pathways.progress.page.pathway.progress.heading": "Прогресс пути",
   "enterprise.dashboard.pathways.progress.page.pathway.progress.subheading": "Проанализируйте свой прогресс на пути и запланируйте ключевые сроки, чтобы гарантировать, что вы закончите. Чтобы пройти путь, вам необходимо выполнить каждое из требований.",
