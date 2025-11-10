@@ -61,7 +61,7 @@
   "exam.ReadyToResumeProctoredExamInstructions.title": "Ваш экзамен готов к возобновлению.",
   "exam.ReadyToResumeProctoredExamInstructions.text": "Для сдачи экзамена вам понадобится {totalTime} .",
   "exam.EntranceProctoredExamInstructions.title": "Этот экзамен проходит под контролем",
-  "exam.EntranceProctoredExamInstructions.text1": "Чтобы иметь право на получение кредита или сертификата программы, связанного с этим курсом, вы должны пройти проверку прокторинга для этого экзамена.",
+  "exam.EntranceProctoredExamInstructions.text1": "Чтобы иметь право на получение зачёта онлайн-курса, вы должны пройти проверку прокторинга для этого экзамена.",
   "exam.EntranceProctoredExamInstructions.text2": "Вам будут представлены инструкции по настройке программного обеспечения для онлайн-контроля и проверке вашей личности.",
   "exam.startExamInstructions.startExamButtonText": "Я готов начать этот экзамен на время.",
   "exam.ErrorProctoredExamInstructions.text1": "Во время вашего контролируемого экзамена произошла системная ошибка. Пожалуйста, обратитесь за помощью к команде вашего курса по телефону {supportLink} и вернитесь к экзамену, как только получите дальнейшие инструкции.",
