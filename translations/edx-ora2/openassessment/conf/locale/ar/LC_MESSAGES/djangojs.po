@@ -6,7 +6,6 @@
 # 
 # Translators:
 # Brian Smith, 2024
-# edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>, 2024
 # Omar Al-Ithawi <i@omardo.com>, 2024
 # Menna Mamdouh <menna.mamdouh@notionwave.com>, 2024
 # Sulaiman Muthanna, 2025
@@ -15,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-ora2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-16 00:37+0000\n"
+"POT-Creation-Date: 2025-09-28 00:45+0000\n"
 "PO-Revision-Date: 2023-05-10 00:48+0000\n"
 "Last-Translator: Sulaiman Muthanna, 2025\n"
 "Language-Team: Arabic (https://app.transifex.com/open-edx/teams/6205/ar/)\n"
@@ -48,7 +47,7 @@ msgstr "تعذّر تحميل عرض الردود التي لم يجري اخت�
 #: xblock/static/dist/openassessment-studio.b58bb4e55f63dadac6de.js:1
 #: xblock/static/js/src/oa_server.js:215
 msgid "This response could not be submitted."
-msgstr "تعذّر تقديم هذا الرد."
+msgstr "تعذّر إرسال هذه الإجابة."
 
 #: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:8
 #: xblock/static/dist/openassessment-studio.b58bb4e55f63dadac6de.js:1
@@ -97,7 +96,7 @@ msgstr "تعذّر الاتصال بالمخدّم."
 #: xblock/static/dist/openassessment-studio.b58bb4e55f63dadac6de.js:1
 #: xblock/static/js/src/oa_server.js:556
 msgid "Could not retrieve upload url."
-msgstr "تعذّر استرجاع رابط التحميل."
+msgstr "تعذّر جلب رابط رفع الملفات."
 
 #: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:8
 #: xblock/static/dist/openassessment-studio.b58bb4e55f63dadac6de.js:1
@@ -109,7 +108,7 @@ msgstr "خطأ في الخادم"
 #: xblock/static/dist/openassessment-studio.b58bb4e55f63dadac6de.js:1
 #: xblock/static/js/src/oa_server.js:614
 msgid "Could not retrieve download url."
-msgstr "تعذّر استرجاع رابط التنزيل."
+msgstr "تعذّر جلب رابط التنزيل."
 
 #: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:8
 #: xblock/static/dist/openassessment-studio.b58bb4e55f63dadac6de.js:1
@@ -145,7 +144,7 @@ msgstr "خطأ في العثور على اسم المستخدم"
 #: xblock/static/dist/openassessment-studio.b58bb4e55f63dadac6de.js:1
 #: xblock/static/js/src/oa_server.js:754
 msgid "Failed to clone rubric"
-msgstr "فَشِل استنساخ مِعيار التقييم"
+msgstr "فشل استنساخ مِعيار التقييم"
 
 #: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:309
 #: xblock/static/js/src/lms/oa_course_items_listing.js:61
@@ -205,7 +204,7 @@ msgstr "مُقيَّم ذاتيًّا"
 #: xblock/static/js/src/lms/oa_course_items_listing.js:145
 #: xblock/static/js/src/lms/oa_course_items_listing.js:146
 msgid "Waiting"
-msgstr "بالانتِظار"
+msgstr "بالانتظار"
 
 #: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:309
 #: xblock/static/js/src/lms/oa_course_items_listing.js:153
@@ -259,17 +258,17 @@ msgstr "ألغِ"
 #: xblock/static/js/src/lms/oa_response.js:272
 msgid ""
 "There is still file upload in progress. Please wait until it is finished."
-msgstr "لا يزال رفع ملف قيد التنفيذ. من فضلك انتظر حتى تنتهي."
+msgstr "هناك ملف ما زال يُرفَع. من فضلك انتظِر حتى ينتهي رفعُه."
 
 #: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:362
 #: xblock/static/js/src/lms/oa_response.js:262
 msgid "Cannot submit empty response even everything is optional."
-msgstr "لا يمكن إرسال رد فارغ حتى لو كان كل شيء اختياريًا."
+msgstr "لا يمكن تقديم إجابة فارغة حتى لو كان كل شيء اختيارياً."
 
 #: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:362
 #: xblock/static/js/src/lms/oa_response.js:254
 msgid "Please upload a file."
-msgstr "الرجاء تحميل ملف."
+msgstr "يُرجى رفع ملف."
 
 #: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:362
 #: xblock/static/js/src/lms/oa_response.js:247
@@ -279,7 +278,7 @@ msgstr "يرجى تقديم رد."
 #: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:362
 #: xblock/static/js/src/lms/oa_response.js:347
 msgid "No files selected for upload."
-msgstr "لم يتم تحديد ملفات للتحميل."
+msgstr "لم يُحدَّد ملفات لرفعها."
 
 #: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:362
 #: xblock/static/js/src/lms/oa_response.js:354
@@ -289,7 +288,7 @@ msgstr "يرجى تقديم وصف لكل ملف تقوم بتحميله."
 #: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:362
 #: xblock/static/js/src/lms/oa_response.js:363
 msgid "Your file has been deleted or path has been changed: "
-msgstr "تم حذف ملفك أو تم تغيير المسار:"
+msgstr "حُذف ملفك أو غُيِّر مساره:"
 
 #: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:362
 #: xblock/static/js/src/lms/oa_response.js:458
@@ -302,8 +301,8 @@ msgid ""
 "If you leave this page without saving or submitting your response, you will "
 "lose any work you have done on the response."
 msgstr ""
-"ستفقد أي تغيير كنت قد أجريته على الردّ إذا تركت هذه الصفحة دون حفظ أو تقديم "
-"ردّك."
+"ستفقد أيّ تغيير كنت قد أجريته على الردّ إذا تركت هذه الصفحة دون حفظ ودون أن "
+"تُرسِل إجابتك."
 
 #: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:362
 #: xblock/static/js/src/lms/oa_response.js:480
@@ -313,7 +312,7 @@ msgstr "جارٍ حفظ المسودة ..."
 #: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:362
 #: xblock/static/js/src/lms/oa_response.js:496
 msgid "Draft saved!"
-msgstr "تم حفظ المسودة!"
+msgstr "حُفظت المُسوَّدة!"
 
 #: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:362
 #: xblock/static/js/src/lms/oa_response.js:509
@@ -332,8 +331,8 @@ msgid ""
 "this response, you may have a limited time to resubmit before your "
 "submission is graded."
 msgstr ""
-"أنت على وشك إرسال إجابتك لهذه المهمة. بعد إرسال هذا الرد، قد يكون لديك وقت "
-"محدود لإعادة الإرسال قبل أن يتم تقدير إرسالك."
+"أنت على وشك إرسال إجابتك لهذا الواجب. بعد إرسال إجابتك، سيكون لديك وقت محدود"
+" لإعادة الإرسال قبل أن يُقيَّم إرسالك."
 
 #: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:362
 #: xblock/static/js/src/lms/oa_response.js:540
@@ -341,13 +340,13 @@ msgid ""
 "You're about to submit your response for this assignment. After you submit "
 "this response, you can't change it or submit a new response."
 msgstr ""
-"إنّت على وشك تقديم إجابتك عن هذا الواحب. لن تتمكّن، بعد تقديم إجابتك، من "
-"تعديلها أو تقديم إجابة جديدة."
+"أنت على وشك تسليم إجابتك لهذا الواجب. بعد إرسال إجابتك لن تتمكن من تعديلها "
+"أو إرسال إجابة جديدة."
 
 #: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:362
 #: xblock/static/js/src/lms/oa_response.js:582
 msgid "Confirm Reset"
-msgstr "تأكيد إعادة الضبط"
+msgstr "أكِّد إعادة الضبط"
 
 #: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:362
 #: xblock/static/js/src/lms/oa_response.js:584
@@ -356,8 +355,8 @@ msgid ""
 "submit a new response in order to complete this step. Are you sure you want "
 "to continue?"
 msgstr ""
-"أنت على وشك إعادة ضبط استجابتك لهذه المهمة. ستحتاج إلى إرسال رد جديد لإكمال "
-"هذه الخطوة. هل أنت متأكد أنك تريد الاستمرار؟"
+"أنت على وشك إعادة تعيين إجابتك لهذا الواجب. ستحتاج إلى إرسال إجابة جديدة "
+"لإتمام هذه الخطوة. هل أنت واثق من رغبتك في الاستمرار؟"
 
 #: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:362
 #: xblock/static/js/src/lms/oa_response.js:655
@@ -376,13 +375,13 @@ msgstr ""
 #: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:362
 #: xblock/static/js/src/lms/oa_response.js:680
 msgid "The maximum number files that can be saved is "
-msgstr "الحد الأقصى لعدد الملفات التي يمكن حفظها هو"
+msgstr "الحدّ الأقصى لعدد الملفات التي يمكن حفظها هو "
 
 #: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:362
 #: xblock/static/js/src/lms/oa_response.js:748
 #: xblock/static/js/src/lms/oa_response.js:754
 msgid "Describe "
-msgstr "صف"
+msgstr "صِف"
 
 #: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:362
 #: xblock/static/js/src/lms/oa_response.js:748
@@ -392,12 +391,12 @@ msgstr "(مطلوب):"
 #: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:362
 #: xblock/static/js/src/lms/oa_response.js:768
 msgid "Thumbnail view of "
-msgstr "صورة مصغرة لـ"
+msgstr "صورة مصغّرة لـ"
 
 #: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:362
 #: xblock/static/js/src/lms/oa_response.js:845
 msgid "Confirm Delete Uploaded File"
-msgstr "Confirm Delete Uploaded File"
+msgstr "أكِّد حذف الملف المرفوع"
 
 #: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:362
 #: xblock/static/js/src/lms/oa_response.js:870
@@ -578,7 +577,7 @@ msgstr "لم يجرِ تحديده"
 #: xblock/static/dist/openassessment-studio.b58bb4e55f63dadac6de.js:11
 #: xblock/static/js/src/studio/oa_edit_rubric.js:124
 msgid "Problem cloning rubric"
-msgstr "مشكلة في استنساخ مِعيار التقييم"
+msgstr "مشكلة في استنساخ معيار التقييم"
 
 #: xblock/static/dist/openassessment-studio.b58bb4e55f63dadac6de.js:11
 #: xblock/static/js/src/studio/oa_edit_listeners.js:100
@@ -599,7 +598,7 @@ msgstr ""
 #: xblock/static/js/src/studio/oa_edit_listeners.js:150
 #: xblock/static/js/src/studio/oa_edit_listeners.js:186
 msgid "Option Deleted"
-msgstr "جرى حذف الخيار."
+msgstr "حُذف الخِيار"
 
 #: xblock/static/dist/openassessment-studio.b58bb4e55f63dadac6de.js:11
 #: xblock/static/js/src/studio/oa_edit_listeners.js:152
@@ -608,8 +607,8 @@ msgid ""
 "in the sample responses in the Learner Training step. You might have to "
 "select a new option for the criterion."
 msgstr ""
-"لقد حذفت خيارًا. جرت إزالة ذلك الخيار من معيار تقييم الردود النموذجية في "
-"خطوة ’تدريب المتعلّمين‘. قد يتوجّب عليك اختيار خيار جديد لمعيار التقيّيم."
+"لقد حذفت خياراً. وأُزيل ذلك الخيار من المقياس في الإجابات النموذجية في خطوة "
+"’تدريب المتعلّمين‘. قد يتوجّب عليك اختيار خيار جديد للمقياس."
 
 #: xblock/static/dist/openassessment-studio.b58bb4e55f63dadac6de.js:11
 #: xblock/static/js/src/studio/oa_edit_listeners.js:188
@@ -617,13 +616,13 @@ msgid ""
 "You have deleted all the options for this criterion. The criterion has been "
 "removed from the sample responses in the Learner Training step."
 msgstr ""
-"لقد حذفتَ جميع خيارات هذا المعيار، وقد أُزيل هذا المعيار من الردود النموذجية"
-" في خطوة ’تدريب المتعلّمين‘."
+"لقد حذفت جميع خيارات هذا المقياس، وقد أُزيل هذا المقياس من الإجابات "
+"النموذجية في خطوة ’تدريب المتعلمين‘."
 
 #: xblock/static/dist/openassessment-studio.b58bb4e55f63dadac6de.js:11
 #: xblock/static/js/src/studio/oa_edit_listeners.js:214
 msgid "Criterion Deleted"
-msgstr "جرى حذف المعيار."
+msgstr "حُذف هذا المقياس"
 
 #: xblock/static/dist/openassessment-studio.b58bb4e55f63dadac6de.js:11
 #: xblock/static/js/src/studio/oa_edit_listeners.js:216
@@ -648,15 +647,6 @@ msgstr ""
 "لن تُحفّظ التغييرات التي تجريها على خطوات لم يجري تحديدها كجزء من الواجب. "
 
 #: xblock/static/dist/openassessment-studio.b58bb4e55f63dadac6de.js:11
-#: xblock/static/js/src/studio/oa_edit_settings.js:104
-msgid ""
-"Time must be in the format dd:hh:mm. The days must be between 00 and 99, the"
-" hours between 00 and 23, and the minutes between 00 and 59."
-msgstr ""
-"يجب أن يكون الوقت بالتنسيق dd:hh:mm. يجب أن تكون الأيام بين 00 و99، والساعات"
-" بين 00 و23، والدقائق بين 00 و59."
-
-#: xblock/static/dist/openassessment-studio.b58bb4e55f63dadac6de.js:11
 #: xblock/static/js/src/studio/oa_edit_settings.js:118
 msgid "File types can not be empty."
 msgstr "لا يمكن ترك أنواع الملفّات دون تحديد."
@@ -669,7 +659,7 @@ msgstr "يُمنع استخدام أنواع الملفّات التالية:"
 #: xblock/static/dist/openassessment-studio.b58bb4e55f63dadac6de.js:11
 #: xblock/static/js/src/studio/oa_edit.js:183
 msgid "Save Unsuccessful"
-msgstr "حفظ غير ناجح"
+msgstr "لم ينجح الحفظ"
 
 #: xblock/static/dist/openassessment-studio.b58bb4e55f63dadac6de.js:11
 #: xblock/static/js/src/studio/oa_edit.js:184

@@ -32,7 +32,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-08-22 00:39+0000\n"
+"POT-Creation-Date: 2025-09-18 00:40+0000\n"
 "PO-Revision-Date: 2023-11-20 11:35+0000\n"
 "Last-Translator: Brian Smith, 2025\n"
 "Language-Team: Hungarian (https://app.transifex.com/open-edx/teams/6205/hu/)\n"
@@ -201,22 +201,22 @@ msgstr "Hibás kurzus hely került megadásra"
 msgid "Missing branch on fresh clone"
 msgstr "Hiányzik az ág a friss klónból"
 
-#: cms/djangoapps/contentstore/helpers.py:204
+#: cms/djangoapps/contentstore/helpers.py:205
 msgid "Vertical"
 msgstr "Függőleges"
 
-#: cms/djangoapps/contentstore/helpers.py:208
+#: cms/djangoapps/contentstore/helpers.py:209
 #: cms/templates/course_outline.html:212 lms/templates/ccx/schedule.html:86
 #: lms/templates/seq_block.html:156
 msgid "Section"
 msgstr "Fejezet"
 
-#: cms/djangoapps/contentstore/helpers.py:210
+#: cms/djangoapps/contentstore/helpers.py:211
 #: lms/templates/ccx/schedule.html:90
 msgid "Subsection"
 msgstr "Alfejezet"
 
-#: cms/djangoapps/contentstore/helpers.py:212
+#: cms/djangoapps/contentstore/helpers.py:213
 #: lms/djangoapps/instructor/views/tools.py:241
 #: lms/djangoapps/instructor/views/tools.py:253 xmodule/unit_block.py:41
 #: lms/templates/ccx/schedule.html:94 lms/templates/seq_block.html:106
@@ -224,12 +224,12 @@ msgstr "Alfejezet"
 msgid "Unit"
 msgstr "Lecke"
 
-#: cms/djangoapps/contentstore/helpers.py:219
+#: cms/djangoapps/contentstore/helpers.py:220
 #: cms/djangoapps/contentstore/views/component.py:283
 msgid "Problem"
 msgstr "Feladat"
 
-#: cms/djangoapps/contentstore/helpers.py:221
+#: cms/djangoapps/contentstore/helpers.py:222
 #: cms/djangoapps/contentstore/views/component.py:287
 msgid "Library Content"
 msgstr "Könyvtári tartalom"
@@ -269,7 +269,7 @@ msgstr ""
 msgid "Upstream context key i.e., learning_package/library key"
 msgstr "Felső szintű kontextuskulcs, azaz tanulási_csomag/könyvtár kulcs"
 
-#: cms/djangoapps/contentstore/models.py:147
+#: cms/djangoapps/contentstore/models.py:151
 msgid ""
 "Upstream block usage key, this value cannot be null and useful to track "
 "upstream library blocks that do not exist yet"
@@ -277,15 +277,15 @@ msgstr ""
 "Felső szintű blokkhasználati kulcs, ez az érték nem lehet null és hasznos a "
 "még nem létező felső szintű könyvtári blokkok nyomon követésére."
 
-#: cms/djangoapps/contentstore/models.py:153
+#: cms/djangoapps/contentstore/models.py:157
 msgid "Component Link"
 msgstr "Komponens hivatkozás"
 
-#: cms/djangoapps/contentstore/models.py:180
+#: cms/djangoapps/contentstore/models.py:184
 msgid "The component must be published to access `published_at`"
 msgstr "A komponenst közzé kell tenni a `published_at` hozzáféréséhez."
 
-#: cms/djangoapps/contentstore/models.py:317
+#: cms/djangoapps/contentstore/models.py:321
 msgid ""
 "Upstream block key (e.g. lct:...), this value cannot be null and is useful "
 "to track upstream library blocks that do not exist yet or were deleted."
@@ -294,7 +294,7 @@ msgstr ""
 " lennie, és hasznos a még nem létező vagy törölt felső szintű könyvtári "
 "blokkok nyomon követésére."
 
-#: cms/djangoapps/contentstore/models.py:351
+#: cms/djangoapps/contentstore/models.py:355
 msgid "The container must be published to access `published_at`"
 msgstr "A konténert közzé kell tenni a `published_at` hozzáféréséhez."
 
@@ -582,7 +582,7 @@ msgstr "{platform_name} támogatási szintek:"
 #: lms/djangoapps/courseware/tabs.py:241
 #: lms/djangoapps/discussion/plugins.py:27
 #: openedx/core/djangoapps/discussions/plugins.py:23
-#: openedx/core/djangoapps/notifications/email/utils.py:426
+#: openedx/core/djangoapps/notifications/email/utils.py:440
 #: openedx/features/lti_course_tab/tab.py:274 xmodule/discussion_block.py:198
 #: lms/djangoapps/discussion/templates/discussion/discussion_profile_page.html:48
 #: lms/templates/ux/reference/bootstrap/course-skeleton.html:24
@@ -737,7 +737,7 @@ msgstr ""
 msgid "'{organization_key}' is not a valid organization identifier."
 msgstr "'{organization_key}' nem érvényes szervezetazonosító."
 
-#: cms/djangoapps/contentstore/views/preview.py:302
+#: cms/djangoapps/contentstore/views/preview.py:304
 #, python-brace-format
 msgid "Access restricted to: {list_of_groups}"
 msgstr "Hozzáférés korlátozva a következőkre: {list_of_groups}"
@@ -823,45 +823,45 @@ msgstr ""
 msgid "Empty"
 msgstr "Üres"
 
-#: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:439
+#: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:436
 #: openedx/core/djangoapps/xblock/rest_api/views.py:334
 msgid "Invalid data"
 msgstr "Érvénytelen adat"
 
-#: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:441
+#: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:438
 #: openedx/core/djangoapps/xblock/rest_api/views.py:336
 #, python-brace-format
 msgid "Invalid data ({details})"
 msgstr "Érvénytelen adat ({details})"
 
-#: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:647
+#: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:656
 msgid "There was a problem pasting your component."
 msgstr "Probléma merült fel az összetevő beillesztésekor."
 
-#: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:651
+#: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:660
 msgid "Your clipboard is empty or invalid."
 msgstr "A vágólap üres vagy érvénytelen."
 
-#: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:794
+#: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:803
 #, python-brace-format
 msgid "You can not move {source_type} into {target_parent_type}."
 msgstr ""
 "Nem mozgathatja a(z) {source_type} elemet a(z) {target_parent_type} elembe."
 
-#: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:803
+#: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:812
 msgid "Item is already present in target location."
 msgstr "Az elem már jelen van a célhelyen."
 
-#: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:805
+#: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:814
 msgid "You can not move an item into itself."
 msgstr "Nem mozgathat egy elemet önmagába."
 
-#: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:811
+#: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:820
 #, python-brace-format
 msgid "{source_usage_key} not found in {parent_usage_key}."
 msgstr "{source_usage_key} nem található a {parent_usage_key} elemen belül."
 
-#: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:823
+#: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:832
 #, python-brace-format
 msgid ""
 "You can not move {source_usage_key} at an invalid index ({target_index})."
@@ -871,7 +871,7 @@ msgstr ""
 
 #. Translators: This is the percent sign. It will be used to represent
 #. a percent value out of 100, e.g. "58%" means "58/100".
-#: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:1147
+#: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:1159
 msgid "%"
 msgstr "%"
 
@@ -913,34 +913,6 @@ msgstr ""
 "Adjon engedélyt a felhasználónak, hogy kurzusokat hozzon létre MINDEN "
 "szervezetben."
 
-#: cms/djangoapps/import_from_modulestore/data.py:17
-msgid "Waiting to stage content"
-msgstr "Tartalom színpadra állítására várva"
-
-#: cms/djangoapps/import_from_modulestore/data.py:18
-msgid "Staging content for import"
-msgstr "Tartalom előkészítése importáláshoz"
-
-#: cms/djangoapps/import_from_modulestore/data.py:20
-msgid "Content is staged and ready for import"
-msgstr "A tartalom előkészítve és készen áll az importálásra."
-
-#: cms/djangoapps/import_from_modulestore/data.py:23
-msgid "Successfully imported content"
-msgstr "Sikeresen importált tartalom"
-
-#: cms/djangoapps/import_from_modulestore/models.py:38
-msgid "The modulestore course"
-msgstr "A moduláris tárhely kurzus"
-
-#: cms/djangoapps/import_from_modulestore/models.py:42
-msgid "Import from modulestore"
-msgstr "Importálás a moduláruházból"
-
-#: cms/djangoapps/import_from_modulestore/models.py:72
-msgid "Original usage key/ID of the thing that has been imported."
-msgstr "Az importált elem eredeti használati kulcsa/azonosítója."
-
 #: cms/djangoapps/maintenance/views.py:32
 msgid "Edit Announcements"
 msgstr "Hirdetmények szerkesztése"
@@ -971,24 +943,24 @@ msgstr "Hibás mező formátum '{name}'. {detailed_message}"
 msgid "Dictionary with the available tags"
 msgstr "Szótár az elérhető címkékkel"
 
-#: cms/lib/xblock/upstream_sync.py:71
+#: cms/lib/xblock/upstream_sync.py:72
 msgid "Content is not linked to a Content Library."
 msgstr "A tartalom nincs összekapcsolva egy tartalomkönyvtárral."
 
-#: cms/lib/xblock/upstream_sync.py:220
+#: cms/lib/xblock/upstream_sync.py:244
 msgid "Downstream is not an XBlock or is missing required UpstreamSyncMixin"
 msgstr ""
 "A Downstream nem XBlock, vagy hiányzik belőle a szükséges UpstreamSyncMixin."
 
-#: cms/lib/xblock/upstream_sync.py:224
+#: cms/lib/xblock/upstream_sync.py:248
 msgid "Cannot update content because it does not belong to a course."
 msgstr "Nem lehet frissíteni a tartalmat, mert nem tartozik egy tanfolyamhoz."
 
-#: cms/lib/xblock/upstream_sync.py:234
+#: cms/lib/xblock/upstream_sync.py:258
 msgid "Reference to linked library item is malformed"
 msgstr "A hivatkozás a csatolt könyvtári elemre hibás."
 
-#: cms/lib/xblock/upstream_sync.py:240
+#: cms/lib/xblock/upstream_sync.py:264
 msgid ""
 "Updating content with children is not yet supported unless the upstream is a"
 " container."
@@ -996,15 +968,15 @@ msgstr ""
 "A tartalom frissítése gyerekekkel még nem támogatott, hacsak a forrás nem "
 "egy tároló."
 
-#: cms/lib/xblock/upstream_sync.py:253
+#: cms/lib/xblock/upstream_sync.py:277
 msgid "Linked upstream library container was not found in the system"
 msgstr "A rendszerben nem található a hivatkozott upstream könyvtárkonténer."
 
-#: cms/lib/xblock/upstream_sync.py:257
+#: cms/lib/xblock/upstream_sync.py:281
 msgid "Linked `upstream_key` is not a valid key"
 msgstr "A kapcsolt `upstream_key` nem érvényes kulcs."
 
-#: cms/lib/xblock/upstream_sync.py:266
+#: cms/lib/xblock/upstream_sync.py:290
 #, python-brace-format
 msgid ""
 "Content type mismatch: {downstream_id} ({downstream_type}) cannot be linked "
@@ -1013,7 +985,7 @@ msgstr ""
 "A tartalomtípus nem egyezik: {downstream_id} ({downstream_type}) nem "
 "kapcsolható {upstream_id}-hez."
 
-#: cms/lib/xblock/upstream_sync_block.py:79
+#: cms/lib/xblock/upstream_sync_block.py:108
 msgid "Linked library item could not be loaded: {}"
 msgstr "A hivatkozott könyvtári elemet nem sikerült betölteni: {}"
 
@@ -1069,7 +1041,7 @@ msgstr "Ellenőrizve"
 
 #: common/djangoapps/course_modes/helpers.py:48
 #: lms/djangoapps/branding/api.py:329 lms/djangoapps/branding/api.py:404
-#: lms/djangoapps/courseware/views/views.py:2284
+#: lms/djangoapps/courseware/views/views.py:2286
 #: openedx/core/djangoapps/user_authn/views/registration_form.py:1009
 #: lms/templates/static_templates/honor.html:5
 #: lms/templates/static_templates/honor.html:10
@@ -1085,7 +1057,7 @@ msgstr "Szakképzés"
 #: common/djangoapps/course_modes/models.py:63 xmodule/annotatable_block.py:69
 #: xmodule/capa_block.py:178 xmodule/conditional_block.py:88
 #: xmodule/discussion_block.py:49 xmodule/html_block.py:56
-#: xmodule/html_block.py:393 xmodule/item_bank_block.py:454
+#: xmodule/html_block.py:407 xmodule/item_bank_block.py:454
 #: xmodule/library_content_block.py:77 xmodule/lti_block.py:131
 #: xmodule/split_test_block.py:82 xmodule/unit_block.py:38
 #: xmodule/word_cloud_block.py:63 xmodule/x_module.py:226
@@ -1193,12 +1165,26 @@ msgstr "Hibás mennyiség kiválasztva."
 msgid "No selected price or selected price is too low."
 msgstr "Nincs érték kiválasztva vagy a kiválasztott érték túl alacsony."
 
-#: common/djangoapps/student/admin.py:394
+#: common/djangoapps/student/admin.py:319
+#, python-format
+msgid "Successfully reverted %(count)d selected history entry."
+msgid_plural "Successfully reverted %(count)d selected history entries."
+msgstr[0] "Sikeresen visszaállítva %(count)d kiválasztott előzménybejegyzés."
+msgstr[1] "Sikeresen visszaállítva %(count)d kiválasztott előzménybejegyzés."
+
+#: common/djangoapps/student/admin.py:349
+#, python-format
+msgid "Successfully deleted %(count)d selected history entry."
+msgid_plural "Successfully deleted %(count)d selected history entries."
+msgstr[0] "Sikeresen törölve %(count)d kiválasztott előzménybejegyzés."
+msgstr[1] "Sikeresen törölve %(count)d kiválasztott előzménybejegyzés."
+
+#: common/djangoapps/student/admin.py:520
 msgid "User profile"
 msgstr "Felhasználói profil"
 
-#: common/djangoapps/student/admin.py:401
-#: common/djangoapps/student/admin.py:402
+#: common/djangoapps/student/admin.py:527
+#: common/djangoapps/student/admin.py:528
 msgid "Account recovery"
 msgstr "Fiók visszaállítás"
 
@@ -1207,7 +1193,7 @@ msgstr "Fiók visszaállítás"
 #. meant to hold the user's password.
 #. Translators: This label appears above a field on the registration form
 #. meant to hold the user's password.
-#: common/djangoapps/student/admin.py:417
+#: common/djangoapps/student/admin.py:543
 #: openedx/core/djangoapps/user_authn/views/login_form.py:117
 #: openedx/core/djangoapps/user_authn/views/registration_form.py:609
 #: lms/templates/provider_login.html:48 lms/templates/provider_login.html:49
@@ -1217,7 +1203,7 @@ msgstr "Fiók visszaállítás"
 msgid "Password"
 msgstr "Jelszó"
 
-#: common/djangoapps/student/admin.py:419
+#: common/djangoapps/student/admin.py:545
 msgid ""
 "Raw passwords are not stored, so there is no way to see this user's "
 "password."
@@ -1225,7 +1211,7 @@ msgstr ""
 "A nyers jelszavakat a rendszer nem tárolja, így nincs mód a felhasználó "
 "jelszavának megtekintésére."
 
-#: common/djangoapps/student/admin.py:588
+#: common/djangoapps/student/admin.py:714
 #, python-brace-format
 msgid ""
 "Please add a key/value 'THIRD_PARTY_AUTH_ONLY_DOMAIN/{site_email_domain}' in"
@@ -1234,13 +1220,13 @@ msgstr ""
 "Kérjük, adjon hozzá egy 'THIRD_PARTY_AUTH_ONLY_DOMAIN/{site_email_domain}' "
 "kulcs/érték párost a SiteConfiguration modell site_values mezőjéhez."
 
-#: common/djangoapps/student/admin.py:593
+#: common/djangoapps/student/admin.py:719
 #, python-brace-format
 msgid "Email doesn't have {allowed_site_email_domain} domain name."
 msgstr ""
 "Az e-mail cím nem tartalmazza a(z) {allowed_site_email_domain} domain nevet."
 
-#: common/djangoapps/student/admin.py:596
+#: common/djangoapps/student/admin.py:722
 msgid "User with this email doesn't exist in system."
 msgstr "Felhasználó ezzel az e-mail címmel nem létezik."
 
@@ -1336,18 +1322,18 @@ msgstr "Nincs formális oktatás"
 msgid "Other education"
 msgstr "Egyéb oktatás"
 
-#: common/djangoapps/student/models/user.py:1329
+#: common/djangoapps/student/models/user.py:1364
 #, python-brace-format
 msgid "{platform_name} Honor Code Certificate for {course_name}"
 msgstr "{platform_name} becsületkódex bizonyítvány a(z) {course_name} számára"
 
-#: common/djangoapps/student/models/user.py:1331
-#: common/djangoapps/student/models/user.py:1332
+#: common/djangoapps/student/models/user.py:1366
+#: common/djangoapps/student/models/user.py:1367
 #, python-brace-format
 msgid "{platform_name} Professional Certificate for {course_name}"
 msgstr "{platform_name} szakmai Bizonyítvány a(z) {course_name} tanfolyamhoz"
 
-#: common/djangoapps/student/models/user.py:1338
+#: common/djangoapps/student/models/user.py:1373
 msgid ""
 "Your organization ID (if your organization has an existing page on LinkedIn)"
 " e.g 1337. If not provided, will default to sending Platform Name (e.g. edX)"
@@ -1357,36 +1343,36 @@ msgstr ""
 "LinkedIn-en), pl. 1337. Ha nincs megadva, alapértelmezés szerint a Platform "
 "Nevet (pl. edX) küldi el."
 
-#: common/djangoapps/student/models/user.py:1394
+#: common/djangoapps/student/models/user.py:1429
 #, python-brace-format
 msgid "{platform_name} Certificate for {course_name}"
 msgstr "{platform_name} bizonyítvány a(z) {course_name} tanfolyamhoz"
 
-#: common/djangoapps/student/models/user.py:1534
+#: common/djangoapps/student/models/user.py:1569
 msgid "Name of the UTM cookie"
 msgstr "Az UTM süti neve"
 
-#: common/djangoapps/student/models/user.py:1539
+#: common/djangoapps/student/models/user.py:1574
 msgid "Name of the affiliate cookie"
 msgstr "Az affiliate süti neve"
 
-#: common/djangoapps/student/models/user.py:1562
+#: common/djangoapps/student/models/user.py:1597
 msgid "Name of this user attribute."
 msgstr "Ennek a felhasználói attribútumnak a neve."
 
-#: common/djangoapps/student/models/user.py:1563
+#: common/djangoapps/student/models/user.py:1598
 msgid "Value of this user attribute."
 msgstr "Ennek a felhasználói attribútumnak az értéke."
 
-#: common/djangoapps/student/models/user.py:1628
+#: common/djangoapps/student/models/user.py:1663
 msgid "Secondary email address"
 msgstr "Másodlagos e-mail cím"
 
-#: common/djangoapps/student/models/user.py:1629
+#: common/djangoapps/student/models/user.py:1664
 msgid "Secondary email address to recover linked account."
 msgstr "Másodlagos e-mail cím az összekapcsolt fiók helyreállításához."
 
-#: common/djangoapps/student/models/user.py:1691
+#: common/djangoapps/student/models/user.py:1726
 msgid ""
 "It expect that the data will be provided in a csv file format with"
 "                     first row being the header and columns will be as "
@@ -1396,7 +1382,7 @@ msgstr ""
 "fejléc, az oszlopok pedig a következők lesznek: username, current_email, "
 "desired_email"
 
-#: common/djangoapps/student/models/user.py:1873
+#: common/djangoapps/student/models/user.py:1908
 msgid "Add a reason"
 msgstr "Ok hozzáadása"
 
@@ -3640,7 +3626,7 @@ msgid "Flexible Peer Grading for ORAs"
 msgstr "Rugalmas társértékelés ORA-khoz"
 
 #: lms/djangoapps/courseware/tabs.py:36
-#: lms/djangoapps/courseware/views/views.py:2237
+#: lms/djangoapps/courseware/views/views.py:2239
 #: openedx/features/course_experience/__init__.py:91 xmodule/tabs.py:490
 #: cms/templates/widgets/header.html:89 cms/templates/widgets/header.html:93
 #: cms/templates/widgets/header.html:164 cms/templates/widgets/header.html:292
@@ -3658,7 +3644,7 @@ msgstr "Tanterv"
 msgid "Dates"
 msgstr "Dátumok"
 
-#: lms/djangoapps/courseware/views/views.py:178
+#: lms/djangoapps/courseware/views/views.py:179
 msgid ""
 "You are enrolled in the audit track for this course. The audit track does "
 "not include a certificate."
@@ -3666,11 +3652,11 @@ msgstr ""
 "Ön beiratkozott a kurzus felülvizsgálati sávjába. A felülvizsgálati sáv nem "
 "tartalmaz bizonyítványt."
 
-#: lms/djangoapps/courseware/views/views.py:200
+#: lms/djangoapps/courseware/views/views.py:201
 msgid "We're working on it..."
 msgstr "Dolgozunk rajta..."
 
-#: lms/djangoapps/courseware/views/views.py:202
+#: lms/djangoapps/courseware/views/views.py:203
 msgid ""
 "We're creating your certificate. You can keep working in your courses and a "
 "link to it will appear here and on your Dashboard when it is ready."
@@ -3678,36 +3664,36 @@ msgstr ""
 "Elkészítjük a bizonyítványodat. Továbbra is dolgozhatsz a kurzusaidon, az "
 "irányítópultodon megjelenik majd a link, amikor kész."
 
-#: lms/djangoapps/courseware/views/views.py:212
+#: lms/djangoapps/courseware/views/views.py:213
 msgid "Your certificate has been invalidated"
 msgstr "A bizonyítványát érvénytelenítették"
 
-#: lms/djangoapps/courseware/views/views.py:213
+#: lms/djangoapps/courseware/views/views.py:214
 msgid "Please contact your course team if you have any questions."
 msgstr "Ha bármilyen kérdése van, forduljon a tanfolyam csapatához."
 
-#: lms/djangoapps/courseware/views/views.py:221
+#: lms/djangoapps/courseware/views/views.py:222
 msgid "Congratulations, you qualified for a certificate!"
 msgstr "Gratulálunk, megszerezted a bizonyítványt!"
 
-#: lms/djangoapps/courseware/views/views.py:222
-#: lms/djangoapps/courseware/views/views.py:255
+#: lms/djangoapps/courseware/views/views.py:223
+#: lms/djangoapps/courseware/views/views.py:256
 msgid "You've earned a certificate for this course."
 msgstr "Megszerezte a bizonyítványt erre a tanfolyamra."
 
-#: lms/djangoapps/courseware/views/views.py:232
+#: lms/djangoapps/courseware/views/views.py:233
 msgid "Your certificate will be available soon!"
 msgstr "Bizonyítványa hamarosan elérhető lesz!"
 
-#: lms/djangoapps/courseware/views/views.py:254
+#: lms/djangoapps/courseware/views/views.py:255
 msgid "Your certificate is available"
 msgstr "A bizonyítványod elérhető"
 
-#: lms/djangoapps/courseware/views/views.py:268
+#: lms/djangoapps/courseware/views/views.py:269
 msgid "Certificate unavailable"
 msgstr "A bizonyítvány nem elérhető"
 
-#: lms/djangoapps/courseware/views/views.py:270
+#: lms/djangoapps/courseware/views/views.py:271
 #, python-brace-format
 msgid ""
 "You have not received a certificate because you do not have a current "
@@ -3716,23 +3702,23 @@ msgstr ""
 "Nem kapott bizonyítványt, mert nem rendelkezik a {platform_name} jelenlegi "
 "ellenőrzött személyazonosságával."
 
-#: lms/djangoapps/courseware/views/views.py:575
+#: lms/djangoapps/courseware/views/views.py:576
 #: xmodule/discussion_block.py:187
 msgid "sign in"
 msgstr "Bejelentkezés"
 
-#: lms/djangoapps/courseware/views/views.py:579
-#: lms/djangoapps/courseware/views/views.py:594
+#: lms/djangoapps/courseware/views/views.py:580
+#: lms/djangoapps/courseware/views/views.py:595
 #: xmodule/discussion_block.py:191
 msgid "register"
 msgstr "regisztráció"
 
-#: lms/djangoapps/courseware/views/views.py:588
+#: lms/djangoapps/courseware/views/views.py:589
 #, python-brace-format
 msgid "{sign_in_link} or {register_link}."
 msgstr "{sign_in_link} vagy {register_link}."
 
-#: lms/djangoapps/courseware/views/views.py:590
+#: lms/djangoapps/courseware/views/views.py:591
 #: openedx/core/djangoapps/user_authn/templates/user_authn/edx_ace/passwordresetsuccess/email/body.html:25
 #: lms/templates/header/navbar-not-authenticated.html:63
 #: lms/templates/header/navbar-not-authenticated.html:67
@@ -3741,7 +3727,7 @@ msgstr "{sign_in_link} vagy {register_link}."
 msgid "Sign in"
 msgstr "Bejelentkezés"
 
-#: lms/djangoapps/courseware/views/views.py:604
+#: lms/djangoapps/courseware/views/views.py:605
 #, python-brace-format
 msgid ""
 "You must be enrolled in the course to see course content. "
@@ -3750,69 +3736,69 @@ msgstr ""
 "A kurzus tartalmának megtekintéséhez be kell jelentkeznie a tanfolyamra. "
 "{enroll_link_start}Regisztráljon most{enroll_link_end}."
 
-#: lms/djangoapps/courseware/views/views.py:617
+#: lms/djangoapps/courseware/views/views.py:618
 msgid "You must be enrolled in the course to see course content."
 msgstr ""
 "A kurzus tartalmának megtekintéséhez be kell jelentkeznie a tanfolyamra."
 
-#: lms/djangoapps/courseware/views/views.py:1239
+#: lms/djangoapps/courseware/views/views.py:1240
 #: lms/djangoapps/instructor/views/api.py:171
 msgid "User does not exist."
 msgstr "A felhasználó nem létezik."
 
-#: lms/djangoapps/courseware/views/views.py:1246
+#: lms/djangoapps/courseware/views/views.py:1247
 msgid "Invalid location."
 msgstr "Hibás hely."
 
-#: lms/djangoapps/courseware/views/views.py:1467
+#: lms/djangoapps/courseware/views/views.py:1468
 msgid "Course is not valid"
 msgstr "A tanfolyam nem érvényes"
 
-#: lms/djangoapps/courseware/views/views.py:1496
+#: lms/djangoapps/courseware/views/views.py:1497
 msgid "Certificate has already been created."
 msgstr "A bizonyítvány már létrejött."
 
-#: lms/djangoapps/courseware/views/views.py:2251
+#: lms/djangoapps/courseware/views/views.py:2253
 msgid "I certify that: "
 msgstr "Igazolom, hogy: "
 
-#: lms/djangoapps/discussion/django_comment_client/base/views.py:556
-#: lms/djangoapps/discussion/django_comment_client/base/views.py:621
+#: lms/djangoapps/discussion/django_comment_client/base/views.py:558
+#: lms/djangoapps/discussion/django_comment_client/base/views.py:623
 msgid "Title can't be empty"
 msgstr "A címet kötelező megadni"
 
-#: lms/djangoapps/discussion/django_comment_client/base/views.py:558
-#: lms/djangoapps/discussion/django_comment_client/base/views.py:623
-#: lms/djangoapps/discussion/django_comment_client/base/views.py:665
-#: lms/djangoapps/discussion/django_comment_client/base/views.py:748
+#: lms/djangoapps/discussion/django_comment_client/base/views.py:560
+#: lms/djangoapps/discussion/django_comment_client/base/views.py:625
+#: lms/djangoapps/discussion/django_comment_client/base/views.py:667
+#: lms/djangoapps/discussion/django_comment_client/base/views.py:750
 msgid "Body can't be empty"
 msgstr "Az üzenet szövege nem lehet üres."
 
-#: lms/djangoapps/discussion/django_comment_client/base/views.py:640
+#: lms/djangoapps/discussion/django_comment_client/base/views.py:642
 msgid "Topic doesn't exist"
 msgstr "A téma nem létezik"
 
-#: lms/djangoapps/discussion/django_comment_client/base/views.py:714
-#: lms/djangoapps/discussion/django_comment_client/base/views.py:813
+#: lms/djangoapps/discussion/django_comment_client/base/views.py:716
+#: lms/djangoapps/discussion/django_comment_client/base/views.py:815
 msgid "Comment level too deep"
 msgstr "A hozzászólás szintje túl mély"
 
-#: lms/djangoapps/discussion/django_comment_client/base/views.py:1102
+#: lms/djangoapps/discussion/django_comment_client/base/views.py:1104
 msgid ""
 "Error uploading file. Please contact the site administrator. Thank you."
 msgstr ""
 "Fájl feltöltési hiba. Kérjük lépj kapcsolatba az oldal rendszergazdájával. "
 "Köszönjük!"
 
-#: lms/djangoapps/discussion/django_comment_client/base/views.py:1105
+#: lms/djangoapps/discussion/django_comment_client/base/views.py:1107
 msgid "Good"
 msgstr "Jó"
 
 #. Translators: Replier commented on "their" response to your post
 #. Translators: Replier commented on "their" response in a post you're
 #. following
-#: lms/djangoapps/discussion/rest_api/discussions_notifications.py:155
-#: lms/djangoapps/discussion/rest_api/discussions_notifications.py:244
+#: lms/djangoapps/discussion/rest_api/discussions_notifications.py:156
+#: lms/djangoapps/discussion/rest_api/discussions_notifications.py:245
 msgid "their"
 msgstr "az ő"
 
@@ -4996,6 +4982,16 @@ msgstr ""
 "fogyasztóval való összekapcsolásához szükséges. További részletekért lásd az"
 " Open edX LTI Provider dokumentációját."
 
+#: lms/djangoapps/lti_provider/models.py:44
+msgid ""
+"When checked, the platform will automatically use any personal information "
+"provided via LTI to create an account. Otherwise an anonymous account will "
+"be created."
+msgstr ""
+"Amikor be van jelölve, a platform automatikusan felhasználja az LTI-n "
+"keresztül megadott személyes adatokat a fiók létrehozásához. Ellenkező "
+"esetben névtelen fiók jön létre."
+
 #: lms/djangoapps/support/views/index.py:20
 #: lms/templates/ccx/coach_dashboard.html:60
 #: lms/templates/ccx/enrollment.html:8
@@ -5859,7 +5855,7 @@ msgstr "Cikk törlése"
 #: wiki/plugins/attachments/templates/wiki/plugins/attachments/delete.html:9
 #: wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html:35
 #: wiki/templates/wiki/delete.html:7 cms/templates/component.html:32
-#: cms/templates/studio_xblock_wrapper.html:202
+#: cms/templates/studio_xblock_wrapper.html:214
 msgid "Delete"
 msgstr "Törlés"
 
@@ -5891,7 +5887,7 @@ msgstr "Törölsz egy cikket. Kérjük erősítsd meg!"
 #: lms/templates/wiki/edit.html:4 wiki/templates/wiki/edit.html:4
 #: wiki/templates/wiki/includes/article_menu.html:34
 #: cms/templates/component.html:13 cms/templates/container.html:201
-#: cms/templates/studio_xblock_wrapper.html:157
+#: cms/templates/studio_xblock_wrapper.html:169
 #: lms/templates/wiki/includes/article_menu.html:22
 msgid "Edit"
 msgstr "Szerkesztés"
@@ -7147,15 +7143,15 @@ msgid ""
 "You are receiving this email because you are enrolled in the edX course "
 msgstr "Ön azért kapja ezt az e-mailt, mert beiratkozott az edX kurzusra. "
 
-#: openedx/core/djangoapps/notifications/email/utils.py:135
+#: openedx/core/djangoapps/notifications/email/utils.py:136
 msgid "Total Notifications"
 msgstr "Összes értesítés"
 
-#: openedx/core/djangoapps/notifications/email/utils.py:211
+#: openedx/core/djangoapps/notifications/email/utils.py:212
 msgid "Today"
 msgstr "Ma"
 
-#: openedx/core/djangoapps/notifications/email/utils.py:427
+#: openedx/core/djangoapps/notifications/email/utils.py:441
 #: openedx/features/course_experience/plugins.py:34
 #: cms/templates/widgets/header.html:115 cms/templates/widgets/header.html:120
 #: lms/templates/api_admin/terms_of_service.html:66
@@ -7164,15 +7160,15 @@ msgstr "Ma"
 msgid "Updates"
 msgstr "Frissítések"
 
-#: openedx/core/djangoapps/notifications/email/utils.py:449
+#: openedx/core/djangoapps/notifications/email/utils.py:463
 msgid "discussion"
 msgstr "Vitafórum"
 
-#: openedx/core/djangoapps/notifications/email/utils.py:450
+#: openedx/core/djangoapps/notifications/email/utils.py:464
 msgid "update"
 msgstr "Frissítés"
 
-#: openedx/core/djangoapps/notifications/email/utils.py:451
+#: openedx/core/djangoapps/notifications/email/utils.py:465
 msgid "assessment"
 msgstr "felmérés"
 
@@ -7246,15 +7242,15 @@ msgstr "Heti értesítési összefoglaló a hétre:"
 msgid "Daily Notifications Digest for"
 msgstr "Napi értesítési összefoglaló a következőhöz:"
 
-#: openedx/core/djangoapps/notifications/views.py:172
+#: openedx/core/djangoapps/notifications/views.py:174
 msgid "Invalid app name."
 msgstr "Érvénytelen app név."
 
-#: openedx/core/djangoapps/notifications/views.py:221
+#: openedx/core/djangoapps/notifications/views.py:223
 msgid "Notification marked read."
 msgstr "Értesítés olvasottnak jelölve."
 
-#: openedx/core/djangoapps/notifications/views.py:235
+#: openedx/core/djangoapps/notifications/views.py:237
 msgid "Invalid app_name or notification_id."
 msgstr "Érvénytelen app_név vagy értesítés_azonosító."
 
@@ -7819,7 +7815,7 @@ msgstr ""
 " amely tartalmazza a(z) \"{url_stub}\" részt. Ha el szeretné távolítani a "
 "linket a(z) {platform_name} profiljából, hagyja üresen ezt a mezőt."
 
-#: openedx/core/djangoapps/user_api/accounts/views.py:625
+#: openedx/core/djangoapps/user_api/accounts/views.py:637
 msgid ""
 "This account has been temporarily locked due to excessive login failures. "
 "Try again later."
@@ -7842,8 +7838,8 @@ msgid "Success"
 msgstr "Siker"
 
 #: openedx/core/djangoapps/user_api/admin.py:118
-#: cms/templates/studio_xblock_wrapper.html:162
-#: cms/templates/studio_xblock_wrapper.html:164
+#: cms/templates/studio_xblock_wrapper.html:174
+#: cms/templates/studio_xblock_wrapper.html:176
 #: lms/templates/staff_problem_info.html:66
 msgid "Actions"
 msgstr "Műveletek"
@@ -8706,8 +8702,8 @@ msgstr "XML adatok a jegyzethez"
 
 #: xmodule/annotatable_block.py:70 xmodule/capa_block.py:179
 #: xmodule/conditional_block.py:89 xmodule/discussion_block.py:50
-#: xmodule/html_block.py:57 xmodule/html_block.py:368
-#: xmodule/html_block.py:394 xmodule/item_bank_block.py:455
+#: xmodule/html_block.py:57 xmodule/html_block.py:382
+#: xmodule/html_block.py:408 xmodule/item_bank_block.py:455
 #: xmodule/library_content_block.py:78 xmodule/library_root_xblock.py:30
 #: xmodule/poll_block.py:52 xmodule/unit_block.py:39
 #: xmodule/video_block/video_xfields.py:20 xmodule/word_cloud_block.py:64
@@ -10312,16 +10308,16 @@ msgstr ""
 "HIBA: A(z) \"{block_type}\" ismeretlen komponens típus. Ez a komponens el "
 "lesz rejtve az LMS-ben."
 
-#: xmodule/html_block.py:63 xmodule/html_block.py:373
-#: xmodule/html_block.py:433
+#: xmodule/html_block.py:63 xmodule/html_block.py:387
+#: xmodule/html_block.py:447
 msgid "Html contents to display for this block"
 msgstr "A blokkhoz megjelenítendő Html tartalom"
 
-#: xmodule/html_block.py:65
+#: xmodule/html_block.py:72
 msgid "Source code for LaTeX documents. This feature is not well-supported."
 msgstr "LaTeX dokumentumok forráskódja. Ez a funkció nem jól támogatott."
 
-#: xmodule/html_block.py:75
+#: xmodule/html_block.py:82
 msgid ""
 "Select Visual to enter content and have the editor automatically create the "
 "HTML. Select Raw to edit HTML directly. If you change this setting, you must"
@@ -10332,23 +10328,23 @@ msgstr ""
 "közvetlen szerkesztéséhez. Ha változtatja ezt a beállítást, mentenie kell a "
 "komponenst, majd újra meg kell nyitnia a szerkesztéshez."
 
-#: xmodule/html_block.py:78
+#: xmodule/html_block.py:85
 msgid "Editor"
 msgstr "Szerkesztő"
 
-#: xmodule/html_block.py:81
+#: xmodule/html_block.py:88
 msgid "Visual"
 msgstr "Vizuális"
 
-#: xmodule/html_block.py:82
+#: xmodule/html_block.py:89
 msgid "Raw"
 msgstr "Nyers"
 
-#: xmodule/html_block.py:399
+#: xmodule/html_block.py:413
 msgid "Hide Page From Learners"
 msgstr "Rejtsd el az oldalt a tanulók elől"
 
-#: xmodule/html_block.py:400
+#: xmodule/html_block.py:414
 msgid ""
 "If you select this option, only course team members with the Staff or Admin "
 "role see this page."
@@ -10356,11 +10352,11 @@ msgstr ""
 "Ha ezt az opciót választja, csak a kurzus csapatának tagjai, akik a Staff "
 "vagy rendszergazda szerepkörrel rendelkeznek, láthatják ezt az oldalt."
 
-#: xmodule/html_block.py:410
+#: xmodule/html_block.py:424
 msgid "HTML for the additional pages"
 msgstr "HTML a további oldalakhoz"
 
-#: xmodule/html_block.py:428
+#: xmodule/html_block.py:442
 msgid "List of course update items"
 msgstr "Kurzus frissített elemei"
 
@@ -12554,12 +12550,12 @@ msgid "Tools"
 msgstr "Eszközök"
 
 #: cms/templates/component.html:17
-#: cms/templates/studio_xblock_wrapper.html:196
+#: cms/templates/studio_xblock_wrapper.html:208
 msgid "Duplicate"
 msgstr "Duplikálás"
 
 #: cms/templates/component.html:23 cms/templates/component.html:28
-#: cms/templates/studio_xblock_wrapper.html:177
+#: cms/templates/studio_xblock_wrapper.html:189
 msgid "Move"
 msgstr "mozgat"
 
@@ -12569,7 +12565,7 @@ msgstr "Törölje ezt az elemet"
 
 #: cms/templates/component.html:39 cms/templates/edit-tabs.html:146
 #: cms/templates/edit-tabs.html:147
-#: cms/templates/studio_xblock_wrapper.html:211
+#: cms/templates/studio_xblock_wrapper.html:228
 msgid "Drag to reorder"
 msgstr "Húzd az új sorrend kialakításához"
 
@@ -15050,43 +15046,63 @@ msgstr ""
 "Meghatározhatja, hogy a kurzus biztosít-e türelmi időt a hallgatóknak a "
 "késedelmes feladatok leadására."
 
-#: cms/templates/studio_xblock_wrapper.html:75
+#: cms/templates/studio_xblock_wrapper.html:76
 msgid "Importing components"
 msgstr "Komponensek importálása"
 
-#: cms/templates/studio_xblock_wrapper.html:109
+#: cms/templates/studio_xblock_wrapper.html:110
 msgid "Select this problem"
 msgstr "Válaszd ki ezt a feladatot"
 
-#: cms/templates/studio_xblock_wrapper.html:116
-#: cms/templates/studio_xblock_wrapper.html:119
+#: cms/templates/studio_xblock_wrapper.html:117
+#: cms/templates/studio_xblock_wrapper.html:120
 msgid "Sourced from a library - but the upstream link is broken/invalid."
 msgstr ""
 "Egy könyvtárból származik - de a felsőbb szintű hivatkozás "
 "hibás/érvénytelen."
 
-#: cms/templates/studio_xblock_wrapper.html:122
-#: cms/templates/studio_xblock_wrapper.html:125
+#: cms/templates/studio_xblock_wrapper.html:123
+msgid ""
+"Sourced from a library - but has been modified locally.Sourced from a "
+"library."
+msgstr ""
+"Egy könyvtárból származik - de helyileg módosították. Egy könyvtárból "
+"származik."
+
+#: cms/templates/studio_xblock_wrapper.html:127
+msgid "Sourced from a library - but has been modified locally."
+msgstr "Egy könyvtárból származik - de helyileg módosították."
+
+#: cms/templates/studio_xblock_wrapper.html:129
 msgid "Sourced from a library."
 msgstr "Egy könyvtárból származik."
 
-#: cms/templates/studio_xblock_wrapper.html:143
+#: cms/templates/studio_xblock_wrapper.html:144
+#: cms/templates/studio_xblock_wrapper.html:146
+msgid "Edit Title"
+msgstr "Cím szerkesztése"
+
+#: cms/templates/studio_xblock_wrapper.html:155
 msgid "Update available - click to sync"
 msgstr "Frissítés elérhető - kattintson a szinkronizáláshoz"
 
-#: cms/templates/studio_xblock_wrapper.html:172
+#: cms/templates/studio_xblock_wrapper.html:184
 msgid "Manage Access"
 msgstr "Hozzáférés kezelése"
 
-#: cms/templates/studio_xblock_wrapper.html:182
+#: cms/templates/studio_xblock_wrapper.html:194
 msgid "Manage Tags"
 msgstr "Címkék kezelése"
 
-#: cms/templates/studio_xblock_wrapper.html:191
+#: cms/templates/studio_xblock_wrapper.html:203
 msgid "Copy to Clipboard"
 msgstr "Másolás a vágólapra"
 
-#: cms/templates/studio_xblock_wrapper.html:223
+#: cms/templates/studio_xblock_wrapper.html:219
+msgid "Unlink from Library"
+msgstr "Kapcsolat megszüntetése a könyvtárral"
+
+#: cms/templates/studio_xblock_wrapper.html:239
 msgid "This block contains multiple components."
 msgstr "Ez a blokk több komponenst tartalmaz."
 
@@ -16468,29 +16484,29 @@ msgstr "Letöltések és átiratok"
 msgid "Download video file"
 msgstr "Video fájl letöltése"
 
-#: lms/templates/video.html:74 lms/templates/video.html:81
+#: lms/templates/video.html:71 lms/templates/video.html:74
 msgid "Share this video"
 msgstr "Oszd meg ezt a videót"
 
-#: lms/templates/video.html:110
+#: lms/templates/video.html:102
 #, python-brace-format
 msgid "Share on {site}"
 msgstr "Ossza meg a(z) {site} oldalon"
 
-#: lms/templates/video.html:127
+#: lms/templates/video.html:111
 msgid "Copy"
 msgstr "Másolás"
 
-#: lms/templates/video.html:144
+#: lms/templates/video.html:127
 #, python-brace-format
 msgid "Download {file}"
 msgstr "Letöltés {file}"
 
-#: lms/templates/video.html:150
+#: lms/templates/video.html:133
 msgid "Download transcript"
 msgstr "Átirat letöltése"
 
-#: lms/templates/video.html:170
+#: lms/templates/video.html:153
 msgid "How is the transcript quality ?"
 msgstr "Milyen a leirat minősége?"
 

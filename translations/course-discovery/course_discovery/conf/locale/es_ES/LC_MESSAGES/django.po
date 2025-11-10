@@ -6,16 +6,17 @@
 # Translators:
 # Translators:
 # Nathan Robertson, 2024
-# Brian Smith, 2024
 # edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>, 2025
+# Ignacio Despujol Zabala, 2025
+# Brian Smith, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-24 00:33+0000\n"
+"POT-Creation-Date: 2025-09-02 00:32+0000\n"
 "PO-Revision-Date: 2023-01-26 15:39+0000\n"
-"Last-Translator: edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>, 2025\n"
+"Last-Translator: Brian Smith, 2025\n"
 "Language-Team: Spanish (Spain) (https://app.transifex.com/open-edx/teams/6205/es_ES/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2066,35 +2067,21 @@ msgstr ""
 "%(user_name)s hizo el siguiente comentario sobre %(course_name)s %(date)s en"
 " %(time)s"
 
-#: apps/course_metadata/templates/course_metadata/email/go_live.html:9
-#: apps/course_metadata/templates/course_metadata/email/go_live.txt:3
-#: apps/course_metadata/templates/course_metadata/email/internal_review.html:9
-#: apps/course_metadata/templates/course_metadata/email/internal_review.txt:3
-#: apps/course_metadata/templates/course_metadata/email/legal_review.html:9
-#: apps/course_metadata/templates/course_metadata/email/legal_review.txt:3
-#: apps/course_metadata/templates/course_metadata/email/reviewed.html:9
-#: apps/course_metadata/templates/course_metadata/email/reviewed.txt:3
-#, python-format
-msgid "Dear %(recipient_name)s,"
-msgstr "Estimado/a %(recipient_name)s,"
-
 #: apps/course_metadata/templates/course_metadata/email/go_live.html:17
 #: apps/course_metadata/templates/course_metadata/email/go_live.txt:7
 #, python-format
 msgid ""
 "The About page for the %(course_run_number)s course run of %(course_name)s "
-"has been published. No further action is necessary."
+"has been submitted for publishing. The new session will appear on the edX "
+"website following the next couple of deployments—typically within 24 to 48 "
+"business hours."
 msgstr ""
-"Se ha publicado la página \"Acerca de\" para el curso %(course_run_number)s "
-"de %(course_name)s. Ninguna otra acción es necesaria."
+"La página de introducción al curso para la ejecución del curso "
+"%(course_run_number)s de %(course_name)s ha sido enviada para publicar. La "
+"nueva sesión aparecerá en la página web de edX después de los próximos "
+"despliegues—generalmente dentro de 24 a 48 horas hábiles."
 
-#: apps/course_metadata/templates/course_metadata/email/go_live.html:24
-#, python-brace-format
-msgid "{link_start}{preview_url}{link_middle}View this About page.{link_end}"
-msgstr ""
-"{link_start}{preview_url}{link_middle}Ver esta página Acerca de.{link_end}"
-
-#: apps/course_metadata/templates/course_metadata/email/go_live.html:33
+#: apps/course_metadata/templates/course_metadata/email/go_live.html:26
 #: apps/course_metadata/templates/course_metadata/email/legal_review.html:23
 #: apps/course_metadata/templates/course_metadata/email/reviewed.html:38
 #, python-brace-format
@@ -2104,20 +2091,22 @@ msgstr ""
 "{link_start}{contact_us_email}{link_middle}{contact_us_email} {link_end}"
 
 #: apps/course_metadata/templates/course_metadata/email/go_live.txt:11
-#, python-format
-msgid "View this About page. %(preview_url)s"
-msgstr "Ver la página \"Acerca de\". %(preview_url)s"
-
-#: apps/course_metadata/templates/course_metadata/email/go_live.txt:15
-#: apps/course_metadata/templates/course_metadata/email/legal_review.txt:15
-#: apps/course_metadata/templates/course_metadata/email/reviewed.txt:25
 msgid ""
-"Note: This email address is unable to receive replies. For questions or "
-"comments, please contact your Project Coordinator(s):"
+"Note: This is a no-reply email. For any questions or comments, please "
+"contact your Project Coordinator at"
 msgstr ""
-"Nota: Esta dirección de correo electrónico no puede recibir respuestas. Si "
-"tiene preguntas o comentarios, comuníquese con su(s) Coordinador(es) de "
-"Proyecto:"
+"Nota: Este es un correo electrónico de no respuesta. Para cualquier pregunta"
+" o comentario, por favor contacte a su Coordinador de Proyecto en"
+
+#: apps/course_metadata/templates/course_metadata/email/internal_review.html:9
+#: apps/course_metadata/templates/course_metadata/email/internal_review.txt:3
+#: apps/course_metadata/templates/course_metadata/email/legal_review.html:9
+#: apps/course_metadata/templates/course_metadata/email/legal_review.txt:3
+#: apps/course_metadata/templates/course_metadata/email/reviewed.html:9
+#: apps/course_metadata/templates/course_metadata/email/reviewed.txt:3
+#, python-format
+msgid "Dear %(recipient_name)s,"
+msgstr "Estimado/a %(recipient_name)s,"
 
 #: apps/course_metadata/templates/course_metadata/email/internal_review.html:14
 #, python-brace-format
@@ -2189,6 +2178,16 @@ msgstr "%(org_name)s envió %(course_name)s para su revisión."
 msgid "View this course run in Publisher above to determine OFAC status."
 msgstr ""
 "Vea este curso ejecutado en Publisher arriba para determinar el estado OFAC."
+
+#: apps/course_metadata/templates/course_metadata/email/legal_review.txt:15
+#: apps/course_metadata/templates/course_metadata/email/reviewed.txt:25
+msgid ""
+"Note: This email address is unable to receive replies. For questions or "
+"comments, please contact your Project Coordinator(s):"
+msgstr ""
+"Nota: Esta dirección de correo electrónico no puede recibir respuestas. Si "
+"tiene preguntas o comentarios, comuníquese con su(s) Coordinador(es) de "
+"Proyecto:"
 
 #: apps/course_metadata/templates/course_metadata/email/reviewed.html:15
 #, python-brace-format

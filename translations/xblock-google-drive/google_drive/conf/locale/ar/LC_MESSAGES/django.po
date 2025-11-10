@@ -26,7 +26,7 @@ msgstr ""
 #: templates/html/google_calendar_edit.html:17
 #: templates/html/google_docs_edit.html:17
 msgid "Display Name"
-msgstr "الاسم الظاهِر"
+msgstr "الاسم الظاهر"
 
 #: google_calendar.py:46 google_docs.py:60
 #: templates/html/google_calendar_edit.html:24
@@ -36,7 +36,7 @@ msgstr "يظهر هذا الاسم في شريط التنقل الأفقي أع�
 
 #: google_calendar.py:51 templates/html/google_calendar_edit.html:28
 msgid "Public Calendar ID"
-msgstr "مُعَرَّف التقويم المُتاح للعامة"
+msgstr "معرّف التقويم المتاح للعامة"
 
 #: google_calendar.py:53
 msgid ""
@@ -44,24 +44,34 @@ msgid ""
 "Calendar, open Settings and copy the ID from the Calendar Address section "
 "into this field."
 msgstr ""
-"تُوفِّر Google مُعرفاً للتقويمات المُتاحة للعامة. في تقويم Google، افتَح "
-"الإعدادات وانسَخ المُعرَّف من قِسم عنوان التقويم إلى هذا الحقل."
+"تُوفِّر Google معرّفاً للتقويمات المتاحة للعامة. في تقويم Google، افتح "
+"الإعدادات وانسخ المعرّف من قِسم عنوان التقويم إلى هذا الحقل."
 
 #: google_calendar.py:60 templates/html/google_calendar_edit.html:41
 msgid "Default View"
-msgstr "العَرض المَبدَئي"
+msgstr "العرض المبدئي"
 
 #: google_calendar.py:61 templates/html/google_calendar_edit.html:50
 msgid ""
 "The calendar view that students see by default. A student can change this "
 "view."
 msgstr ""
-"طريقة عَرض التقويم التي يراها الطلّاب بالحالة الافتِراضية. كما يُمكِن "
-"للطالِب أنْ يُغَيّر طريقة هذا العَرض."
+"طريقة عرض التقويم التي يراها الطلاب بالحالة الافتراضية. كما يمكن للطالب أن "
+"يُغيِّر طريقة هذا العرض."
 
 #: google_docs.py:65 templates/html/google_docs_edit.html:28
 msgid "Embed Code"
 msgstr "ضَمِّن تعليمات برمجية"
+
+#: google_docs.py:67 templates/html/google_docs_edit.html:31
+msgid ""
+"Google provides an embed code for Drive documents. In the Google Drive "
+"document, from the File menu, select Publish to the Web. Modify settings as "
+"needed, click Publish, and copy the embed code into this field."
+msgstr ""
+"تُوفِّر Google تعليمات برمجية لتضمين مُستندات Drive. في مُستندات Google "
+"Drive، من \"قائمة الملفات\"، اختَر \"نشر على الويب\". عَدِّل الإعدادات حسب "
+"الحاجة، وانقُر على مشاركة، وانسخ رمز التضمين في هذا الحقل."
 
 #: google_docs.py:75
 msgid "Alternative Text"
@@ -93,13 +103,13 @@ msgid ""
 "Calendar, open Settings and copy the ID from the Calendar Address section "
 "into this field. You can "
 msgstr ""
-"تُوفِّر Google مُعرفاً للتقويمات المُتاحة للعامة. في تقويم Google، افتَح "
-"الإعدادات وانسَخ المُعرَّف من قِسم عنوان التقويم إلى هذا الحقل. بإمكانك"
+"تُوفِّر Google معرّفاً للتقويمات المتاحة للعامة. في تقويم Google، افتح "
+"الإعدادات وانسخ المعرّف من قِسم عنوان التقويم إلى هذا الحقل. بإمكانك"
 
 #: templates/html/google_calendar_edit.html:60
 #: templates/html/google_docs_edit.html:47
 msgid "Save"
-msgstr "حفظ"
+msgstr "احفظ"
 
 #: templates/html/google_calendar_edit.html:64
 #: templates/html/google_docs_edit.html:51
@@ -108,7 +118,7 @@ msgstr "ألغِ"
 
 #: templates/html/google_docs_edit.html:9
 msgid "Invalid Google Document"
-msgstr "مُستند جوجل غير صالح"
+msgstr "مستند جوجل غير صالح"
 
 #: templates/html/google_docs_edit.html:35
 msgid "Alternative text"
@@ -116,4 +126,4 @@ msgstr "نص بديل"
 
 #: public/js/google_calendar_edit.js:88 public/js/google_docs_edit.js:55
 msgid "Saving"
-msgstr "الحِفظ جارٍ"
+msgstr "الحفظ"
