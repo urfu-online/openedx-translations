@@ -24586,3 +24586,24 @@ msgstr "Copy email"
 
 msgid "Скопировано!"
 msgstr "Copied!"
+
+# Footer columns
+msgid "Полезные ссылки"
+msgstr "Useful links"
+
+msgid "Поддержка студентов УрФУ"
+msgstr "UrFU student support"
+
+msgid "Техническое сопровождение"
+msgstr "Technical support"
+
+# Organization block (UrFU)
+msgid "ФГАОУ ВО «УрФУ имени первого Президента России Б.Н.Ельцина»"
+msgstr "Ural Federal University named after the first President of Russia B. N. Yeltsin"
+
+msgid "Центр новых образовательных технологий и аудиовизуальных средств обучения"
+msgstr "Center for New Educational Technologies and Audiovisual Learning Tools"
+
+# Address line
+msgid "Екатеринбург, ул. Мира д.19, каб. И-200"
+msgstr "Yekaterinburg, Mira St. 19, office I-200"
