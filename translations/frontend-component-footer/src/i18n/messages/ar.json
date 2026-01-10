@@ -37,5 +37,11 @@
   "authoring.footer.termsOfService.link.label": "شروط الخدمة",
   "authoring.footer.privacyPolicy.link.label": "سياسة الخصوصية",
   "authoring.footer.accessibilityRequest.link.label": "طلب الإقامة لذوي الاحتياجات الخاصة",
-  "authoring.footer.trademark.message": "إن edX وOpen edX، وشعارات edX وOpen edX هي علامات تجارية مسجلة لشركة"
+  "authoring.footer.trademark.message": "إن edX وOpen edX، وشعارات edX وOpen edX هي علامات تجارية مسجلة لشركة",
+  "footer.usefulLinksTitle": "روابط مفيدة",
+  "footer.supportTitle": "دعم طلاب UrFU",
+  "footer.techSupportTitle": "الدعم الفني",
+  "footer.urfu.orgLine1": "جامعة الأورال الفيدرالية على اسم أول رئيس لروسيا بوريس يلتسين",
+  "footer.urfu.orgLine2": "مركز التقنيات التعليمية الجديدة ووسائل التعليم السمعية والبصرية",
+  "footer.techSupport.addressLine1": "يكاترينبورغ، شارع ميرا 19، مكتب I-200"
 }

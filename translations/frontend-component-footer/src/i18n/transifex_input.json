@@ -37,5 +37,11 @@
   "authoring.footer.termsOfService.link.label": "Terms of Service",
   "authoring.footer.privacyPolicy.link.label": "Privacy Policy",
   "authoring.footer.accessibilityRequest.link.label": "Accessibility Accomodation Request",
-  "authoring.footer.trademark.message": "edX and Open edX, and the edX and Open edX logos are registered trademarks of"
+  "authoring.footer.trademark.message": "edX and Open edX, and the edX and Open edX logos are registered trademarks of",
+  "footer.usefulLinksTitle": "Useful Links",
+  "footer.supportTitle": "UrFU Student Support",
+  "footer.techSupportTitle": "Technical Support",
+  "footer.urfu.orgLine1": "Ural Federal University named after the first President of Russia B. N. Yeltsin",
+  "footer.urfu.orgLine2": "Center for New Educational Technologies and Audiovisual Learning Tools",
+  "footer.techSupport.addressLine1": "Yekaterinburg, Mira St. 19, office I-200"
 }
