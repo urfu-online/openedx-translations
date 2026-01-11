@@ -584,10 +584,8 @@
   "proctorx.booking.loadingDots": "Загрузка...",
   "proctorx.booking.checkCameraMicBtn": "Проверить камеру/микрофон",
   "proctorx.booking.errorLabel": "Ошибка:",
-
   "proctorx.booking.placeholderLoadingTitle": "Запись на прокторинг",
   "proctorx.booking.placeholderLoadingExams": "Загрузка списка экзаменов…",
-
   "proctorx.booking.bookingModalAriaLabel": "Запись на экзамен",
   "proctorx.booking.bookingModalTitle": "Запись на прокторинг",
   "proctorx.booking.bookingModalSubtitle": "1) Выберите экзамен → 2) выберите дату → 3) убедитесь, что запись отображается слева.",
@@ -599,35 +597,28 @@
   "proctorx.booking.refreshBtn": "Обновить",
   "proctorx.booking.refreshingBtn": "Обновляем…",
   "proctorx.booking.rulesShort": "Правила",
-
   "proctorx.booking.leftExamLabel": "Экзамен",
   "proctorx.booking.examWindowLabel": "Окно экзамена:",
   "proctorx.booking.updatedAtLabel": "Обновлено:",
-
   "proctorx.booking.duePassedText": "Срок сдачи экзамена прошёл.",
   "proctorx.booking.statusLoadingDays": "Загрузка доступных дат…",
   "proctorx.booking.statusPressRefreshToLoad": "Нажмите «Обновить», чтобы загрузить даты.",
   "proctorx.booking.bookingNotOpenYet": "Запись ещё не открыта.",
   "proctorx.booking.bookingOpensAtLabel": "Откроется:",
-
   "proctorx.booking.myBookingTitle": "Ваша запись",
   "proctorx.booking.myBookingDateLabel": "Дата:",
   "proctorx.booking.myBookingHint": "Начать прокторинг можно только в день записи.",
   "proctorx.booking.cancelBtn": "Отменить",
   "proctorx.booking.cancelBtnBusy": "…",
-
   "proctorx.booking.noBookingTitle": "Запись не выбрана",
   "proctorx.booking.noBookingHint": "Выберите дату справа, чтобы записаться.",
-
   "proctorx.booking.availableDatesTitle": "Доступные даты",
   "proctorx.booking.availableDatesHint": "Если мест нет — выберите другой день. Даты в прошлом недоступны.",
   "proctorx.booking.hidePastLabel": "Скрыть прошедшие",
   "proctorx.booking.onlyWithSeatsLabel": "Только с местами",
-
   "proctorx.booking.daysLoadingText": "Загрузка дат…",
   "proctorx.booking.selectExamAndLoad": "Выберите экзамен и загрузите даты.",
   "proctorx.booking.noDatesByFilters": "Нет доступных дат по текущим фильтрам.",
-
   "proctorx.booking.todayBadge": "Сегодня",
   "proctorx.booking.statusLabel": "Статус:",
   "proctorx.booking.statusPast": "Дата прошла",
@@ -637,29 +628,23 @@
   "proctorx.booking.seatsLabel": "Доступно мест",
   "proctorx.booking.noLimitHint": "(без лимита)",
   "proctorx.booking.limitsTooltip": "Лимиты на день: общий {global}, по экзамену {exam}",
-
   "proctorx.booking.btnReschedule": "Перенести",
   "proctorx.booking.btnBook": "Записаться",
   "proctorx.booking.btnBusyEllipsis": "…",
   "proctorx.booking.titlePastDate": "Дата в прошлом",
   "proctorx.booking.titleBookingNotOpen": "Запись ещё не открыта",
   "proctorx.booking.titleNoSeats": "Нет мест",
-
   "proctorx.booking.footerCurrentBooking": "Текущая запись: {date}.",
   "proctorx.booking.footerNoBooking": "Запись не выбрана.",
   "proctorx.booking.footerAfterBookingHint": "После записи вернитесь на страницу экзамена и начните сессию прокторинга в день записи.",
   "proctorx.booking.footerHintReschedule": "Подсказка: если вы уже записаны, новая запись перенесёт текущую.",
-
   "proctorx.booking.examFallbackName": "Экзамен №{id}",
-
   "proctorx.booking.flashAlreadyBooked": "Вы уже записаны на {date}.",
   "proctorx.booking.flashBookingNotOpen": "Запись ещё не открыта. Дождитесь открытия и попробуйте снова.",
   "proctorx.booking.flashBookedSuccess": "Готово! Вы записаны на {date}.",
   "proctorx.booking.flashCancelledSuccess": "Запись отменена.",
-
   "proctorx.booking.confirmReplace": "У вас уже есть запись на {oldDate}.\nПеренести запись на {newDate}?",
   "proctorx.booking.confirmCancel": "Отменить текущую запись на прокторинг?",
-
   "proctorx.booking.errorLoadExamsFallback": "Ошибка загрузки экзаменов",
   "proctorx.booking.errorLoadDatesFallback": "Ошибка загрузки дат",
   "proctorx.booking.errorBookingFallback": "Ошибка записи",
@@ -668,10 +653,8 @@
   "proctorx.booking.errorLoadStatusTechnical": "Не удалось загрузить статус",
   "proctorx.booking.errorBookTechnical": "Не удалось выполнить запись",
   "proctorx.booking.errorCancelTechnical": "Не удалось отменить запись",
-
   "proctorx.booking.errGlobalLimit": "Достигнут общий лимит записей на этот день.",
   "proctorx.booking.errExamLimit": "Достигнут лимит записей на этот экзамен в этот день.",
-
   "proctorx.booking.eqModalAriaLabel": "Проверка оборудования",
   "proctorx.booking.eqModalTitle": "Проверка камеры и микрофона",
   "proctorx.booking.eqModalSubtitle": "Это только проверка работоспособности. Ничего не сохраняем.",
@@ -691,7 +674,6 @@
   "proctorx.booking.eqPreviewTitle": "Превью камеры",
   "proctorx.booking.eqPreviewPlaceholder": "Нажмите «Запустить проверку», чтобы включить превью",
   "proctorx.booking.eqDoneBtn": "Готово",
-
   "proctorx.booking.gumNeedsSecureContext": "Нужен безопасный контекст (HTTPS или localhost). На http камера/микрофон могут быть заблокированы.",
   "proctorx.booking.gumPermissionDenied": "Доступ к камере/микрофону запрещён. Проверьте разрешения ОС/браузера и настройки Safe Exam Browser.",
   "proctorx.booking.gumDevicesNotFound": "Камера или микрофон не найдены. Подключите устройство и повторите.",
@@ -699,6 +681,7 @@
   "proctorx.booking.gumOverconstrained": "Выбранное устройство недоступно. Попробуйте выбрать другое.",
   "proctorx.booking.gumGenericError": "Не удалось получить доступ к камере/микрофону.",
   "proctorx.booking.gumNotSupported": "getUserMedia недоступен в этом браузере.",
+  
   "footer.usefulLinksTitle": "Полезные ссылки",
   "footer.supportTitle": "Поддержка студентов УрФУ",
   "footer.techSupportTitle": "Техническое сопровождение",

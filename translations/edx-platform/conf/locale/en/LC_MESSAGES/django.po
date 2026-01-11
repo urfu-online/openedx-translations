@@ -24160,15 +24160,14 @@ msgstr ""
 msgid "Code Editor"
 msgstr ""
 
-
 msgid "Инструкция для студентов"
 msgstr "Instructions for students"
 
 msgid "Вернуться в панель управления"
-msgstr "Back to dashboard"
+msgstr "Return to the control panel"
 
 msgid "Инструкция по прохождению прокторинга"
-msgstr "Proctoring instructions"
+msgstr "Instructions for completing proctoring"
 
 msgid "Внимательно прочитайте инструкцию перед началом экзамена!"
 msgstr "Please read the instructions carefully before starting the exam!"
@@ -24177,100 +24176,100 @@ msgid "Установка Safe Exam Browser"
 msgstr "Installing Safe Exam Browser"
 
 msgid "<strong>Safe Exam Browser (SEB)</strong> — специальный браузер, который блокирует доступ к другим приложениям и сайтам во время экзамена. Это обязательное требование для прохождения прокторинга."
-msgstr "<strong>Safe Exam Browser (SEB)</strong> is a dedicated browser that blocks access to other applications and websites during the exam. This is a mandatory requirement for proctoring."
+msgstr "<strong>Safe Exam Browser (SEB)</strong> is a special browser that blocks access to other applications and websites during the exam. This is a mandatory requirement for completing proctoring."
 
 msgid "Совет:"
 msgstr "Tip:"
 
 msgid "Установите SEB заранее и проверьте, что он корректно запускается. При первом запуске может потребоваться разрешить доступ к камере и микрофону в настройках системы."
-msgstr "Install SEB in advance and make sure it launches correctly. On the first launch, you may need to allow access to the camera and microphone in your system settings."
+msgstr "Install SEB in advance and check that it launches correctly. You may need to allow access to the camera and microphone in the system settings at the first launch."
 
 msgid "Запись на дату экзамена"
-msgstr "Booking an exam date"
+msgstr "Signing up for the exam date"
 
 msgid "Перед сдачей экзамена необходимо <strong>записаться на конкретную дату</strong> через календарь бронирования. Начать экзамен можно только в день записи."
-msgstr "Before taking the exam, you must <strong>book a specific date</strong> via the booking calendar. You can only start the exam on the day you booked."
+msgstr "Before taking the exam, you must <strong>sign up for a specific date</strong> via the booking calendar. You can only start the exam on the day of your appointment."
 
 msgid "Откройте страницу курса"
 msgstr "Open the course page"
 
 msgid "Перейдите в раздел с экзаменом в обычном браузере (не в SEB)."
-msgstr "Go to the exam section in a regular browser (not in SEB)."
+msgstr "Go to the exam section in a common browser (not in SEB)."
 
 msgid "Найдите виджет «Запись на прокторинг»"
-msgstr "Find the “Sign up for Proctoring” widget"
+msgstr "Find the \"Sign up for Proctoring\" widget"
 
 msgid "Он расположен на странице курса рядом с экзаменом."
 msgstr "It is located on the course page next to the exam."
 
 msgid "Нажмите «Открыть календарь»"
-msgstr "Click “Open calendar”"
+msgstr "Click \"Open Calendar\""
 
 msgid "Выберите экзамен и доступную дату. Учитывайте количество свободных мест."
-msgstr "Choose the exam and an available date. Consider the number of available slots."
+msgstr "Choose the exam and the available date. Take the number of available slots into account."
 
 msgid "Подтвердите запись"
-msgstr "Confirm your booking"
+msgstr "Confirm your appointment"
 
 msgid "После записи вы увидите подтверждение с выбранной датой."
-msgstr "After booking, you will see a confirmation with the selected date."
+msgstr "After signing up, you will see a confirmation with the selected date."
 
 msgid "Важно:"
 msgstr "Important:"
 
 msgid "Вы можете перенести запись на другую дату, пока экзамен не начат. После начала экзамена изменить дату нельзя."
-msgstr "You can reschedule your booking to another date as long as the exam has not started. The date cannot be changed after the exam has started."
+msgstr "You can reschedule your appointment for another date as long as the exam has not started. The date cannot be changed after the exam has started."
 
 msgid "Подтверждение личности"
-msgstr "Identity verification"
+msgstr "Proofing of identity"
 
 msgid "Перед началом экзамена необходимо загрузить <strong>фотографию документа</strong>, подтверждающего личность. Это можно сделать в SEB."
-msgstr "Before starting the exam, you must upload a <strong>photo of an identity document</strong>. You can do this in SEB."
+msgstr "You must upload a <strong>photo of your identity document</strong> before starting the exam. You can do it in SEB."
 
 msgid "Студенческий билет"
 msgstr "Student ID card"
 
 msgid "Требования к фото документа:"
-msgstr "Requirements for the document photo:"
+msgstr "Requirements for a photo of a document:"
 
 msgid "Формат: JPG, PNG или PDF"
-msgstr "Format: JPG, PNG, or PDF"
+msgstr "Format: JPG, PNG or PDF"
 
 msgid "Размер: не более 5 МБ"
-msgstr "Size: no more than 5 MB"
+msgstr "Size: less than 5 MB"
 
 msgid "Фото должно быть чётким, без бликов"
-msgstr "The photo must be clear and glare-free"
+msgstr "The photo should be clear and glare-free"
 
 msgid "Все данные должны быть читаемы"
-msgstr "All details must be readable"
+msgstr "All data must be readable"
 
 msgid "Подготовьте фото документа заранее. Сфотографируйте и загрузите на компьютер, с которого будете проходить экзамен. Когда вы войдете внутрь экзамена в панели прокторинга, вы увидите кнопку «Загрузить студенческий билет» на панели прокторинга перед началом экзамена."
-msgstr "Prepare a photo of your document in advance. Take a picture and upload it to the computer you will use for the exam. When you enter the exam in the proctoring panel, you will see the “Upload Student ID” button in the proctoring panel before the exam starts."
+msgstr "Prepare a photo of the document in advance. Take a picture of it and upload it to the computer you will take the exam from. After you enter the exam in the proctoring panel, you will see the \"Upload Student ID card\" button on the proctoring panel before the exam starts."
 
 msgid "Пример: студенческий билет"
 msgstr "Example: Student ID card"
 
 msgid "Проверка оборудования"
-msgstr "Equipment check"
+msgstr "Checking the equipment"
 
 msgid "Компьютер"
 msgstr "Computer"
 
 msgid "Минимум 4 ГБ оперативной памяти"
-msgstr "At least 4 GB of RAM"
+msgstr "4 GB of RAM is minimum"
 
 msgid "Планшеты и телефоны <strong>не поддерживаются</strong>"
 msgstr "Tablets and phones are <strong>not supported</strong>"
 
 msgid "Интернет"
-msgstr "Internet"
+msgstr "The Internet"
 
 msgid "Стабильное соединение от 2 Мбит/с"
 msgstr "Stable internet connection from 2 Mbps"
 
 msgid "Проводное подключение предпочтительнее"
-msgstr "A wired connection is preferable"
+msgstr "Wired connection is preferable"
 
 msgid "Избегайте публичных Wi-Fi сетей"
 msgstr "Avoid public Wi‑Fi networks"
@@ -24279,16 +24278,16 @@ msgid "Камера и микрофон"
 msgstr "Camera and microphone"
 
 msgid "Веб-камера (встроенная или внешняя)"
-msgstr "Webcam (built-in or external)"
+msgstr "Web camera (built-in or external)"
 
 msgid "Микрофон для записи звука"
-msgstr "Microphone for audio recording"
+msgstr "Microphone for sound recording"
 
 msgid "Разрешите доступ в настройках ОС"
-msgstr "Allow access in your OS settings"
+msgstr "Allow access in the OS settings"
 
 msgid "Рабочее место"
-msgstr "Workplace"
+msgstr "Your workplace"
 
 msgid "Тихое, хорошо освещённое помещение"
 msgstr "A quiet, well-lit room"
@@ -24297,193 +24296,193 @@ msgid "Лицо должно быть чётко видно в камере"
 msgstr "Your face must be clearly visible on camera"
 
 msgid "Уберите посторонние предметы"
-msgstr "Remove unrelated items"
+msgstr "Remove foreign objects"
 
 msgid "Начало экзамена в день записи"
-msgstr "Starting the exam on your booked date"
+msgstr "Starting of the exam on the signed up date"
 
 msgid "Откройте курс через Safe Exam Browser"
-msgstr "Open the course via Safe Exam Browser"
+msgstr "Open the course via the Safe Exam Browser"
 
 msgid "На странице экзамена появится сообщение о необходимости использовать SEB. Нажмите на ссылку — она автоматически откроет SEB с нужными настройками."
-msgstr "On the exam page, you will see a message that SEB is required. Click the link — it will automatically open SEB with the required settings."
+msgstr "The message informing you that you must use SEB will appear on the exam page. Go to the link. It will automatically open SEB with the required settings."
 
 msgid "Альтернативный способ:"
 msgstr "Alternative method:"
 
 msgid "скачайте файл конфигурации (.seb) и откройте его двойным щелчком."
-msgstr "download the configuration file (.seb) and open it by double-clicking it."
+msgstr "download the configuration file (.seb) and open it with a double click."
 
 msgid "Авторизуйтесь"
 msgstr "Log in"
 
 msgid "Если потребуется — войдите в свой аккаунт на образовательной платформе внутри SEB."
-msgstr "If needed, log in to your account on the learning platform inside SEB."
+msgstr "If necessary, log in to your account of the educational platform inside SEB."
 
 msgid "Перейдите к экзамену"
 msgstr "Go to the exam"
 
 msgid "Найдите нужный экзамен в курсе. Вы увидите панель <strong>«Прокторинг УрФУ»</strong>."
-msgstr "Find the required exam in the course. You will see the <strong>“UrFU Proctoring”</strong> panel."
+msgstr "Find the required exam in the course. You will see the <strong>\"UrFU Proctoring\"</strong> panel."
 
 msgid "Убедитесь, что всё готово"
 msgstr "Make sure everything is ready"
 
 msgid "На панели должны быть выполнены все условия:"
-msgstr "All requirements must be met:"
+msgstr "All conditions must be met:"
 
 msgid "Документ загружен"
-msgstr "Document uploaded"
+msgstr "The document is uploaded"
 
 msgid "Оборудование проверено"
-msgstr "Equipment checked"
+msgstr "The equipment is checked"
 
 msgid "Запись на сегодня подтверждена"
-msgstr "Today’s booking is confirmed"
+msgstr "The appointment for today is confirmed"
 
 msgid "Нажмите «Начать запись»"
-msgstr "Click “Start recording”"
+msgstr "Click \"Start Recording\""
 
 msgid "После этого начнётся запись с камеры. Дождитесь сообщения <strong>«Запись идёт»</strong> и приступайте к выполнению заданий."
-msgstr "After that, the camera recording will start. Wait for the <strong>“Recording in progress”</strong> message and then begin completing the tasks."
+msgstr "The camera recording will start immediately. Wait for the message <strong>\"Recording is started\"</strong> and then start completing the tasks."
 
 msgid "Не закрывайте SEB во время экзамена!"
-msgstr "Do not close SEB during the exam!"
+msgstr "Do not close the SEB during the exam!"
 
 msgid "Если вы случайно закроете браузер или прервётся интернет — вернитесь на страницу экзамена и нажмите «Возобновить запись». Все прерывания фиксируются."
-msgstr "If you accidentally close the browser or your internet connection is interrupted, return to the exam page and click “Resume recording”. All interruptions are logged."
+msgstr "If you accidentally close your browser or the Internet connection is interrupted, go back to the exam page and click \"Resume recording\". All interruptions are recorded."
 
 msgid "Все прерывания фиксируются."
 msgstr "All interruptions are recorded."
 
 msgid "Правила во время экзамена"
-msgstr "Rules during the exam"
+msgstr "Examination rules"
 
 msgid "Safe Exam Browser ограничивает доступ к другим сайтам и приложениям, но не заменяет соблюдение правил прокторинга. Нарушения фиксируются и могут повлиять на результат."
-msgstr "Safe Exam Browser restricts access to other websites and applications, but it does not replace following the proctoring rules. Violations are logged and may affect your result."
+msgstr "Safe Exam Browser restricts access to other websites and applications, but it does not replace following the proctoring rules. All the violations are recorded and may affect your exam results."
 
 msgid "Разрешено"
-msgstr "Allowed"
+msgstr "It is allowed"
 
 msgid "Запрещено"
-msgstr "Not allowed"
+msgstr "It is prohibited"
 
 msgid "Смотреть на экран и клавиатуру"
-msgstr "Look at the screen and keyboard"
+msgstr "To look at the screen and keyboard"
 
 msgid "Пить воду из прозрачной бутылки"
-msgstr "Drink water from a transparent bottle"
+msgstr "To drink water from a clear bottle"
 
 msgid "Использовать встроенный калькулятор (если предусмотрено)"
-msgstr "Use the built-in calculator (if provided)"
+msgstr "To use the built-in calculator (if provided)"
 
 msgid "<strong>Черновик на бумаге</strong> — при соблюдении правил ниже"
-msgstr "<strong>Paper draft notes</strong> — provided you follow the rules below"
+msgstr "<strong>Paper drafts</strong>: if all the rules below are followed"
 
 msgid "Покидать рабочее место / уходить из кадра"
-msgstr "Leave your workplace / go out of frame"
+msgstr "To leave your workplace / leave the frame"
 
 msgid "Разговаривать с кем-либо, получать подсказки третьих лиц"
-msgstr "Talk to anyone or receive help from third parties"
+msgstr "To talk to someone or get tips from other people"
 
 msgid "Использовать телефон или второе устройство (планшет, второй компьютер и т.д.)"
-msgstr "Use a phone or a second device (tablet, second computer, etc.)"
+msgstr "To use a phone or another device (tablet, second computer, etc.)"
 
 msgid "Использовать наушники"
-msgstr "Use headphones"
+msgstr "To use headphones"
 
 msgid "Присутствие посторонних в комнате"
-msgstr "Other people in the room"
+msgstr "The presence of any other people in the room"
 
 msgid "Читать вопросы вслух"
-msgstr "Read questions aloud"
+msgstr "To read the questions aloud"
 
 msgid "Пользоваться шпаргалками и конспектами"
-msgstr "Use cheat sheets or notes"
+msgstr "To use cheat sheets and lecture notes"
 
 msgid "Фотографировать/переписывать задания, фиксировать вопросы любым способом"
-msgstr "Photograph/copy tasks or record questions in any form"
+msgstr "To take photos/rewrite tasks or record questions in any possible way"
 
 msgid "Использовать программы записи/трансляции/удалённого доступа (OBS, Discord, Skype, Zoom/Teams, AnyDesk/TeamViewer/Radmin и т.п.)"
-msgstr "Use recording/streaming/remote access software (OBS, Discord, Skype, Zoom/Teams, AnyDesk/TeamViewer/Radmin, etc.)"
+msgstr "To use recording/broadcast/remote access programs (OBS, Discord, Skype, Zoom/Teams, AnyDesk/TeamViewer/Radmin, etc.)"
 
 msgid "Использовать чужие коды/попытки или материалы других слушателей"
-msgstr "Use someone else’s codes/attempts or other students’ materials"
+msgstr "To use other people's codes/attempts or any other materials from other listeners"
 
 msgid "Обязательные условия"
 msgstr "Mandatory conditions"
 
 msgid "Обеспечьте достаточное освещение (не сидите спиной к окну/лампе), минимальный шум."
-msgstr "Ensure adequate lighting (do not sit with your back to a window/lamp) and keep noise to a minimum."
+msgstr "You must provide adequate lighting (do not sit with your back to the window/lamp), minimal level of noise."
 
 msgid "Не закрывайте камеру и не покидайте зону видимости камеры во время экзамена."
-msgstr "Do not cover the camera and do not leave the camera’s field of view during the exam."
+msgstr "Please do not cover your camera or do not leave the camera visibility area during the exam."
 
 msgid "<strong>Не отключайте микрофон</strong> во время экзамена и убедитесь, что вас слышно."
-msgstr "<strong>Do not mute the microphone</strong> during the exam and make sure you can be heard."
+msgstr "<strong>Please do not turn off the microphone</strong> during the exam and make sure that you can be heard."
 
 msgid "Используйте для идентификации <strong>оригинал</strong> документа (студенческий билет) и предъявляйте по требованию."
-msgstr "Use the <strong>original</strong> document (student ID card) for identification and show it upon request."
+msgstr "You must use the <strong>original</strong> document (student ID) for identification and present it on demand."
 
 msgid "Оборудование и рабочее место"
 msgstr "Equipment and workplace"
 
 msgid "Используйте <strong>только один</strong> монитор/экран вывода изображения. Если подключён второй монитор — отключите его и перезагрузите компьютер."
-msgstr "Use <strong>only one</strong> monitor/display. If a second monitor is connected, disconnect it and restart your computer."
+msgstr "You must use <strong>only one</strong> monitor/output screen. If the second monitor is connected, disconnect it and restart your computer."
 
 msgid "Используйте одну клавиатуру и одну мышь (без дополнительных устройств ввода)."
-msgstr "Use one keyboard and one mouse (no additional input devices)."
+msgstr "You must use one keyboard and one mouse (without additional input devices)."
 
 msgid "По запросу проктора будьте готовы показать в камеру рабочее место: стол, область слева/справа от монитора и пространство вокруг, чтобы подтвердить отсутствие посторонних людей и материалов."
-msgstr "At the proctor’s request, be ready to show your workspace on camera: the desk, the area to the left/right of the monitor, and the surrounding space to confirm there are no other people or materials."
+msgstr "On the proctor's demand, be ready to show your workplace to the camera: your desk, the area to the left/right of your monitor and the space around you to confirm the absence of any other people or lecture notes."
 
 msgid "Черновик"
-msgstr "Draft paper"
+msgstr "Paper draft"
 
 msgid "Перед началом экзамена покажите в камеру, что черновик чистый (по возможности — обе стороны листа)."
-msgstr "Before the exam starts, show on camera that the draft paper is blank (if possible, show both sides)."
+msgstr "Show your clean paper draft to the camera (both sides of the sheet if possible) before the exam."
 
 msgid "На черновике <strong>запрещено</strong> фиксировать текст заданий/вопросов и варианты ответов."
-msgstr "It is <strong>forbidden</strong> to write down the text of tasks/questions or answer choices on the draft paper."
+msgstr "It is <strong>forbidden</strong> to record the text of tasks/questions or answer options on the draft."
 
 msgid "После завершения экзамена покажите черновик в камеру по запросу (для подтверждения, что вопросы не были зафиксированы)."
-msgstr "After finishing the exam, show the draft paper on camera upon request (to confirm that the questions were not recorded)."
+msgstr "After completing the exam, show your draft to the camera on demand (to confirm that the questions were not recorded)."
 
 msgid "Если правила нарушены"
-msgstr "If the rules are violated"
+msgstr "If the rules were violated"
 
 msgid "В случае выявления нарушений попытка может быть признана использованной, а итоговый контроль — несданным."
-msgstr "If violations are detected, your attempt may be considered used, and the final assessment may be marked as failed."
+msgstr "If any violations are detected, your attempt may be considered as used and the final control may not be passed."
 
 msgid "Завершение экзамена"
-msgstr "Finishing the exam"
+msgstr "Exam Completion"
 
 msgid "Завершите все задания экзамена"
-msgstr "Complete all exam tasks"
+msgstr "Complete all the exam tasks"
 
 msgid "Нажмите <strong>«Завершить экзамен»</strong> в интерфейсе курса"
-msgstr "Click <strong>“Finish exam”</strong> in the course interface"
+msgstr "Click <strong>\"Finish Exam\"</strong> in the course interface"
 
 msgid "Дождитесь сообщения об успешной отправке записи"
-msgstr "Wait for a message confirming the recording was successfully uploaded"
+msgstr "Wait for the message about the successful sending of the recording"
 
 msgid "Нажмите кнопку <strong>«Выход»</strong> в правом нижнем углу экрана SEB"
-msgstr "Click the <strong>“Exit”</strong> button in the lower-right corner of the SEB screen"
+msgstr "Click <strong>\"Exit\"</strong> button in the lower right corner of the SEB screen"
 
 msgid "Где найти кнопку выхода:"
 msgstr "Where to find the exit button:"
 
 msgid "Кнопка расположена в правом нижнем углу экрана. Нажмите её после завершения экзамена."
-msgstr "The button is located in the lower-right corner of the screen. Click it after you finish the exam."
+msgstr "The button is located in the lower right corner of the screen. Click it after finishing the exam."
 
 msgid "Не нажимайте кнопку выхода до завершения экзамена! Сначала убедитесь, что все ответы отправлены и экзамен отправлен на проверку."
-msgstr "Do not press the exit button before finishing the exam! First, make sure all answers are submitted and the exam has been sent for review."
+msgstr "Important: Do not press the exit button until the exam is over! First, make sure that all your answers have been sent and the exam has been sent for review."
 
 msgid "Что происходит после завершения?"
-msgstr "What happens after you finish?"
+msgstr "What happens right after completion?"
 
 msgid "Ваша видеозапись и ответы отправляются на проверку. Проктор просмотрит запись и примет решение в течении 5 рабочих дней."
-msgstr "Your video recording and answers are sent for review. The proctor will review the recording and make a decision within 5 business days."
+msgstr "Your video recording and your responses will be sent for review. The proctor will review your recording and make a decision within 5 business days."
 
 msgid "Часто задаваемые вопросы"
 msgstr "Frequently Asked Questions"
@@ -24519,7 +24518,7 @@ msgid "Проверьте, что камера не используется д�
 msgstr "Check that the camera is not being used by another application"
 
 msgid "Не могу начать запись — кнопка неактивна"
-msgstr "I can’t start recording — the button is inactive"
+msgstr "I can't start recording, the button is inactive"
 
 msgid "Проверьте выполнение всех условий:"
 msgstr "Check that all requirements are met:"
@@ -24537,7 +24536,7 @@ msgid "Если все условия выполнены, но кнопка не
 msgstr "If all requirements are met but the button is still inactive, refresh the page (F5)."
 
 msgid "Экзамен прервался (интернет отключился / закрыл SEB)"
-msgstr "The exam was interrupted (internet disconnected / SEB was closed)"
+msgstr "The exam was interrupted (the Internet went down / SEB is closed)"
 
 msgid "Не паникуйте! Система сохраняет запись сегментами."
 msgstr "Don’t panic! The system saves the recording in segments."
@@ -24558,7 +24557,7 @@ msgid "Все прерывания фиксируются и будут видн
 msgstr "All interruptions are logged and will be visible to the reviewer."
 
 msgid "Ошибка «Начать запись можно только в день записи»"
-msgstr "Error: “You can start recording only on the booked day”"
+msgstr "Error \"You can start recording only on the appointment day\""
 
 msgid "Вы пытаетесь начать экзамен в день, отличный от забронированного."
 msgstr "You are trying to start the exam on a day different from the one you booked."
@@ -24573,13 +24572,13 @@ msgid "Если сегодня — ваш день, но ошибка всё р�
 msgstr "If today is your booked day but the error still appears, refresh the page"
 
 msgid "Нужна помощь?"
-msgstr "Need help?"
+msgstr "Need some help?"
 
 msgid "Если у вас возникли технические проблемы или вопросы по прокторингу:"
-msgstr "If you have technical issues or questions about proctoring:"
+msgstr "If you have any technical issues or questions about proctoring:"
 
 msgid "При обращении укажите: вашу почту, название курса."
-msgstr "When contacting support, please include: your email and the course name."
+msgstr "When contacting us, please provide: your email address, the name of the course."
 
 msgid "Скопировать email"
 msgstr "Copy email"
@@ -24602,7 +24601,7 @@ msgid "ФГАОУ ВО «УрФУ имени первого Президента
 msgstr "Ural Federal University named after the first President of Russia B. N. Yeltsin"
 
 msgid "Центр новых образовательных технологий и аудиовизуальных средств обучения"
-msgstr "Center for New Educational Technologies and Audiovisual Learning Tools"
+msgstr "Center of New Educational Technologies and Audiovisual Learning Tools"
 
 # Address line
 msgid "Екатеринбург, ул. Мира д.19, каб. И-200"
