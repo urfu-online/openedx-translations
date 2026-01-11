@@ -710,5 +710,11 @@
   "proctorx.booking.gumNotReadable": "Could not open camera/microphone. The device may be in use by another application.",
   "proctorx.booking.gumOverconstrained": "The selected device is unavailable. Try choosing a different one.",
   "proctorx.booking.gumGenericError": "Could not access the camera/microphone.",
-  "proctorx.booking.gumNotSupported": "getUserMedia is not available in this browser."
+  "proctorx.booking.gumNotSupported": "getUserMedia is not available in this browser.",
+  "footer.usefulLinksTitle": "Useful Links",
+  "footer.supportTitle": "UrFU Student Support",
+  "footer.techSupportTitle": "Technical Support",
+  "footer.urfu.orgLine1": "Ural Federal University named after the first President of Russia B. N. Yeltsin",
+  "footer.urfu.orgLine2": "Center for New Educational Technologies and Audiovisual Learning Tools",
+  "footer.techSupport.addressLine1": "Yekaterinburg, Mira St. 19, office I-200"
 }

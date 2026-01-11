@@ -706,5 +706,11 @@
   "proctorx.booking.gumNotReadable": "تعذر فتح الكاميرا/الميكروفون. قد يكون الجهاز مستخدمًا في تطبيق آخر.",
   "proctorx.booking.gumOverconstrained": "الجهاز المحدد غير متاح. جرّب اختيار جهاز آخر.",
   "proctorx.booking.gumGenericError": "تعذر الوصول إلى الكاميرا/الميكروفون.",
-  "proctorx.booking.gumNotSupported": "‏getUserMedia غير متاح في هذا المتصفح."
+  "proctorx.booking.gumNotSupported": "‏getUserMedia غير متاح في هذا المتصفح.",
+  "footer.usefulLinksTitle": "روابط مفيدة",
+  "footer.supportTitle": "دعم طلاب UrFU",
+  "footer.techSupportTitle": "الدعم الفني",
+  "footer.urfu.orgLine1": "جامعة الأورال الفيدرالية على اسم أول رئيس لروسيا بوريس يلتسين",
+  "footer.urfu.orgLine2": "مركز التقنيات التعليمية الجديدة ووسائل التعليم السمعية والبصرية",
+  "footer.techSupport.addressLine1": "يكاترينبورغ، شارع ميرا 19، مكتب I-200"
 }

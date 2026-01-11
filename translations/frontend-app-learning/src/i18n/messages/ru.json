@@ -698,5 +698,11 @@
   "proctorx.booking.gumNotReadable": "Не удалось открыть камеру/микрофон. Возможно, устройство занято другим приложением.",
   "proctorx.booking.gumOverconstrained": "Выбранное устройство недоступно. Попробуйте выбрать другое.",
   "proctorx.booking.gumGenericError": "Не удалось получить доступ к камере/микрофону.",
-  "proctorx.booking.gumNotSupported": "getUserMedia недоступен в этом браузере."
+  "proctorx.booking.gumNotSupported": "getUserMedia недоступен в этом браузере.",
+  "footer.usefulLinksTitle": "Полезные ссылки",
+  "footer.supportTitle": "Поддержка студентов УрФУ",
+  "footer.techSupportTitle": "Техническое сопровождение",
+  "footer.urfu.orgLine1": "Уральский федеральный университет имени первого Президента России Б.Н. Ельцина",
+  "footer.urfu.orgLine2": "Центр новых образовательных технологий и аудиовизуальных средств обучения",
+  "footer.techSupport.addressLine1": "Екатеринбург, ул. Мира д.19, каб. И-200"
 }

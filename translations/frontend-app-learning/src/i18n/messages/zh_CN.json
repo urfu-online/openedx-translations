@@ -353,5 +353,11 @@
   "proctorx.booking.gumNotReadable": "无法打开摄像头/麦克风。设备可能被其他应用占用。",
   "proctorx.booking.gumOverconstrained": "所选设备不可用。请尝试选择其他设备。",
   "proctorx.booking.gumGenericError": "无法访问摄像头/麦克风。",
-  "proctorx.booking.gumNotSupported": "此浏览器不支持 getUserMedia。"
+  "proctorx.booking.gumNotSupported": "此浏览器不支持 getUserMedia。",
+  "footer.usefulLinksTitle": "常用链接",
+  "footer.supportTitle": "UrFU 学生支持",
+  "footer.techSupportTitle": "技术支持",
+  "footer.urfu.orgLine1": "以俄罗斯第一任总统 B.N. 叶利钦命名的乌拉尔联邦大学",
+  "footer.urfu.orgLine2": "新教育技术与视听教学手段中心",
+  "footer.techSupport.addressLine1": "叶卡捷琳堡, 米拉大街 19 号, I-200 室"
 }
