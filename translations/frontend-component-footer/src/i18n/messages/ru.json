@@ -39,5 +39,11 @@
   "authoring.footer.termsOfService.link.label": "Договор публичной оферты",
   "authoring.footer.privacyPolicy.link.label": "Политика конфиденциальности",
   "authoring.footer.accessibilityRequest.link.label": "Запрос на доступность проживания",
-  "authoring.footer.trademark.message": "edX и Open edX, а также логотипы edX и Open edX являются зарегистрированными товарными знаками компании"
+  "authoring.footer.trademark.message": "edX и Open edX, а также логотипы edX и Open edX являются зарегистрированными товарными знаками компании",
+  "footer.usefulLinksTitle": "Полезные ссылки",
+  "footer.supportTitle": "Поддержка студентов УрФУ",
+  "footer.techSupportTitle": "Техническое сопровождение",
+  "footer.urfu.orgLine1": "Уральский федеральный университет имени первого Президента России Б.Н. Ельцина",
+  "footer.urfu.orgLine2": "Центр новых образовательных технологий и аудиовизуальных средств обучения",
+  "footer.techSupport.addressLine1": "Екатеринбург, ул. Мира д.19, каб. И-200"
 }

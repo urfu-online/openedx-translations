@@ -31,7 +31,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-08-22 00:39+0000\n"
+"POT-Creation-Date: 2025-09-19 00:44+0000\n"
 "PO-Revision-Date: 2023-11-20 11:35+0000\n"
 "Last-Translator: Brian Smith, 2025\n"
 "Language-Team: Russian (https://app.transifex.com/open-edx/teams/6205/ru/)\n"
@@ -178,11 +178,11 @@ msgstr "Указана неверная ссылка на местоположе
 msgid "Missing branch on fresh clone"
 msgstr "Отсутствует ветка в свежем клоне"
 
-#: cms/djangoapps/contentstore/helpers.py:204
+#: cms/djangoapps/contentstore/helpers.py:205
 msgid "Vertical"
 msgstr "Вертикальный"
 
-#: cms/djangoapps/contentstore/helpers.py:212
+#: cms/djangoapps/contentstore/helpers.py:213
 #: lms/djangoapps/instructor/views/tools.py:241
 #: lms/djangoapps/instructor/views/tools.py:253 xmodule/unit_block.py:41
 #: lms/templates/ccx/schedule.html:94 lms/templates/seq_block.html:106
@@ -198,12 +198,12 @@ msgstr ""
 "Взять указанный учебный курс и попытаться экспортировать его в репозиторий git\n"
 ". Каталог с учебным курсом должен уже существовать в репозитории git. Использование: git_export <course_loc> <git_url>"
 
-#: cms/djangoapps/contentstore/models.py:180
+#: cms/djangoapps/contentstore/models.py:184
 msgid "The component must be published to access `published_at`"
 msgstr ""
 "Компонент должен быть опубликован, чтобы получить доступ к `published_at`"
 
-#: cms/djangoapps/contentstore/models.py:351
+#: cms/djangoapps/contentstore/models.py:355
 msgid "The container must be published to access `published_at`"
 msgstr "Контейнер должен быть опубликован для доступа к `published_at`"
 
@@ -407,7 +407,7 @@ msgstr "Уровни поддержки {platform_name}:"
 #: lms/djangoapps/courseware/tabs.py:241
 #: lms/djangoapps/discussion/plugins.py:27
 #: openedx/core/djangoapps/discussions/plugins.py:23
-#: openedx/core/djangoapps/notifications/email/utils.py:426
+#: openedx/core/djangoapps/notifications/email/utils.py:440
 #: openedx/features/lti_course_tab/tab.py:274 xmodule/discussion_block.py:198
 #: lms/djangoapps/discussion/templates/discussion/discussion_profile_page.html:48
 #: lms/templates/ux/reference/bootstrap/course-skeleton.html:24
@@ -533,7 +533,7 @@ msgstr ""
 "измените код вашей библиотеки, чтобы он был уникальным в пределах вашей "
 "организации."
 
-#: cms/djangoapps/contentstore/views/preview.py:302
+#: cms/djangoapps/contentstore/views/preview.py:304
 #, python-brace-format
 msgid "Access restricted to: {list_of_groups}"
 msgstr "Доступ разрешён для: {list_of_groups}"
@@ -575,34 +575,34 @@ msgstr ""
 msgid "Empty"
 msgstr "Пусто"
 
-#: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:794
+#: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:803
 #, python-brace-format
 msgid "You can not move {source_type} into {target_parent_type}."
 msgstr "Вы не можете переместить {source_type} в {target_parent_type}."
 
-#: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:803
+#: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:812
 msgid "Item is already present in target location."
 msgstr "Элемент уже находится в заданном месте."
 
-#: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:805
+#: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:814
 msgid "You can not move an item into itself."
 msgstr "Невозможно переместить элемент в самого себя."
 
-#: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:807
+#: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:816
 msgid "You can not move an item into it's child."
 msgstr "Невозможно поместить элемент в его дочерний элемент."
 
-#: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:809
+#: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:818
 msgid "You can not move an item directly into content experiment."
 msgstr ""
 "Невозможно переместить элемент в компонент с экспериментальными материалами."
 
-#: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:811
+#: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:820
 #, python-brace-format
 msgid "{source_usage_key} not found in {parent_usage_key}."
 msgstr "{source_usage_key} не найден в {parent_usage_key}."
 
-#: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:823
+#: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:832
 #, python-brace-format
 msgid ""
 "You can not move {source_usage_key} at an invalid index ({target_index})."
@@ -610,12 +610,12 @@ msgstr ""
 "Невозможно переместить {source_usage_key} на отсутствующую позицию "
 "({target_index})."
 
-#: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:830
+#: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:839
 #, python-brace-format
 msgid "You must provide target_index ({target_index}) as an integer."
 msgstr "Необходимо указать позицию ({target_index}) в виде целого числа."
 
-#: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:1142
+#: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:1154
 #, python-brace-format
 msgid ""
 "Students must score {score}{pct_sign} or higher to access course materials."
@@ -625,11 +625,11 @@ msgstr ""
 
 #. Translators: This is the percent sign. It will be used to represent
 #. a percent value out of 100, e.g. "58%" means "58/100".
-#: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:1147
+#: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:1159
 msgid "%"
 msgstr "%"
 
-#: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:1711
+#: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:1727
 #, python-brace-format
 msgid "{section_or_subsection} \"{display_name}\""
 msgstr "{section_or_subsection} «{display_name}»"
@@ -678,7 +678,7 @@ msgstr "Неверный формат для поля '{name}'. {detailed_messag
 msgid "Dictionary with the available tags"
 msgstr "Словарь тегов"
 
-#: cms/lib/xblock/upstream_sync.py:257
+#: cms/lib/xblock/upstream_sync.py:281
 msgid "Linked `upstream_key` is not a valid key"
 msgstr "Связанный `upstream_key` не является допустимым ключом"
 
@@ -746,7 +746,7 @@ msgstr "Вы зачислены на курс по «Кодексу чести»
 
 #: common/djangoapps/course_modes/helpers.py:48
 #: lms/djangoapps/branding/api.py:329 lms/djangoapps/branding/api.py:404
-#: lms/djangoapps/courseware/views/views.py:2284
+#: lms/djangoapps/courseware/views/views.py:2286
 #: openedx/core/djangoapps/user_authn/views/registration_form.py:1009
 #: lms/templates/static_templates/honor.html:5
 #: lms/templates/static_templates/honor.html:10
@@ -766,7 +766,7 @@ msgstr "Профессиональная подготовка"
 #: common/djangoapps/course_modes/models.py:63 xmodule/annotatable_block.py:69
 #: xmodule/capa_block.py:178 xmodule/conditional_block.py:88
 #: xmodule/discussion_block.py:49 xmodule/html_block.py:56
-#: xmodule/html_block.py:393 xmodule/item_bank_block.py:454
+#: xmodule/html_block.py:407 xmodule/item_bank_block.py:454
 #: xmodule/library_content_block.py:77 xmodule/lti_block.py:131
 #: xmodule/split_test_block.py:82 xmodule/unit_block.py:38
 #: xmodule/word_cloud_block.py:63 xmodule/x_module.py:226
@@ -868,12 +868,30 @@ msgstr "Выбрана некорректная сумма."
 msgid "No selected price or selected price is too low."
 msgstr "Цена не выбрана или выбранная цена ниже минимально допустимой."
 
-#: common/djangoapps/student/admin.py:394
+#: common/djangoapps/student/admin.py:319
+#, python-format
+msgid "Successfully reverted %(count)d selected history entry."
+msgid_plural "Successfully reverted %(count)d selected history entries."
+msgstr[0] "Успешно отменена выбранная запись истории (%(count)d)."
+msgstr[1] "Успешно отменено %(count)d выбранных записей истории."
+msgstr[2] "Успешно отменено %(count)d выбранных записей истории."
+msgstr[3] "Успешно отменено %(count)d выбранных записей истории."
+
+#: common/djangoapps/student/admin.py:349
+#, python-format
+msgid "Successfully deleted %(count)d selected history entry."
+msgid_plural "Successfully deleted %(count)d selected history entries."
+msgstr[0] "Успешно удалена %(count)d выбранная запись истории."
+msgstr[1] "Успешно удалено %(count)d выбранных записей истории."
+msgstr[2] "Успешно удалено %(count)d выбранных записей истории."
+msgstr[3] "Успешно удалено %(count)d выбранных записей истории."
+
+#: common/djangoapps/student/admin.py:520
 msgid "User profile"
 msgstr "Профиль пользователя"
 
-#: common/djangoapps/student/admin.py:401
-#: common/djangoapps/student/admin.py:402
+#: common/djangoapps/student/admin.py:527
+#: common/djangoapps/student/admin.py:528
 msgid "Account recovery"
 msgstr "Восстановление аккаунта"
 
@@ -882,7 +900,7 @@ msgstr "Восстановление аккаунта"
 #. meant to hold the user's password.
 #. Translators: This label appears above a field on the registration form
 #. meant to hold the user's password.
-#: common/djangoapps/student/admin.py:417
+#: common/djangoapps/student/admin.py:543
 #: openedx/core/djangoapps/user_authn/views/login_form.py:117
 #: openedx/core/djangoapps/user_authn/views/registration_form.py:609
 #: lms/templates/provider_login.html:48 lms/templates/provider_login.html:49
@@ -892,7 +910,7 @@ msgstr "Восстановление аккаунта"
 msgid "Password"
 msgstr "Пароль"
 
-#: common/djangoapps/student/admin.py:419
+#: common/djangoapps/student/admin.py:545
 msgid ""
 "Raw passwords are not stored, so there is no way to see this user's "
 "password."
@@ -995,57 +1013,57 @@ msgstr "Нет формального образования"
 msgid "Other education"
 msgstr "Другое образование"
 
-#: common/djangoapps/student/models/user.py:1329
+#: common/djangoapps/student/models/user.py:1364
 #, python-brace-format
 msgid "{platform_name} Honor Code Certificate for {course_name}"
 msgstr ""
 "Сертификат Кодекса чести {platform_name} об окончании курса «{course_name}»"
 
-#: common/djangoapps/student/models/user.py:1330
+#: common/djangoapps/student/models/user.py:1365
 #, python-brace-format
 msgid "{platform_name} Verified Certificate for {course_name}"
 msgstr ""
 "Подтверждённый сертификат {platform_name} об окончании курса «{course_name}»"
 
-#: common/djangoapps/student/models/user.py:1331
-#: common/djangoapps/student/models/user.py:1332
+#: common/djangoapps/student/models/user.py:1366
+#: common/djangoapps/student/models/user.py:1367
 #, python-brace-format
 msgid "{platform_name} Professional Certificate for {course_name}"
 msgstr ""
 "Сертификат повышения квалификации от {platform_name} об окончании курса "
 "«{course_name}»"
 
-#: common/djangoapps/student/models/user.py:1394
+#: common/djangoapps/student/models/user.py:1429
 #, python-brace-format
 msgid "{platform_name} Certificate for {course_name}"
 msgstr "Сертификат {platform_name} об окончании курса «{course_name}»"
 
-#: common/djangoapps/student/models/user.py:1471
-#: common/djangoapps/student/models/user.py:1503
+#: common/djangoapps/student/models/user.py:1506
+#: common/djangoapps/student/models/user.py:1538
 msgid "The ISO 639-1 language code for this language."
 msgstr "Код этого языка по стандарту ISO 639-1."
 
-#: common/djangoapps/student/models/user.py:1534
+#: common/djangoapps/student/models/user.py:1569
 msgid "Name of the UTM cookie"
 msgstr "Имя файла UTM cookie"
 
-#: common/djangoapps/student/models/user.py:1539
+#: common/djangoapps/student/models/user.py:1574
 msgid "Name of the affiliate cookie"
 msgstr "Имя файла cookie партнёра"
 
-#: common/djangoapps/student/models/user.py:1562
+#: common/djangoapps/student/models/user.py:1597
 msgid "Name of this user attribute."
 msgstr "Имя атрибута данного пользователя. "
 
-#: common/djangoapps/student/models/user.py:1563
+#: common/djangoapps/student/models/user.py:1598
 msgid "Value of this user attribute."
 msgstr "Значение атрибута данного пользователя. "
 
-#: common/djangoapps/student/models/user.py:1628
+#: common/djangoapps/student/models/user.py:1663
 msgid "Secondary email address"
 msgstr "Вторичный адрес электронной почты"
 
-#: common/djangoapps/student/models/user.py:1629
+#: common/djangoapps/student/models/user.py:1664
 msgid "Secondary email address to recover linked account."
 msgstr ""
 "Вторичный адрес электронной почты для восстановления связанной учетной "
@@ -2946,7 +2964,7 @@ msgid "Textbooks"
 msgstr "Учебники"
 
 #: lms/djangoapps/courseware/tabs.py:36
-#: lms/djangoapps/courseware/views/views.py:2237
+#: lms/djangoapps/courseware/views/views.py:2239
 #: openedx/features/course_experience/__init__.py:91 xmodule/tabs.py:490
 #: cms/templates/widgets/header.html:89 cms/templates/widgets/header.html:93
 #: cms/templates/widgets/header.html:164 cms/templates/widgets/header.html:292
@@ -2960,11 +2978,11 @@ msgstr "Курс"
 msgid "Syllabus"
 msgstr "Программа обучения"
 
-#: lms/djangoapps/courseware/views/views.py:177
+#: lms/djangoapps/courseware/views/views.py:178
 msgid "Your enrollment: Audit track"
 msgstr "Ваш статус: свободный слушатель"
 
-#: lms/djangoapps/courseware/views/views.py:178
+#: lms/djangoapps/courseware/views/views.py:179
 msgid ""
 "You are enrolled in the audit track for this course. The audit track does "
 "not include a certificate."
@@ -2972,11 +2990,11 @@ msgstr ""
 "Вы записались на этот курс как свободный слушатель без возможности получения"
 " сертификата."
 
-#: lms/djangoapps/courseware/views/views.py:186
+#: lms/djangoapps/courseware/views/views.py:187
 msgid "Your enrollment: Honor track"
 msgstr "Ваша регистрация: Трек чести"
 
-#: lms/djangoapps/courseware/views/views.py:187
+#: lms/djangoapps/courseware/views/views.py:188
 msgid ""
 "You are enrolled in the honor track for this course. The honor track does "
 "not include a certificate."
@@ -2984,11 +3002,11 @@ msgstr ""
 "Вы записались на образовательный трек этого курса без возможности получения "
 "сертификата."
 
-#: lms/djangoapps/courseware/views/views.py:200
+#: lms/djangoapps/courseware/views/views.py:201
 msgid "We're working on it..."
 msgstr "Мы готовим сертификат к выпуску."
 
-#: lms/djangoapps/courseware/views/views.py:202
+#: lms/djangoapps/courseware/views/views.py:203
 msgid ""
 "We're creating your certificate. You can keep working in your courses and a "
 "link to it will appear here and on your Dashboard when it is ready."
@@ -2996,32 +3014,32 @@ msgstr ""
 "Сертификат готовится к выпуску. Продолжайте обучение, и ссылка на сертификат"
 " появится на панели управления, когда он будет готов."
 
-#: lms/djangoapps/courseware/views/views.py:212
+#: lms/djangoapps/courseware/views/views.py:213
 msgid "Your certificate has been invalidated"
 msgstr "Ваш сертификат аннулирован"
 
-#: lms/djangoapps/courseware/views/views.py:213
+#: lms/djangoapps/courseware/views/views.py:214
 msgid "Please contact your course team if you have any questions."
 msgstr "Если у вас есть вопросы, пожалуйста, свяжитесь с командой курса."
 
-#: lms/djangoapps/courseware/views/views.py:221
+#: lms/djangoapps/courseware/views/views.py:222
 msgid "Congratulations, you qualified for a certificate!"
 msgstr "Поздравляем, вам доступен сертификат!"
 
-#: lms/djangoapps/courseware/views/views.py:222
-#: lms/djangoapps/courseware/views/views.py:255
+#: lms/djangoapps/courseware/views/views.py:223
+#: lms/djangoapps/courseware/views/views.py:256
 msgid "You've earned a certificate for this course."
 msgstr "Вы заработали сертификат об окончании этого курса."
 
-#: lms/djangoapps/courseware/views/views.py:254
+#: lms/djangoapps/courseware/views/views.py:255
 msgid "Your certificate is available"
 msgstr "Ваш сертификат готов"
 
-#: lms/djangoapps/courseware/views/views.py:268
+#: lms/djangoapps/courseware/views/views.py:269
 msgid "Certificate unavailable"
 msgstr "Сертификат недоступен"
 
-#: lms/djangoapps/courseware/views/views.py:270
+#: lms/djangoapps/courseware/views/views.py:271
 #, python-brace-format
 msgid ""
 "You have not received a certificate because you do not have a current "
@@ -3030,30 +3048,30 @@ msgstr ""
 "Вы не получили сертификат, поскольку не подтвердили свою личность на "
 "{platform_name}."
 
-#: lms/djangoapps/courseware/views/views.py:573
+#: lms/djangoapps/courseware/views/views.py:574
 #, python-brace-format
 msgid "To see course content, {sign_in_link} or {register_link}."
 msgstr ""
 "Чтобы получить доступ к содержимому курса, {sign_in_link} или "
 "{register_link}."
 
-#: lms/djangoapps/courseware/views/views.py:575
+#: lms/djangoapps/courseware/views/views.py:576
 #: xmodule/discussion_block.py:187
 msgid "sign in"
 msgstr "войдите"
 
-#: lms/djangoapps/courseware/views/views.py:579
-#: lms/djangoapps/courseware/views/views.py:594
+#: lms/djangoapps/courseware/views/views.py:580
+#: lms/djangoapps/courseware/views/views.py:595
 #: xmodule/discussion_block.py:191
 msgid "register"
 msgstr "зарегистрируйтесь"
 
-#: lms/djangoapps/courseware/views/views.py:588
+#: lms/djangoapps/courseware/views/views.py:589
 #, python-brace-format
 msgid "{sign_in_link} or {register_link}."
 msgstr "{sign_in_link} или {register_link}."
 
-#: lms/djangoapps/courseware/views/views.py:590
+#: lms/djangoapps/courseware/views/views.py:591
 #: openedx/core/djangoapps/user_authn/templates/user_authn/edx_ace/passwordresetsuccess/email/body.html:25
 #: lms/templates/header/navbar-not-authenticated.html:63
 #: lms/templates/header/navbar-not-authenticated.html:67
@@ -3062,46 +3080,46 @@ msgstr "{sign_in_link} или {register_link}."
 msgid "Sign in"
 msgstr "Вход"
 
-#: lms/djangoapps/courseware/views/views.py:617
+#: lms/djangoapps/courseware/views/views.py:618
 msgid "You must be enrolled in the course to see course content."
 msgstr "Для доступа к содержимому необходима запись на курс."
 
-#: lms/djangoapps/courseware/views/views.py:1239
+#: lms/djangoapps/courseware/views/views.py:1240
 #: lms/djangoapps/instructor/views/api.py:171
 msgid "User does not exist."
 msgstr "Пользователя не существует."
 
-#: lms/djangoapps/courseware/views/views.py:1246
+#: lms/djangoapps/courseware/views/views.py:1247
 msgid "Invalid location."
 msgstr "Неверное местонахождение."
 
-#: lms/djangoapps/courseware/views/views.py:1260
+#: lms/djangoapps/courseware/views/views.py:1261
 #, python-brace-format
 msgid "User {username} has never accessed problem {location}"
 msgstr "Пользователь {username} не просматривал задание {location}"
 
-#: lms/djangoapps/courseware/views/views.py:1457
+#: lms/djangoapps/courseware/views/views.py:1458
 #, python-brace-format
 msgid "You must be signed in to {platform_name} to create a certificate."
 msgstr "Для создания сертификата вы должны войти в систему {platform_name}."
 
-#: lms/djangoapps/courseware/views/views.py:1467
+#: lms/djangoapps/courseware/views/views.py:1468
 msgid "Course is not valid"
 msgstr "Курс не действительный"
 
-#: lms/djangoapps/courseware/views/views.py:1483
+#: lms/djangoapps/courseware/views/views.py:1484
 msgid "Your certificate will be available when you pass the course."
 msgstr "Вы получите доступ к своему сертификату, когда успешно пройдёте курс."
 
-#: lms/djangoapps/courseware/views/views.py:1496
+#: lms/djangoapps/courseware/views/views.py:1497
 msgid "Certificate has already been created."
 msgstr "Сертификат уже создан"
 
-#: lms/djangoapps/courseware/views/views.py:1498
+#: lms/djangoapps/courseware/views/views.py:1499
 msgid "Certificate is being created."
 msgstr "Создание сертификата"
 
-#: lms/djangoapps/courseware/views/views.py:2244
+#: lms/djangoapps/courseware/views/views.py:2246
 msgid ""
 "Select the course for which you want to earn a verified certificate. If the "
 "course does not appear in the list, make sure that you have enrolled in the "
@@ -3110,35 +3128,35 @@ msgstr ""
 "Выберите курс, за который вы желаете получить подтверждённый сертификат. "
 "Если курса нет в списке, убедитесь в том, что вы записаны на него."
 
-#: lms/djangoapps/discussion/django_comment_client/base/views.py:556
-#: lms/djangoapps/discussion/django_comment_client/base/views.py:621
+#: lms/djangoapps/discussion/django_comment_client/base/views.py:558
+#: lms/djangoapps/discussion/django_comment_client/base/views.py:623
 msgid "Title can't be empty"
 msgstr "Заголовок не может быть  пустым"
 
-#: lms/djangoapps/discussion/django_comment_client/base/views.py:558
-#: lms/djangoapps/discussion/django_comment_client/base/views.py:623
-#: lms/djangoapps/discussion/django_comment_client/base/views.py:665
-#: lms/djangoapps/discussion/django_comment_client/base/views.py:748
+#: lms/djangoapps/discussion/django_comment_client/base/views.py:560
+#: lms/djangoapps/discussion/django_comment_client/base/views.py:625
+#: lms/djangoapps/discussion/django_comment_client/base/views.py:667
+#: lms/djangoapps/discussion/django_comment_client/base/views.py:750
 msgid "Body can't be empty"
 msgstr "Основная часть не может быть пустой"
 
-#: lms/djangoapps/discussion/django_comment_client/base/views.py:640
+#: lms/djangoapps/discussion/django_comment_client/base/views.py:642
 msgid "Topic doesn't exist"
 msgstr "Данная тема не существует"
 
-#: lms/djangoapps/discussion/django_comment_client/base/views.py:714
-#: lms/djangoapps/discussion/django_comment_client/base/views.py:813
+#: lms/djangoapps/discussion/django_comment_client/base/views.py:716
+#: lms/djangoapps/discussion/django_comment_client/base/views.py:815
 msgid "Comment level too deep"
 msgstr "Уровень комментариев слишком глубокий"
 
-#: lms/djangoapps/discussion/django_comment_client/base/views.py:1102
+#: lms/djangoapps/discussion/django_comment_client/base/views.py:1104
 msgid ""
 "Error uploading file. Please contact the site administrator. Thank you."
 msgstr ""
 "Ошибка при загрузке файла. Пожалуйста, свяжитесь с администратором сайта. "
 "Спасибо."
 
-#: lms/djangoapps/discussion/django_comment_client/base/views.py:1105
+#: lms/djangoapps/discussion/django_comment_client/base/views.py:1107
 msgid "Good"
 msgstr "Хорошо"
 
@@ -3734,6 +3752,14 @@ msgstr "Завершено"
 msgid "Incomplete"
 msgstr "Не завершено"
 
+#: lms/djangoapps/instructor/views/serializer.py:496
+msgid "Whether to reset for all students."
+msgstr "Сбросить для всех студентов."
+
+#: lms/djangoapps/instructor/views/serializer.py:501
+msgid "Whether to delete entrance exam state for the student."
+msgstr "Следует ли удалить состояние вступительного экзамена для студента."
+
 #: lms/djangoapps/instructor/views/serializer.py:535
 msgid "all_students and unique_student_identifier are mutually exclusive."
 msgstr "all_students и unique_student_identifier исключают друг друга."
@@ -3741,6 +3767,22 @@ msgstr "all_students и unique_student_identifier исключают друг д
 #: lms/djangoapps/instructor/views/serializer.py:539
 msgid "all_students and delete_module are mutually exclusive."
 msgstr "all_students и delete_module исключают друг друга."
+
+#: lms/djangoapps/instructor/views/serializer.py:543
+msgid ""
+"You must provide either unique_student_identifier or set all_students to "
+"True."
+msgstr ""
+"Вы должны указать либо unique_student_identifier, либо установить "
+"all_students в True."
+
+#: lms/djangoapps/instructor/views/serializer.py:565
+msgid "The URL name of the problem to override the score for."
+msgstr "Название URL задачи, для которой нужно изменить оценку."
+
+#: lms/djangoapps/instructor/views/serializer.py:571
+msgid "The overriding score to set."
+msgstr "Переопределяющий балл для установки."
 
 #: lms/djangoapps/instructor/views/tools.py:79
 #, python-brace-format
@@ -4167,6 +4209,16 @@ msgid ""
 msgstr ""
 "Список наборов групп, на которые будут поделены слушатели для изучения "
 "экспериментальных материалов."
+
+#: lms/djangoapps/lti_provider/models.py:44
+msgid ""
+"When checked, the platform will automatically use any personal information "
+"provided via LTI to create an account. Otherwise an anonymous account will "
+"be created."
+msgstr ""
+"Когда установлено, платформа автоматически использует любую личную "
+"информацию, предоставленную через LTI, для создания учётной записи. В "
+"противном случае будет создана анонимная учётная запись."
 
 #: lms/djangoapps/support/views/index.py:16
 msgid "View and regenerate certificates."
@@ -4952,7 +5004,7 @@ msgstr "Удалить статью"
 #: wiki/plugins/attachments/templates/wiki/plugins/attachments/delete.html:9
 #: wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html:35
 #: wiki/templates/wiki/delete.html:7 cms/templates/component.html:32
-#: cms/templates/studio_xblock_wrapper.html:202
+#: cms/templates/studio_xblock_wrapper.html:214
 msgid "Delete"
 msgstr "Удалить"
 
@@ -4992,7 +5044,7 @@ msgstr "Вы собираетесь удалить статью. Пожалуй�
 #: lms/templates/wiki/edit.html:4 wiki/templates/wiki/edit.html:4
 #: wiki/templates/wiki/includes/article_menu.html:34
 #: cms/templates/component.html:13 cms/templates/container.html:201
-#: cms/templates/studio_xblock_wrapper.html:157
+#: cms/templates/studio_xblock_wrapper.html:169
 #: lms/templates/wiki/includes/article_menu.html:22
 msgid "Edit"
 msgstr "Редактировать"
@@ -5914,7 +5966,7 @@ msgstr "Добавить страну «{country}» в белый список �
 msgid "Blacklist {country} for {course}"
 msgstr "Добавить страну «{country}» в чёрный список курса «{course}»"
 
-#: openedx/core/djangoapps/notifications/email/utils.py:427
+#: openedx/core/djangoapps/notifications/email/utils.py:441
 #: openedx/features/course_experience/plugins.py:34
 #: cms/templates/widgets/header.html:115 cms/templates/widgets/header.html:120
 #: lms/templates/api_admin/terms_of_service.html:66
@@ -6336,7 +6388,7 @@ msgstr ""
 msgid "The '{field_name}' field cannot be edited."
 msgstr "Поле '{field_name}' не может быть отредактировано."
 
-#: openedx/core/djangoapps/user_api/accounts/views.py:625
+#: openedx/core/djangoapps/user_api/accounts/views.py:637
 msgid ""
 "This account has been temporarily locked due to excessive login failures. "
 "Try again later."
@@ -6344,7 +6396,7 @@ msgstr ""
 "Эта учётная запись временно заблокирована из-за многочисленных неудачных "
 "попыток входа. Повторите попытку позже."
 
-#: openedx/core/djangoapps/user_api/accounts/views.py:635
+#: openedx/core/djangoapps/user_api/accounts/views.py:647
 #: openedx/core/djangoapps/user_authn/views/login.py:311
 #: lms/templates/provider_login.html:43
 msgid "Email or password is incorrect."
@@ -6365,8 +6417,8 @@ msgid "Success"
 msgstr "Успех"
 
 #: openedx/core/djangoapps/user_api/admin.py:118
-#: cms/templates/studio_xblock_wrapper.html:162
-#: cms/templates/studio_xblock_wrapper.html:164
+#: cms/templates/studio_xblock_wrapper.html:174
+#: cms/templates/studio_xblock_wrapper.html:176
 #: lms/templates/staff_problem_info.html:66
 msgid "Actions"
 msgstr "Действия"
@@ -7096,8 +7148,8 @@ msgstr "Содержание пояснения в формате XML"
 
 #: xmodule/annotatable_block.py:70 xmodule/capa_block.py:179
 #: xmodule/conditional_block.py:89 xmodule/discussion_block.py:50
-#: xmodule/html_block.py:57 xmodule/html_block.py:368
-#: xmodule/html_block.py:394 xmodule/item_bank_block.py:455
+#: xmodule/html_block.py:57 xmodule/html_block.py:382
+#: xmodule/html_block.py:408 xmodule/item_bank_block.py:455
 #: xmodule/library_content_block.py:78 xmodule/library_root_xblock.py:30
 #: xmodule/poll_block.py:52 xmodule/unit_block.py:39
 #: xmodule/video_block/video_xfields.py:20 xmodule/word_cloud_block.py:64
@@ -7764,7 +7816,7 @@ msgstr ""
 "Исходный код заданий в формате LaTeX и Word. Данная функция поддерживается "
 "не полностью."
 
-#: xmodule/capa_block.py:330 xmodule/html_block.py:69
+#: xmodule/capa_block.py:330 xmodule/html_block.py:76
 msgid "Enable LaTeX templates?"
 msgstr "Разрешить использование шаблонов LaTeX?"
 
@@ -8893,28 +8945,32 @@ msgstr "Создано"
 
 #. Translators: "Homework 1 - Unreleased - 0% (?/?)" The section has not been
 #. released for viewing.
-#: xmodule/graders.py:402
+#: xmodule/graders.py:403
 #, python-brace-format
 msgid "{section_type} {index} Unreleased - 0% (?/?)"
 msgstr "{section_type} {index} Нереализовано - 0% (?/?) "
 
-#: xmodule/graders.py:415
+#: xmodule/graders.py:417
 #, python-brace-format
 msgid "The lowest {drop_count} {section_type} scores are dropped."
 msgstr "Самые низкие оценки {drop_count} {section_type} отбрасываются."
 
 #. Translators: Avg is short for Average
-#: xmodule/graders.py:438
+#: xmodule/graders.py:441
 #, python-brace-format
 msgid "{short_label} Avg"
 msgstr "{short_label} Ср"
 
 #: xmodule/html_block.py:65
+msgid "Upstream html contents to store upstream data field"
+msgstr "Верхний HTML-контент для хранения поля данных верхнего уровня"
+
+#: xmodule/html_block.py:72
 msgid "Source code for LaTeX documents. This feature is not well-supported."
 msgstr ""
 "Исходный код для документов LaTeX. Эта функция поддерживается не полностью."
 
-#: xmodule/html_block.py:75
+#: xmodule/html_block.py:82
 msgid ""
 "Select Visual to enter content and have the editor automatically create the "
 "HTML. Select Raw to edit HTML directly. If you change this setting, you must"
@@ -8926,23 +8982,23 @@ msgstr ""
 "вам следует сохранить компонент, а затем вновь открыть его для "
 "редактирования."
 
-#: xmodule/html_block.py:78
+#: xmodule/html_block.py:85
 msgid "Editor"
 msgstr "Редактор"
 
-#: xmodule/html_block.py:81
+#: xmodule/html_block.py:88
 msgid "Visual"
 msgstr "Визуальный"
 
-#: xmodule/html_block.py:82
+#: xmodule/html_block.py:89
 msgid "Raw"
 msgstr "Без обработки"
 
-#: xmodule/html_block.py:399
+#: xmodule/html_block.py:413
 msgid "Hide Page From Learners"
 msgstr "Скрыть страницу от слушателей"
 
-#: xmodule/html_block.py:400
+#: xmodule/html_block.py:414
 msgid ""
 "If you select this option, only course team members with the Staff or Admin "
 "role see this page."
@@ -8950,11 +9006,11 @@ msgstr ""
 "При выборе этой опции только сотрудники и администраторы курса смогут видеть"
 " эту страницу."
 
-#: xmodule/html_block.py:410
+#: xmodule/html_block.py:424
 msgid "HTML for the additional pages"
 msgstr "HTML-код для дополнительных страниц"
 
-#: xmodule/html_block.py:428
+#: xmodule/html_block.py:442
 msgid "List of course update items"
 msgstr "Список объявлений курса"
 
@@ -11484,7 +11540,7 @@ msgid "Tools"
 msgstr "Инструменты"
 
 #: cms/templates/component.html:17
-#: cms/templates/studio_xblock_wrapper.html:196
+#: cms/templates/studio_xblock_wrapper.html:208
 msgid "Duplicate"
 msgstr "Копировать"
 
@@ -11493,7 +11549,7 @@ msgid "Duplicate this component"
 msgstr "Создать копию этого компонента"
 
 #: cms/templates/component.html:23 cms/templates/component.html:28
-#: cms/templates/studio_xblock_wrapper.html:177
+#: cms/templates/studio_xblock_wrapper.html:189
 msgid "Move"
 msgstr "Переместить"
 
@@ -11503,7 +11559,7 @@ msgstr "Удалить этот компонент"
 
 #: cms/templates/component.html:39 cms/templates/edit-tabs.html:146
 #: cms/templates/edit-tabs.html:147
-#: cms/templates/studio_xblock_wrapper.html:211
+#: cms/templates/studio_xblock_wrapper.html:228
 msgid "Drag to reorder"
 msgstr "Перетащите для изменения порядка"
 
@@ -14266,12 +14322,31 @@ msgstr ""
 "работы и экзамены, и указать, какую часть оценки составляют задания каждого "
 "типа."
 
-#: cms/templates/studio_xblock_wrapper.html:99
-#: cms/templates/studio_xblock_wrapper.html:101
+#: cms/templates/studio_xblock_wrapper.html:100
+#: cms/templates/studio_xblock_wrapper.html:102
 msgid "Expand or Collapse"
 msgstr "Развернуть/свернуть"
 
-#: cms/templates/studio_xblock_wrapper.html:223
+#: cms/templates/studio_xblock_wrapper.html:123
+msgid ""
+"Sourced from a library - but has been modified locally.Sourced from a "
+"library."
+msgstr "Получено из библиотеки, но изменено локально. Получено из библиотеки."
+
+#: cms/templates/studio_xblock_wrapper.html:127
+msgid "Sourced from a library - but has been modified locally."
+msgstr "Получено из библиотеки, но изменено локально."
+
+#: cms/templates/studio_xblock_wrapper.html:144
+#: cms/templates/studio_xblock_wrapper.html:146
+msgid "Edit Title"
+msgstr "Редактировать название"
+
+#: cms/templates/studio_xblock_wrapper.html:219
+msgid "Unlink from Library"
+msgstr "Отменить привязку от Библиотеки"
+
+#: cms/templates/studio_xblock_wrapper.html:239
 msgid "This block contains multiple components."
 msgstr "Этот блок содержит несколько компонентов."
 
@@ -15509,24 +15584,24 @@ msgstr "Загрузки и субтитры"
 msgid "Download video file"
 msgstr "Скачать видео"
 
-#: lms/templates/video.html:138
+#: lms/templates/video.html:121
 msgid "Transcripts"
 msgstr "Субтитры"
 
-#: lms/templates/video.html:144
+#: lms/templates/video.html:127
 #, python-brace-format
 msgid "Download {file}"
 msgstr "Скачать {file}"
 
-#: lms/templates/video.html:150
+#: lms/templates/video.html:133
 msgid "Download transcript"
 msgstr "Скачать текст"
 
-#: lms/templates/video.html:156
+#: lms/templates/video.html:139
 msgid "Handouts"
 msgstr "Дополнительные материалы"
 
-#: lms/templates/video.html:157
+#: lms/templates/video.html:140
 msgid "Download Handout"
 msgstr "Скачать материалы"
 

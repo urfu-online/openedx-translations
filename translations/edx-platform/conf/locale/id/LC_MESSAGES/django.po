@@ -32,7 +32,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-08-22 00:39+0000\n"
+"POT-Creation-Date: 2025-09-19 00:44+0000\n"
 "PO-Revision-Date: 2023-11-20 11:35+0000\n"
 "Last-Translator: Brian Smith, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/open-edx/teams/6205/id/)\n"
@@ -84,11 +84,11 @@ msgstr "Tidak dapat menentukan branch, repo dalam mode detached HEAD"
 msgid "Unable to update or clone git repository."
 msgstr "Tidak dapat memperbarui atau mengklon repository git."
 
-#: cms/djangoapps/contentstore/helpers.py:204
+#: cms/djangoapps/contentstore/helpers.py:205
 msgid "Vertical"
 msgstr "Vertikal"
 
-#: cms/djangoapps/contentstore/helpers.py:212
+#: cms/djangoapps/contentstore/helpers.py:213
 #: lms/djangoapps/instructor/views/tools.py:241
 #: lms/djangoapps/instructor/views/tools.py:253 xmodule/unit_block.py:41
 #: lms/templates/ccx/schedule.html:94 lms/templates/seq_block.html:106
@@ -96,11 +96,11 @@ msgstr "Vertikal"
 msgid "Unit"
 msgstr "Unit"
 
-#: cms/djangoapps/contentstore/models.py:180
+#: cms/djangoapps/contentstore/models.py:184
 msgid "The component must be published to access `published_at`"
 msgstr "Komponen harus diterbitkan untuk mengakses `published_at`"
 
-#: cms/djangoapps/contentstore/models.py:351
+#: cms/djangoapps/contentstore/models.py:355
 msgid "The container must be published to access `published_at`"
 msgstr "Kontainer harus diterbitkan untuk mengakses `published_at`"
 
@@ -250,7 +250,7 @@ msgstr "Isi dengan integer positif bukan nol"
 #: lms/djangoapps/courseware/tabs.py:241
 #: lms/djangoapps/discussion/plugins.py:27
 #: openedx/core/djangoapps/discussions/plugins.py:23
-#: openedx/core/djangoapps/notifications/email/utils.py:426
+#: openedx/core/djangoapps/notifications/email/utils.py:440
 #: openedx/features/lti_course_tab/tab.py:274 xmodule/discussion_block.py:198
 #: lms/djangoapps/discussion/templates/discussion/discussion_profile_page.html:48
 #: lms/templates/ux/reference/bootstrap/course-skeleton.html:24
@@ -343,7 +343,7 @@ msgstr "Kosong"
 
 #. Translators: This is the percent sign. It will be used to represent
 #. a percent value out of 100, e.g. "58%" means "58/100".
-#: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:1147
+#: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:1159
 msgid "%"
 msgstr "%"
 
@@ -383,7 +383,7 @@ msgstr ""
 "Catatan tambahan tentang pengguna ini (misalnya, kenapa akses pembuatan "
 "kursus ditolak)"
 
-#: cms/lib/xblock/upstream_sync.py:257
+#: cms/lib/xblock/upstream_sync.py:281
 msgid "Linked `upstream_key` is not a valid key"
 msgstr "Kunci `upstream_key` yang terhubung tidak valid"
 
@@ -447,7 +447,7 @@ msgstr "Anda terdaftar sebagai pelajar kode kehormatan"
 
 #: common/djangoapps/course_modes/helpers.py:48
 #: lms/djangoapps/branding/api.py:329 lms/djangoapps/branding/api.py:404
-#: lms/djangoapps/courseware/views/views.py:2284
+#: lms/djangoapps/courseware/views/views.py:2286
 #: openedx/core/djangoapps/user_authn/views/registration_form.py:1009
 #: lms/templates/static_templates/honor.html:5
 #: lms/templates/static_templates/honor.html:10
@@ -467,7 +467,7 @@ msgstr "Edukasi Profesional"
 #: common/djangoapps/course_modes/models.py:63 xmodule/annotatable_block.py:69
 #: xmodule/capa_block.py:178 xmodule/conditional_block.py:88
 #: xmodule/discussion_block.py:49 xmodule/html_block.py:56
-#: xmodule/html_block.py:393 xmodule/item_bank_block.py:454
+#: xmodule/html_block.py:407 xmodule/item_bank_block.py:454
 #: xmodule/library_content_block.py:77 xmodule/lti_block.py:131
 #: xmodule/split_test_block.py:82 xmodule/unit_block.py:38
 #: xmodule/word_cloud_block.py:63 xmodule/x_module.py:226
@@ -564,12 +564,24 @@ msgstr "Jumlah yang tidak valid dipilih."
 msgid "No selected price or selected price is too low."
 msgstr "Harga belum dipilih atau harga pilihan terlalu rendah."
 
-#: common/djangoapps/student/admin.py:394
+#: common/djangoapps/student/admin.py:319
+#, python-format
+msgid "Successfully reverted %(count)d selected history entry."
+msgid_plural "Successfully reverted %(count)d selected history entries."
+msgstr[0] "Berhasil mengembalikan %(count)d entri riwayat yang dipilih."
+
+#: common/djangoapps/student/admin.py:349
+#, python-format
+msgid "Successfully deleted %(count)d selected history entry."
+msgid_plural "Successfully deleted %(count)d selected history entries."
+msgstr[0] "Berhasil menghapus %(count)d entri riwayat yang dipilih."
+
+#: common/djangoapps/student/admin.py:520
 msgid "User profile"
 msgstr "Profil pengguna"
 
-#: common/djangoapps/student/admin.py:401
-#: common/djangoapps/student/admin.py:402
+#: common/djangoapps/student/admin.py:527
+#: common/djangoapps/student/admin.py:528
 msgid "Account recovery"
 msgstr "Pemulihan Akun"
 
@@ -578,7 +590,7 @@ msgstr "Pemulihan Akun"
 #. meant to hold the user's password.
 #. Translators: This label appears above a field on the registration form
 #. meant to hold the user's password.
-#: common/djangoapps/student/admin.py:417
+#: common/djangoapps/student/admin.py:543
 #: openedx/core/djangoapps/user_authn/views/login_form.py:117
 #: openedx/core/djangoapps/user_authn/views/registration_form.py:609
 #: lms/templates/provider_login.html:48 lms/templates/provider_login.html:49
@@ -588,7 +600,7 @@ msgstr "Pemulihan Akun"
 msgid "Password"
 msgstr "Sandi"
 
-#: common/djangoapps/student/admin.py:419
+#: common/djangoapps/student/admin.py:545
 msgid ""
 "Raw passwords are not stored, so there is no way to see this user's "
 "password."
@@ -690,53 +702,53 @@ msgstr "Tidak ada pendidikan formal"
 msgid "Other education"
 msgstr "Pendidikan formal lain"
 
-#: common/djangoapps/student/models/user.py:1329
+#: common/djangoapps/student/models/user.py:1364
 #, python-brace-format
 msgid "{platform_name} Honor Code Certificate for {course_name}"
 msgstr "{platform_name} Sertifikat Kode Honor untuk {course_name}"
 
-#: common/djangoapps/student/models/user.py:1330
+#: common/djangoapps/student/models/user.py:1365
 #, python-brace-format
 msgid "{platform_name} Verified Certificate for {course_name}"
 msgstr "{platform_name} Sertifikat Terverifikasi untuk {course_name}"
 
-#: common/djangoapps/student/models/user.py:1331
-#: common/djangoapps/student/models/user.py:1332
+#: common/djangoapps/student/models/user.py:1366
+#: common/djangoapps/student/models/user.py:1367
 #, python-brace-format
 msgid "{platform_name} Professional Certificate for {course_name}"
 msgstr "{platform_name} Sertifikasi Profesional untuk {course_name}"
 
-#: common/djangoapps/student/models/user.py:1394
+#: common/djangoapps/student/models/user.py:1429
 #, python-brace-format
 msgid "{platform_name} Certificate for {course_name}"
 msgstr "{platform_name} Sertifikat untuk {course_name}"
 
-#: common/djangoapps/student/models/user.py:1471
-#: common/djangoapps/student/models/user.py:1503
+#: common/djangoapps/student/models/user.py:1506
+#: common/djangoapps/student/models/user.py:1538
 msgid "The ISO 639-1 language code for this language."
 msgstr "Kode ISO 639-1 untuk bahasa ini."
 
-#: common/djangoapps/student/models/user.py:1534
+#: common/djangoapps/student/models/user.py:1569
 msgid "Name of the UTM cookie"
 msgstr "Nama cookie UTM"
 
-#: common/djangoapps/student/models/user.py:1539
+#: common/djangoapps/student/models/user.py:1574
 msgid "Name of the affiliate cookie"
 msgstr "Nama cookie afiliasi"
 
-#: common/djangoapps/student/models/user.py:1562
+#: common/djangoapps/student/models/user.py:1597
 msgid "Name of this user attribute."
 msgstr "Nama atribut pengguna ini"
 
-#: common/djangoapps/student/models/user.py:1563
+#: common/djangoapps/student/models/user.py:1598
 msgid "Value of this user attribute."
 msgstr "Nilai atribut pengguna ini"
 
-#: common/djangoapps/student/models/user.py:1628
+#: common/djangoapps/student/models/user.py:1663
 msgid "Secondary email address"
 msgstr "Alamat email sekunder"
 
-#: common/djangoapps/student/models/user.py:1629
+#: common/djangoapps/student/models/user.py:1664
 msgid "Secondary email address to recover linked account."
 msgstr "Alamat email sekunder digunakan untuk memulihkan akun yang terhubung"
 
@@ -2573,7 +2585,7 @@ msgid "Textbooks"
 msgstr "Buku teks"
 
 #: lms/djangoapps/courseware/tabs.py:36
-#: lms/djangoapps/courseware/views/views.py:2237
+#: lms/djangoapps/courseware/views/views.py:2239
 #: openedx/features/course_experience/__init__.py:91 xmodule/tabs.py:490
 #: cms/templates/widgets/header.html:89 cms/templates/widgets/header.html:93
 #: cms/templates/widgets/header.html:164 cms/templates/widgets/header.html:292
@@ -2587,11 +2599,11 @@ msgstr "Kursus"
 msgid "Syllabus"
 msgstr "Silabus"
 
-#: lms/djangoapps/courseware/views/views.py:177
+#: lms/djangoapps/courseware/views/views.py:178
 msgid "Your enrollment: Audit track"
 msgstr "Pendaftaran Anda: Jalur Audit"
 
-#: lms/djangoapps/courseware/views/views.py:178
+#: lms/djangoapps/courseware/views/views.py:179
 msgid ""
 "You are enrolled in the audit track for this course. The audit track does "
 "not include a certificate."
@@ -2599,11 +2611,11 @@ msgstr ""
 "Anda terdaftar di jalur audit untuk pelatihan ini. Jalur audit tidak "
 "termasuk sertifikat."
 
-#: lms/djangoapps/courseware/views/views.py:186
+#: lms/djangoapps/courseware/views/views.py:187
 msgid "Your enrollment: Honor track"
 msgstr "Pendaftaran Anda: Jalur Kehormatan"
 
-#: lms/djangoapps/courseware/views/views.py:187
+#: lms/djangoapps/courseware/views/views.py:188
 msgid ""
 "You are enrolled in the honor track for this course. The honor track does "
 "not include a certificate."
@@ -2611,11 +2623,11 @@ msgstr ""
 "Anda terdaftar di jalur kehormatan untuk pelatihan ini. Jalur kehormatan "
 "tidak termasuk sertifikat."
 
-#: lms/djangoapps/courseware/views/views.py:200
+#: lms/djangoapps/courseware/views/views.py:201
 msgid "We're working on it..."
 msgstr "Kami sedang memproses..."
 
-#: lms/djangoapps/courseware/views/views.py:202
+#: lms/djangoapps/courseware/views/views.py:203
 msgid ""
 "We're creating your certificate. You can keep working in your courses and a "
 "link to it will appear here and on your Dashboard when it is ready."
@@ -2624,32 +2636,32 @@ msgstr ""
 "pelatihan dan tautan ke pelatihan akan muncul di sini dan di Dasbor Anda "
 "saat sudah siap."
 
-#: lms/djangoapps/courseware/views/views.py:212
+#: lms/djangoapps/courseware/views/views.py:213
 msgid "Your certificate has been invalidated"
 msgstr "Sertifikat Anda sudah tidak berlaku lagi"
 
-#: lms/djangoapps/courseware/views/views.py:213
+#: lms/djangoapps/courseware/views/views.py:214
 msgid "Please contact your course team if you have any questions."
 msgstr "Harap hubungi tim pelatihan Anda jika Anda memiliki pertanyaan."
 
-#: lms/djangoapps/courseware/views/views.py:221
+#: lms/djangoapps/courseware/views/views.py:222
 msgid "Congratulations, you qualified for a certificate!"
 msgstr "Selamat, Anda bisa mendapatkan sertifikat!"
 
-#: lms/djangoapps/courseware/views/views.py:222
-#: lms/djangoapps/courseware/views/views.py:255
+#: lms/djangoapps/courseware/views/views.py:223
+#: lms/djangoapps/courseware/views/views.py:256
 msgid "You've earned a certificate for this course."
 msgstr "Anda telah mendapatkan sertifikat untuk pelatihan ini."
 
-#: lms/djangoapps/courseware/views/views.py:254
+#: lms/djangoapps/courseware/views/views.py:255
 msgid "Your certificate is available"
 msgstr "Sertifikat Anda sudah tersedia"
 
-#: lms/djangoapps/courseware/views/views.py:268
+#: lms/djangoapps/courseware/views/views.py:269
 msgid "Certificate unavailable"
 msgstr "Sertifikat Tidak Tersedia"
 
-#: lms/djangoapps/courseware/views/views.py:270
+#: lms/djangoapps/courseware/views/views.py:271
 #, python-brace-format
 msgid ""
 "You have not received a certificate because you do not have a current "
@@ -2658,23 +2670,23 @@ msgstr ""
 "Anda belum menerima sertifikat karena Anda tidak memiliki identitas "
 "terverifikasi {platform_name} saat ini."
 
-#: lms/djangoapps/courseware/views/views.py:573
+#: lms/djangoapps/courseware/views/views.py:574
 #, python-brace-format
 msgid "To see course content, {sign_in_link} or {register_link}."
 msgstr "Untuk melihat konten pelatihan, {sign_in_link} atau {register_link}."
 
-#: lms/djangoapps/courseware/views/views.py:575
+#: lms/djangoapps/courseware/views/views.py:576
 #: xmodule/discussion_block.py:187
 msgid "sign in"
 msgstr "sign in"
 
-#: lms/djangoapps/courseware/views/views.py:579
-#: lms/djangoapps/courseware/views/views.py:594
+#: lms/djangoapps/courseware/views/views.py:580
+#: lms/djangoapps/courseware/views/views.py:595
 #: xmodule/discussion_block.py:191
 msgid "register"
 msgstr "Daftar/Register"
 
-#: lms/djangoapps/courseware/views/views.py:590
+#: lms/djangoapps/courseware/views/views.py:591
 #: openedx/core/djangoapps/user_authn/templates/user_authn/edx_ace/passwordresetsuccess/email/body.html:25
 #: lms/templates/header/navbar-not-authenticated.html:63
 #: lms/templates/header/navbar-not-authenticated.html:67
@@ -2683,46 +2695,46 @@ msgstr "Daftar/Register"
 msgid "Sign in"
 msgstr "Masuk"
 
-#: lms/djangoapps/courseware/views/views.py:617
+#: lms/djangoapps/courseware/views/views.py:618
 msgid "You must be enrolled in the course to see course content."
 msgstr "Anda harus terdaftar di pelatihan untuk melihat konten pelatihan."
 
-#: lms/djangoapps/courseware/views/views.py:1239
+#: lms/djangoapps/courseware/views/views.py:1240
 #: lms/djangoapps/instructor/views/api.py:171
 msgid "User does not exist."
 msgstr "Pengguna tidak ada."
 
-#: lms/djangoapps/courseware/views/views.py:1246
+#: lms/djangoapps/courseware/views/views.py:1247
 msgid "Invalid location."
 msgstr "Lokasi tidak valid."
 
-#: lms/djangoapps/courseware/views/views.py:1260
+#: lms/djangoapps/courseware/views/views.py:1261
 #, python-brace-format
 msgid "User {username} has never accessed problem {location}"
 msgstr "Pengguna {username} belum pernah mengakses problem {location}"
 
-#: lms/djangoapps/courseware/views/views.py:1457
+#: lms/djangoapps/courseware/views/views.py:1458
 #, python-brace-format
 msgid "You must be signed in to {platform_name} to create a certificate."
 msgstr "Anda harus sign in ke {platform_name} untuk membuat sertifikat."
 
-#: lms/djangoapps/courseware/views/views.py:1467
+#: lms/djangoapps/courseware/views/views.py:1468
 msgid "Course is not valid"
 msgstr "Pelatihan tidak valid"
 
-#: lms/djangoapps/courseware/views/views.py:1483
+#: lms/djangoapps/courseware/views/views.py:1484
 msgid "Your certificate will be available when you pass the course."
 msgstr "Sertifikat Anda akan tersedia saat Anda lulus pelatihan."
 
-#: lms/djangoapps/courseware/views/views.py:1496
+#: lms/djangoapps/courseware/views/views.py:1497
 msgid "Certificate has already been created."
 msgstr "Sertifikat telah dibuat. "
 
-#: lms/djangoapps/courseware/views/views.py:1498
+#: lms/djangoapps/courseware/views/views.py:1499
 msgid "Certificate is being created."
 msgstr "Sertifikat sedang dibuat."
 
-#: lms/djangoapps/courseware/views/views.py:2244
+#: lms/djangoapps/courseware/views/views.py:2246
 msgid ""
 "Select the course for which you want to earn a verified certificate. If the "
 "course does not appear in the list, make sure that you have enrolled in the "
@@ -2732,35 +2744,35 @@ msgstr ""
 "terverifikasi. Jika pelatihan tidak muncul dalam daftar, pastikan Anda "
 "mendaftar di jalur audit untuk pelatihan tersebut."
 
-#: lms/djangoapps/discussion/django_comment_client/base/views.py:556
-#: lms/djangoapps/discussion/django_comment_client/base/views.py:621
+#: lms/djangoapps/discussion/django_comment_client/base/views.py:558
+#: lms/djangoapps/discussion/django_comment_client/base/views.py:623
 msgid "Title can't be empty"
 msgstr "Judul tidak dapat kosong"
 
-#: lms/djangoapps/discussion/django_comment_client/base/views.py:558
-#: lms/djangoapps/discussion/django_comment_client/base/views.py:623
-#: lms/djangoapps/discussion/django_comment_client/base/views.py:665
-#: lms/djangoapps/discussion/django_comment_client/base/views.py:748
+#: lms/djangoapps/discussion/django_comment_client/base/views.py:560
+#: lms/djangoapps/discussion/django_comment_client/base/views.py:625
+#: lms/djangoapps/discussion/django_comment_client/base/views.py:667
+#: lms/djangoapps/discussion/django_comment_client/base/views.py:750
 msgid "Body can't be empty"
 msgstr "Badan tidak dapat kosong"
 
-#: lms/djangoapps/discussion/django_comment_client/base/views.py:640
+#: lms/djangoapps/discussion/django_comment_client/base/views.py:642
 msgid "Topic doesn't exist"
 msgstr "Topik tidak ada"
 
-#: lms/djangoapps/discussion/django_comment_client/base/views.py:714
-#: lms/djangoapps/discussion/django_comment_client/base/views.py:813
+#: lms/djangoapps/discussion/django_comment_client/base/views.py:716
+#: lms/djangoapps/discussion/django_comment_client/base/views.py:815
 msgid "Comment level too deep"
 msgstr "Level comment terlalu dalam"
 
-#: lms/djangoapps/discussion/django_comment_client/base/views.py:1102
+#: lms/djangoapps/discussion/django_comment_client/base/views.py:1104
 msgid ""
 "Error uploading file. Please contact the site administrator. Thank you."
 msgstr ""
 "Terjadi kesalahan unggah berkas. Mohon kontak administrator situs. Terima "
 "kasih."
 
-#: lms/djangoapps/discussion/django_comment_client/base/views.py:1105
+#: lms/djangoapps/discussion/django_comment_client/base/views.py:1107
 msgid "Good"
 msgstr "Baik"
 
@@ -3360,6 +3372,10 @@ msgstr ""
 "Anda harus menyediakan unique_student_identifier atau mengatur all_students "
 "ke True."
 
+#: lms/djangoapps/instructor/views/serializer.py:565
+msgid "The URL name of the problem to override the score for."
+msgstr "Nama url dari masalah yang akan diubah skornya."
+
 #: lms/djangoapps/instructor/views/serializer.py:571
 msgid "The overriding score to set."
 msgstr "Skor pengganti yang akan ditetapkan."
@@ -3648,6 +3664,16 @@ msgid ""
 "The list of group configurations for partitioning students in content "
 "experiments."
 msgstr "Daftar Konfigurasi Grup untuk membagi siswa dalam percobaan konten."
+
+#: lms/djangoapps/lti_provider/models.py:44
+msgid ""
+"When checked, the platform will automatically use any personal information "
+"provided via LTI to create an account. Otherwise an anonymous account will "
+"be created."
+msgstr ""
+"Ketika dicentang, platform akan secara otomatis menggunakan informasi "
+"pribadi yang diberikan melalui LTI untuk membuat akun. Jika tidak, akun "
+"anonim akan dibuat."
 
 #: lms/djangoapps/support/views/index.py:20
 #: lms/templates/ccx/coach_dashboard.html:60
@@ -4132,7 +4158,7 @@ msgstr "Hapus artikel"
 #: wiki/plugins/attachments/templates/wiki/plugins/attachments/delete.html:9
 #: wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html:35
 #: wiki/templates/wiki/delete.html:7 cms/templates/component.html:32
-#: cms/templates/studio_xblock_wrapper.html:202
+#: cms/templates/studio_xblock_wrapper.html:214
 msgid "Delete"
 msgstr "Hapus"
 
@@ -4171,7 +4197,7 @@ msgstr "Anda akan menghapus artikel. Mohon konfirmasi."
 #: lms/templates/wiki/edit.html:4 wiki/templates/wiki/edit.html:4
 #: wiki/templates/wiki/includes/article_menu.html:34
 #: cms/templates/component.html:13 cms/templates/container.html:201
-#: cms/templates/studio_xblock_wrapper.html:157
+#: cms/templates/studio_xblock_wrapper.html:169
 #: lms/templates/wiki/includes/article_menu.html:22
 msgid "Edit"
 msgstr "Ubah"
@@ -4661,7 +4687,7 @@ msgstr "Daftar putihkan {country} untuk {course}"
 msgid "Blacklist {country} for {course}"
 msgstr "Daftar hitamkan {country} untuk {course}"
 
-#: openedx/core/djangoapps/notifications/email/utils.py:427
+#: openedx/core/djangoapps/notifications/email/utils.py:441
 #: openedx/features/course_experience/plugins.py:34
 #: cms/templates/widgets/header.html:115 cms/templates/widgets/header.html:120
 #: lms/templates/api_admin/terms_of_service.html:66
@@ -4946,7 +4972,7 @@ msgstr "Masukkan alamat email anda minimal {min} karakter."
 msgid "The '{field_name}' field cannot be edited."
 msgstr "Isian '{field_name}' tidak dapat diubah."
 
-#: openedx/core/djangoapps/user_api/accounts/views.py:625
+#: openedx/core/djangoapps/user_api/accounts/views.py:637
 msgid ""
 "This account has been temporarily locked due to excessive login failures. "
 "Try again later."
@@ -4954,7 +4980,7 @@ msgstr ""
 "Akun ini telah dikunci sementara karena gagal login terlalu banyak. Coba "
 "lagi lain kali."
 
-#: openedx/core/djangoapps/user_api/accounts/views.py:635
+#: openedx/core/djangoapps/user_api/accounts/views.py:647
 #: openedx/core/djangoapps/user_authn/views/login.py:311
 #: lms/templates/provider_login.html:43
 msgid "Email or password is incorrect."
@@ -4971,8 +4997,8 @@ msgid "Success"
 msgstr "Berhasil"
 
 #: openedx/core/djangoapps/user_api/admin.py:118
-#: cms/templates/studio_xblock_wrapper.html:162
-#: cms/templates/studio_xblock_wrapper.html:164
+#: cms/templates/studio_xblock_wrapper.html:174
+#: cms/templates/studio_xblock_wrapper.html:176
 #: lms/templates/staff_problem_info.html:66
 msgid "Actions"
 msgstr "Tindakan"
@@ -5552,8 +5578,8 @@ msgstr "Data XML untuk anotasi"
 
 #: xmodule/annotatable_block.py:70 xmodule/capa_block.py:179
 #: xmodule/conditional_block.py:89 xmodule/discussion_block.py:50
-#: xmodule/html_block.py:57 xmodule/html_block.py:368
-#: xmodule/html_block.py:394 xmodule/item_bank_block.py:455
+#: xmodule/html_block.py:57 xmodule/html_block.py:382
+#: xmodule/html_block.py:408 xmodule/item_bank_block.py:455
 #: xmodule/library_content_block.py:78 xmodule/library_root_xblock.py:30
 #: xmodule/poll_block.py:52 xmodule/unit_block.py:39
 #: xmodule/video_block/video_xfields.py:20 xmodule/word_cloud_block.py:64
@@ -6215,7 +6241,7 @@ msgstr ""
 "Sumber kode untuk soal LaTeX dan Word. Fitur ini belum terdukung dengan "
 "baik."
 
-#: xmodule/capa_block.py:330 xmodule/html_block.py:69
+#: xmodule/capa_block.py:330 xmodule/html_block.py:76
 msgid "Enable LaTeX templates?"
 msgstr "Aktifkan template LaTeX?"
 
@@ -7317,28 +7343,32 @@ msgstr "Dihasilkan"
 
 #. Translators: "Homework 1 - Unreleased - 0% (?/?)" The section has not been
 #. released for viewing.
-#: xmodule/graders.py:402
+#: xmodule/graders.py:403
 #, python-brace-format
 msgid "{section_type} {index} Unreleased - 0% (?/?)"
 msgstr "{section_type} {index} Unreleased - 0% (?/?)"
 
-#: xmodule/graders.py:415
+#: xmodule/graders.py:417
 #, python-brace-format
 msgid "The lowest {drop_count} {section_type} scores are dropped."
 msgstr "Nilai terendah {drop_count} {section_type} tidak digunakan."
 
 #. Translators: Avg is short for Average
-#: xmodule/graders.py:438
+#: xmodule/graders.py:441
 #, python-brace-format
 msgid "{short_label} Avg"
 msgstr "{short_label} Rerata"
 
 #: xmodule/html_block.py:65
+msgid "Upstream html contents to store upstream data field"
+msgstr "Konten html hulu untuk menyimpan bidang data hulu"
+
+#: xmodule/html_block.py:72
 msgid "Source code for LaTeX documents. This feature is not well-supported."
 msgstr ""
 "Kode sumber untuk dokumen LaTeX. Fitur ini tidak terdukung dengan baik"
 
-#: xmodule/html_block.py:75
+#: xmodule/html_block.py:82
 msgid ""
 "Select Visual to enter content and have the editor automatically create the "
 "HTML. Select Raw to edit HTML directly. If you change this setting, you must"
@@ -7349,23 +7379,23 @@ msgstr ""
 "mengubah setelan ini, Anda harus menyimpan komponen dan membukanya kembali "
 "untuk mengedit."
 
-#: xmodule/html_block.py:78
+#: xmodule/html_block.py:85
 msgid "Editor"
 msgstr "Editor"
 
-#: xmodule/html_block.py:81
+#: xmodule/html_block.py:88
 msgid "Visual"
 msgstr "Visual"
 
-#: xmodule/html_block.py:82
+#: xmodule/html_block.py:89
 msgid "Raw"
 msgstr "Raw"
 
-#: xmodule/html_block.py:399
+#: xmodule/html_block.py:413
 msgid "Hide Page From Learners"
 msgstr "Sembunyi Halaman Dari Siswa"
 
-#: xmodule/html_block.py:400
+#: xmodule/html_block.py:414
 msgid ""
 "If you select this option, only course team members with the Staff or Admin "
 "role see this page."
@@ -7373,11 +7403,11 @@ msgstr ""
 "Jika Anda memilih opsi ini, hanya anggota tim kursus dan peran Staf atau "
 "Admin yang dapat melihat halaman ini"
 
-#: xmodule/html_block.py:410
+#: xmodule/html_block.py:424
 msgid "HTML for the additional pages"
 msgstr "HTML untuk halaman tambahan"
 
-#: xmodule/html_block.py:428
+#: xmodule/html_block.py:442
 msgid "List of course update items"
 msgstr "Daftar item kursus yang dimutakhirkan"
 
@@ -9829,7 +9859,7 @@ msgid "Tools"
 msgstr "Alat Bantu"
 
 #: cms/templates/component.html:17
-#: cms/templates/studio_xblock_wrapper.html:196
+#: cms/templates/studio_xblock_wrapper.html:208
 msgid "Duplicate"
 msgstr "Duplikasi"
 
@@ -9838,7 +9868,7 @@ msgid "Duplicate this component"
 msgstr "Duplikasi komponen ini"
 
 #: cms/templates/component.html:23 cms/templates/component.html:28
-#: cms/templates/studio_xblock_wrapper.html:177
+#: cms/templates/studio_xblock_wrapper.html:189
 msgid "Move"
 msgstr "Pindahkan"
 
@@ -9848,7 +9878,7 @@ msgstr "Hapus komponen ini"
 
 #: cms/templates/component.html:39 cms/templates/edit-tabs.html:146
 #: cms/templates/edit-tabs.html:147
-#: cms/templates/studio_xblock_wrapper.html:211
+#: cms/templates/studio_xblock_wrapper.html:228
 msgid "Drag to reorder"
 msgstr "Tarik untuk mengurutkan"
 
@@ -10823,6 +10853,27 @@ msgid ""
 msgstr ""
 "Anda dapat membuat beberapa jenis penugasan, seperti pekerjaan rumah, lab, "
 "kuis, dan ujian, dan menentukan bobot masing-masing terhadap nilai peserta."
+
+#: cms/templates/studio_xblock_wrapper.html:123
+msgid ""
+"Sourced from a library - but has been modified locally.Sourced from a "
+"library."
+msgstr ""
+"Berasal dari perpustakaan - tetapi telah dimodifikasi secara lokal. Berasal "
+"dari perpustakaan."
+
+#: cms/templates/studio_xblock_wrapper.html:127
+msgid "Sourced from a library - but has been modified locally."
+msgstr "Berasal dari perpustakaan - tetapi telah dimodifikasi secara lokal."
+
+#: cms/templates/studio_xblock_wrapper.html:144
+#: cms/templates/studio_xblock_wrapper.html:146
+msgid "Edit Title"
+msgstr "Edit Title"
+
+#: cms/templates/studio_xblock_wrapper.html:219
+msgid "Unlink from Library"
+msgstr "Putuskan tautan dari Perpustakaan"
 
 #: cms/templates/textbooks.html:78
 msgid "New Textbook"
@@ -11988,24 +12039,24 @@ msgstr "Unduh dan transkipsikan"
 msgid "Download video file"
 msgstr "Unduh file video"
 
-#: lms/templates/video.html:138
+#: lms/templates/video.html:121
 msgid "Transcripts"
 msgstr "Transkrip"
 
-#: lms/templates/video.html:144
+#: lms/templates/video.html:127
 #, python-brace-format
 msgid "Download {file}"
 msgstr "Unduh {file}"
 
-#: lms/templates/video.html:150
+#: lms/templates/video.html:133
 msgid "Download transcript"
 msgstr "Unduh transkrip"
 
-#: lms/templates/video.html:156
+#: lms/templates/video.html:139
 msgid "Handouts"
 msgstr "Handouts"
 
-#: lms/templates/video.html:157
+#: lms/templates/video.html:140
 msgid "Download Handout"
 msgstr "Unduh Materi"
 

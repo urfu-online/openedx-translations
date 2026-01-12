@@ -67,7 +67,7 @@ msgstr "مقبول"
 
 #: feedback.py:43 feedback.py:168
 msgid "Poor"
-msgstr "مُتَدَنِّي"
+msgstr "متدنّي"
 
 #: feedback.py:78
 msgid "Freeform user prompt"
@@ -174,7 +174,7 @@ msgstr "لا يوجد تصويت"
 
 #: templates/html/feedback.html:17
 msgid "Submit Feedback"
-msgstr "إرسال الملاحظات"
+msgstr "أرسِل ملاحظاتك"
 
 #: templates/html/studio_view.html:5
 msgid ""
@@ -215,7 +215,7 @@ msgstr "صح"
 
 #: templates/html/studio_view.html:39
 msgid "Whether to show the aggregate report to students."
-msgstr "ما إذا كان سَيُعرَض التقرير الإجمالي للطُلّاب."
+msgstr "ما إذا كان سيُعرَض التقرير الإجمالي للطلاب."
 
 #: templates/html/studio_view.html:44
 msgid "Freeform prompt"
@@ -231,7 +231,7 @@ msgstr "تلميح الإدخال الحُر"
 
 #: templates/html/studio_view.html:55
 msgid "This is shown as grayed out text before the student has answered."
-msgstr "سيظهر هذا النص بِلَونٍ رمادي قبل أنْ يُجيب الطالِب."
+msgstr "سيظهر هذا النص بلون رمادي قبل أن يُجيب الطالب."
 
 #: templates/html/studio_view.html:60
 msgid "Likert icon set"
@@ -243,7 +243,7 @@ msgstr "وجوه (سعيد إلى حزين)"
 
 #: templates/html/studio_view.html:63
 msgid "Faces (sad to happy)"
-msgstr "الوُجوه (من الوَجه الحزين إلى السعيد)"
+msgstr "الوجوه (من الوجه الحزين إلى السعيد)"
 
 #: templates/html/studio_view.html:64
 msgid "Numeric"
@@ -304,11 +304,11 @@ msgstr "خيار 5 من Likert"
 
 #: templates/html/studio_view.html:116
 msgid "Example: Poor"
-msgstr "مثال: مُتَدَنِّي"
+msgstr "مثال: متدنّي"
 
 #: templates/html/studio_view.html:123
 msgid "Save"
-msgstr "حفظ"
+msgstr "احفظ"
 
 #: templates/html/studio_view.html:126
 msgid "Cancel"

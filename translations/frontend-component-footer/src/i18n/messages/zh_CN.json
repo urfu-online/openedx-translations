@@ -37,5 +37,11 @@
   "authoring.footer.termsOfService.link.label": "服务条款",
   "authoring.footer.privacyPolicy.link.label": "隐私政策",
   "authoring.footer.accessibilityRequest.link.label": "",
-  "authoring.footer.trademark.message": ""
+  "authoring.footer.trademark.message": "",
+  "footer.usefulLinksTitle": "常用链接",
+  "footer.supportTitle": "UrFU 学生支持",
+  "footer.techSupportTitle": "技术支持",
+  "footer.urfu.orgLine1": "以俄罗斯第一任总统 B.N. 叶利钦命名的乌拉尔联邦大学",
+  "footer.urfu.orgLine2": "新教育技术与视听教学手段中心",
+  "footer.techSupport.addressLine1": "叶卡捷琳堡, 米拉大街 19 号, I-200 室"
 }

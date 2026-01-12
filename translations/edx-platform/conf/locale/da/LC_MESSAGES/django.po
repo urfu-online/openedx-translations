@@ -31,7 +31,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-08-22 00:39+0000\n"
+"POT-Creation-Date: 2025-09-19 00:44+0000\n"
 "PO-Revision-Date: 2023-11-20 11:35+0000\n"
 "Last-Translator: Brian Smith, 2025\n"
 "Language-Team: Danish (https://app.transifex.com/open-edx/teams/6205/da/)\n"
@@ -42,7 +42,7 @@ msgstr ""
 "Language: da\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: cms/djangoapps/contentstore/helpers.py:212
+#: cms/djangoapps/contentstore/helpers.py:213
 #: lms/djangoapps/instructor/views/tools.py:241
 #: lms/djangoapps/instructor/views/tools.py:253 xmodule/unit_block.py:41
 #: lms/templates/ccx/schedule.html:94 lms/templates/seq_block.html:106
@@ -50,16 +50,16 @@ msgstr ""
 msgid "Unit"
 msgstr "Enhed"
 
-#: cms/djangoapps/contentstore/helpers.py:219
+#: cms/djangoapps/contentstore/helpers.py:220
 #: cms/djangoapps/contentstore/views/component.py:283
 msgid "Problem"
 msgstr "Opgave"
 
-#: cms/djangoapps/contentstore/models.py:180
+#: cms/djangoapps/contentstore/models.py:184
 msgid "The component must be published to access `published_at`"
 msgstr "Komponenten skal offentliggøres for at få adgang til `published_at`"
 
-#: cms/djangoapps/contentstore/models.py:351
+#: cms/djangoapps/contentstore/models.py:355
 msgid "The container must be published to access `published_at`"
 msgstr "Beholderen skal offentliggøres for at få adgang til `published_at`"
 
@@ -139,7 +139,7 @@ msgstr "Video ID"
 #: lms/djangoapps/courseware/tabs.py:241
 #: lms/djangoapps/discussion/plugins.py:27
 #: openedx/core/djangoapps/discussions/plugins.py:23
-#: openedx/core/djangoapps/notifications/email/utils.py:426
+#: openedx/core/djangoapps/notifications/email/utils.py:440
 #: openedx/features/lti_course_tab/tab.py:274 xmodule/discussion_block.py:198
 #: lms/djangoapps/discussion/templates/discussion/discussion_profile_page.html:48
 #: lms/templates/ux/reference/bootstrap/course-skeleton.html:24
@@ -167,18 +167,18 @@ msgstr "Adgangseksamen"
 msgid "Empty"
 msgstr "Tom"
 
-#: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:439
+#: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:436
 #: openedx/core/djangoapps/xblock/rest_api/views.py:334
 msgid "Invalid data"
 msgstr "Ugyldige data"
 
-#: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:441
+#: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:438
 #: openedx/core/djangoapps/xblock/rest_api/views.py:336
 #, python-brace-format
 msgid "Invalid data ({details})"
 msgstr "Ugyldige data ( {details} )"
 
-#: cms/lib/xblock/upstream_sync.py:257
+#: cms/lib/xblock/upstream_sync.py:281
 msgid "Linked `upstream_key` is not a valid key"
 msgstr "Den tilknyttede `upstream_key` er ikke en gyldig nøgle"
 
@@ -242,7 +242,7 @@ msgstr "Du er tilmeldt som æreskodeks kursist"
 
 #: common/djangoapps/course_modes/helpers.py:48
 #: lms/djangoapps/branding/api.py:329 lms/djangoapps/branding/api.py:404
-#: lms/djangoapps/courseware/views/views.py:2284
+#: lms/djangoapps/courseware/views/views.py:2286
 #: openedx/core/djangoapps/user_authn/views/registration_form.py:1009
 #: lms/templates/static_templates/honor.html:5
 #: lms/templates/static_templates/honor.html:10
@@ -262,7 +262,7 @@ msgstr "Professionel Ed"
 #: common/djangoapps/course_modes/models.py:63 xmodule/annotatable_block.py:69
 #: xmodule/capa_block.py:178 xmodule/conditional_block.py:88
 #: xmodule/discussion_block.py:49 xmodule/html_block.py:56
-#: xmodule/html_block.py:393 xmodule/item_bank_block.py:454
+#: xmodule/html_block.py:407 xmodule/item_bank_block.py:454
 #: xmodule/library_content_block.py:77 xmodule/lti_block.py:131
 #: xmodule/split_test_block.py:82 xmodule/unit_block.py:38
 #: xmodule/word_cloud_block.py:63 xmodule/x_module.py:226
@@ -396,12 +396,26 @@ msgstr "Ugyldigt beløb er valgt."
 msgid "No selected price or selected price is too low."
 msgstr "Ingen pris valgt eller den valgte pris er for lav."
 
-#: common/djangoapps/student/admin.py:394
+#: common/djangoapps/student/admin.py:319
+#, python-format
+msgid "Successfully reverted %(count)d selected history entry."
+msgid_plural "Successfully reverted %(count)d selected history entries."
+msgstr[0] "Succesfuldt gendannet %(count)d valgt historikpost."
+msgstr[1] "Succesfuldt gendannet %(count)d valgte historikposter."
+
+#: common/djangoapps/student/admin.py:349
+#, python-format
+msgid "Successfully deleted %(count)d selected history entry."
+msgid_plural "Successfully deleted %(count)d selected history entries."
+msgstr[0] "Succesfuldt slettet %(count)d valgte historikpost."
+msgstr[1] "Succesfuldt slettet %(count)d valgte historikposter."
+
+#: common/djangoapps/student/admin.py:520
 msgid "User profile"
 msgstr "Brugerprofil"
 
-#: common/djangoapps/student/admin.py:401
-#: common/djangoapps/student/admin.py:402
+#: common/djangoapps/student/admin.py:527
+#: common/djangoapps/student/admin.py:528
 msgid "Account recovery"
 msgstr "Kontogendannelse"
 
@@ -410,7 +424,7 @@ msgstr "Kontogendannelse"
 #. meant to hold the user's password.
 #. Translators: This label appears above a field on the registration form
 #. meant to hold the user's password.
-#: common/djangoapps/student/admin.py:417
+#: common/djangoapps/student/admin.py:543
 #: openedx/core/djangoapps/user_authn/views/login_form.py:117
 #: openedx/core/djangoapps/user_authn/views/registration_form.py:609
 #: lms/templates/provider_login.html:48 lms/templates/provider_login.html:49
@@ -420,7 +434,7 @@ msgstr "Kontogendannelse"
 msgid "Password"
 msgstr "Adgangskode"
 
-#: common/djangoapps/student/admin.py:419
+#: common/djangoapps/student/admin.py:545
 msgid ""
 "Raw passwords are not stored, so there is no way to see this user's "
 "password."
@@ -428,7 +442,7 @@ msgstr ""
 "Rå adgangskoder gemmes ikke, så der er ingen måde at se denne brugers "
 "adgangskode."
 
-#: common/djangoapps/student/admin.py:588
+#: common/djangoapps/student/admin.py:714
 #, python-brace-format
 msgid ""
 "Please add a key/value 'THIRD_PARTY_AUTH_ONLY_DOMAIN/{site_email_domain}' in"
@@ -438,12 +452,12 @@ msgstr ""
 "'THIRD_PARTY_AUTH_ONLY_DOMAIN/{site_email_domain}' i SiteConfiguration-"
 "modellens site_values-felt."
 
-#: common/djangoapps/student/admin.py:593
+#: common/djangoapps/student/admin.py:719
 #, python-brace-format
 msgid "Email doesn't have {allowed_site_email_domain} domain name."
 msgstr "E-mail har ikke et {allowed_site_email_domain} domænenavn."
 
-#: common/djangoapps/student/admin.py:596
+#: common/djangoapps/student/admin.py:722
 msgid "User with this email doesn't exist in system."
 msgstr "Bruger med denne e-mail eksisterer ikke i systemet."
 
@@ -563,23 +577,23 @@ msgstr "Ingen formel uddannelse"
 msgid "Other education"
 msgstr "Anden uddannelse"
 
-#: common/djangoapps/student/models/user.py:1329
+#: common/djangoapps/student/models/user.py:1364
 #, python-brace-format
 msgid "{platform_name} Honor Code Certificate for {course_name}"
 msgstr "{platform_name} Æreskodeks diplom {course_name}"
 
-#: common/djangoapps/student/models/user.py:1330
+#: common/djangoapps/student/models/user.py:1365
 #, python-brace-format
 msgid "{platform_name} Verified Certificate for {course_name}"
 msgstr "{platform_name} Officielt diplom for {course_name}"
 
-#: common/djangoapps/student/models/user.py:1331
-#: common/djangoapps/student/models/user.py:1332
+#: common/djangoapps/student/models/user.py:1366
+#: common/djangoapps/student/models/user.py:1367
 #, python-brace-format
 msgid "{platform_name} Professional Certificate for {course_name}"
 msgstr "{platform_name} Diplom for {course_name}"
 
-#: common/djangoapps/student/models/user.py:1338
+#: common/djangoapps/student/models/user.py:1373
 msgid ""
 "Your organization ID (if your organization has an existing page on LinkedIn)"
 " e.g 1337. If not provided, will default to sending Platform Name (e.g. edX)"
@@ -589,41 +603,41 @@ msgstr ""
 "LinkedIn) f.eks. 1337. Hvis det ikke er angivet, vil det som standard sende "
 "Platformnavn (f.eks. edX) i stedet."
 
-#: common/djangoapps/student/models/user.py:1394
+#: common/djangoapps/student/models/user.py:1429
 #, python-brace-format
 msgid "{platform_name} Certificate for {course_name}"
 msgstr "{platform_name} Diplom for {course_name}"
 
-#: common/djangoapps/student/models/user.py:1471
-#: common/djangoapps/student/models/user.py:1503
+#: common/djangoapps/student/models/user.py:1506
+#: common/djangoapps/student/models/user.py:1538
 msgid "The ISO 639-1 language code for this language."
 msgstr "ISO 639-1 sprogkode for dette sprog."
 
-#: common/djangoapps/student/models/user.py:1534
+#: common/djangoapps/student/models/user.py:1569
 msgid "Name of the UTM cookie"
 msgstr "Navnet på UTM-cookien"
 
-#: common/djangoapps/student/models/user.py:1539
+#: common/djangoapps/student/models/user.py:1574
 msgid "Name of the affiliate cookie"
 msgstr "Navnet på affiliate-cookien"
 
-#: common/djangoapps/student/models/user.py:1562
+#: common/djangoapps/student/models/user.py:1597
 msgid "Name of this user attribute."
 msgstr "Navn på denne brugerattribut."
 
-#: common/djangoapps/student/models/user.py:1563
+#: common/djangoapps/student/models/user.py:1598
 msgid "Value of this user attribute."
 msgstr "Værdien af denne brugerattribut."
 
-#: common/djangoapps/student/models/user.py:1628
+#: common/djangoapps/student/models/user.py:1663
 msgid "Secondary email address"
 msgstr "Sekundær e-mailadresse"
 
-#: common/djangoapps/student/models/user.py:1629
+#: common/djangoapps/student/models/user.py:1664
 msgid "Secondary email address to recover linked account."
 msgstr "Sekundær e-mailadresse til at gendanne linket konto."
 
-#: common/djangoapps/student/models/user.py:1676
+#: common/djangoapps/student/models/user.py:1711
 msgid ""
 "An employee (a user whose email has current site's domain name) whose email "
 "exists in this model, can be able to login from login screen through email "
@@ -636,7 +650,7 @@ msgstr ""
 "e-mail ikke findes i denne model, kan den pågældende medarbejder kun logge "
 "på via tredjeparts autentificeringsbackend."
 
-#: common/djangoapps/student/models/user.py:1691
+#: common/djangoapps/student/models/user.py:1726
 msgid ""
 "It expect that the data will be provided in a csv file format with"
 "                     first row being the header and columns will be as "
@@ -646,7 +660,7 @@ msgstr ""
 "række er overskriften, og kolonnerne vil være som følger: brugernavn, "
 "nuværende_e-mail, ønsket_e-mail"
 
-#: common/djangoapps/student/models/user.py:1873
+#: common/djangoapps/student/models/user.py:1908
 msgid "Add a reason"
 msgstr "Tilføj en grund"
 
@@ -3130,7 +3144,7 @@ msgid "Provide additional course content and resources with custom pages"
 msgstr "Giv yderligere kursusindhold og ressourcer med tilpassede sider"
 
 #: lms/djangoapps/courseware/tabs.py:36
-#: lms/djangoapps/courseware/views/views.py:2237
+#: lms/djangoapps/courseware/views/views.py:2239
 #: openedx/features/course_experience/__init__.py:91 xmodule/tabs.py:490
 #: cms/templates/widgets/header.html:89 cms/templates/widgets/header.html:93
 #: cms/templates/widgets/header.html:164 cms/templates/widgets/header.html:292
@@ -3148,11 +3162,11 @@ msgstr "Pensum"
 msgid "Dates"
 msgstr "Datoer"
 
-#: lms/djangoapps/courseware/views/views.py:177
+#: lms/djangoapps/courseware/views/views.py:178
 msgid "Your enrollment: Audit track"
 msgstr "Din tilmelding: Revisionsspor"
 
-#: lms/djangoapps/courseware/views/views.py:178
+#: lms/djangoapps/courseware/views/views.py:179
 msgid ""
 "You are enrolled in the audit track for this course. The audit track does "
 "not include a certificate."
@@ -3160,11 +3174,11 @@ msgstr ""
 "Du er tilmeldt revisionssporet for dette kursus. Revisionssporet indeholder "
 "ikke et certifikat."
 
-#: lms/djangoapps/courseware/views/views.py:186
+#: lms/djangoapps/courseware/views/views.py:187
 msgid "Your enrollment: Honor track"
 msgstr "Din tilmelding: Æresspor"
 
-#: lms/djangoapps/courseware/views/views.py:187
+#: lms/djangoapps/courseware/views/views.py:188
 msgid ""
 "You are enrolled in the honor track for this course. The honor track does "
 "not include a certificate."
@@ -3172,11 +3186,11 @@ msgstr ""
 "Du er tilmeldt æressporet til dette kursus. Æressporet indeholder ikke et "
 "certifikat."
 
-#: lms/djangoapps/courseware/views/views.py:200
+#: lms/djangoapps/courseware/views/views.py:201
 msgid "We're working on it..."
 msgstr "Vi arbejder på sagen ..."
 
-#: lms/djangoapps/courseware/views/views.py:202
+#: lms/djangoapps/courseware/views/views.py:203
 msgid ""
 "We're creating your certificate. You can keep working in your courses and a "
 "link to it will appear here and on your Dashboard when it is ready."
@@ -3184,29 +3198,29 @@ msgstr ""
 "Dit bevis bliver dannet. Du kan fortsætte med at arbejde i dine kurser, og "
 "et link vil komme her og på dit Betjeningspanel, når det er klar."
 
-#: lms/djangoapps/courseware/views/views.py:212
+#: lms/djangoapps/courseware/views/views.py:213
 msgid "Your certificate has been invalidated"
 msgstr "Dit certifikat er blevet ugyldigt"
 
-#: lms/djangoapps/courseware/views/views.py:213
+#: lms/djangoapps/courseware/views/views.py:214
 msgid "Please contact your course team if you have any questions."
 msgstr "Kontakt venligst dit kursushold, hvis du har spørgsmål."
 
-#: lms/djangoapps/courseware/views/views.py:221
+#: lms/djangoapps/courseware/views/views.py:222
 msgid "Congratulations, you qualified for a certificate!"
 msgstr "Tillykke, du har opfyldt kravene for et bevis."
 
-#: lms/djangoapps/courseware/views/views.py:222
-#: lms/djangoapps/courseware/views/views.py:255
+#: lms/djangoapps/courseware/views/views.py:223
+#: lms/djangoapps/courseware/views/views.py:256
 msgid "You've earned a certificate for this course."
 msgstr "Du har opnået et certifikat for dette kursus."
 
-#: lms/djangoapps/courseware/views/views.py:232
+#: lms/djangoapps/courseware/views/views.py:233
 msgid "Your certificate will be available soon!"
 msgstr "Dit certifikat vil snart være tilgængeligt!"
 
-#: lms/djangoapps/courseware/views/views.py:233
-#: lms/djangoapps/courseware/views/views.py:244
+#: lms/djangoapps/courseware/views/views.py:234
+#: lms/djangoapps/courseware/views/views.py:245
 msgid ""
 "After this course officially ends, you will receive an email notification "
 "with your certificate."
@@ -3214,15 +3228,15 @@ msgstr ""
 "Når dette kursus officielt slutter, vil du modtage en e-mail med dit "
 "certifikat."
 
-#: lms/djangoapps/courseware/views/views.py:254
+#: lms/djangoapps/courseware/views/views.py:255
 msgid "Your certificate is available"
 msgstr "Dit bevis er klar"
 
-#: lms/djangoapps/courseware/views/views.py:268
+#: lms/djangoapps/courseware/views/views.py:269
 msgid "Certificate unavailable"
 msgstr "Certifikatet er ikke tilgængeligt"
 
-#: lms/djangoapps/courseware/views/views.py:270
+#: lms/djangoapps/courseware/views/views.py:271
 #, python-brace-format
 msgid ""
 "You have not received a certificate because you do not have a current "
@@ -3231,28 +3245,28 @@ msgstr ""
 "Du har ikke modtaget et certifikat, fordi du ikke har en aktuel "
 "{platform_name} verificeret identitet."
 
-#: lms/djangoapps/courseware/views/views.py:573
+#: lms/djangoapps/courseware/views/views.py:574
 #, python-brace-format
 msgid "To see course content, {sign_in_link} or {register_link}."
 msgstr "For at se kursusindhold, {sign_in_link} eller {register_link} ."
 
-#: lms/djangoapps/courseware/views/views.py:575
+#: lms/djangoapps/courseware/views/views.py:576
 #: xmodule/discussion_block.py:187
 msgid "sign in"
 msgstr "Log ind"
 
-#: lms/djangoapps/courseware/views/views.py:579
-#: lms/djangoapps/courseware/views/views.py:594
+#: lms/djangoapps/courseware/views/views.py:580
+#: lms/djangoapps/courseware/views/views.py:595
 #: xmodule/discussion_block.py:191
 msgid "register"
 msgstr "Tilmeld"
 
-#: lms/djangoapps/courseware/views/views.py:588
+#: lms/djangoapps/courseware/views/views.py:589
 #, python-brace-format
 msgid "{sign_in_link} or {register_link}."
 msgstr "{sign_in_link} eller {register_link} ."
 
-#: lms/djangoapps/courseware/views/views.py:590
+#: lms/djangoapps/courseware/views/views.py:591
 #: openedx/core/djangoapps/user_authn/templates/user_authn/edx_ace/passwordresetsuccess/email/body.html:25
 #: lms/templates/header/navbar-not-authenticated.html:63
 #: lms/templates/header/navbar-not-authenticated.html:67
@@ -3261,7 +3275,7 @@ msgstr "{sign_in_link} eller {register_link} ."
 msgid "Sign in"
 msgstr "Log ind"
 
-#: lms/djangoapps/courseware/views/views.py:604
+#: lms/djangoapps/courseware/views/views.py:605
 #, python-brace-format
 msgid ""
 "You must be enrolled in the course to see course content. "
@@ -3270,46 +3284,46 @@ msgstr ""
 "Du skal være tilmeldt kurset for at se kursets indhold. "
 "{enroll_link_start}Tilmeld dig nu {enroll_link_end} ."
 
-#: lms/djangoapps/courseware/views/views.py:617
+#: lms/djangoapps/courseware/views/views.py:618
 msgid "You must be enrolled in the course to see course content."
 msgstr "Du skal være tilmeldt kurset for at se kursets indhold."
 
-#: lms/djangoapps/courseware/views/views.py:1239
+#: lms/djangoapps/courseware/views/views.py:1240
 #: lms/djangoapps/instructor/views/api.py:171
 msgid "User does not exist."
 msgstr "Bruger findes ikke."
 
-#: lms/djangoapps/courseware/views/views.py:1246
+#: lms/djangoapps/courseware/views/views.py:1247
 msgid "Invalid location."
 msgstr "Ugyldig placering"
 
-#: lms/djangoapps/courseware/views/views.py:1260
+#: lms/djangoapps/courseware/views/views.py:1261
 #, python-brace-format
 msgid "User {username} has never accessed problem {location}"
 msgstr "Bruger {username} har aldrig søgt adgang til opgaven {location}"
 
-#: lms/djangoapps/courseware/views/views.py:1457
+#: lms/djangoapps/courseware/views/views.py:1458
 #, python-brace-format
 msgid "You must be signed in to {platform_name} to create a certificate."
 msgstr "Du skal være logget på {platform_name} for at oprette et diplom."
 
-#: lms/djangoapps/courseware/views/views.py:1467
+#: lms/djangoapps/courseware/views/views.py:1468
 msgid "Course is not valid"
 msgstr "Kurset er ikke gyldigt"
 
-#: lms/djangoapps/courseware/views/views.py:1483
+#: lms/djangoapps/courseware/views/views.py:1484
 msgid "Your certificate will be available when you pass the course."
 msgstr "Dit diplom vil være tilgængeligt, når du består kurset."
 
-#: lms/djangoapps/courseware/views/views.py:1496
+#: lms/djangoapps/courseware/views/views.py:1497
 msgid "Certificate has already been created."
 msgstr "Diplom er allerede oprettet."
 
-#: lms/djangoapps/courseware/views/views.py:1498
+#: lms/djangoapps/courseware/views/views.py:1499
 msgid "Certificate is being created."
 msgstr "Diplom er blevet dannet."
 
-#: lms/djangoapps/courseware/views/views.py:2244
+#: lms/djangoapps/courseware/views/views.py:2246
 msgid ""
 "Select the course for which you want to earn a verified certificate. If the "
 "course does not appear in the list, make sure that you have enrolled in the "
@@ -3319,34 +3333,34 @@ msgstr ""
 "vises på listen, skal du sørge for, at du har tilmeldt dig på kursets "
 "gæste/tilhørerspor."
 
-#: lms/djangoapps/discussion/django_comment_client/base/views.py:556
-#: lms/djangoapps/discussion/django_comment_client/base/views.py:621
+#: lms/djangoapps/discussion/django_comment_client/base/views.py:558
+#: lms/djangoapps/discussion/django_comment_client/base/views.py:623
 msgid "Title can't be empty"
 msgstr "Titlen kan ikke være tom"
 
-#: lms/djangoapps/discussion/django_comment_client/base/views.py:558
-#: lms/djangoapps/discussion/django_comment_client/base/views.py:623
-#: lms/djangoapps/discussion/django_comment_client/base/views.py:665
-#: lms/djangoapps/discussion/django_comment_client/base/views.py:748
+#: lms/djangoapps/discussion/django_comment_client/base/views.py:560
+#: lms/djangoapps/discussion/django_comment_client/base/views.py:625
+#: lms/djangoapps/discussion/django_comment_client/base/views.py:667
+#: lms/djangoapps/discussion/django_comment_client/base/views.py:750
 msgid "Body can't be empty"
 msgstr "Afsnit kan ikke være tomt"
 
-#: lms/djangoapps/discussion/django_comment_client/base/views.py:640
+#: lms/djangoapps/discussion/django_comment_client/base/views.py:642
 msgid "Topic doesn't exist"
 msgstr "Emne eksisterer ikke"
 
-#: lms/djangoapps/discussion/django_comment_client/base/views.py:714
-#: lms/djangoapps/discussion/django_comment_client/base/views.py:813
+#: lms/djangoapps/discussion/django_comment_client/base/views.py:716
+#: lms/djangoapps/discussion/django_comment_client/base/views.py:815
 msgid "Comment level too deep"
 msgstr "Kommentarniveau for dybt"
 
-#: lms/djangoapps/discussion/django_comment_client/base/views.py:1102
+#: lms/djangoapps/discussion/django_comment_client/base/views.py:1104
 msgid ""
 "Error uploading file. Please contact the site administrator. Thank you."
 msgstr ""
 "Fejl ved upload af fil. Kontakt venligst webstedets administrator. Tak."
 
-#: lms/djangoapps/discussion/django_comment_client/base/views.py:1105
+#: lms/djangoapps/discussion/django_comment_client/base/views.py:1107
 msgid "Good"
 msgstr "Godt"
 
@@ -4240,6 +4254,10 @@ msgstr "Fuldført"
 msgid "Incomplete"
 msgstr "Ufuldstændig"
 
+#: lms/djangoapps/instructor/views/serializer.py:496
+msgid "Whether to reset for all students."
+msgstr "Om det skal nulstilles for alle studerende."
+
 #: lms/djangoapps/instructor/views/serializer.py:535
 msgid "all_students and unique_student_identifier are mutually exclusive."
 msgstr "all_students og unique_student_identifier udelukker hinanden."
@@ -4247,6 +4265,14 @@ msgstr "all_students og unique_student_identifier udelukker hinanden."
 #: lms/djangoapps/instructor/views/serializer.py:539
 msgid "all_students and delete_module are mutually exclusive."
 msgstr "all_students og delete_module udelukker hinanden."
+
+#: lms/djangoapps/instructor/views/serializer.py:543
+msgid ""
+"You must provide either unique_student_identifier or set all_students to "
+"True."
+msgstr ""
+"Du skal enten angive unique_student_identifier eller sætte all_students til "
+"True."
 
 #: lms/djangoapps/instructor/views/serializer.py:565
 msgid "The URL name of the problem to override the score for."
@@ -4726,6 +4752,16 @@ msgid ""
 msgstr ""
 "Listen over gruppekonfigurationer til opdeling af elever i "
 "indholdseksperimenter."
+
+#: lms/djangoapps/lti_provider/models.py:44
+msgid ""
+"When checked, the platform will automatically use any personal information "
+"provided via LTI to create an account. Otherwise an anonymous account will "
+"be created."
+msgstr ""
+"Når markeret, vil platformen automatisk bruge eventuelle personlige "
+"oplysninger leveret via LTI til at oprette en konto. Ellers vil der blive "
+"oprettet en anonym konto."
 
 #: lms/djangoapps/program_enrollments/models.py:57
 msgid "One of user or external_user_key must not be null."
@@ -5787,7 +5823,7 @@ msgstr "Slet artikel"
 #: wiki/plugins/attachments/templates/wiki/plugins/attachments/delete.html:9
 #: wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html:35
 #: wiki/templates/wiki/delete.html:7 cms/templates/component.html:32
-#: cms/templates/studio_xblock_wrapper.html:202
+#: cms/templates/studio_xblock_wrapper.html:214
 msgid "Delete"
 msgstr "Slet"
 
@@ -5826,7 +5862,7 @@ msgstr "Du er i færd med at slette en artikel. Bekræft venligst."
 #: lms/templates/wiki/edit.html:4 wiki/templates/wiki/edit.html:4
 #: wiki/templates/wiki/includes/article_menu.html:34
 #: cms/templates/component.html:13 cms/templates/container.html:201
-#: cms/templates/studio_xblock_wrapper.html:157
+#: cms/templates/studio_xblock_wrapper.html:169
 #: lms/templates/wiki/includes/article_menu.html:22
 msgid "Edit"
 msgstr "Rediger"
@@ -7189,7 +7225,7 @@ msgstr "Positivliste {country} til {course}"
 msgid "Blacklist {country} for {course}"
 msgstr "Blackliste {country} til {course}"
 
-#: openedx/core/djangoapps/notifications/email/utils.py:427
+#: openedx/core/djangoapps/notifications/email/utils.py:441
 #: openedx/features/course_experience/plugins.py:34
 #: cms/templates/widgets/header.html:115 cms/templates/widgets/header.html:120
 #: lms/templates/api_admin/terms_of_service.html:66
@@ -7861,7 +7897,7 @@ msgstr ""
 "\"{url_stub}\". For at fjerne linket fra din {platform_name}-profil skal du "
 "lade dette felt stå tomt."
 
-#: openedx/core/djangoapps/user_api/accounts/views.py:625
+#: openedx/core/djangoapps/user_api/accounts/views.py:637
 msgid ""
 "This account has been temporarily locked due to excessive login failures. "
 "Try again later."
@@ -7869,7 +7905,7 @@ msgstr ""
 "Denne konto er midlertidigt låst på grund af for mange login-forsøg. Prøv "
 "igen senere."
 
-#: openedx/core/djangoapps/user_api/accounts/views.py:635
+#: openedx/core/djangoapps/user_api/accounts/views.py:647
 #: openedx/core/djangoapps/user_authn/views/login.py:311
 #: lms/templates/provider_login.html:43
 msgid "Email or password is incorrect."
@@ -7890,8 +7926,8 @@ msgid "Success"
 msgstr "Succes"
 
 #: openedx/core/djangoapps/user_api/admin.py:118
-#: cms/templates/studio_xblock_wrapper.html:162
-#: cms/templates/studio_xblock_wrapper.html:164
+#: cms/templates/studio_xblock_wrapper.html:174
+#: cms/templates/studio_xblock_wrapper.html:176
 #: lms/templates/staff_problem_info.html:66
 msgid "Actions"
 msgstr "Handlinger"
@@ -8989,8 +9025,8 @@ msgstr "XML-data til den forklarende tekst"
 
 #: xmodule/annotatable_block.py:70 xmodule/capa_block.py:179
 #: xmodule/conditional_block.py:89 xmodule/discussion_block.py:50
-#: xmodule/html_block.py:57 xmodule/html_block.py:368
-#: xmodule/html_block.py:394 xmodule/item_bank_block.py:455
+#: xmodule/html_block.py:57 xmodule/html_block.py:382
+#: xmodule/html_block.py:408 xmodule/item_bank_block.py:455
 #: xmodule/library_content_block.py:78 xmodule/library_root_xblock.py:30
 #: xmodule/poll_block.py:52 xmodule/unit_block.py:39
 #: xmodule/video_block/video_xfields.py:20 xmodule/word_cloud_block.py:64
@@ -9675,7 +9711,7 @@ msgstr ""
 "Kildekode til LaTeX og Word problemer. Denne funktion er ikke godt "
 "understøttet."
 
-#: xmodule/capa_block.py:330 xmodule/html_block.py:69
+#: xmodule/capa_block.py:330 xmodule/html_block.py:76
 msgid "Enable LaTeX templates?"
 msgstr "Aktivér LaTeX skabeloner?"
 
@@ -10938,18 +10974,18 @@ msgstr "Genereret"
 
 #. Translators: "Homework 1 - Unreleased - 0% (?/?)" The section has not been
 #. released for viewing.
-#: xmodule/graders.py:402
+#: xmodule/graders.py:403
 #, python-brace-format
 msgid "{section_type} {index} Unreleased - 0% (?/?)"
 msgstr "{section_type} {index} Ikke udgivet - 0 % (?/?)"
 
-#: xmodule/graders.py:415
+#: xmodule/graders.py:417
 #, python-brace-format
 msgid "The lowest {drop_count} {section_type} scores are dropped."
 msgstr "De laveste {drop_count} {section_type} score er droppet."
 
 #. Translators: Avg is short for Average
-#: xmodule/graders.py:438
+#: xmodule/graders.py:441
 #, python-brace-format
 msgid "{short_label} Avg"
 msgstr "{short_label} Gns"
@@ -10963,17 +10999,21 @@ msgstr ""
 "FEJL: \"{block_type}\"er en ukendt komponenttype. Denne komponent vil være "
 "skjult i LMS."
 
-#: xmodule/html_block.py:63 xmodule/html_block.py:373
-#: xmodule/html_block.py:433
+#: xmodule/html_block.py:63 xmodule/html_block.py:387
+#: xmodule/html_block.py:447
 msgid "Html contents to display for this block"
 msgstr "Html-indhold, der skal vises for denne blok"
 
 #: xmodule/html_block.py:65
+msgid "Upstream html contents to store upstream data field"
+msgstr "Opstrøms HTML-indhold til at gemme opstrøms datafelt"
+
+#: xmodule/html_block.py:72
 msgid "Source code for LaTeX documents. This feature is not well-supported."
 msgstr ""
 "Kildekode til LaTeX-dokumenter. Denne funktion er ikke godt understøttet."
 
-#: xmodule/html_block.py:75
+#: xmodule/html_block.py:82
 msgid ""
 "Select Visual to enter content and have the editor automatically create the "
 "HTML. Select Raw to edit HTML directly. If you change this setting, you must"
@@ -10984,23 +11024,23 @@ msgstr ""
 "indstilling, skal du gemme komponenten og derefter genåbne for at kunne "
 "redigere."
 
-#: xmodule/html_block.py:78
+#: xmodule/html_block.py:85
 msgid "Editor"
 msgstr "Editor"
 
-#: xmodule/html_block.py:81
+#: xmodule/html_block.py:88
 msgid "Visual"
 msgstr "Visuel"
 
-#: xmodule/html_block.py:82
+#: xmodule/html_block.py:89
 msgid "Raw"
 msgstr "Rå"
 
-#: xmodule/html_block.py:399
+#: xmodule/html_block.py:413
 msgid "Hide Page From Learners"
 msgstr "Skjul side for elever"
 
-#: xmodule/html_block.py:400
+#: xmodule/html_block.py:414
 msgid ""
 "If you select this option, only course team members with the Staff or Admin "
 "role see this page."
@@ -11008,11 +11048,11 @@ msgstr ""
 "Hvis du vælger denne mulighed, er det kun kursusholdsmedlemmer med rollen "
 "medarbejder eller administrator, der ser denne side."
 
-#: xmodule/html_block.py:410
+#: xmodule/html_block.py:424
 msgid "HTML for the additional pages"
 msgstr "HTML til de ekstra sider"
 
-#: xmodule/html_block.py:428
+#: xmodule/html_block.py:442
 msgid "List of course update items"
 msgstr "Liste over kursusopdateringer"
 
@@ -13593,13 +13633,34 @@ msgstr "Instruktører"
 msgid "Requirements"
 msgstr "Forventede forudsætninger"
 
-#: cms/templates/studio_xblock_wrapper.html:75
+#: cms/templates/studio_xblock_wrapper.html:76
 msgid "Importing components"
 msgstr "Import af komponenter"
 
-#: cms/templates/studio_xblock_wrapper.html:109
+#: cms/templates/studio_xblock_wrapper.html:110
 msgid "Select this problem"
 msgstr "Vælg dette problem"
+
+#: cms/templates/studio_xblock_wrapper.html:123
+msgid ""
+"Sourced from a library - but has been modified locally.Sourced from a "
+"library."
+msgstr ""
+"Hentet fra et bibliotek - men er blevet ændret lokalt. Hentet fra et "
+"bibliotek."
+
+#: cms/templates/studio_xblock_wrapper.html:127
+msgid "Sourced from a library - but has been modified locally."
+msgstr "Hentet fra et bibliotek - men er blevet ændret lokalt."
+
+#: cms/templates/studio_xblock_wrapper.html:144
+#: cms/templates/studio_xblock_wrapper.html:146
+msgid "Edit Title"
+msgstr "Rediger titel"
+
+#: cms/templates/studio_xblock_wrapper.html:219
+msgid "Unlink from Library"
+msgstr "Fjern link fra bibliotek"
 
 #: cms/templates/maintenance/_announcement_edit.html:26
 #: lms/templates/problem.html:37 lms/templates/problem.html:38
@@ -14721,28 +14782,28 @@ msgstr "Downloads og transskriptioner"
 msgid "Download video file"
 msgstr "Download videofil"
 
-#: lms/templates/video.html:127
+#: lms/templates/video.html:111
 msgid "Copy"
 msgstr "Kopier"
 
-#: lms/templates/video.html:138
+#: lms/templates/video.html:121
 msgid "Transcripts"
 msgstr "Afskrifter"
 
-#: lms/templates/video.html:144
+#: lms/templates/video.html:127
 #, python-brace-format
 msgid "Download {file}"
 msgstr "Download {file}"
 
-#: lms/templates/video.html:150
+#: lms/templates/video.html:133
 msgid "Download transcript"
 msgstr "Download udskriften"
 
-#: lms/templates/video.html:156
+#: lms/templates/video.html:139
 msgid "Handouts"
 msgstr "Handouts"
 
-#: lms/templates/video.html:157
+#: lms/templates/video.html:140
 msgid "Download Handout"
 msgstr "Download Handout"
 

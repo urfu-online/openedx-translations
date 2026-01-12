@@ -8,14 +8,15 @@
 # Hoàng Trương <hoangta@vnu.edu.vn>, 2024
 # Hoang Truong <truonganhhoang@gmail.com>, 2024
 # edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>, 2025
+# Brian Smith, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-24 00:33+0000\n"
+"POT-Creation-Date: 2025-09-02 00:32+0000\n"
 "PO-Revision-Date: 2023-01-26 15:39+0000\n"
-"Last-Translator: edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>, 2025\n"
+"Last-Translator: Brian Smith, 2025\n"
 "Language-Team: Vietnamese (https://app.transifex.com/open-edx/teams/6205/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2034,36 +2035,20 @@ msgstr ""
 "%(user_name)s đã đưa ra nhận xét sau về %(course_name)s %(date)s tại "
 "%(time)s"
 
-#: apps/course_metadata/templates/course_metadata/email/go_live.html:9
-#: apps/course_metadata/templates/course_metadata/email/go_live.txt:3
-#: apps/course_metadata/templates/course_metadata/email/internal_review.html:9
-#: apps/course_metadata/templates/course_metadata/email/internal_review.txt:3
-#: apps/course_metadata/templates/course_metadata/email/legal_review.html:9
-#: apps/course_metadata/templates/course_metadata/email/legal_review.txt:3
-#: apps/course_metadata/templates/course_metadata/email/reviewed.html:9
-#: apps/course_metadata/templates/course_metadata/email/reviewed.txt:3
-#, python-format
-msgid "Dear %(recipient_name)s,"
-msgstr "Kính gửi %(recipient_name)s ,"
-
 #: apps/course_metadata/templates/course_metadata/email/go_live.html:17
 #: apps/course_metadata/templates/course_metadata/email/go_live.txt:7
 #, python-format
 msgid ""
 "The About page for the %(course_run_number)s course run of %(course_name)s "
-"has been published. No further action is necessary."
+"has been submitted for publishing. The new session will appear on the edX "
+"website following the next couple of deployments—typically within 24 to 48 "
+"business hours."
 msgstr ""
-"Trang Giới thiệu về khóa học %(course_run_number)s của %(course_name)s đã "
-"được xuất bản. Không có hành động hơn nữa là cần thiết."
+"Trang Giới thiệu cho kỳ học %(course_run_number)s của %(course_name)s đã "
+"được gửi để xuất bản. Buổi học mới sẽ xuất hiện trên trang web edX sau một "
+"vài lần triển khai tiếp theo—thường là trong vòng 24 đến 48 giờ làm việc."
 
-#: apps/course_metadata/templates/course_metadata/email/go_live.html:24
-#, python-brace-format
-msgid "{link_start}{preview_url}{link_middle}View this About page.{link_end}"
-msgstr ""
-"{link_start} {preview_url} {link_middle} Xem trang Giới thiệu này. "
-"{link_end}"
-
-#: apps/course_metadata/templates/course_metadata/email/go_live.html:33
+#: apps/course_metadata/templates/course_metadata/email/go_live.html:26
 #: apps/course_metadata/templates/course_metadata/email/legal_review.html:23
 #: apps/course_metadata/templates/course_metadata/email/reviewed.html:38
 #, python-brace-format
@@ -2073,19 +2058,22 @@ msgstr ""
 "{link_start} {contact_us_email} {link_middle} {contact_us_email} {link_end}"
 
 #: apps/course_metadata/templates/course_metadata/email/go_live.txt:11
-#, python-format
-msgid "View this About page. %(preview_url)s"
-msgstr "Xem trang Giới thiệu này. %(preview_url)s"
-
-#: apps/course_metadata/templates/course_metadata/email/go_live.txt:15
-#: apps/course_metadata/templates/course_metadata/email/legal_review.txt:15
-#: apps/course_metadata/templates/course_metadata/email/reviewed.txt:25
 msgid ""
-"Note: This email address is unable to receive replies. For questions or "
-"comments, please contact your Project Coordinator(s):"
+"Note: This is a no-reply email. For any questions or comments, please "
+"contact your Project Coordinator at"
 msgstr ""
-"Lưu ý: Địa chỉ email này không thể nhận thư trả lời. Nếu có thắc mắc hoặc "
-"nhận xét, vui lòng liên hệ với (các) Điều phối viên Dự án của bạn:"
+"Lưu ý: Đây là email không nhận phản hồi. Nếu có bất kỳ câu hỏi hoặc bình "
+"luận nào, vui lòng liên hệ Điều phối viên Dự án của bạn tại"
+
+#: apps/course_metadata/templates/course_metadata/email/internal_review.html:9
+#: apps/course_metadata/templates/course_metadata/email/internal_review.txt:3
+#: apps/course_metadata/templates/course_metadata/email/legal_review.html:9
+#: apps/course_metadata/templates/course_metadata/email/legal_review.txt:3
+#: apps/course_metadata/templates/course_metadata/email/reviewed.html:9
+#: apps/course_metadata/templates/course_metadata/email/reviewed.txt:3
+#, python-format
+msgid "Dear %(recipient_name)s,"
+msgstr "Kính gửi %(recipient_name)s ,"
 
 #: apps/course_metadata/templates/course_metadata/email/internal_review.html:14
 #, python-brace-format
@@ -2156,6 +2144,15 @@ msgstr "%(org_name)s đã gửi %(course_name)s để xem xét."
 msgid "View this course run in Publisher above to determine OFAC status."
 msgstr ""
 "Xem khóa học này chạy trong Nhà xuất bản ở trên để xác định trạng thái OFAC."
+
+#: apps/course_metadata/templates/course_metadata/email/legal_review.txt:15
+#: apps/course_metadata/templates/course_metadata/email/reviewed.txt:25
+msgid ""
+"Note: This email address is unable to receive replies. For questions or "
+"comments, please contact your Project Coordinator(s):"
+msgstr ""
+"Lưu ý: Địa chỉ email này không thể nhận thư trả lời. Nếu có thắc mắc hoặc "
+"nhận xét, vui lòng liên hệ với (các) Điều phối viên Dự án của bạn:"
 
 #: apps/course_metadata/templates/course_metadata/email/reviewed.html:15
 #, python-brace-format

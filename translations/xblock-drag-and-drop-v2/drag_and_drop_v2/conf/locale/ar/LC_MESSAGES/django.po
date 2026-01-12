@@ -190,9 +190,8 @@ msgid ""
 "in Advanced Settings. To revert setting a custom value, choose the 'Default'"
 " option."
 msgstr ""
-"يحدد متى تظهر الإجابة على المسألة. يُمكِن تعيين القيمة المبدئية في الإعدادات"
-" المُتقدِّمة. للتراجع عن تعيين قيمة مُخَصَّصة، اختَر خِيار \"الإعداد "
-"المبدئي\"."
+"يُحدّد متى تظهر الإجابة على المسألة. يمكن تعيين القيمة المبدئية في الإعدادات"
+" المتقدمة. للتراجع عن تعيين قيمة مُخصّصة، اختَر خِيار \"الإعداد المبدئي\"."
 
 #: drag_and_drop_v2.py:149
 msgid "Default"
@@ -248,7 +247,7 @@ msgstr "وزن المسألة"
 
 #: drag_and_drop_v2.py:167
 msgid "Defines the number of points the problem is worth."
-msgstr "يحدد عدد النقاط التي تستحقها المسألة."
+msgstr "يُحدِّد عدد الدرجات المُستحقّة للمسألة."
 
 #: drag_and_drop_v2.py:174
 msgid "Item background color"
@@ -295,8 +294,8 @@ msgid ""
 "author provides via the interactive editor when configuring the problem."
 msgstr ""
 "معلومات عن المناطق والعناصر والآراء والشرح وصورة الخلفية لهذه المسألة. تأتي "
-"هذه المعلومات من المُدخلات التي يقدمها مؤلف المُقَرَّر عبر المُحَرِّر "
-"التفاعلي عند إعداد المسألة."
+"هذه المعلومات من المُدخلات التي يقدمها مؤلف المساق عبر المُحرِّر التفاعلي "
+"عند إعداد المسألة."
 
 #: drag_and_drop_v2.py:210
 msgid ""
@@ -355,7 +354,7 @@ msgstr "لقد انقضى الموعد النهائي للتقديم."
 
 #: templates/html/drag_and_drop.html:4
 msgid "Loading drag and drop problem."
-msgstr "مَسألة سحب وإفلات تُحَمَّل الآن."
+msgstr "تحميل مسألة ذات سحب وإفلات."
 
 #: templates/html/drag_and_drop_edit.html:10
 msgid "Basic Settings"
@@ -415,7 +414,7 @@ msgstr "مخطط المناطق"
 
 #: templates/html/drag_and_drop_edit.html:142
 msgid "Number of columns"
-msgstr "عدد الأعمِدة"
+msgstr "عدد الأعمدة"
 
 #: templates/html/drag_and_drop_edit.html:150
 msgid "Number of rows"
@@ -423,7 +422,7 @@ msgstr "عدد الصفوف"
 
 #: templates/html/drag_and_drop_edit.html:157
 msgid "Number of columns and rows."
-msgstr "عدد الأعمِدة والصفوف."
+msgstr "عدد الأعمدة والصفوف."
 
 #: templates/html/drag_and_drop_edit.html:161
 msgid "Zone Size"
@@ -509,7 +508,7 @@ msgstr "استمرار"
 
 #: templates/html/drag_and_drop_edit.html:292
 msgid "Save"
-msgstr "حفظ"
+msgstr "احفظ"
 
 #: templates/html/drag_and_drop_edit.html:296
 msgid "Cancel"
@@ -703,7 +702,7 @@ msgstr "لقد استخدمت {used} من {total} محاولات."
 
 #: public/js/drag_and_drop.js:412
 msgid "Submit"
-msgstr "إرسال"
+msgstr "أرسِل"
 
 #: public/js/drag_and_drop.js:453
 msgid "Show Answer"
@@ -740,12 +739,12 @@ msgstr "خاطئ"
 #: public/js/drag_and_drop.js:610
 msgid "{earned}/{possible} point (graded)"
 msgid_plural "{earned}/{possible} points (graded)"
-msgstr[0] "{earned}\\{possible} نقطة (مع علامة)"
-msgstr[1] "{earned}\\{possible} نقطة (مع علامة)"
-msgstr[2] "{earned}\\{possible} نقطة (مع علامة)"
-msgstr[3] "{earned}\\{possible} نقاط (مع علامة)"
-msgstr[4] "{earned}\\{possible} نقاط (مع علامة)"
-msgstr[5] "{earned}\\{possible} نقطة (مع علامة)"
+msgstr[0] "صفر {earned}\\{possible} (مقيّم)"
+msgstr[1] "درجة واحدة {earned}\\{possible} (مقيّم)"
+msgstr[2] "درجتان {earned}/{possible} (مقيّم)"
+msgstr[3] "{earned}/{possible} درجات (مقيّم)"
+msgstr[4] "{earned}/{possible} درجة (مقيّم)"
+msgstr[5] "{earned}/{possible} درجة (مقيّم)"
 
 #. Translators: {earned} is the number of points earned. {possible} is the
 #. total number of points (examples: 0/1, 1/1, 2/3, 5/10). The total number of
@@ -754,40 +753,40 @@ msgstr[5] "{earned}\\{possible} نقطة (مع علامة)"
 #: public/js/drag_and_drop.js:617
 msgid "{earned}/{possible} point (ungraded)"
 msgid_plural "{earned}/{possible} points (ungraded)"
-msgstr[0] "{earned}/{possible} نقطة (بدون علامة)"
-msgstr[1] "{earned}/{possible} نقطة (بدون علامة)"
-msgstr[2] "{earned}/{possible} نقطة (بدون علامة)"
-msgstr[3] "{earned}/{possible} نقاط (بدون علامة)"
-msgstr[4] "{earned}/{possible} نقاط (بدون علامة)"
-msgstr[5] "{earned}\\{possible} نقطة (بدون علامة)"
+msgstr[0] "صفر {earned}/{possible} (غير مقيّم)"
+msgstr[1] "درجة واحدة {earned}/{possible} (غير مقيّم)"
+msgstr[2] "درجتان {earned}/{possible} (غير مقيّم)"
+msgstr[3] "{earned}/{possible} درجات (غير مقيّم)"
+msgstr[4] "{earned}/{possible} درجة (غير مقيّم)"
+msgstr[5] "{earned}/{possible} درجة (غير مقيّم)"
 
 #. Translators: {possible} is the number of points possible (examples: 1, 3,
 #. 10).
 #: public/js/drag_and_drop.js:627
 msgid "{possible} point possible (graded)"
 msgid_plural "{possible} points possible (graded)"
-msgstr[0] "{possible} نقطة ممكنة (مع علامة)"
-msgstr[1] "{possible} نقطة ممكنة (مع علامة)"
-msgstr[2] "{possible} نقطة ممكنة (مع علامة)"
-msgstr[3] "{possible} نقاط ممكنة (مع علامة)"
-msgstr[4] "{possible} نقاط ممكنة (مع علامة)"
-msgstr[5] "{possible} نقطة ممكنة (مع علامة)"
+msgstr[0] "لا درجات ممكنة (مقيّم)"
+msgstr[1] "درجة واحدة ممكنة (مقيّم)"
+msgstr[2] "درجتان ممكنتان (مقيّم)"
+msgstr[3] "{possible} درجات ممكنة (مقيّم)"
+msgstr[4] "{possible} درجة ممكنة (مقيّم)"
+msgstr[5] "{possible} درجة ممكنة (مقيّم)"
 
 #. Translators: {possible} is the number of points possible (examples: 1, 3,
 #. 10).
 #: public/js/drag_and_drop.js:634
 msgid "{possible} point possible (ungraded)"
 msgid_plural "{possible} points possible (ungraded)"
-msgstr[0] "{possible} نقطة ممكنة (بدون علامة)"
-msgstr[1] "{possible} نقطة ممكنة (بدون علامة)"
-msgstr[2] "{possible} نقطة ممكنة (بدون علامة)"
-msgstr[3] "{possible} نقاط ممكنة (بدون علامة)"
-msgstr[4] "{possible} نقاط ممكنة (بدون علامة)"
-msgstr[5] "{possible} نقطة ممكنة (بدون علامة)"
+msgstr[0] "لا درجات ممكنة (غير مقيّم)"
+msgstr[1] "درجة واحدة ممكنة (غير مقيّم)"
+msgstr[2] "درجتان ممكنتان (غير مقيّم)"
+msgstr[3] "{possible} درجات ممكنة (غير مقيّم)"
+msgstr[4] "{possible} درجة ممكنة (غير مقيّم)"
+msgstr[5] "{possible} درجة ممكنة (غير مقيّم)"
 
 #: public/js/drag_and_drop.js:660
 msgid "Drag and Drop Problem"
-msgstr "مَسألة سحب وإفلات"
+msgstr "مسألة ذات نمط سحب وإفلات"
 
 #: public/js/drag_and_drop.js:662
 msgid "Problem"
@@ -803,7 +802,7 @@ msgstr "أهداف الإسقاط"
 
 #: public/js/drag_and_drop.js:898
 msgid "An error occurred. Unable to load drag and drop problem."
-msgstr "حدث خطأ ما. تعذَّر تحميل مَسألة السحب والإفلات."
+msgstr "حدث خطأ ما. تعذّر تحميل مسألة السحب والإفلات."
 
 #: public/js/drag_and_drop.js:1387
 msgid "You cannot add any more items to this zone."
