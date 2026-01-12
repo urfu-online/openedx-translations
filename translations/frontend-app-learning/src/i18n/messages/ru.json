@@ -681,7 +681,11 @@
   "proctorx.booking.gumOverconstrained": "Выбранное устройство недоступно. Попробуйте выбрать другое.",
   "proctorx.booking.gumGenericError": "Не удалось получить доступ к камере/микрофону.",
   "proctorx.booking.gumNotSupported": "getUserMedia недоступен в этом браузере.",
-  
+
+  "proctorx.booking.enrollmentChecking": "Проверка статуса регистрации на курс...",
+  "proctorx.booking.auditRestrictionTitle": "Прокторинг недоступен",
+  "proctorx.booking.auditRestrictionText": "Согласно предоставленной информации от Центра развития онлайн-обучения УрФУ ({email2}), вам не требуется проходить процедуру прокторинга. Просьба обратиться на указанный электронный адрес ЦРОО. Если вы считаете, что это ошибка, свяжитесь со службой технической поддержки по адресу {email1}.",
+
   "footer.usefulLinksTitle": "Полезные ссылки",
   "footer.supportTitle": "Поддержка студентов УрФУ",
   "footer.techSupportTitle": "Техническое сопровождение",

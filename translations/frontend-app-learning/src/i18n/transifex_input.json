@@ -693,6 +693,10 @@
   "proctorx.booking.gumGenericError": "Could not access the camera/microphone.",
   "proctorx.booking.gumNotSupported": "getUserMedia is not available in this browser.",
 
+  "proctorx.booking.enrollmentChecking": "Verifying enrollment status…",
+  "proctorx.booking.auditRestrictionTitle": "Proctoring is not available",
+  "proctorx.booking.auditRestrictionText": "According to the information provided by the UrFU Center of the Development of Online Learning ({email2}), you don`t have to pass proctoring process. Please contact the specified email address of the CROO. \nIf you believe this is an error, please contact technical support at {email1}.",
+
   "footer.usefulLinksTitle": "Useful Links",
   "footer.supportTitle": "UrFU Student Support",
   "footer.techSupportTitle": "Technical Support",

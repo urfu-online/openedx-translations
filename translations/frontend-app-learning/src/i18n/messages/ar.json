@@ -707,6 +707,11 @@
   "proctorx.booking.gumOverconstrained": "الجهاز المحدد غير متاح. جرّب اختيار جهاز آخر.",
   "proctorx.booking.gumGenericError": "تعذر الوصول إلى الكاميرا/الميكروفون.",
   "proctorx.booking.gumNotSupported": "‏getUserMedia غير متاح في هذا المتصفح.",
+
+  "proctorx.booking.enrollmentChecking": "جاري التحقق من حالة التسجيل...",
+  "proctorx.booking.auditRestrictionTitle": "نظام المراقبة غير متاح لك",
+  "proctorx.booking.auditRestrictionText": "وفقاً لبيانات مركز تطوير التعليم عبر الإنترنت في UrFU ({email2})، لا يتطلب منك اجتياز اختبار بنظام المراقبة. يرجى التواصل مع البريد الإلكتروني للمركز.\nإذا كنت تعتقد أن هناك خطأ، يرجى الاتصال بالدعم الفني عبر {email1}.",
+
   "footer.usefulLinksTitle": "روابط مفيدة",
   "footer.supportTitle": "دعم طلاب UrFU",
   "footer.techSupportTitle": "الدعم الفني",

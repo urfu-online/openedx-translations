@@ -354,6 +354,11 @@
   "proctorx.booking.gumOverconstrained": "所选设备不可用。请尝试选择其他设备。",
   "proctorx.booking.gumGenericError": "无法访问摄像头/麦克风。",
   "proctorx.booking.gumNotSupported": "此浏览器不支持 getUserMedia。",
+
+  "proctorx.booking.enrollmentChecking": "正在验证选课状态…",
+  "proctorx.booking.auditRestrictionTitle": "无需在线监考",
+  "proctorx.booking.auditRestrictionText": "根据乌拉尔联邦大学在线学习发展中心 ({email2}) 提供的信息，您当前的选课模式无需参加监考。请联系上述中心的指定邮箱。\n如果您认为这是一个错误，请通过 {email1} 联系技术支持。",
+  
   "footer.usefulLinksTitle": "常用链接",
   "footer.supportTitle": "UrFU 学生支持",
   "footer.techSupportTitle": "技术支持",
