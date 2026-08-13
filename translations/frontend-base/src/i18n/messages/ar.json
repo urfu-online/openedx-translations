@@ -1,0 +1,16 @@
+{
+  "footer.powered.by": "",
+  "footer.revealLinks.more": "",
+  "footer.trademark.notice": "edX وOpen edX علامتان تجاريتان مسجلتان لشركة edX LLC.",
+  "header.help": "",
+  "header.navigation.skipNavLink": "",
+  "header.user.menu.account": "",
+  "header.user.menu.dashboard": "",
+  "header.user.menu.login": "",
+  "header.user.menu.logout": "",
+  "header.user.menu.order.history": "",
+  "header.user.menu.profile": "",
+  "header.user.menu.register": "",
+  "home.content": "محتوى الصفحة الرئيسية.",
+  "org.openedx.frontend.slot.header.courseNavigationBar.tabs.label": "شريط تصفّح المساق"
+}

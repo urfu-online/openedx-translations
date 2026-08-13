@@ -1,19 +1,20 @@
 # edX translation file.
-# Copyright (C) 2024 EdX
+# Copyright (C) 2026 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
-# EdX Team <info@edx.org>, 2024.
+# EdX Team <info@edx.org>, 2026.
 # 
 # Translators:
-# Brian Smith, 2024
-# Nathan Robertson, 2024
+# Brian Smith, 2026
+# Transifex Bot <>, 2026
+# Gerardo Núñez, 2026
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2023-06-13 08:00+0000\n"
-"PO-Revision-Date: 2023-05-31 00:54+0000\n"
-"Last-Translator: Nathan Robertson, 2024\n"
+"PO-Revision-Date: 2026-07-06 14:41+0000\n"
+"Last-Translator: Gerardo Núñez, 2026\n"
 "Language-Team: Greek (https://app.transifex.com/open-edx/teams/6205/el/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -24,7 +25,7 @@ msgstr ""
 #: mixins/grading.py:72
 msgid "We could not execute your query; please try again."
 msgstr ""
-"Δεν μπορέσαμε να εκτελέσουμε το ερώτημά σας. ΠΑΡΑΚΑΛΩ προσπαθησε ξανα."
+"Δεν μπορέσαμε να εκτελέσουμε το ερώτημά σας. Παρακαλώ προσπαθήστε ξανά."
 
 #: mixins/grading.py:89
 msgid "Weight"
@@ -42,7 +43,7 @@ msgstr "Εμφανιζόμενο όνομα"
 
 #: mixins/grading.py:171
 msgid "The display name for this component."
-msgstr "Το όνομα αυτού του στοιχείου, το οποίο θα φαίνεται στους φοιτητές."
+msgstr "Το εμφανιζόμενο όνομα για αυτό το στοιχείο."
 
 #: mixins/grading.py:172
 msgid "SQL Problem"
@@ -94,7 +95,7 @@ msgstr ""
 
 #: mixins/grading.py:212
 msgid "Is Ordered?"
-msgstr "Παραγγέλθηκε;"
+msgstr "Έχει παραγγελθεί;"
 
 #: mixins/grading.py:213
 msgid "Should results be in order?"
@@ -102,7 +103,7 @@ msgstr "Τα αποτελέσματα πρέπει να είναι σε σειρ
 
 #: mixins/grading.py:228
 msgid "Prompt"
-msgstr "άμεσος"
+msgstr "Προτροπή"
 
 #: mixins/grading.py:229
 msgid "Explanatory text to accompany the problem"
@@ -128,11 +129,11 @@ msgid_plural ""
 "        "
 msgstr[0] ""
 "\n"
-"%(score_weighted)s / %(max_score)s πόντος (βαθμολογημένο)\n"
+"            %(score_weighted)s/%(max_score)s πόντος (βαθμολογημένο)\n"
 "        "
 msgstr[1] ""
 "\n"
-"%(score_weighted)s / %(max_score)s βαθμοί (βαθμολόγηση)\n"
+"            %(score_weighted)s / %(max_score)s βαθμοί (βαθμολόγηση)\n"
 "        "
 
 #: templates/view.html:12
@@ -175,7 +176,7 @@ msgstr "Λανθασμένο"
 
 #: templates/view.html:55
 msgid "Unanswered"
-msgstr "Χωρίς προτεινόμενη απάντηση"
+msgstr "Αναπάντητο"
 
 #: templates/view.html:63
 msgid ""

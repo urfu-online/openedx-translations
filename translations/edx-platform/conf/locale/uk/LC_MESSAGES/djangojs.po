@@ -1,33 +1,29 @@
 # #-#-#-#-#  djangojs.po (0.1a)  #-#-#-#-#
 # edX translation file.
-# Copyright (C) 2025 EdX
+# Copyright (C) 2026 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
-# EdX Team <info@edx.org>, 2025.
+# EdX Team <info@edx.org>, 2026.
 # 
 # #-#-#-#-#  underscore.po (PROJECT VERSION)  #-#-#-#-#
 # Translations template for PROJECT.
-# Copyright (C) 2025 ORGANIZATION
+# Copyright (C) 2026 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
 # 
 # Translators:
-# Brian Smith, 2024
-# Peter Kulko, 2025
-# edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>, 2025
-# Arsen Turchanikov, 2025
-# Iryna Zaporozhets, 2025
+# Brian Smith, 2026
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-08-29 00:45+0000\n"
-"PO-Revision-Date: 2023-11-20 11:35+0000\n"
-"Last-Translator: Iryna Zaporozhets, 2025\n"
+"POT-Creation-Date: 2026-02-08 00:54+0000\n"
+"PO-Revision-Date: 2026-08-07 10:24+0000\n"
+"Last-Translator: Brian Smith, 2026\n"
 "Language-Team: Ukrainian (https://app.transifex.com/open-edx/teams/6205/uk/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.17.0\n"
 "Language: uk\n"
@@ -58,10 +54,8 @@ msgstr "Помилка збереження відкритого оцінюва�
 #: cms/static/js/views/asset.js:85 cms/static/js/views/container.js:48
 #: cms/static/js/views/course_info_handout.js:58
 #: cms/static/js/views/course_info_update.js:170
-#: cms/static/js/views/edit_textbook.js:62
 #: cms/static/js/views/list_item_editor.js:41
 #: cms/static/js/views/modals/edit_xblock.js:216
-#: cms/static/js/views/tabs.js:86 cms/static/js/views/tabs.js:118
 #: cms/static/js/views/utils/xblock_utils.js:287
 #: cms/static/js/views/utils/xblock_utils.js:302
 #: lms/static/js/ccx/schedule.js:256 lms/static/js/views/fields.js:72
@@ -133,7 +127,6 @@ msgstr "Ця дія не може бути скасована. "
 #: cms/static/js/certificates/views/signatory_editor.js:140
 #: cms/static/js/views/asset.js:57 cms/static/js/views/list_item.js:60
 #: cms/static/js/views/manage_users_and_roles.js:32
-#: cms/static/js/views/show_textbook.js:39
 #: lms/djangoapps/teams/static/teams/js/views/instructor_tools.js:36
 #: cms/templates/js/certificate-details.underscore:66
 #: cms/templates/js/certificate-details.underscore:67
@@ -155,7 +148,6 @@ msgstr "Ця дія не може бути скасована. "
 #: cms/templates/js/partition-group-details.underscore:31
 #: cms/templates/js/partition-group-details.underscore:32
 #: cms/templates/js/partition-group-details.underscore:36
-#: cms/templates/js/show-textbook.underscore:43
 #: cms/templates/js/signatory-editor.underscore:5
 #: cms/templates/js/video-transcripts.underscore:47
 #: cms/templates/js/xblock-outline.underscore:31
@@ -166,8 +158,7 @@ msgstr "Видалити"
 
 #: cms/static/js/certificates/views/signatory_editor.js:143
 #: cms/static/js/views/course_info_update.js:249
-#: cms/static/js/views/list_item.js:63 cms/static/js/views/show_textbook.js:43
-#: cms/static/js/views/tabs.js:174
+#: cms/static/js/views/list_item.js:63
 #: cms/static/js/views/utils/xblock_utils.js:216
 msgid "Deleting"
 msgstr "Видалення"
@@ -186,7 +177,6 @@ msgstr "Видалення"
 #: cms/static/js/views/modals/course_outline_modals.js:260
 #: cms/static/js/views/modals/preview_v2_library_changes.js:37
 #: cms/static/js/views/modals/select_v2_library_content.js:60
-#: cms/static/js/views/show_textbook.js:53 cms/static/js/views/tabs.js:188
 #: cms/static/js/views/validation.js:127
 #: common/static/common/js/components/utils/view_utils.js:68
 #: lms/static/js/Markdown.Editor.js:1092
@@ -199,7 +189,6 @@ msgstr "Видалення"
 #: cms/templates/js/content-group-editor.underscore:32
 #: cms/templates/js/course_info_handouts.underscore:20
 #: cms/templates/js/course_info_update.underscore:15
-#: cms/templates/js/edit-textbook.underscore:26
 #: cms/templates/js/group-configuration-editor.underscore:46
 #: cms/templates/js/section-name-edit.underscore:4
 #: cms/templates/js/signatory-actions.underscore:4
@@ -283,11 +272,6 @@ msgstr "Заховати застарілі налаштування"
 msgid "Show Deprecated Settings"
 msgstr "Показати застарілі налаштування"
 
-#: cms/static/js/factories/textbooks.js:20
-#: cms/static/js/views/pages/group_configurations.js:84
-msgid "You have unsaved changes. Do you really want to leave this page?"
-msgstr "У вас є незбережені зміни. Ви дійсно хочете покинути сторінку?"
-
 #: cms/static/js/features/import/factories/import.js:22
 msgid "There was an error during the upload process."
 msgstr "Відбулась помилка під час процесу завантаження."
@@ -359,18 +343,6 @@ msgstr "Вивантаження завершено"
 msgid "Upload failed"
 msgstr "Завантаження не вдалося"
 
-#: cms/static/js/models/chapter.js:35
-msgid "Chapter name and asset_path are both required"
-msgstr "Назва розділу та  asset_path обидва необхідні "
-
-#: cms/static/js/models/chapter.js:40
-msgid "Chapter name is required"
-msgstr "Назва розділу обов'язкова"
-
-#: cms/static/js/models/chapter.js:45
-msgid "asset_path is required"
-msgstr "asset_path обов'язковий"
-
 #: cms/static/js/models/course.js:8 cms/static/js/models/section.js:9
 msgid "You must specify a name"
 msgstr "Ви маєте вказати ім'я"
@@ -439,6 +411,14 @@ msgstr ""
 msgid "The certificate display behavior must be one of: {behavior_options}"
 msgstr "Відображення сертифіката має бути одним з: {behavior_options}"
 
+#: cms/static/js/models/settings/course_details.js:108
+msgid ""
+"The certificates display behavior must be {valid_option} if certificate "
+"available date is set."
+msgstr ""
+"Відображення Сертифіката має бути {valid_option} якщо вказана дата "
+"доступності Сертифіката."
+
 #: cms/static/js/models/settings/course_details.js:118
 msgid "Key should only contain letters, numbers, _, or -"
 msgstr "Ключ має містити тільки літери, цифри, _, або -"
@@ -480,18 +460,6 @@ msgstr "Додатковий період часу має бути вказан�
 msgid "Not able to set passing grade to less than %(minimum_grade_cutoff)s%."
 msgstr ""
 "Неможливо встановити прохідний бал нижче ніж %(minimum_grade_cutoff)s%."
-
-#: cms/static/js/models/textbook.js:62
-msgid "Textbook name is required"
-msgstr "Назва підручника є обов'язкова умова"
-
-#: cms/static/js/models/textbook.js:68
-msgid "Please add at least one chapter"
-msgstr "Додайте, будь ласка, мінімум один розділ"
-
-#: cms/static/js/models/textbook.js:81
-msgid "All chapters must have a name and asset"
-msgstr "Всім розділам потрібно мати назву та складники"
 
 #: cms/static/js/models/uploads.js:17
 msgid ""
@@ -676,7 +644,7 @@ msgstr "Додати контент бібліотеки"
 
 #: cms/static/js/views/components/add_xblock.js:120
 #: cms/static/js/views/components/add_xblock.js:131
-#: cms/static/js/views/pages/container.js:651
+#: cms/static/js/views/pages/container.js:655
 #: cms/static/js/views/utils/xblock_utils.js:55
 msgid "Adding"
 msgstr "Додавання"
@@ -695,8 +663,8 @@ msgstr "Ви впевнені, що хочете видалити це онов�
 #: cms/static/js/views/course_info_update.js:241
 #: cms/static/js/views/course_outline.js:390
 #: cms/static/js/views/course_outline.js:402
-#: cms/static/js/views/pages/container.js:423
-#: cms/static/js/views/pages/container.js:435 cms/static/js/views/tabs.js:164
+#: cms/static/js/views/pages/container.js:426
+#: cms/static/js/views/pages/container.js:438
 #: cms/static/js/views/utils/xblock_utils.js:101
 #: cms/static/js/views/utils/xblock_utils.js:113
 #: lms/static/js/Markdown.Editor.js:1091 xmodule/js/src/html/edit.js:885
@@ -706,7 +674,7 @@ msgid "OK"
 msgstr "Гаразд"
 
 #: cms/static/js/views/course_outline.js:242
-#: cms/static/js/views/pages/container.js:778
+#: cms/static/js/views/pages/container.js:782
 #: cms/static/js/views/pages/container_subviews.js:187
 msgid "Copying"
 msgstr "Копіювання"
@@ -716,49 +684,59 @@ msgid "Copy of \"{componentDisplayName}\""
 msgstr "Копія \"{componentDisplayName}\""
 
 #: cms/static/js/views/course_outline.js:367
-#: cms/static/js/views/pages/container.js:394
+#: cms/static/js/views/pages/container.js:397
 #: cms/static/js/views/utils/xblock_utils.js:79
 msgid "Pasting"
 msgstr "Перенесення"
 
 #: cms/static/js/views/course_outline.js:385
-#: cms/static/js/views/pages/container.js:418
+#: cms/static/js/views/pages/container.js:421
 #: cms/static/js/views/utils/xblock_utils.js:96
 msgid "Some errors occurred"
 msgstr "Сталися деякі помилки"
 
 #: cms/static/js/views/course_outline.js:387
-#: cms/static/js/views/pages/container.js:420
+#: cms/static/js/views/pages/container.js:423
 #: cms/static/js/views/utils/xblock_utils.js:98
 msgid "The following required files could not be added to the course:"
 msgstr "Наступні обов’язкові файли не вдалося додати до курсу:"
 
 #: cms/static/js/views/course_outline.js:395
-#: cms/static/js/views/pages/container.js:428
+#: cms/static/js/views/pages/container.js:431
 #: cms/static/js/views/utils/xblock_utils.js:106
 msgid "You may need to update a file(s) manually"
 msgstr "Можливо, вам потрібно буде оновити файл(и) вручну"
 
+#: cms/static/js/views/course_outline.js:398
+#: cms/static/js/views/pages/container.js:434
+#: cms/static/js/views/utils/xblock_utils.js:109
+msgid ""
+"The following files already exist in this course but don't match the version"
+" used by the component you pasted:"
+msgstr ""
+"Наступні файли вже існують у цьому курсі, але не відповідають версії, яку "
+"використовує вставлений вами компонент:"
+
 #: cms/static/js/views/course_outline.js:407
-#: cms/static/js/views/pages/container.js:440
+#: cms/static/js/views/pages/container.js:443
 #: cms/static/js/views/utils/xblock_utils.js:118
 msgid "New file(s) added to Files & Uploads."
 msgstr "Нові файли додано до \"Файлів та Завантажень\"."
 
 #: cms/static/js/views/course_outline.js:409
-#: cms/static/js/views/pages/container.js:442
+#: cms/static/js/views/pages/container.js:445
 #: cms/static/js/views/utils/xblock_utils.js:120
 msgid "The following required files were imported to this course:"
 msgstr "Наступні обов’язкові файли були імпортовані до цього курсу:"
 
 #: cms/static/js/views/course_outline.js:414
-#: cms/static/js/views/pages/container.js:447
+#: cms/static/js/views/pages/container.js:450
 #: cms/static/js/views/utils/xblock_utils.js:125
 msgid "View files"
 msgstr "Переглянути файли"
 
 #: cms/static/js/views/course_outline.js:422
-#: cms/static/js/views/pages/container.js:456
+#: cms/static/js/views/pages/container.js:459
 #: cms/static/js/views/utils/xblock_utils.js:134
 msgid "Dismiss"
 msgstr "Відхилити"
@@ -832,14 +810,6 @@ msgstr "Автоматичні транскрипти вимкнено."
 #: cms/static/js/views/course_video_settings.js:719
 msgid "{selectedProvider} credentials saved"
 msgstr "{selectedProvider} облікові дані збережено"
-
-#: cms/static/js/views/edit_chapter.js:62
-msgid "Upload a new PDF to “<%- name %>”"
-msgstr "Завантажити новий PDF в “<%- name %>”"
-
-#: cms/static/js/views/edit_chapter.js:64
-msgid "Please select a PDF file to upload."
-msgstr "Будь ласка, оберіть PDF файл для завантаження."
 
 #: cms/static/js/views/export.js:312
 msgid "There has been an error while exporting."
@@ -1117,7 +1087,6 @@ msgstr "Вивантажити файл"
 #: cms/templates/js/certificate-editor.underscore:46
 #: cms/templates/js/content-group-editor.underscore:31
 #: cms/templates/js/course_info_handouts.underscore:19
-#: cms/templates/js/edit-textbook.underscore:25
 #: cms/templates/js/group-configuration-editor.underscore:45
 #: cms/templates/js/section-name-edit.underscore:3
 #: cms/templates/js/signatory-actions.underscore:3
@@ -1218,6 +1187,10 @@ msgstr "Блок"
 msgid "Component"
 msgstr "Компонент"
 
+#: cms/static/js/views/modals/edit_xblock.js:207
+msgid "Studio's having trouble parsing the problem component's content"
+msgstr "Студія розбирає контент задачі компонента"
+
 #: cms/static/js/views/modals/move_xblock_modal.js:37
 msgid "Move"
 msgstr "Перемістити"
@@ -1315,7 +1288,7 @@ msgstr "Дата додавання"
 
 #. Translators: "title" is the name of the current component or unit being
 #. edited.
-#: cms/static/js/views/pages/container.js:730
+#: cms/static/js/views/pages/container.js:734
 msgid "Editing access for: {title}"
 msgstr "Редагування доступу для: {title}"
 
@@ -1381,6 +1354,10 @@ msgstr "Індекс курсу"
 #: cms/static/js/views/pages/course_outline.js:256
 msgid "There were errors reindexing course."
 msgstr "Виникли помилки при переіндексації курсу."
+
+#: cms/static/js/views/pages/group_configurations.js:84
+msgid "You have unsaved changes. Do you really want to leave this page?"
+msgstr "У вас є незбережені зміни. Ви дійсно хочете покинути сторінку?"
 
 #: cms/static/js/views/pages/paged_container.js:46
 msgid "Hide Previews"
@@ -1525,27 +1502,6 @@ msgstr "Завантажити зображення для курсу "
 msgid "Upload your video thumbnail image."
 msgstr "Завантажити зображення-мініатюру до відео"
 
-#: cms/static/js/views/show_textbook.js:33
-msgid "Delete “<%- name %>”?"
-msgstr "Видалити “<%- name %>”?"
-
-#: cms/static/js/views/show_textbook.js:36
-msgid ""
-"Deleting a textbook cannot be undone and once deleted any reference to it in"
-" your courseware's navigation will also be removed."
-msgstr ""
-"Видалення підручника є незворотнім і призведе до того, що всі посилання на "
-"нього в навігації по вашому курсу також будуть видалені. "
-
-#: cms/static/js/views/tabs.js:160
-msgid "Delete Page Confirmation"
-msgstr "Підтвердження видалення сторінки"
-
-#: cms/static/js/views/tabs.js:161
-msgid ""
-"Are you sure you want to delete this page? This action cannot be undone."
-msgstr "Ви впевнені, що хочете видалити цю сторінку? Ця дія є незворотньою."
-
 #: cms/static/js/views/uploads.js:30
 #: cms/templates/js/metadata-file-uploader-item.underscore:1
 #: cms/templates/js/video/metadata-translations-item.underscore:5
@@ -1555,6 +1511,22 @@ msgstr "Завантажити"
 #: cms/static/js/views/uploads.js:122
 msgid "We're sorry, there was an error"
 msgstr "Вибачте, сталася помилка"
+
+#: cms/static/js/views/utils/create_course_utils.js:9
+msgid ""
+"The combined length of the organization, course number, and course run "
+"fields cannot be more than <%- limit %> characters."
+msgstr ""
+"Сукупна довжина полів \"організація\", \"номер курсу\" та \"запуск курсу\" "
+"не може перевищувати <%- limit %> символів."
+
+#: cms/static/js/views/utils/create_library_utils.js:9
+msgid ""
+"The combined length of the organization and library code fields cannot be "
+"more than <%- limit %> characters."
+msgstr ""
+"Сукупна довжина полів \"організація\" та \"код бібліотеки\" не може "
+"перевищувати <%- limit %> символів."
 
 #: cms/static/js/views/utils/move_xblock_utils.js:33
 msgid "Success! \"{displayName}\" has been moved."
@@ -2202,6 +2174,12 @@ msgstr "Ви впевнені, що хочете видалити цю публ�
 msgid "Your post will be discarded."
 msgstr "Ваше повідомлення буде відмінено."
 
+#: common/static/common/js/discussion/views/response_comment_show_view.js:59
+#: common/static/common/templates/discussion/templates.underscore:553
+#: common/static/common/templates/discussion/templates.underscore:624
+msgid "anonymous"
+msgstr "анонімний"
+
 #: common/static/common/js/discussion/views/response_comment_view.js:106
 msgid "Are you sure you want to delete this comment?"
 msgstr "Ви впевнені, що хочете видалити цей коментар?"
@@ -2335,6 +2313,10 @@ msgstr[3] "%d років"
 #: lms/djangoapps/instructor/static/instructor/ProblemBrowser/components/Main/Main.jsx:39
 msgid "Select a section or problem"
 msgstr "Виберіть розділ чи завдання"
+
+#: lms/djangoapps/instructor/static/instructor/ProblemBrowser/components/Main/Main.jsx:82
+msgid "Create a report of problem responses"
+msgstr "Створювати звіт відповідей на задачі"
 
 #: lms/djangoapps/instructor/static/instructor/ProblemBrowser/components/ReportStatus/ReportStatus.jsx:13
 msgid "Your report is being generated..."
@@ -3185,12 +3167,113 @@ msgstr ""
 "Поле «Ім'я користувача/адреса електронної пошти не може бути порожнім. "
 "Заповніть поле і натисніть кнопку «Анулювати сертифікат»."
 
+#: lms/static/js/certificates/views/certificate_allowlist.js:59
+msgid "Student Removed from certificate allowlist successfully."
+msgstr "Студента успішно видалено зі списку для отримання сертифікатів."
+
+#: lms/static/js/certificates/views/certificate_allowlist.js:69
+msgid ""
+"Could not find Certificate Exception in the allowlist. Please refresh the "
+"page and try again"
+msgstr ""
+"Не вдалося знайти виключення в allowlist для одержання Сертифікатів. Будь "
+"ласка, оновіть сторінку та повторіть спробу."
+
 #: lms/static/js/certificates/views/certificate_allowlist.js:106
 #: lms/static/js/certificates/views/certificate_allowlist_editor.js:113
 #: lms/static/js/certificates/views/certificate_invalidation_view.js:69
 #: lms/static/js/certificates/views/certificate_invalidation_view.js:98
 msgid "Server Error, Please refresh the page and try again."
 msgstr "Помилка на сервері. Будь ласка, оновіть сторінку та повторіть спробу."
+
+#: lms/static/js/certificates/views/certificate_allowlist_editor.js:64
+msgid "<%- user %> already in exception list."
+msgstr "<%- user %> вже у списку винятків."
+
+#: lms/static/js/certificates/views/certificate_allowlist_editor.js:69
+msgid ""
+"<%- user %> has been successfully added to the exception list. Click "
+"Generate Exception Certificate below to send the certificate."
+msgstr ""
+"<%- user %> було успішно додано до списку винятків. Натисніть Створити "
+"Сертифікат нижче, щоб надіслати сертифікат."
+
+#: lms/static/js/certificates/views/certificate_bulk_allowlist.js:106
+msgid " learners were successfully added to exception list"
+msgstr " учні успішно додані в список виключень"
+
+#: lms/static/js/certificates/views/certificate_bulk_allowlist.js:107
+msgid " learner was successfully added to the exception list"
+msgstr " учень успішно доданий в список виключень"
+
+#: lms/static/js/certificates/views/certificate_bulk_allowlist.js:112
+msgid ""
+" records are not in the correct format and have not been added to the "
+"exception list"
+msgstr " записи неправильного формату та їх не додано до списку виключення"
+
+#: lms/static/js/certificates/views/certificate_bulk_allowlist.js:114
+msgid ""
+" record is not in the correct format and has not been added to the exception"
+" list"
+msgstr " запис неправильного формату та його не додано до списку виключення"
+
+#: lms/static/js/certificates/views/certificate_bulk_allowlist.js:120
+msgid ""
+" learner accounts cannot be found and have not been added to the exception "
+"list"
+msgstr ""
+" Облікові записи учнів не знайдено і вони не додані в список виключень."
+
+#: lms/static/js/certificates/views/certificate_bulk_allowlist.js:122
+msgid ""
+" learner account cannot be found and has not been added to the exception "
+"list"
+msgstr " учень не знайдено і він не доданий в список виключень"
+
+#: lms/static/js/certificates/views/certificate_bulk_allowlist.js:128
+msgid " learners already appear on the exception list in this course"
+msgstr " Учні вже додані до списку виключень"
+
+#: lms/static/js/certificates/views/certificate_bulk_allowlist.js:129
+msgid " learner already appears on the exception list in this course"
+msgstr " учень вже доданий до списку виключень у цьому курсі"
+
+#: lms/static/js/certificates/views/certificate_bulk_allowlist.js:134
+msgid ""
+" learners are not enrolled in this course and have not added to the "
+"exception list"
+msgstr " учні не зараховані на курс і не додали до списку виключень"
+
+#: lms/static/js/certificates/views/certificate_bulk_allowlist.js:136
+msgid ""
+" learner is not enrolled in this course and has not been added to the "
+"exception list"
+msgstr " учень не зарахований на курс і не доданий до списку виключень"
+
+#: lms/static/js/certificates/views/certificate_bulk_allowlist.js:142
+msgid ""
+" learners have an active certificate invalidation in this course and have "
+"not been added to the exception list"
+msgstr ""
+" учні мають статус недійсного Сертифіката у цьому курсі та не були додані до"
+" списку винятків"
+
+#: lms/static/js/certificates/views/certificate_bulk_allowlist.js:144
+msgid ""
+" learner has an active certificate invalidation in this course and has not "
+"been added to the exception list"
+msgstr ""
+" учень має статус визнання Сертифіката недійсним у цьому курсі та не був "
+"додано до списку винятків"
+
+#: lms/static/js/certificates/views/certificate_bulk_allowlist.js:150
+msgid " learners encountered unknown errors"
+msgstr " учні зіткнулися з невідомими помилками"
+
+#: lms/static/js/certificates/views/certificate_bulk_allowlist.js:151
+msgid " learner encountered an unknown error"
+msgstr " учень зіткнувся з невідомою помилкою"
 
 #: lms/static/js/certificates/views/certificate_bulk_allowlist.js:163
 msgid "Uploaded file issues. Click on \"+\" to view."
@@ -3275,6 +3358,42 @@ msgstr "Вам буде повернена сума, яку ви оплатил�
 msgid "You will not be refunded the amount you paid."
 msgstr "Вам не повернять суму, яку ви оплатили."
 
+#: lms/static/js/dashboard/legacy.js:97
+msgid ""
+"Are you sure you want to unenroll from the purchased course {courseName} "
+"({courseNumber})?"
+msgstr ""
+"Ви впевнені, що хочете скасувати реєстрацію на придбаному курсі {courseName}"
+" ({courseNumber})?"
+
+#: lms/static/js/dashboard/legacy.js:100
+msgid "Are you sure you want to unenroll from {courseName} ({courseNumber})?"
+msgstr "Ви впевнені, що хочете відписатися від {courseName} ({courseNumber})?"
+
+#: lms/static/js/dashboard/legacy.js:103 lms/static/js/dashboard/legacy.js:106
+msgid ""
+"Are you sure you want to unenroll from the verified {certNameLong}  track of"
+" {courseName}  ({courseNumber})?"
+msgstr ""
+"Ви впевнені, що хочете скасувати реєстрацію з підтвердженого {certNameLong} "
+"треку {courseName} ({courseNumber})?"
+
+#: lms/static/js/dashboard/legacy.js:110
+msgid ""
+"Are you sure you want to unenroll from the verified {certNameLong} track of "
+"{courseName} ({courseNumber})?"
+msgstr ""
+"Ви впевнені, що хочете скасувати реєстрацію з підтвердженого {certNameLong} "
+"треку {courseName} ({courseNumber})?"
+
+#: lms/static/js/dashboard/legacy.js:112
+msgid ""
+"The refund deadline for this course has passed, so you will not receive a "
+"refund."
+msgstr ""
+"Термін повернення грошей для цього курсу пройшов, так що ви не зможете "
+"отримати відшкодування."
+
 #: lms/static/js/dashboard/legacy.js:190 lms/static/js/dashboard/legacy.js:200
 #: lms/static/js/learner_dashboard/views/unenroll_view.js:94
 msgid ""
@@ -3297,6 +3416,11 @@ msgstr[3] "Перегляд %s курсів"
 #, javascript-format
 msgid "We couldn't find any results for \"%s\"."
 msgstr "Ми не змогли знайти жодних результатів для \"%s\"."
+
+#: lms/static/js/discovery/views/search_form.js:66
+#: openedx/features/course_search/static/course_search/templates/search_error.underscore:1
+msgid "There was an error, try searching again."
+msgstr "Помилка, спробуйте пошук знову."
 
 #: lms/static/js/discussions_management/views/discussions.js:60
 msgid "Not divided"
@@ -3502,6 +3626,26 @@ msgstr[3] "{numPresent} студентів вже було у цій когор�
 msgid "{email}"
 msgstr "{email}"
 
+#: lms/static/js/groups/views/cohort_editor.js:237
+msgid ""
+"{numPreassigned} learner was pre-assigned for this cohort. This learner will"
+" automatically be added to the cohort when they enroll in the course."
+msgid_plural ""
+"{numPreassigned} learners were pre-assigned for this cohort. These learners "
+"will automatically be added to the cohort when they enroll in the course."
+msgstr[0] ""
+"Учень {numPreassigned} був попередньо назначений для цієї когорти. Цей учень"
+" буде автоматично додано до когорти, коли він записується на курс."
+msgstr[1] ""
+"Учні {numPreassigned} були призначені до цієї когорти. Ці учні будуть "
+"автоматично додаватися до когорти, коли вони запишуться на курс."
+msgstr[2] ""
+"Учні {numPreassigned} були призначені до цієї когорти. Ці учні будуть "
+"автоматично додаватися до когорти, коли вони запишуться на курс."
+msgstr[3] ""
+"Учні {numPreassigned} були призначені до цієї когорти. Ці учні будуть "
+"автоматично додаватися до когорти, коли вони запишуться на курс."
+
 #: lms/static/js/groups/views/cohort_editor.js:276
 msgid "Unknown username: {user}"
 msgstr "Невідоме ім'я користувача: {user}"
@@ -3509,6 +3653,18 @@ msgstr "Невідоме ім'я користувача: {user}"
 #: lms/static/js/groups/views/cohort_editor.js:280
 msgid "Invalid email address: {email}"
 msgstr "Неправильна електронна адреса: {email}"
+
+#: lms/static/js/groups/views/cohort_editor.js:284
+msgid "Cohort assignment not allowed: {email_or_username}"
+msgstr "Призначення когорти не дозволено для: {email_or_username}"
+
+#: lms/static/js/groups/views/cohort_editor.js:291
+msgid "There was an error when trying to add learners:"
+msgid_plural "{numErrors} learners could not be added to this cohort:"
+msgstr[0] "Під час спроби додати учнів сталася помилка:"
+msgstr[1] "{numErrors} учні не можуть бути додані до цієї когорти:"
+msgstr[2] "{numErrors} учні не можуть бути додані до цієї когорти:"
+msgstr[3] "{numErrors} учні не можуть бути додані до цієї когорти:"
 
 #: lms/static/js/groups/views/cohort_editor.js:306
 msgid "View all errors"
@@ -3615,6 +3771,10 @@ msgstr "Завантаження даних..."
 msgid "Error getting issued certificates list."
 msgstr "Помилка отримання списку випущених сертифікатів."
 
+#: lms/static/js/instructor_dashboard/data_download.js:124
+msgid "Error generating anonymous IDs. Please try again."
+msgstr "Помилка генерації анонімних ID. Будь ласка спробуйте ще раз."
+
 #: lms/static/js/instructor_dashboard/data_download.js:150
 #: lms/static/js/instructor_dashboard/data_download_2.js:49
 msgid "Error generating proctored exam results. Please try again."
@@ -3651,6 +3811,14 @@ msgstr "Помилка під час отримання списку студе�
 msgid "Error generating list of students who may enroll. Please try again."
 msgstr ""
 "Помилка при генеруванні списка студентів, які записались. Спробуйте пізніше."
+
+#: lms/static/js/instructor_dashboard/data_download.js:327
+msgid ""
+"Error generating list of inactive students who are enrolled in a course. "
+"Please try again."
+msgstr ""
+"Помилка під час згенерування списку неактивних студентів, які записані на "
+"курс. Будь ласка, спробуйте ще раз."
 
 #: lms/static/js/instructor_dashboard/data_download.js:359
 msgid "Error retrieving grading configuration."
@@ -4044,6 +4212,16 @@ msgstr ""
 "Спроби успішно скинуті для завдання '<%- problem_id %>' та учня '<%- "
 "student_id %>'."
 
+#: lms/static/js/instructor_dashboard/student_admin.js:157
+msgid ""
+"Error resetting problem attempts for problem '<%- problem_id %>' and student"
+" '<%- student_id %>'. Make sure that the problem and student identifiers are"
+" complete and correct."
+msgstr ""
+"Помилка при скиданні спроб задачі '<%- problem_id %>' та студента '<%- "
+"student_id %>'. Переконайтеся, що задача та ідентифікатори студентів є "
+"повними та правильними."
+
 #: lms/static/js/instructor_dashboard/student_admin.js:194
 msgid ""
 "Delete student '<%- student_id %>'s state on problem '<%- problem_id %>'?"
@@ -4358,6 +4536,22 @@ msgstr ""
 "Посилання генеруються на вимогу та зникнуть протягом 5 хвилин через "
 "чутливість інформації про оцінки студентів."
 
+#: lms/static/js/learner_dashboard/EnterpriseLearnerPortalModal.jsx:123
+msgid "You have access to the {enterpriseName} dashboard"
+msgstr "У Вас є доступ до інформаційної панелі {enterpriseName}"
+
+#: lms/static/js/learner_dashboard/EnterpriseLearnerPortalModal.jsx:132
+msgid ""
+"To access the courses available to you through {enterpriseName}, visit the "
+"{enterpriseName} dashboard."
+msgstr ""
+"Для доступу до курсів, наданих {enterpriseName}, перейдіть на сторінку "
+"{enterpriseName}."
+
+#: lms/static/js/learner_dashboard/EnterpriseLearnerPortalModal.jsx:160
+msgid "Go to dashboard"
+msgstr "Перейти до інформаційної панелі"
+
 #: lms/static/js/learner_dashboard/models/course_card_model.js:168
 msgid "(Self-paced) Starts {start}"
 msgstr "Починаються {start} (Самостійні курси)"
@@ -4394,6 +4588,16 @@ msgstr "Щоб отримати доступ до курсу, потрібно �
 msgid "There was an error. Please reload the page and try again."
 msgstr ""
 "Тут була помилка. Будь ласка, перезавантажте сторінку та повторіть спробу."
+
+#: lms/static/js/learner_dashboard/views/course_entitlement_view.js:284
+#: lms/templates/learner_dashboard/course_entitlement.underscore:32
+msgid "Change Session"
+msgstr "Змініть Сеанс"
+
+#: lms/static/js/learner_dashboard/views/course_entitlement_view.js:284
+#: lms/templates/learner_dashboard/course_entitlement.underscore:34
+msgid "Select Session"
+msgstr "Виберіть Сеанс"
 
 #: lms/static/js/learner_dashboard/views/course_entitlement_view.js:286
 msgid "Leave Current Session"
@@ -4494,6 +4698,10 @@ msgstr "Введіть та підтвердьте ваш новий парол�
 msgid "New Password"
 msgstr "Новий пароль"
 
+#: lms/static/js/student_account/components/PasswordResetConfirmation.jsx:107
+msgid "Confirm Password"
+msgstr "Підтвердити Пароль"
+
 #: lms/static/js/student_account/components/PasswordResetConfirmation.jsx:110
 msgid "Passwords do not match."
 msgstr "Паролі не співпадають."
@@ -4510,6 +4718,17 @@ msgstr "Скинути свій пароль"
 msgid "Error: "
 msgstr "Помилка:"
 
+#: lms/static/js/student_account/components/StudentAccountDeletion.jsx:41
+#: lms/static/js/student_account/components/StudentAccountDeletionModal.jsx:97
+msgid ""
+"You may also lose access to verified certificates and other program "
+"credentials. You can make a copy of these for your records before proceeding"
+" with deletion."
+msgstr ""
+"Ви також можете втратити доступ до підтверджених Сертифікатів та інших "
+"облікових даних програми. Перед видаленням ви можете зробити їхню копію для "
+"своїх записів."
+
 #: lms/static/js/student_account/components/StudentAccountDeletion.jsx:46
 msgid ""
 "Before proceeding, please {htmlStart}unlink all social media "
@@ -4518,12 +4737,56 @@ msgstr ""
 "Перш ніж продовжити,будь ласка{htmlStart} від’єднайте всі облікові записи "
 "соціальних медіа {htmlEnd}."
 
+#: lms/static/js/student_account/components/StudentAccountDeletion.jsx:54
+msgid "Before proceeding, please {htmlStart}{emailMsg}{htmlEnd}."
+msgstr "Перш ніж продовжити, будь ласка {htmlStart}{emailMsg}{htmlEnd}."
+
 #: lms/static/js/student_account/components/StudentAccountDeletion.jsx:63
 msgid ""
 "{htmlStart}Want to change your email, name, or password instead?{htmlEnd}"
 msgstr ""
 "{htmlStart}Бажаєте замінити адресу електронної пошти, імені або пароля? "
 "{htmlEnd}"
+
+#: lms/static/js/student_account/components/StudentAccountDeletion.jsx:71
+msgid ""
+"{strongStart}Warning: Account deletion is permanent.{strongEnd} Please read "
+"the above carefully before proceeding. This is an irreversible action, and "
+"{strongStart}you will no longer be able to use the same email on "
+"{platformName}.{strongEnd}"
+msgstr ""
+"{strongStart}Попередження: видалення облікового запису є "
+"незворотнім.{strongEnd} Будь ласка, уважно прочитайте вище, перш ніж "
+"продовжити. Це незворотня дія, і {strongStart}ви більше не зможете "
+"використовувати ту саму пошту на {platformName}.{strongEnd}"
+
+#: lms/static/js/student_account/components/StudentAccountDeletion.jsx:80
+msgid ""
+"Please note: Deletion of your account and personal data is permanent and "
+"cannot be undone. {platformName} will not be able to recover your account or"
+" the data that is deleted."
+msgstr ""
+"Зверніть увагу: видалення вашого Облікового запису та персональних даних є "
+"остаточним і не може бути скасовано. {platformName} не зможе відновити ваш "
+"Обліковий запис або видалені дані."
+
+#: lms/static/js/student_account/components/StudentAccountDeletion.jsx:87
+msgid ""
+"Once your account is deleted, you cannot use it to take courses on the "
+"{platformName} app, {siteName}, or any other site hosted by {platformName}."
+msgstr ""
+"Після видалення вашого облікового запису, ви не зможете використовувати його"
+" для проходження курсів у застосуванні {platformName}, {siteName} або на "
+"будь-якому іншому сайті, розміщеному на сайті {platformName}."
+
+#: lms/static/js/student_account/components/StudentAccountDeletion.jsx:95
+#: lms/static/js/student_account/components/StudentAccountDeletionModal.jsx:115
+msgid ""
+"This includes access to {siteName} from your employer’s or university’s "
+"system{additionalSiteSpecificDeletionText}."
+msgstr ""
+"Сюди входить доступ до сайту {siteName} із системи вашого роботодавця чи "
+"університету {additionalSiteSpecificDeletionText}."
 
 #: lms/static/js/student_account/components/StudentAccountDeletion.jsx:104
 msgid "We’re sorry to see you go!"
@@ -4557,6 +4820,26 @@ msgstr ""
 msgid "A Password is required"
 msgstr "Необхідно вказати пароль"
 
+#: lms/static/js/student_account/components/StudentAccountDeletionModal.jsx:100
+msgid ""
+"You have selected “Delete my account.” Deletion of your account and personal"
+" data is permanent and cannot be undone. {platformName} will not be able to "
+"recover your account or the data that is deleted."
+msgstr ""
+"Ви вибрали \"Видалити мій Обліковий запис\". Видалення вашого Облікового "
+"запису та особистих даних є незмінним і не може бути скасовано. "
+"{platformName} не зможе відновити ваш Обліковий запис або видалені дані."
+
+#: lms/static/js/student_account/components/StudentAccountDeletionModal.jsx:107
+msgid ""
+"If you proceed, you will be unable to use this account to take courses on "
+"the {platformName} app, {siteName}, or any other site hosted by "
+"{platformName}."
+msgstr ""
+"Якщо продовжити, ви не зможете використовувати цей обліковий запис для "
+"проходження курсів у застосуванні {platformName}, {siteName}, або будь-якому"
+" іншому веб-сайті, розміщеному на сайті {platformName}."
+
 #: lms/static/js/student_account/components/StudentAccountDeletionModal.jsx:172
 msgid ""
 "If you still wish to continue and delete your account, please enter your "
@@ -4588,6 +4871,14 @@ msgstr ""
 msgid "Terms of Service and Honor Code"
 msgstr "Умови надання послуг та Кодекс Честі"
 
+#: lms/static/js/student_account/views/FinishAuthView.js:71
+msgid "query param next is provide"
+msgstr "параметр запиту next має вигляд давати"
+
+#: lms/static/js/student_account/views/FinishAuthView.js:73
+msgid "query param next is internal"
+msgstr "параметр запиту next є внутрішнім"
+
 #: lms/static/js/student_account/views/FinishAuthView.js:111
 msgid "Saving your email preference"
 msgstr "Збереження налаштувань вашого email"
@@ -4596,9 +4887,21 @@ msgstr "Збереження налаштувань вашого email"
 msgid "Enrolling you in the selected course"
 msgstr "Йде реєстрація на обраний Вами курс"
 
+#: lms/static/js/student_account/views/FinishAuthView.js:140
+msgid "course mode param is not provided"
+msgstr "курс параметр курсу не давати"
+
+#: lms/static/js/student_account/views/FinishAuthView.js:148
+msgid "course mode param is provided"
+msgstr "курс дає параметр режиму"
+
 #: lms/static/js/student_account/views/FinishAuthView.js:163
 msgid "Adding the selected course to your cart"
 msgstr "Додати обрані курси до вашої корзини"
+
+#: lms/static/js/student_account/views/FinishAuthView.js:167
+msgid " redirect the user to the next page"
+msgstr " Перенаправте користувача на наступну сторінку."
 
 #: lms/static/js/student_account/views/FinishAuthView.js:177
 msgid "Loading your courses"
@@ -4630,12 +4933,49 @@ msgstr "Сталася помилка при авторизації Вас на 
 msgid "Check Your Email"
 msgstr "Перевірте вашу пошту "
 
+#: lms/static/js/student_account/views/LoginView.js:173
+msgid ""
+"{paragraphStart}You entered {boldStart}{email}{boldEnd}. If this email "
+"address is associated with your {platform_name} account, we will send a "
+"message with password recovery instructions to this email "
+"address.{paragraphEnd}{paragraphStart}If you do not receive a password reset"
+" message after 1 minute, verify that you entered the correct email address, "
+"or check your spam folder.{paragraphEnd}{paragraphStart}If you need further "
+"assistance, {anchorStart}contact technical support{anchorEnd}.{paragraphEnd}"
+msgstr ""
+"{paragraphStart}Ви ввели {boldStart}{email}{boldEnd}. Якщо ця електронна "
+"адреса пов’язана з вашим Обліковим записом {platform_name}, ми надішлемо "
+"повідомлення з інструкцією по відновленню "
+"пароля.{paragraphEnd}{paragraphStart}Якщо впродовж 1 хвилини ви не отримаєте"
+" цього повідомлення, переконайтеся, що ви ввели правильну адресу електронної"
+" пошти або перевірте папку зі спамом.{paragraphEnd}{paragraphStart}Якщо вам "
+"потрібна подальша допомога, {anchorStart}зв’яжіться зі службою технічної "
+"підтримки{anchorEnd}.{paragraphEnd}"
+
 #: lms/static/js/student_account/views/LoginView.js:222
 msgid ""
 "An error has occurred. Try refreshing the page, or check your Internet "
 "connection."
 msgstr ""
 "Сталася помилка. Оновіть сторінку та перевірте ваше інтернет з'єднання."
+
+#: lms/static/js/student_account/views/LoginView.js:225
+msgid ""
+"In order to sign in, you need to activate your "
+"account.{line_break}{line_break}We just sent an activation link to "
+"{strong_start} {email} {strong_end}. If  you do not receive an email, check "
+"your spam folders or  {anchorStart}contact {platform_name} "
+"Support{anchorEnd}."
+msgstr ""
+"Щоб увійти, потрібно активувати свій обліковий "
+"запис.{line_break}{line_break}Щойно ми надіслали посилання для активації на "
+"адресу {strong_start} {email} {strong_end}. Якщо ви не отримали електронного"
+" листа, перевірте папки зі спамом або {anchorStart} зв’яжіться зі службою "
+"підтримки {platform_name}{anchorEnd}."
+
+#: lms/static/js/student_account/views/LoginView.js:249
+msgid "An unexpected error has occurred."
+msgstr "Виникла несподівана помилка."
 
 #: lms/static/js/student_account/views/LoginView.js:277
 msgid ""
@@ -4802,6 +5142,11 @@ msgstr "Редагування можливе"
 msgid "Validation Error"
 msgstr "Помилка валідації"
 
+#: lms/static/js/views/fields.js:53
+#: lms/templates/learner_dashboard/program_card.underscore:26
+msgid "In Progress"
+msgstr "У прогресі"
+
 #: lms/static/js/views/fields.js:63
 msgid "Placeholder"
 msgstr "Мітка-заповнювач"
@@ -4901,15 +5246,260 @@ msgstr[2] ""
 "{total_results} знайдено результати для &quot; {search_term} &quot;"
 msgstr[3] "{total_results} результатів знайдено для \"{search_term}\""
 
-#: xmodule/assets/library_content/public/js/library_content_edit.js:16
-#: xmodule/js/public/js/library_content_edit.js:16
+#: xmodule/assets/library_content/public/js/library_content_edit.js:44
+#: xmodule/js/public/js/library_content_edit.js:44
 msgid "Updating with latest library content"
 msgstr "Оновлення за допомогою найновішого вмісту бібліотеки"
+
+#: xmodule/assets/library_content/public/js/library_content_edit.js:64
+#: xmodule/js/public/js/library_content_edit.js:64
+msgid "Migrating to Problem Bank"
+msgstr "Міграція до Банку Задач"
 
 #: xmodule/assets/split_test/public/js/split_test_author_view.js:12
 #: xmodule/js/public/js/split_test_author_view.js:12
 msgid "Creating missing groups"
 msgstr "Створення відсутніх груп"
+
+#: xmodule/assets/video/public/js/00_i18n.js:10
+#: xmodule/assets/video/public/js/09_play_pause_control.js:31
+#: xmodule/assets/video/public/js/09_play_pause_control.js:89
+#: xmodule/assets/video/public/js/09_play_skip_control.js:28
+msgid "Play"
+msgstr "Відтворити"
+
+#: xmodule/assets/video/public/js/00_i18n.js:11
+#: xmodule/assets/video/public/js/09_play_pause_control.js:79
+msgid "Pause"
+msgstr "Пауза"
+
+#: xmodule/assets/video/public/js/00_i18n.js:12
+msgid "Mute"
+msgstr "Вимкнути звук"
+
+#: xmodule/assets/video/public/js/00_i18n.js:13
+msgid "Unmute"
+msgstr "Увімкнути звук"
+
+#: xmodule/assets/video/public/js/00_i18n.js:14
+#: xmodule/assets/video/public/js/04_video_full_screen.js:227
+msgid "Exit full browser"
+msgstr "Вийти з повного перегляду"
+
+#: xmodule/assets/video/public/js/00_i18n.js:15
+#: xmodule/assets/video/public/js/04_video_full_screen.js:5
+#: xmodule/assets/video/public/js/04_video_full_screen.js:7
+#: xmodule/assets/video/public/js/04_video_full_screen.js:199
+msgid "Fill browser"
+msgstr "Повний перегляд"
+
+#: xmodule/assets/video/public/js/00_i18n.js:16
+#: xmodule/assets/video/public/js/08_video_speed_control.js:43
+msgid "Speed"
+msgstr "Швидкість"
+
+#: xmodule/assets/video/public/js/00_i18n.js:17
+#: xmodule/assets/video/public/js/08_video_auto_advance_control.js:38
+#: xmodule/js/src/video/08_video_auto_advance_control.js:40
+msgid "Auto-advance"
+msgstr "Автоматичний перехід"
+
+#: xmodule/assets/video/public/js/00_i18n.js:18
+#: xmodule/assets/video/public/js/07_video_volume_control.js:70
+msgid "Volume"
+msgstr "Гучність"
+
+#. Translators: Volume level equals 0%.
+#: xmodule/assets/video/public/js/00_i18n.js:20
+msgid "Muted"
+msgstr "Заглушено"
+
+#. Translators: Volume level in range ]0,20]%
+#: xmodule/assets/video/public/js/00_i18n.js:22
+msgid "Very low"
+msgstr "Дуже тихо"
+
+#. Translators: Volume level in range ]20,40]%
+#: xmodule/assets/video/public/js/00_i18n.js:24
+msgid "Low"
+msgstr "Тихо"
+
+#. Translators: Volume level in range ]40,60]%
+#: xmodule/assets/video/public/js/00_i18n.js:26
+msgid "Average"
+msgstr "Середньо"
+
+#. Translators: Volume level in range ]60,80]%
+#: xmodule/assets/video/public/js/00_i18n.js:28
+msgid "Loud"
+msgstr "Голосно"
+
+#. Translators: Volume level in range ]80,99]%
+#: xmodule/assets/video/public/js/00_i18n.js:30
+msgid "Very loud"
+msgstr "Дуже голосно"
+
+#. Translators: Volume level equals 100%.
+#: xmodule/assets/video/public/js/00_i18n.js:32
+msgid "Maximum"
+msgstr "Максимум"
+
+#: xmodule/assets/video/public/js/02_html5_video.js:82
+msgid "This browser cannot play .mp4, .ogg, or .webm files."
+msgstr "Цей браузер не може відтворювати формати .mp4, .ogg, or .webm files."
+
+#: xmodule/assets/video/public/js/02_html5_video.js:83
+msgid "Try using a different browser, such as Google Chrome."
+msgstr "Спробуйте використати інший браузер, наприклад, Google Chrome."
+
+#: xmodule/assets/video/public/js/05_video_quality_control.js:22
+msgid "High Definition"
+msgstr "Висока роздільна здатність"
+
+#: xmodule/assets/video/public/js/05_video_quality_control.js:23
+#: xmodule/assets/video/public/js/05_video_quality_control.js:156
+msgid "off"
+msgstr "вимк"
+
+#: xmodule/assets/video/public/js/05_video_quality_control.js:150
+msgid "on"
+msgstr "вкл"
+
+#: xmodule/assets/video/public/js/06_video_progress_slider.js:11
+#: xmodule/assets/video/public/js/06_video_progress_slider.js:102
+msgid "Video position. Press space to toggle playback"
+msgstr "Позиція відео. Натисніть пробіл для перемикання відтворення"
+
+#: xmodule/assets/video/public/js/06_video_progress_slider.js:299
+msgid "Video ended"
+msgstr "Відео закінчилося"
+
+#: xmodule/assets/video/public/js/06_video_progress_slider.js:303
+msgid "Video position"
+msgstr "Позиція відео"
+
+#: xmodule/assets/video/public/js/06_video_progress_slider.js:319
+msgid "%(value)s hour"
+msgid_plural "%(value)s hours"
+msgstr[0] "%(value)s година"
+msgstr[1] "%(value)s годин"
+msgstr[2] "%(value)s годин"
+msgstr[3] "%(value)s годин"
+
+#: xmodule/assets/video/public/js/06_video_progress_slider.js:322
+msgid "%(value)s minute"
+msgid_plural "%(value)s minutes"
+msgstr[0] "%(value)s хвилина"
+msgstr[1] "%(value)s хвилин"
+msgstr[2] "%(value)s хвилин"
+msgstr[3] "%(value)s хвилин"
+
+#: xmodule/assets/video/public/js/06_video_progress_slider.js:325
+msgid "%(value)s second"
+msgid_plural "%(value)s seconds"
+msgstr[0] "%(value)s секунда"
+msgstr[1] "%(value)s секунд"
+msgstr[2] "%(value)s секунд"
+msgstr[3] "%(value)s секунд"
+
+#: xmodule/assets/video/public/js/07_video_volume_control.js:68
+msgid ""
+"Click on this button to mute or unmute this video or press UP or DOWN "
+"buttons to increase or decrease volume level."
+msgstr ""
+"Натисніть на цю кнопку, щоб відключити або включити звук цього відеозапису, "
+"або використовуйте кнопки ВГОРУ і ВНИЗ, щоб регулювати рівень гучності."
+
+#: xmodule/assets/video/public/js/07_video_volume_control.js:69
+msgid "Adjust video volume"
+msgstr "Налаштувати звук відео"
+
+#: xmodule/assets/video/public/js/08_video_speed_control.js:33
+msgid ""
+"Press UP to enter the speed menu then use the UP and DOWN arrow keys to "
+"navigate the different speeds, then press ENTER to change to the selected "
+"speed."
+msgstr ""
+"Натисніть кнопку із стрілкою вгору для вибору швидкості, потім використайте "
+"стрілки вгору і вниз для зміни швидкості відтворення. Натисніть ENTER для "
+"установки нової швидкості."
+
+#: xmodule/assets/video/public/js/08_video_speed_control.js:37
+msgid "Adjust video speed"
+msgstr "Налаштувати швидкість відео"
+
+#: xmodule/assets/video/public/js/08_video_speed_control.js:268
+msgid "Video speed: "
+msgstr "Швидкість відео:"
+
+#: xmodule/assets/video/public/js/09_play_skip_control.js:77
+msgid "Skip"
+msgstr "Пропустити"
+
+#: xmodule/assets/video/public/js/09_poster.js:25
+msgid "Play video"
+msgstr "Переглянути відео"
+
+#: xmodule/assets/video/public/js/09_skip_control.js:31
+msgid "Do not show again"
+msgstr "Не показувати знову"
+
+#: xmodule/assets/video/public/js/09_video_caption.js:105
+msgid "Open language menu"
+msgstr "Вибір мови"
+
+#: xmodule/assets/video/public/js/09_video_caption.js:628
+msgid "Transcript will be displayed when you start playing the video."
+msgstr "Текст з'явиться, коли ви почнете програвати відео."
+
+#: xmodule/assets/video/public/js/09_video_caption.js:876
+msgid ""
+"Activating a link in this group will skip to the corresponding point in the "
+"video."
+msgstr ""
+"При активації пункту в цій групі відбудеться перемотування відео до "
+"відповідної точки. "
+
+#: xmodule/assets/video/public/js/09_video_caption.js:879
+msgid "Video transcript"
+msgstr "Транскрипт вiдео"
+
+#: xmodule/assets/video/public/js/09_video_caption.js:882
+msgid "Start of transcript. Skip to the end."
+msgstr "Почати тексту. Перейти в кінець."
+
+#: xmodule/assets/video/public/js/09_video_caption.js:886
+msgid "End of transcript. Skip to the start."
+msgstr "Кінець тексту. Перейти на початок. "
+
+#: xmodule/assets/video/public/js/09_video_caption.js:890
+msgid ""
+"Press the UP arrow key to enter the language menu then use UP and DOWN arrow"
+" keys to navigate language options. Press ENTER to change to the selected "
+"language."
+msgstr ""
+"Натисніть кнопку із стрілкою вгору для вибору мови, потім використайте "
+"стрілки вгору і вниз для навігації по меню. Натисніть ENTER для зміни мови."
+
+#: xmodule/assets/video/public/js/09_video_caption.js:1246
+msgid "Hide closed captions"
+msgstr "Сховати субтитри"
+
+#: xmodule/assets/video/public/js/09_video_caption.js:1264
+msgid "(Caption will be displayed when you start playing the video.)"
+msgstr "(Субтитри відображатимуться, коли Ви почнете програвати відео.)"
+
+#: xmodule/assets/video/public/js/09_video_caption.js:1271
+msgid "Turn on closed captioning"
+msgstr "Включити субтитри"
+
+#: xmodule/assets/video/public/js/09_video_caption.js:1379
+msgid "Turn on transcripts"
+msgstr "Включити переклад"
+
+#: xmodule/assets/video/public/js/09_video_caption.js:1394
+msgid "Turn off transcripts"
+msgstr "Вимкнути переклад"
 
 #: xmodule/assets/word_cloud/src/js/word_cloud_main.js:258
 msgid "{start_strong}{total}{end_strong} words submitted in total."
@@ -4951,16 +5541,80 @@ msgstr "Коментарі"
 msgid "Reply to Annotation"
 msgstr "Відповісти на анотацію"
 
-#: xmodule/js/src/capa/display.js:349
+#. Translators: {num_points} is the number of points possible (examples: 1, 3,
+#. 10).;
+#: xmodule/js/src/capa/display.js:248
+msgid "{num_points} point possible (graded, results hidden)"
+msgid_plural "{num_points} points possible (graded, results hidden)"
+msgstr[0] "{num_points} бал можливий (оцінений, результати приховані)"
+msgstr[1] "{num_points} можливих балів (оцінено, результати приховані)"
+msgstr[2] "{num_points} можливих балів (оцінено, результати приховані)"
+msgstr[3] "{num_points} можливих балів (оцінено, результати приховані)"
+
+#. Translators: {num_points} is the number of points possible (examples: 1, 3,
+#. 10).;
+#: xmodule/js/src/capa/display.js:255
+msgid "{num_points} point possible (ungraded, results hidden)"
+msgid_plural "{num_points} points possible (ungraded, results hidden)"
+msgstr[0] "{num_points} бал можливий (без оцінки, результати приховані)"
+msgstr[1] "{num_points} можливих балів (без оцінки, результати приховані)"
+msgstr[2] "{num_points} можливих балів (без оцінки, результати приховані)"
+msgstr[3] "{num_points} можливих балів (без оцінки, результати приховані)"
+
+#. Translators: {num_points} is the number of points possible (examples: 1, 3,
+#. 10).;
+#: xmodule/js/src/capa/display.js:266
+msgid "{num_points} point possible (graded)"
+msgid_plural "{num_points} points possible (graded)"
+msgstr[0] "{num_points} бал можливий (з оцінкою)"
+msgstr[1] "{num_points} можливих балів (з оцінкою)"
+msgstr[2] "{num_points} можливих балів (з оцінкою)"
+msgstr[3] "{num_points} можливих балів (з оцінкою)"
+
+#. Translators: {num_points} is the number of points possible (examples: 1, 3,
+#. 10).;
+#: xmodule/js/src/capa/display.js:273
+msgid "{num_points} point possible (ungraded)"
+msgid_plural "{num_points} points possible (ungraded)"
+msgstr[0] "{num_points} бал можливий (без оцінки)"
+msgstr[1] "{num_points} можливих балів (без оцінки)"
+msgstr[2] "{num_points} можливих балів (без оцінки)"
+msgstr[3] "{num_points} можливих балів (без оцінки)"
+
+#. Translators: {earned} is the number of points earned. {possible} is the
+#. total number of points (examples: 0/1, 1/1, 2/3, 5/10). The total number of
+#. points will always be at least 1. We pluralize based on the total number of
+#. points (example: 0/1 point; 1/2 points);
+#: xmodule/js/src/capa/display.js:284
+msgid "{earned}/{possible} point (graded)"
+msgid_plural "{earned}/{possible} points (graded)"
+msgstr[0] "{earned}/{possible} бал (оцінюється)"
+msgstr[1] "{earned}/{possible} бали (оцінюється)"
+msgstr[2] "{earned}/{possible} бали (оцінюється)"
+msgstr[3] "{earned}/{possible} бали (оцінюється)"
+
+#. Translators: {earned} is the number of points earned. {possible} is the
+#. total number of points (examples: 0/1, 1/1, 2/3, 5/10). The total number of
+#. points will always be at least 1. We pluralize based on the total number of
+#. points (example: 0/1 point; 1/2 points);
+#: xmodule/js/src/capa/display.js:292
+msgid "{earned}/{possible} point (ungraded)"
+msgid_plural "{earned}/{possible} points (ungraded)"
+msgstr[0] "{earned}/{possible} бал (без оцінки)"
+msgstr[1] "{earned}/{possible} бали (не оцінюється)"
+msgstr[2] "{earned}/{possible} бали (не оцінюється)"
+msgstr[3] "{earned}/{possible} бали (не оцінюється)"
+
+#: xmodule/js/src/capa/display.js:373
 msgid "The grading process is still running. Refresh the page to see updates."
 msgstr ""
 "Процес оцінювання триває. Оновіть сторінку для того, щоб побачити оновлення."
 
-#: xmodule/js/src/capa/display.js:458
+#: xmodule/js/src/capa/display.js:486
 msgid "Could not grade your answer. The submission was aborted."
 msgstr "Вашу відповідь неможливо оцінити. Додавання відмінено. "
 
-#: xmodule/js/src/capa/display.js:522
+#: xmodule/js/src/capa/display.js:567
 msgid ""
 "Submission aborted! Sorry, your browser does not support file uploads. If "
 "you can, please use Chrome or Safari which have been verified to support "
@@ -4970,34 +5624,34 @@ msgstr ""
 "За можливості використовуйте, будь ласка, Chrome або Safari, які підтримують"
 " завантаження файлів.  "
 
-#: xmodule/js/src/capa/display.js:548
+#: xmodule/js/src/capa/display.js:595
 msgid "You submitted {filename}; only {allowedFiles} are allowed."
 msgstr "Ви надіслали {filename}; тільки {allowedFiles} дозволено."
 
-#: xmodule/js/src/capa/display.js:561
+#: xmodule/js/src/capa/display.js:608
 msgid "Your file {filename} is too large (max size: {maxSize}MB)."
 msgstr ""
 "Файл {filename} перевищує максимально допустимий розмір ({maxSize} Mб)."
 
-#: xmodule/js/src/capa/display.js:577
+#: xmodule/js/src/capa/display.js:624
 msgid "You did not submit the required files: {requiredFiles}."
 msgstr "Ви не додали потрібні файли: {requiredFiles}."
 
-#: xmodule/js/src/capa/display.js:587
+#: xmodule/js/src/capa/display.js:634
 msgid "You did not select any files to submit."
 msgstr "Ви необрали файли."
 
 #. Translators: This is only translated to allow for reordering of label and
 #. associated status.;
-#: xmodule/js/src/capa/display.js:681
+#: xmodule/js/src/capa/display.js:728
 msgid "{label}: {status}"
 msgstr "{label}: {status}"
 
-#: xmodule/js/src/capa/display.js:712
+#: xmodule/js/src/capa/display.js:762
 msgid "This problem has been reset."
 msgstr "Задачу скинуто."
 
-#: xmodule/js/src/capa/display.js:1018
+#: xmodule/js/src/capa/display.js:1071
 msgid "unsubmitted"
 msgstr "не відправлений"
 
@@ -5363,7 +6017,6 @@ msgstr "Редагувати HTML"
 #: cms/templates/js/course_info_update.underscore:20
 #: cms/templates/js/group-configuration-details.underscore:45
 #: cms/templates/js/partition-group-details.underscore:28
-#: cms/templates/js/show-textbook.underscore:40
 #: cms/templates/js/signatory-details.underscore:5
 #: cms/templates/js/xblock-string-field-editor.underscore:3
 #: common/static/common/templates/discussion/templates.underscore:834
@@ -5518,7 +6171,7 @@ msgstr " Заголовок клітинки"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#: xmodule/js/src/html/edit.js:625 xmodule/js/src/problem/edit.js:50
+#: xmodule/js/src/html/edit.js:625
 msgid "Header"
 msgstr "Заголовок"
 
@@ -6247,37 +6900,6 @@ msgstr ""
 "\n"
 "Натисніть Відміна щоб повернутись до сторінки без відправлення вашої інформації."
 
-#: xmodule/js/src/problem/edit.js:35 xmodule/js/src/problem/edit.js:47
-msgid "incorrect"
-msgstr "неправильно"
-
-#: xmodule/js/src/problem/edit.js:35 xmodule/js/src/problem/edit.js:38
-#: xmodule/js/src/problem/edit.js:47
-msgid "correct"
-msgstr "правильно"
-
-#: xmodule/js/src/problem/edit.js:41 xmodule/js/src/problem/edit.js:44
-msgid "answer"
-msgstr "відповідь"
-
-#: xmodule/js/src/problem/edit.js:53
-msgid "Short explanation"
-msgstr "Коротке пояснення"
-
-#: xmodule/js/src/problem/edit.js:120
-msgid ""
-"If you use the Advanced Editor, this problem will be converted to XML and you will not be able to return to the Simple Editor Interface.\n"
-"\n"
-"Proceed to the Advanced Editor and convert this problem to XML?"
-msgstr ""
-"Якщо ви використовуєте розширений редактор, ця проблема буде перетворена в XML і ви не зможете повернутися до інтерфейсу простого редактора.\n"
-"\n"
-"Перейти до розширеного редактора і конвертувати цю проблему в XML?"
-
-#: xmodule/js/src/problem/edit.js:714
-msgid "Explanation"
-msgstr "Пояснення"
-
 #: xmodule/js/src/sequence/display.js:406
 msgid ""
 "Sequence error! Cannot navigate to %(tab_name)s in the current "
@@ -6286,252 +6908,52 @@ msgstr ""
 "Помилка послідовності! Неможливо перейти до %(tab_name)s у поточному "
 "SequenceModule. Будь ласка, зв'яжіться з персоналом курсу."
 
-#: xmodule/js/src/video/00_i18n.js:15
-#: xmodule/js/src/video/09_play_pause_control.js:30
-#: xmodule/js/src/video/09_play_pause_control.js:88
-#: xmodule/js/src/video/09_play_skip_control.js:30
-msgid "Play"
-msgstr "Відтворити"
-
-#: xmodule/js/src/video/00_i18n.js:16
-#: xmodule/js/src/video/09_play_pause_control.js:78
-msgid "Pause"
-msgstr "Пауза"
-
-#: xmodule/js/src/video/00_i18n.js:17
-msgid "Mute"
-msgstr "Вимкнути звук"
-
-#: xmodule/js/src/video/00_i18n.js:18
-msgid "Unmute"
-msgstr "Увімкнути звук"
-
-#: xmodule/js/src/video/00_i18n.js:19
-#: xmodule/js/src/video/04_video_full_screen.js:229
-msgid "Exit full browser"
-msgstr "Вийти з повного перегляду"
-
-#: xmodule/js/src/video/00_i18n.js:20
-#: xmodule/js/src/video/04_video_full_screen.js:7
-#: xmodule/js/src/video/04_video_full_screen.js:9
-#: xmodule/js/src/video/04_video_full_screen.js:201
-msgid "Fill browser"
-msgstr "Повний перегляд"
-
-#: xmodule/js/src/video/00_i18n.js:21
-#: xmodule/js/src/video/08_video_speed_control.js:46
-msgid "Speed"
-msgstr "Швидкість"
-
-#: xmodule/js/src/video/00_i18n.js:22
-#: xmodule/js/src/video/08_video_auto_advance_control.js:40
-msgid "Auto-advance"
-msgstr "Автоматичний перехід"
-
-#: xmodule/js/src/video/00_i18n.js:23
-#: xmodule/js/src/video/07_video_volume_control.js:72
-msgid "Volume"
-msgstr "Гучність"
-
-#. Translators: Volume level equals 0%.
-#: xmodule/js/src/video/00_i18n.js:25
-msgid "Muted"
-msgstr "Заглушено"
-
-#. Translators: Volume level in range ]0,20]%
-#: xmodule/js/src/video/00_i18n.js:27
-msgid "Very low"
-msgstr "Дуже тихо"
-
-#. Translators: Volume level in range ]20,40]%
-#: xmodule/js/src/video/00_i18n.js:29
-msgid "Low"
-msgstr "Тихо"
-
-#. Translators: Volume level in range ]40,60]%
-#: xmodule/js/src/video/00_i18n.js:31
-msgid "Average"
-msgstr "Середньо"
-
-#. Translators: Volume level in range ]60,80]%
-#: xmodule/js/src/video/00_i18n.js:33
-msgid "Loud"
-msgstr "Голосно"
-
-#. Translators: Volume level in range ]80,99]%
-#: xmodule/js/src/video/00_i18n.js:35
-msgid "Very loud"
-msgstr "Дуже голосно"
-
-#. Translators: Volume level equals 100%.
-#: xmodule/js/src/video/00_i18n.js:37
-msgid "Maximum"
-msgstr "Максимум"
-
-#: xmodule/js/src/video/02_html5_video.js:87
-msgid "This browser cannot play .mp4, .ogg, or .webm files."
-msgstr "Цей браузер не може відтворювати формати .mp4, .ogg, or .webm files."
-
-#: xmodule/js/src/video/02_html5_video.js:88
-msgid "Try using a different browser, such as Google Chrome."
-msgstr "Спробуйте використати інший браузер, наприклад, Google Chrome."
-
-#: xmodule/js/src/video/05_video_quality_control.js:25
-msgid "High Definition"
-msgstr "Висока роздільна здатність"
-
-#: xmodule/js/src/video/05_video_quality_control.js:26
-#: xmodule/js/src/video/05_video_quality_control.js:159
-msgid "off"
-msgstr "вимк"
-
-#: xmodule/js/src/video/05_video_quality_control.js:153
-msgid "on"
-msgstr "вкл"
-
-#: xmodule/js/src/video/06_video_progress_slider.js:16
-#: xmodule/js/src/video/06_video_progress_slider.js:107
-msgid "Video position. Press space to toggle playback"
-msgstr "Позиція відео. Натисніть пробіл для перемикання відтворення"
-
-#: xmodule/js/src/video/06_video_progress_slider.js:304
-msgid "Video ended"
-msgstr "Відео закінчилося"
-
-#: xmodule/js/src/video/06_video_progress_slider.js:308
-msgid "Video position"
-msgstr "Позиція відео"
-
-#: xmodule/js/src/video/06_video_progress_slider.js:324
-msgid "%(value)s hour"
-msgid_plural "%(value)s hours"
-msgstr[0] "%(value)s година"
-msgstr[1] "%(value)s годин"
-msgstr[2] "%(value)s годин"
-msgstr[3] "%(value)s годин"
-
-#: xmodule/js/src/video/06_video_progress_slider.js:327
-msgid "%(value)s minute"
-msgid_plural "%(value)s minutes"
-msgstr[0] "%(value)s хвилина"
-msgstr[1] "%(value)s хвилин"
-msgstr[2] "%(value)s хвилин"
-msgstr[3] "%(value)s хвилин"
-
-#: xmodule/js/src/video/06_video_progress_slider.js:330
-msgid "%(value)s second"
-msgid_plural "%(value)s seconds"
-msgstr[0] "%(value)s секунда"
-msgstr[1] "%(value)s секунд"
-msgstr[2] "%(value)s секунд"
-msgstr[3] "%(value)s секунд"
-
-#: xmodule/js/src/video/07_video_volume_control.js:70
-msgid ""
-"Click on this button to mute or unmute this video or press UP or DOWN "
-"buttons to increase or decrease volume level."
-msgstr ""
-"Натисніть на цю кнопку, щоб відключити або включити звук цього відеозапису, "
-"або використовуйте кнопки ВГОРУ і ВНИЗ, щоб регулювати рівень гучності."
-
-#: xmodule/js/src/video/07_video_volume_control.js:71
-msgid "Adjust video volume"
-msgstr "Налаштувати звук відео"
-
-#: xmodule/js/src/video/08_video_speed_control.js:36
-msgid ""
-"Press UP to enter the speed menu then use the UP and DOWN arrow keys to "
-"navigate the different speeds, then press ENTER to change to the selected "
-"speed."
-msgstr ""
-"Натисніть кнопку із стрілкою вгору для вибору швидкості, потім використайте "
-"стрілки вгору і вниз для зміни швидкості відтворення. Натисніть ENTER для "
-"установки нової швидкості."
-
-#: xmodule/js/src/video/08_video_speed_control.js:40
-msgid "Adjust video speed"
-msgstr "Налаштувати швидкість відео"
-
-#: xmodule/js/src/video/08_video_speed_control.js:271
-msgid "Video speed: "
-msgstr "Швидкість відео:"
-
-#: xmodule/js/src/video/09_play_skip_control.js:79
-msgid "Skip"
-msgstr "Пропустити"
-
-#: xmodule/js/src/video/09_poster.js:31
-msgid "Play video"
-msgstr "Переглянути відео"
-
-#: xmodule/js/src/video/09_skip_control.js:33
-msgid "Do not show again"
-msgstr "Не показувати знову"
-
-#: xmodule/js/src/video/09_video_caption.js:107
-msgid "Open language menu"
-msgstr "Вибір мови"
-
-#: xmodule/js/src/video/09_video_caption.js:630
-msgid "Transcript will be displayed when you start playing the video."
-msgstr "Текст з'явиться, коли ви почнете програвати відео."
-
-#: xmodule/js/src/video/09_video_caption.js:878
-msgid ""
-"Activating a link in this group will skip to the corresponding point in the "
-"video."
-msgstr ""
-"При активації пункту в цій групі відбудеться перемотування відео до "
-"відповідної точки. "
-
-#: xmodule/js/src/video/09_video_caption.js:881
-msgid "Video transcript"
-msgstr "Транскрипт вiдео"
-
-#: xmodule/js/src/video/09_video_caption.js:884
-msgid "Start of transcript. Skip to the end."
-msgstr "Почати тексту. Перейти в кінець."
-
-#: xmodule/js/src/video/09_video_caption.js:888
-msgid "End of transcript. Skip to the start."
-msgstr "Кінець тексту. Перейти на початок. "
-
-#: xmodule/js/src/video/09_video_caption.js:892
-msgid ""
-"Press the UP arrow key to enter the language menu then use UP and DOWN arrow"
-" keys to navigate language options. Press ENTER to change to the selected "
-"language."
-msgstr ""
-"Натисніть кнопку із стрілкою вгору для вибору мови, потім використайте "
-"стрілки вгору і вниз для навігації по меню. Натисніть ENTER для зміни мови."
-
-#: xmodule/js/src/video/09_video_caption.js:1248
-msgid "Hide closed captions"
-msgstr "Сховати субтитри"
-
-#: xmodule/js/src/video/09_video_caption.js:1266
-msgid "(Caption will be displayed when you start playing the video.)"
-msgstr "(Субтитри відображатимуться, коли Ви почнете програвати відео.)"
-
-#: xmodule/js/src/video/09_video_caption.js:1273
-msgid "Turn on closed captioning"
-msgstr "Включити субтитри"
-
-#: xmodule/js/src/video/09_video_caption.js:1381
-msgid "Turn on transcripts"
-msgstr "Включити переклад"
-
-#: xmodule/js/src/video/09_video_caption.js:1396
-msgid "Turn off transcripts"
-msgstr "Вимкнути переклад"
-
 #: cms/templates/js/access-editor.underscore:3
 msgid "Limit Access"
 msgstr "Доступ обмежено"
 
+#: cms/templates/js/access-editor.underscore:7
+msgid ""
+"Select a prerequisite subsection and enter a minimum score percentage and "
+"minimum completion percentage to limit access to this subsection. Allowed "
+"values are 0-100"
+msgstr ""
+"Виберіть підрозділ Вимоги і введіть мінімальний процент балів і мінімальний "
+"процент складання для обмеження доступу до цього підрозділу. Дозволені "
+"значення 0-100"
+
 #: cms/templates/js/access-editor.underscore:11
 msgid "Prerequisite:"
 msgstr "Необхідна умова:"
+
+#: cms/templates/js/access-editor.underscore:13
+msgid "No prerequisite"
+msgstr "Немає передумови"
+
+#: cms/templates/js/access-editor.underscore:22
+msgid "Minimum Score:"
+msgstr "Мінімальний бал:"
+
+#: cms/templates/js/access-editor.underscore:29
+msgid "Minimum Completion:"
+msgstr "Мінімальне виконання:"
+
+#: cms/templates/js/access-editor.underscore:35
+msgid "The minimum score percentage must be a whole number between 0 and 100."
+msgstr "Мінімальний процент балів повинен бути цілим числом від 0 до 100."
+
+#: cms/templates/js/access-editor.underscore:38
+msgid ""
+"The minimum completion percentage must be a whole number between 0 and 100."
+msgstr "Мінімальний процент виконання має бути цілим числом від 0 до 100."
+
+#: cms/templates/js/access-editor.underscore:43
+msgid "Use as a Prerequisite"
+msgstr "Використати як Вимоги"
+
+#: cms/templates/js/access-editor.underscore:51
+msgid "Make this subsection available as a prerequisite to other content"
+msgstr "Зробіть цей підрозділ доступним як передумова до іншого контенту."
 
 #: cms/templates/js/active-video-upload-list.underscore:14
 msgid "Active Uploads"
@@ -6553,14 +6975,36 @@ msgstr "Додати компонент:"
 msgid "Beta"
 msgstr "Бета"
 
+#: cms/templates/js/add-xblock-component-menu-problem.underscore:3
+#: cms/templates/js/add-xblock-component-menu.underscore:4
+#, python-format
+msgid "%(type)s Component Template Menu"
+msgstr "%(type)s Компонент Шаблонів Меню"
+
 #: cms/templates/js/add-xblock-component-menu-problem.underscore:10
 msgid "Common Problem Types"
 msgstr "Типові проблеми"
+
+#: cms/templates/js/add-xblock-component-support-legend.underscore:9
+msgid "Supported"
+msgstr "Має підтримку"
+
+#: cms/templates/js/add-xblock-component-support-legend.underscore:13
+msgid "Provisional"
+msgstr "Тимчасовий"
 
 #: cms/templates/js/add-xblock-component-support-legend.underscore:18
 #: cms/templates/js/add-xblock-component-support-level.underscore:9
 msgid "Not Supported"
 msgstr "Не підтримується"
+
+#: cms/templates/js/add-xblock-component-support-level.underscore:3
+msgid "Fully Supported"
+msgstr "Повністю підтримується"
+
+#: cms/templates/js/add-xblock-component-support-level.underscore:6
+msgid "Provisionally Supported"
+msgstr "Підтримується тимчасово"
 
 #: cms/templates/js/add-xblock-component.underscore:2
 msgid "Add New Component"
@@ -6569,6 +7013,15 @@ msgstr "Додати новий компонент"
 #: cms/templates/js/advanced_entry.underscore:14
 msgid "Deprecated"
 msgstr "Застарілий"
+
+#: cms/templates/js/asset-library.underscore:5
+msgid "List of uploaded files and assets in this course"
+msgstr "Список доданих файлів та ресурсів цього курсу"
+
+#: cms/templates/js/asset-library.underscore:20
+#: cms/templates/js/asset-library.underscore:53
+msgid "- Sortable"
+msgstr "- Сортувати"
 
 #: cms/templates/js/asset-library.underscore:35
 msgid "Show All"
@@ -6581,6 +7034,14 @@ msgstr "Показати усе"
 #: lms/templates/instructor/instructor_dashboard_2/enrollment-code-lookup-links.underscore:6
 msgid "Actions"
 msgstr "Дії"
+
+#: cms/templates/js/asset-library.underscore:67
+msgid "You haven't added any assets to this course yet."
+msgstr "Ви не додали активи до цього курсу."
+
+#: cms/templates/js/asset-library.underscore:67
+msgid "Upload your first asset"
+msgstr "Додайте свій перший актив."
 
 #: cms/templates/js/asset-upload-modal.underscore:2
 msgid "close"
@@ -6602,9 +7063,23 @@ msgstr "Студія Розробки:"
 msgid "Web:"
 msgstr "Веб:"
 
+#: cms/templates/js/asset.underscore:39
+msgid "Delete this asset"
+msgstr "Видаліть цей актив"
+
+#: cms/templates/js/asset.underscore:42
+msgid "Lock this asset"
+msgstr "Закрити актив"
+
 #: cms/templates/js/asset.underscore:43
 msgid "Lock/unlock file"
 msgstr "Заблокувати / розблокувати файл"
+
+#: cms/templates/js/certificate-details.underscore:11
+#: cms/templates/js/group-configuration-details.underscore:14
+#: cms/templates/js/partition-group-details.underscore:14
+msgid "ID"
+msgstr "ID"
 
 #: cms/templates/js/certificate-details.underscore:18
 #: cms/templates/js/certificate-editor.underscore:23
@@ -6668,6 +7143,14 @@ msgstr "Опис сертифікату"
 msgid "Course title"
 msgstr "Назва курсу"
 
+#: cms/templates/js/certificate-editor.underscore:32
+msgid ""
+"Specify an alternative to the official course title to display on "
+"certificates. Leave blank to use the official course title."
+msgstr ""
+"Вкажіть альтернативну назву курсу для відображення на сертифікатах. Залиште "
+"поле порожнім, щоб використовувати офіційну назву курсу."
+
 #: cms/templates/js/certificate-editor.underscore:41
 msgid "Add Additional Signatory"
 msgstr "Додати додатковій підпис"
@@ -6696,6 +7179,20 @@ msgstr "Деактивувати"
 msgid "component"
 msgstr "компонент"
 
+#: cms/templates/js/container-access.underscore:16
+#, python-brace-format
+msgid "Access to this {blockType} is restricted to: {selectedGroupsLabel}"
+msgstr "Доступ до цього {blockType} обмежено: {selectedGroupsLabel}"
+
+#: cms/templates/js/container-access.underscore:26
+#, python-brace-format
+msgid ""
+"Access to some content in this {blockType} is restricted to specific groups "
+"of learners."
+msgstr ""
+"Доступ до певного контенту в цьому {blockType} обмежений для певних груп "
+"учнів."
+
 #: cms/templates/js/container-message.underscore:5
 msgid ""
 "Caution: The last published version of this unit is live. By publishing "
@@ -6708,13 +7205,109 @@ msgstr ""
 msgid "Content Group Name"
 msgstr "Назва контентної групи"
 
+#: cms/templates/js/content-group-editor.underscore:13
+msgid "Content Group ID"
+msgstr "ID контентної групи"
+
 #: cms/templates/js/content-group-editor.underscore:18
 msgid "This is the name of the group"
 msgstr "Це ім'я групи"
 
+#: cms/templates/js/content-group-editor.underscore:25
+msgid "This content group is used in one or more units."
+msgstr "Ця контентна група використовується в одному або декількох блоках."
+
+#: cms/templates/js/content-group-editor.underscore:40
+#: cms/templates/js/partition-group-details.underscore:35
+msgid "Cannot delete when in use by a unit"
+msgstr "Неможливо видалити якщо використовується у блоці"
+
+#: cms/templates/js/content-visibility-editor.underscore:2
+msgid "Subsection Visibility"
+msgstr "Видимість підрозділу"
+
+#: cms/templates/js/content-visibility-editor.underscore:7
+msgid ""
+"To hide the subsections and keep them accesible through links, you must "
+"adjust it from the section that contains them."
+msgstr ""
+"Щоб сховати підрозділи та зробити їх доступними за посиланнями, ви повинні "
+"налаштувати це з розділу, який їх містить."
+
+#: cms/templates/js/content-visibility-editor.underscore:13
+msgid "Show entire subsection"
+msgstr "Показати весь підрозділ"
+
+#: cms/templates/js/content-visibility-editor.underscore:15
+msgid "Learners see the published subsection and can access its content."
+msgstr ""
+"Учні бачать опублікований підрозділ і можуть отримати доступ до його "
+"контенту."
+
 #: cms/templates/js/content-visibility-editor.underscore:19
 msgid "Hide content after course end date"
 msgstr "Приховати контент після дати завершення курсу"
+
+#: cms/templates/js/content-visibility-editor.underscore:21
+msgid "Hide content after due date"
+msgstr "Сховати контент після кінцевої дати"
+
+#: cms/templates/js/content-visibility-editor.underscore:26
+msgid ""
+"After the course\\'s end date has passed, learners can no longer access "
+"subsection content. The subsection remains included in grade calculations."
+msgstr ""
+"Після кінцевої дати курсу учні не зможуть більше доступати до контенту "
+"підрозділу. Підрозділ залишається включеним у розрахунки класу."
+
+#: cms/templates/js/content-visibility-editor.underscore:28
+msgid ""
+"After the subsection\\'s due date has passed, learners can no longer access "
+"its content. The subsection remains included in grade calculations."
+msgstr ""
+"Після закінчення кінцевої дати підрозділу, учні не зможуть більше отримати "
+"доступ до його контенту. Підрозділ залишається включеним у розрахунки "
+"оцінок."
+
+#: cms/templates/js/content-visibility-editor.underscore:33
+msgid "Hide entire subsection"
+msgstr "Сховати весь Підрозділ"
+
+#: cms/templates/js/content-visibility-editor.underscore:36
+msgid ""
+"Learners do not see the subsection in the course outline. The subsection is "
+"not included in grade calculations."
+msgstr ""
+"Учні не бачать цей підрозділ у змісті курсу. Підрозділ не враховується при "
+"розрахунку оцінок."
+
+#: cms/templates/js/content-visibility-editor.underscore:42
+#, python-format
+msgid ""
+"If you select an option other than \"%(hide_label)s\", published units in "
+"this subsection become available to learners unless they are explicitly "
+"hidden."
+msgstr ""
+"Якщо ви обираєте інший варіант, ніж \"%(hide_label)s\", то опубліковані "
+"одиниці цього підрозділу стають доступними для учнів, якщо вони не сховані "
+"явно."
+
+#: cms/templates/js/copy-clipboard-button.underscore:1
+#: cms/templates/js/copy-clipboard-button.underscore:3
+msgid "Copy Component Location"
+msgstr "Копіювати місцеположення компонентів"
+
+#: cms/templates/js/course-highlights-enable.underscore:3
+msgid "Course Highlight Emails"
+msgstr "Важливі повідомлення по Курсу"
+
+#: cms/templates/js/course-highlights-enable.underscore:7
+msgid "Enabled"
+msgstr "Увімкнено"
+
+#: cms/templates/js/course-highlights-enable.underscore:9
+msgid "Enable Now"
+msgstr "Дозволити Зараз"
 
 #: cms/templates/js/course-instructor-details.underscore:4
 msgid "Instructor Name"
@@ -6740,6 +7333,10 @@ msgstr "Організація"
 #: cms/templates/js/course-instructor-details.underscore:16
 msgid "Organization Name"
 msgstr "Назва Організації"
+
+#: cms/templates/js/course-instructor-details.underscore:17
+msgid "Please add the institute where the instructor is associated"
+msgstr "Будь ласка, додайте навчальний заклад, до якого належить викладач"
 
 #: cms/templates/js/course-instructor-details.underscore:21
 msgid "Biography"
@@ -6777,17 +7374,83 @@ msgstr ""
 msgid "Upload Photo"
 msgstr "Завантажити фото"
 
+#: cms/templates/js/course-manage-tags.underscore:3
+msgid "Course tags"
+msgstr "Теги курсу"
+
+#: cms/templates/js/course-manage-tags.underscore:7
+#: cms/templates/js/tag-list.underscore:28
+msgid "Manage tags"
+msgstr "Управляйте тегами"
+
+#: cms/templates/js/course-outline.underscore:48
+#, python-format
+msgid "Prerequisite: %(prereq_display_name)s"
+msgstr "Передумова: %(prereq_display_name)s"
+
 #: cms/templates/js/course-outline.underscore:56
 msgid "Contains staff only content"
 msgstr "Містить контент тільки для персоналу"
+
+#: cms/templates/js/course-outline.underscore:60
+msgid ""
+"Hidden in the course outline, but sections are accessible for your learners "
+"through their separate link."
+msgstr ""
+"Приховано в Структурі курсу, але ваші учні можуть отримати доступ до "
+"розділів за окремим посиланням."
+
+#: cms/templates/js/course-outline.underscore:63
+msgid ""
+"Subsections are not navigable between each other, they can only be accessed "
+"through their link."
+msgstr ""
+"Підрозділи не є навігаційними між собою, доступ до них можливий лише за "
+"їхнім посиланням."
+
+#: cms/templates/js/course-outline.underscore:71
+msgid "Unpublished changes to live content"
+msgstr "Неопубліковані зміни до живого контенту"
 
 #: cms/templates/js/course-outline.underscore:73
 msgid "Unpublished units will not be released"
 msgstr "Неопубліковані блоки не відображатимуться на курсі"
 
+#: cms/templates/js/course-outline.underscore:75
+msgid "Unpublished changes to content that will release in the future"
+msgstr "Неопубліковані зміни до контенту, які в майбутньому будуть видані"
+
+#: cms/templates/js/course-outline.underscore:83
+#, python-brace-format
+msgid "Access to this unit is restricted to: {selectedGroupsLabel}"
+msgstr "Доступ до цього блоку обмежено: {selectedGroupsLabel}"
+
+#: cms/templates/js/course-outline.underscore:92
+msgid ""
+"Access to some content in this unit is restricted to specific groups of "
+"learners"
+msgstr ""
+"Доступ до деякого контенту в цьому блоці обмежений для певних груп учнів."
+
+#: cms/templates/js/course-outline.underscore:97
+msgid "Ungraded"
+msgstr "Без оцінювання"
+
+#: cms/templates/js/course-outline.underscore:114
+msgid "Onboarding Exam"
+msgstr "Іспит для ознайомлення"
+
+#: cms/templates/js/course-outline.underscore:116
+msgid "Practice proctored Exam"
+msgstr "Практичний іспит під наглядом"
+
 #: cms/templates/js/course-outline.underscore:118
 msgid "Proctored Exam"
 msgstr "Контрольований іспит"
+
+#: cms/templates/js/course-outline.underscore:122
+msgid "Timed Exam"
+msgstr "Іспити з обмеженням по часу"
 
 #: cms/templates/js/course-outline.underscore:135
 #: cms/templates/js/xblock-outline.underscore:11
@@ -6795,11 +7458,35 @@ msgstr "Контрольований іспит"
 msgid "Collapse/Expand this %(xblock_type)s"
 msgstr "Згорнути / Розгорнути цей %(xblock_type)s"
 
+#: cms/templates/js/course-outline.underscore:148
+#: cms/templates/js/course-outline.underscore:153
+msgid "Display Name"
+msgstr "Ім'я, що відображається"
+
+#: cms/templates/js/course-outline.underscore:169
+msgid "Discussions enabled"
+msgstr "Обговорення дозволено"
+
+#: cms/templates/js/course-outline.underscore:176
+#: cms/templates/js/course-outline.underscore:177
+msgid "Proctoring Settings"
+msgstr "Налаштування Прокторинг"
+
 #: cms/templates/js/course-outline.underscore:210
 #: cms/templates/js/course-outline.underscore:240
 #: cms/templates/js/course-outline.underscore:242
 msgid "Configure"
 msgstr "Налаштувати"
+
+#: cms/templates/js/course-outline.underscore:215
+#: cms/templates/js/tag-count.underscore:2
+#: cms/templates/js/tag-count.underscore:5
+msgid "Manage Tags"
+msgstr "Керувати тегами"
+
+#: cms/templates/js/course-outline.underscore:220
+msgid "Copy to Clipboard"
+msgstr "Копіювати до буфера обміну."
 
 #: cms/templates/js/course-outline.underscore:225
 #: cms/templates/js/course-outline.underscore:248
@@ -6812,6 +7499,70 @@ msgstr "Створити копію"
 msgid "Drag to reorder"
 msgstr "Перетягніть, щоб змінити порядок "
 
+#: cms/templates/js/course-outline.underscore:285
+msgid "Release Status:"
+msgstr "Статус випуску:"
+
+#: cms/templates/js/course-outline.underscore:290
+#: cms/templates/js/publish-xblock.underscore:15
+#: cms/templates/js/xblock-outline.underscore:43
+msgid "Released:"
+msgstr "Опубліковано:"
+
+#: cms/templates/js/course-outline.underscore:293
+#: cms/templates/js/publish-xblock.underscore:17
+msgid "Scheduled:"
+msgstr "Заплановано:"
+
+#: cms/templates/js/course-outline.underscore:296
+#: cms/templates/js/publish-xblock.underscore:72
+#: lms/templates/ccx/schedule.underscore:93
+#: lms/templates/ccx/schedule.underscore:103
+msgid "Unscheduled"
+msgstr "Незапланований"
+
+#: cms/templates/js/course-outline.underscore:311
+#: cms/templates/js/highlights-editor.underscore:2
+msgid "Section Highlights"
+msgstr "Основні моменти Розділу"
+
+#: cms/templates/js/course-outline.underscore:318
+#: cms/templates/js/course-outline.underscore:351
+#: cms/templates/js/course-outline.underscore:381
+msgid "Graded as:"
+msgstr "Оцінено як:"
+
+#: cms/templates/js/course-outline.underscore:325
+#: cms/templates/js/course-outline.underscore:355
+msgid "Due:"
+msgstr "Термін:"
+
+#: cms/templates/js/course-outline.underscore:410
+msgid "Subsection is hidden after course end date"
+msgstr "Підрозділ приховано після кінцевої дати курсу"
+
+#: cms/templates/js/course-outline.underscore:412
+msgid "Subsection is hidden after due date"
+msgstr "Підрозділ приховано після кінцевої дати"
+
+#: cms/templates/js/course-outline.underscore:428
+msgid "Share"
+msgstr "Поділитись"
+
+#: cms/templates/js/course-outline.underscore:442
+#, python-format
+msgid ""
+"This subsection is configured as \\\"%(gradingType)s\\\", which doesn't "
+"exist in the current grading policy."
+msgstr ""
+"Цей підрозділ налаштований як \"%(gradingType)s\", що не існує в поточній "
+"системі оцінювання."
+
+#: cms/templates/js/course-outline.underscore:457
+#: cms/templates/js/xblock-outline.underscore:57
+msgid "You haven't added any content to this course yet."
+msgstr "Ви ще не додали контент до цього курсу."
+
 #: cms/templates/js/course-outline.underscore:461
 #: cms/templates/js/course-outline.underscore:482
 #: cms/templates/js/xblock-outline.underscore:61
@@ -6820,17 +7571,80 @@ msgstr "Перетягніть, щоб змінити порядок "
 msgid "Click to add a new %(xblock_type)s"
 msgstr "Клацніть, щоб додати новий  %(xblock_type)s"
 
+#: cms/templates/js/course-outline.underscore:501
+#, python-format
+msgid "Paste %(xblock_type)s"
+msgstr "Вставити %(xblock_type)s"
+
 #: cms/templates/js/course-outline.underscore:510
 msgid "From:"
 msgstr "З:"
+
+#: cms/templates/js/course-outline.underscore:513
+msgid "What's in my clipboard?"
+msgstr "Що скопійовано в буфер обміну?"
+
+#: cms/templates/js/course-settings-learning-fields.underscore:2
+msgid "Learning Outcome"
+msgstr "Результати навчання"
+
+#: cms/templates/js/course-settings-learning-fields.underscore:3
+msgid "Add a learning outcome here"
+msgstr "Додати результат навчання тут"
+
+#: cms/templates/js/course-video-settings-update-org-credentials-footer.underscore:3
+msgid "Press discard changes to discard your changes."
+msgstr "Натисніть \"Відхилити\", щоб відхилити зміни."
+
+#: cms/templates/js/course-video-settings-update-org-credentials-footer.underscore:6
+#: cms/templates/js/course-video-settings-update-settings-footer.underscore:6
+msgid "Update Settings"
+msgstr "Оновити налаштування"
+
+#: cms/templates/js/course-video-settings-update-org-credentials-footer.underscore:7
+msgid "Press update settings to update the information for your organization."
+msgstr ""
+"Налаштуйте налаштування, щоб оновити інформацію для вашої організації."
+
+#: cms/templates/js/course-video-settings-update-settings-footer.underscore:3
+msgid "Press discard changes to discard changes."
+msgstr "Натисніть Відхилити зміни, щоб Відхилити зміни."
+
+#: cms/templates/js/course-video-settings-update-settings-footer.underscore:7
+msgid "Press update settings to update course video settings"
+msgstr "Натисніть оновлення налаштувань, щоб оновити налаштування відео курсу"
+
+#: cms/templates/js/course-video-settings.underscore:7
+msgid "Press close to hide course video settings"
+msgstr "Натисніть закрити, щоб сховати налаштування відео курсу"
 
 #: cms/templates/js/course-video-settings.underscore:13
 msgid "Course Video Settings"
 msgstr "Налаштування для відео на курсі"
 
+#: cms/templates/js/course-video-sharing-enable.underscore:3
+msgid "Video Sharing"
+msgstr "Обмін відео"
+
 #: cms/templates/js/course-video-sharing-enable.underscore:13
 msgid "Learn more"
 msgstr "Дізнатися більше"
+
+#: cms/templates/js/course-video-transcript-preferences.underscore:3
+msgid "Transcript Turnaround"
+msgstr "Строк обробки транскрипту"
+
+#: cms/templates/js/course-video-transcript-preferences.underscore:8
+msgid "Transcript Fidelity"
+msgstr "Точність транскрибування"
+
+#: cms/templates/js/course-video-transcript-preferences.underscore:13
+msgid "Video Source Language"
+msgstr "Вихідна Мова на відео"
+
+#: cms/templates/js/course-video-transcript-preferences.underscore:18
+msgid "Transcript Languages"
+msgstr "Мова розшифровки"
 
 #: cms/templates/js/course-video-transcript-preferences.underscore:25
 #: cms/templates/js/metadata-dict-entry.underscore:6
@@ -6839,37 +7653,130 @@ msgstr "Дізнатися більше"
 msgid "Add"
 msgstr "Додати"
 
+#: cms/templates/js/course-video-transcript-preferences.underscore:25
+msgid "Press Add to language"
+msgstr "Натисніть «Додати до мови»"
+
+#: cms/templates/js/course-video-transcript-provider-empty.underscore:1
+msgid "Automated Transcripts"
+msgstr "Автоматизовані Транскрипти"
+
+#: cms/templates/js/course-video-transcript-provider-selected.underscore:1
+msgid "Transcript Provider"
+msgstr "Постачальник Транскрипту"
+
 #: cms/templates/js/course-video-transcript-provider-selected.underscore:5
 msgid "Change"
 msgstr "Змінити"
+
+#: cms/templates/js/course-video-transcript-provider-selected.underscore:6
+msgid "Press change to change selected transcript provider."
+msgstr "Натисніть змінити, щоб змінювати вибраного провайдера транскрипту."
 
 #: cms/templates/js/course_grade_policy.underscore:3
 msgid "Assignment Type Name"
 msgstr "Назва типу завдання"
 
+#: cms/templates/js/course_grade_policy.underscore:5
+msgid ""
+"The general category for this type of assignment, for example, Homework or "
+"Midterm Exam. This name is visible to learners."
+msgstr ""
+"Загальна категорія для цього типу завдання, наприклад, «Домашнє завдання» "
+"або «Проміжний іспит». Цю назву видно учням."
+
 #: cms/templates/js/course_grade_policy.underscore:9
 msgid "Abbreviation"
 msgstr "Абревіатура"
+
+#: cms/templates/js/course_grade_policy.underscore:11
+msgid ""
+"This short name for the assignment type (for example, HW or Midterm) appears"
+" next to assignments on a learner's Progress page."
+msgstr ""
+"Ця коротка назва типу завдання (наприклад, ДЗ або Проміжне завдання) "
+"відображається поруч із завданнями на сторінці прогресу учня."
 
 #: cms/templates/js/course_grade_policy.underscore:15
 msgid "Weight of Total Grade"
 msgstr "Вага загальної оцінки"
 
+#: cms/templates/js/course_grade_policy.underscore:17
+msgid ""
+"The weight of all assignments of this type as a percentage of the total "
+"grade, for example, 40. Do not include the percent symbol."
+msgstr ""
+"Вага всіх завдань цього типу у процентах від загальної оцінки, наприклад, "
+"40. Не включайте символ процента."
+
 #: cms/templates/js/course_grade_policy.underscore:21
 msgid "Total Number"
 msgstr "Загальна кількість"
+
+#: cms/templates/js/course_grade_policy.underscore:23
+msgid ""
+"The number of subsections in the course that contain problems of this "
+"assignment type."
+msgstr ""
+"Кількість підрозділів у курсі, які містять задачі цього типу завдання."
 
 #: cms/templates/js/course_grade_policy.underscore:27
 msgid "Number of Droppable"
 msgstr "Кількість завдань, які можна пропустити"
 
+#: cms/templates/js/course_grade_policy.underscore:29
+msgid ""
+"The number of assignments of this type that will be dropped. The lowest "
+"scoring assignments are dropped first."
+msgstr ""
+"Кількість завдань цього типу, які буде видалено. Завдання з найнижчою "
+"оцінкою відкидаються у першу чергу."
+
 #: cms/templates/js/course_grade_policy.underscore:37
 msgid "Warning: "
 msgstr "Попередження:"
 
+#: cms/templates/js/course_grade_policy.underscore:40
+#, python-brace-format
+msgid ""
+"The number of {type} assignments defined here does not match the current "
+"number of {type} assignments in the course:"
+msgstr ""
+"Кількість завдань {type}, визначена тут, не відповідає поточній кількості "
+"завдань {type} у курсі:"
+
+#: cms/templates/js/course_grade_policy.underscore:47
+msgid "There are no assignments of this type in the course."
+msgstr "Завдань такого типу в курсі немає."
+
+#: cms/templates/js/course_grade_policy.underscore:51
+#, python-brace-format
+msgid "{assignment_count} {type} assignment(s) found:"
+msgstr "Знайдено {assignment_count} завдань типу {type}:"
+
+#: cms/templates/js/course_grade_policy.underscore:71
+#, python-brace-format
+msgid ""
+"The number of {type} assignments in the course matches the number defined "
+"here."
+msgstr ""
+"Кількість завдань {type} у курсі відповідає кількості, визначеній тут."
+
 #: cms/templates/js/course_info_handouts.underscore:3
 msgid "Course Handouts"
 msgstr "Роздаткові матеріали курсу"
+
+#: cms/templates/js/course_info_handouts.underscore:9
+msgid "You have no handouts defined"
+msgstr "У вас не визначено жодних роздатків"
+
+#: cms/templates/js/course_info_handouts.underscore:13
+msgid ""
+"There is invalid code in your content. Please check to make sure it is valid"
+" HTML."
+msgstr ""
+"У вашому контенті є недійсний код. Будь ласка, переконайтеся, що це "
+"правильний HTML."
 
 #: cms/templates/js/course_info_update.underscore:5
 msgid "Date"
@@ -6888,9 +7795,30 @@ msgstr "Обговорення"
 msgid "Enable discussion"
 msgstr "Включити обговорення"
 
+#: cms/templates/js/discussion-editor.underscore:12
+msgid "Topics for unpublished units would not be created"
+msgstr "Теми для неопублікованих блоків створюватися не будуть."
+
+#: cms/templates/js/discussion-editor.underscore:16
+msgid "Please enable discussions for graded units from the"
+msgstr "Дозвольте обговорення для оцінених одиниць із"
+
+#: cms/templates/js/discussion-editor.underscore:24
+msgid "Discussion Configuration"
+msgstr "Конфігурація обговорення"
+
 #: cms/templates/js/due-date-editor.underscore:3
 msgid "Due Date:"
 msgstr "Кінцева дата:"
+
+#: cms/templates/js/due-date-editor.underscore:9
+msgid "Due Time in UTC:"
+msgstr "Термін придатності в UTC:"
+
+#: cms/templates/js/due-date-editor.underscore:17
+#: cms/templates/js/due-date-editor.underscore:19
+msgid "Clear Grading Due Date"
+msgstr "Очистити Кінцева Дата Оцінювання"
 
 #: cms/templates/js/edit-chapter.underscore:3
 msgid "Chapter Name"
@@ -6911,24 +7839,23 @@ msgstr ""
 msgid "Chapter Asset"
 msgstr "Елементи розділу"
 
+#: cms/templates/js/edit-chapter.underscore:10
+#, python-brace-format
+msgid "path/to/introductionToCookieBaking-CH{order}.pdf"
+msgstr "шлях/to/introductionToCookieBaking-CH{order}.pdf"
+
 #: cms/templates/js/edit-chapter.underscore:11
 msgid "upload a PDF file or provide the path to a Studio asset file"
 msgstr ""
 "Завантажте файл у форматі PDF або вкажіть шлях до файлу об'єкта Студії"
 
-#: cms/templates/js/edit-textbook.underscore:12
-msgid "Textbook Name"
-msgstr "Назва підручника"
+#: cms/templates/js/edit-chapter.underscore:12
+msgid "Upload PDF"
+msgstr "Додати PDF"
 
-#: cms/templates/js/edit-textbook.underscore:14
-msgid ""
-"provide the title/name of the text book as you would like your students to "
-"see it"
-msgstr "створіть заголовок / назву підручника, яку бачитимуть студенти"
-
-#: cms/templates/js/edit-textbook.underscore:21
-msgid "Add a Chapter"
-msgstr "Додати розділ"
+#: cms/templates/js/edit-chapter.underscore:14
+msgid "delete chapter"
+msgstr "видалити розділ"
 
 #: cms/templates/js/edit-title-button.underscore:1
 msgid "Edit Title"
@@ -6950,6 +7877,15 @@ msgstr ""
 msgid "View in Library"
 msgstr "Переглянути в бібліотеці"
 
+#: cms/templates/js/embed-link-share-link-editor.underscore:5
+msgid ""
+"Embed your subsection content directly on a page using an iframe, and view "
+"it without the LMS header and footer."
+msgstr ""
+"Вставте контент свого підрозділу безпосередньо на сторінку за допомогою "
+"iframe та переглядаєте його без верхнього та нижнього колонтитулів "
+"Навчальної системи."
+
 #: cms/templates/js/embed-link-share-link-editor.underscore:11
 #: cms/templates/js/full-page-share-link-editor.underscore:11
 msgid "Click to copy link to clipboard"
@@ -6959,6 +7895,14 @@ msgstr "Натисніть, щоб скопіювати посилання в б
 #: cms/templates/js/full-page-share-link-editor.underscore:15
 msgid "Copy link"
 msgstr "Копіювати посилання"
+
+#: cms/templates/js/full-page-share-link-editor.underscore:5
+msgid ""
+"When sharing this link with your learners, they will see the content of the "
+"subsection along with the header and footer of your LMS."
+msgstr ""
+"Поділившись цим посиланням зі своїми учнями, вони побачать контент "
+"підрозділу разом із верхнім і нижнім колонтитулами вашої Навчальної системи."
 
 #: cms/templates/js/grading-editor.underscore:1
 msgid "Grading"
@@ -6972,13 +7916,97 @@ msgstr "Оцінити як:"
 msgid "Not Graded"
 msgstr "Не оцінюються"
 
+#: cms/templates/js/group-configuration-details.underscore:52
+#: cms/templates/js/group-configuration-editor.underscore:53
+msgid "Cannot delete when in use by an experiment"
+msgstr "Неможливо видалити, коли експеримент використовує"
+
+#: cms/templates/js/group-configuration-details.underscore:61
+msgid "This Group Configuration is used in:"
+msgstr "Конфігурація Групи використовується у:"
+
+#: cms/templates/js/group-configuration-details.underscore:84
+#, python-brace-format
+msgid ""
+"This Group Configuration is not in use. Start by adding a content experiment"
+" to any Unit via the {linkStart}Course Outline{linkEnd}."
+msgstr ""
+"Ця конфігурація Групи не використовується. Почніть з додавання експерименту "
+"контенту до будь-якого Блоку через {linkStart}Зміст Курсу{linkEnd}."
+
+#: cms/templates/js/group-configuration-editor.underscore:9
+msgid "Group Configuration information"
+msgstr "Інформація Конфігурації Групи"
+
+#: cms/templates/js/group-configuration-editor.underscore:11
+msgid "Group Configuration Name"
+msgstr "Назва конфігурації Групи"
+
+#: cms/templates/js/group-configuration-editor.underscore:14
+msgid "Group Configuration ID"
+msgstr "ID Конфігурації Групи"
+
+#: cms/templates/js/group-configuration-editor.underscore:19
+msgid "This is the Name of the Group Configuration"
+msgstr "Це Назва конфігурації групи"
+
+#: cms/templates/js/group-configuration-editor.underscore:20
+msgid "Name or short description of the configuration"
+msgstr "Назва або короткий опис конфігурації"
+
+#: cms/templates/js/group-configuration-editor.underscore:24
+msgid "This is the Description of the Group Configuration"
+msgstr "Це опис конфігурації Групи."
+
+#: cms/templates/js/group-configuration-editor.underscore:25
+msgid "Optional long description"
+msgstr "Необов'язковий розширений опис."
+
+#: cms/templates/js/group-configuration-editor.underscore:29
+msgid "Group information"
+msgstr "Інформація про Групу"
+
+#: cms/templates/js/group-configuration-editor.underscore:31
+msgid ""
+"Name of the groups that students will be assigned to, for example, Control, "
+"Video, Problems. You must have two or more groups."
+msgstr ""
+"Назви груп, до яких будуть призначені учні, наприклад, \"Контроль\", "
+"\"Відео\", \"Задачі\". Вам потрібно мати дві або більше груп."
+
 #: cms/templates/js/group-configuration-editor.underscore:33
 msgid "Add another group"
 msgstr "Додати іншу групу"
 
+#: cms/templates/js/group-configuration-editor.underscore:39
+msgid ""
+"This configuration is currently used in content experiments. If you make "
+"changes to the groups, you may need to edit those experiments."
+msgstr ""
+"Ця конфігурація наразі використовується в експериментах з контентом. Якщо ви"
+" внесете зміни до груп, вам може знадобитися редагувати ці експерименти."
+
 #: cms/templates/js/group-edit.underscore:4
 msgid "delete group"
 msgstr "видалити групу"
+
+#: cms/templates/js/highlights-editor.underscore:5
+msgid ""
+"Enter 3-5 highlights to include in the email message that learners receive "
+"for this section (250 character limit)."
+msgstr ""
+"Введіть 3-5 основних слів, щоб включити в повідомлення електронної пошти, "
+"які отримують учні для цього розділу (обмеження на 250 символів)."
+
+#: cms/templates/js/highlights-editor.underscore:36
+#: cms/templates/js/highlights-editor.underscore:49
+#, python-brace-format
+msgid "Highlight {highlight_index}"
+msgstr "Виділіть {highlight_index}"
+
+#: cms/templates/js/highlights-editor.underscore:55
+msgid "A highlight to look forward to this week."
+msgstr "Основні моменти очікуються на цьому тижні."
 
 #: cms/templates/js/license-selector.underscore:3
 msgid "License Type"
@@ -6994,6 +8022,11 @@ msgstr "Дізнайтеся більше про {license_name}"
 msgid "Options for {license_name}"
 msgstr "Опції для {license_name}"
 
+#: cms/templates/js/license-selector.underscore:37
+#, python-brace-format
+msgid "The following options are available for the {license_name} license."
+msgstr "Для ліцензії {license_name} доступні наступні варіанти."
+
 #: cms/templates/js/license-selector.underscore:74
 msgid "License Display"
 msgstr "Відображення ліцензіі"
@@ -7004,6 +8037,10 @@ msgid ""
 "pages within your course:"
 msgstr "Наступне повідомлення буде показано у нижній частині програми курсу:"
 
+#: cms/templates/js/license-selector.underscore:101
+msgid "Creative Commons licensed content, with terms as follow:"
+msgstr "Захищено ліцензією Creative Commons контент на умовах:"
+
 #: cms/templates/js/license-selector.underscore:105
 msgid "Some Rights Reserved"
 msgstr "Деякі права захищені."
@@ -7012,6 +8049,11 @@ msgstr "Деякі права захищені."
 #, python-format
 msgid "%(new_item_message)s"
 msgstr "%(new_item_message)s"
+
+#: cms/templates/js/list.underscore:17
+#, python-format
+msgid "New %(item_type)s"
+msgstr "Новий %(item_type)s"
 
 #: cms/templates/js/metadata-dict-entry.underscore:9
 #: cms/templates/js/metadata-file-uploader-entry.underscore:5
@@ -7033,15 +8075,67 @@ msgstr "Очистити"
 msgid "Clear Value"
 msgstr "Очистити значення"
 
+#: cms/templates/js/metadata-file-uploader-item.underscore:2
+#: cms/templates/js/video-transcripts.underscore:42
+#: cms/templates/js/video/metadata-translations-item.underscore:8
+msgid "Download"
+msgstr "Завантажувати"
+
+#: cms/templates/js/move-xblock-list.underscore:7
+#, python-brace-format
+msgid "{categoryText} in {parentDisplayname}"
+msgstr "{categoryText} в {parentDisplayname}"
+
 #: cms/templates/js/move-xblock-list.underscore:28
 msgid "Current location"
 msgstr "Поточне місцезнаходження"
+
+#: cms/templates/js/move-xblock-list.underscore:41
+msgid "Currently selected"
+msgstr "На даний час обрано"
 
 #: cms/templates/js/paging-header.underscore:7
 #: common/static/common/templates/components/paging-footer.underscore:2
 #: common/static/common/templates/discussion/templates.underscore:586
 msgid "Previous"
 msgstr "Попередній"
+
+#: cms/templates/js/partition-group-details.underscore:47
+msgid "This group controls access to:"
+msgstr "Ця група контролює доступ до:"
+
+#: cms/templates/js/partition-group-details.underscore:59
+#, python-brace-format
+msgid ""
+"In the {linkStart}Course Outline{linkEnd}, use this group to control access "
+"to a component."
+msgstr ""
+"В {linkStart}Змісті курсу{linkEnd}, використовуйте цю групу для "
+"контролювання доступу до компоненту."
+
+#: cms/templates/js/previous-video-upload-list.underscore:2
+msgid "Previous Uploads"
+msgstr "Попередні додані файли"
+
+#: cms/templates/js/previous-video-upload-list.underscore:5
+msgid "Download available encodings (.csv)"
+msgstr "Завантаження доступних кодувань (.csv)"
+
+#: cms/templates/js/previous-video-upload-list.underscore:12
+msgid "Thumbnail"
+msgstr "Мініатюра"
+
+#: cms/templates/js/previous-video-upload-list.underscore:16
+msgid "Video ID"
+msgstr "ID відео"
+
+#: cms/templates/js/previous-video-upload-list.underscore:17
+msgid "Transcripts"
+msgstr "Субтитри"
+
+#: cms/templates/js/previous-video-upload-list.underscore:18
+msgid "Video Status"
+msgstr "Статус Відео"
 
 #: cms/templates/js/previous-video-upload-list.underscore:19
 #: lms/djangoapps/support/static/support/templates/manage_user.underscore:24
@@ -7050,11 +8144,29 @@ msgstr "Попередній"
 msgid "Action"
 msgstr "Дія"
 
+#: cms/templates/js/previous-video-upload.underscore:13
+msgid "Remove this video"
+msgstr "Видалити це відео"
+
+#: cms/templates/js/previous-video-upload.underscore:15
+#, python-brace-format
+msgid "Remove {video_name} video"
+msgstr "Видалити {video_name} відео"
+
+#: cms/templates/js/publish-history.underscore:2
+msgid "Never published"
+msgstr "Ще не опубліковане"
+
 #: cms/templates/js/publish-history.underscore:4
 #, python-format
 msgid "Last published %(last_published_date)s by %(publish_username)s"
 msgstr ""
 "Остання публікація %(last_published_date)s автором %(publish_username)s"
+
+#: cms/templates/js/publish-history.underscore:10
+#: cms/templates/js/publish-xblock.underscore:54
+msgid "Previously published"
+msgstr "Раніше опубліковане"
 
 #: cms/templates/js/publish-xblock.underscore:2
 msgid "Draft (Never published)"
@@ -7067,6 +8179,31 @@ msgstr "Видимість тільки для персоналу"
 #: cms/templates/js/publish-xblock.underscore:6
 msgid "Published and Live"
 msgstr "Опубліковане та доступне студентам"
+
+#: cms/templates/js/publish-xblock.underscore:8
+msgid "Published (not yet released)"
+msgstr "Опубліковано (ще не відкрито для студентів)"
+
+#: cms/templates/js/publish-xblock.underscore:10
+msgid "Draft (Unpublished changes)"
+msgstr "Чернетка (зміни неопубліковані)"
+
+#: cms/templates/js/publish-xblock.underscore:13
+msgid "Release:"
+msgstr "Випуск:"
+
+#: cms/templates/js/publish-xblock.underscore:23
+msgid "Publishing Status"
+msgstr "Статус публікації"
+
+#: cms/templates/js/publish-xblock.underscore:31
+#, python-brace-format
+msgid ""
+"Draft saved on {lastSavedStart}{editedOn}{lastSavedEnd} by "
+"{editedByStart}{editedBy}{editedByEnd}"
+msgstr ""
+"Чернетку збережено на {lastSavedStart}{editedOn}{lastSavedEnd} відповідно "
+"{editedByStart}{editedBy}{editedByEnd}"
 
 #: cms/templates/js/publish-xblock.underscore:43
 #, python-brace-format
@@ -7103,9 +8240,126 @@ msgstr "з %(section_or_subsection)s"
 msgid "Staff and Learners"
 msgstr "Персонал та студенти"
 
+#: cms/templates/js/publish-xblock.underscore:108
+#: cms/templates/js/staff-lock-editor.underscore:37
+msgid "Hide from learners"
+msgstr "Сховати від учнів"
+
+#: cms/templates/js/publish-xblock.underscore:113
+msgid "Note: Do not hide graded assignments after they have been released."
+msgstr "Примітка: Не ховайте оцінені завдання після їх публікації."
+
+#: cms/templates/js/publish-xblock.underscore:137
+msgid "Copy Unit"
+msgstr "Скопіювати блок"
+
 #: cms/templates/js/release-date-editor.underscore:1
 msgid "Release Date and Time"
 msgstr "Дата і час випуску"
+
+#: cms/templates/js/release-date-editor.underscore:5
+msgid "Release Date:"
+msgstr "Дата Випуску:"
+
+#: cms/templates/js/release-date-editor.underscore:11
+msgid "Release Time in UTC:"
+msgstr "Час Випуску у UTC:"
+
+#: cms/templates/js/release-date-editor.underscore:21
+#: cms/templates/js/release-date-editor.underscore:23
+msgid "Clear Release Date/Time"
+msgstr "Очистити Дата/Час Випуску"
+
+#: cms/templates/js/self-paced-due-date-editor.underscore:5
+msgid "Due in:"
+msgstr "Термін здачі:"
+
+#: cms/templates/js/self-paced-due-date-editor.underscore:8
+msgid "weeks from learner enrollment date"
+msgstr "тижні з дати запису учня на курс"
+
+#: cms/templates/js/self-paced-due-date-editor.underscore:14
+#, python-brace-format
+msgid ""
+"If a learner starts on {startDate}, this subsection will be due on "
+"{projectedDueIn}."
+msgstr "Якщо учень почне {startDate}, цей підрозділ буде {projectedDueIn}."
+
+#: cms/templates/js/self-paced-due-date-editor.underscore:23
+msgid ""
+"The minimum number of weeks this subsection can be due in is 1 week from the"
+" learner enrollment date."
+msgstr ""
+"Мінімальна кількість тижнів, протягом яких цей підрозділ може бути "
+"виконаний, становить 1 тиждень від дати запису учня."
+
+#: cms/templates/js/show-correctness-editor.underscore:2
+msgid "Assessment Results Visibility"
+msgstr "Видимість результатів Оцінки"
+
+#: cms/templates/js/show-correctness-editor.underscore:7
+msgid "Always show assessment results"
+msgstr "Завжди показувати результати оцінки"
+
+#: cms/templates/js/show-correctness-editor.underscore:10
+msgid ""
+"When learners submit an answer to an assessment, they immediately see "
+"whether the answer is correct or incorrect, and the score received."
+msgstr ""
+"Коли учні надсилають відповідь на оцінку, вони одразу бачать, чи відповідь "
+"правильна чи неправильна, а також отриманий бал."
+
+#: cms/templates/js/show-correctness-editor.underscore:14
+msgid "Never show assessment results"
+msgstr "Ніколи не показувати результати оцінки"
+
+#: cms/templates/js/show-correctness-editor.underscore:17
+msgid ""
+"Learners never see whether their answers to assessments are correct or "
+"incorrect, nor the score received."
+msgstr ""
+"Учні ніколи не бачать, чи їхні відповіді на оцінку правильні чи неправильні,"
+" а також отриманий бал."
+
+#: cms/templates/js/show-correctness-editor.underscore:21
+msgid "Show assessment results when subsection is past due"
+msgstr "Показуйте результати оцінки, коли термін підрозділу прострочено"
+
+#: cms/templates/js/show-correctness-editor.underscore:24
+msgid ""
+"Learners do not see whether their answers to assessments were correct or "
+"incorrect, nor the score received, until after the due date for the "
+"subsection has passed."
+msgstr ""
+"Учні не бачать, чи були їхні відповіді на оцінки правильними або "
+"неправильними, ні отриманий результат, після закінчення кінцевої дати "
+"подання."
+
+#: cms/templates/js/show-correctness-editor.underscore:36
+msgid ""
+"If the subsection does not have a due date, learners always see their scores"
+" when they submit answers to assessments."
+msgstr ""
+"Якщо підрозділ не має кінцевої дати, учні завжди бачать свої оцінки, коли "
+"вони надають відповіді на оцінювання."
+
+#: cms/templates/js/show-correctness-editor.underscore:40
+msgid ""
+"Never show individual assessment results, but show overall assessment "
+"results after due date"
+msgstr ""
+"Ніколи не показуйте результати індивідуальних оцінок, але показуйте загальні"
+" результати оцінок після кінцевої дати."
+
+#: cms/templates/js/show-correctness-editor.underscore:43
+msgid ""
+"Learners do not see question-level correctness or scores before or after the"
+" due date. However, once the due date passes, they can see their overall "
+"score for the subsection on the Progress page."
+msgstr ""
+"Учні не бачать правильність відповідей на рівні питань або оцінки до або "
+"після кінцевої дати. Однак, після проходження кінцевої дати, вони можуть "
+"побачити свою загальну оцінку за підрозділ на сторінці прогресу."
 
 #: cms/templates/js/signatory-details.underscore:9
 #: cms/templates/js/signatory-editor.underscore:8
@@ -7117,9 +8371,17 @@ msgstr "Підписант"
 msgid "Signature Image"
 msgstr "Зображення підпису"
 
+#: cms/templates/js/signatory-editor.underscore:11
+msgid "Certificate Signatory Configuration"
+msgstr "Конфігурація підписувачів сертифікату"
+
 #: cms/templates/js/signatory-editor.underscore:13
 msgid "Name "
 msgstr "Ім'я"
+
+#: cms/templates/js/signatory-editor.underscore:14
+msgid "Name of the signatory"
+msgstr "Ім'я підписанта"
 
 #: cms/templates/js/signatory-editor.underscore:15
 msgid "The name of this signatory as it should appear on certificates."
@@ -7128,6 +8390,10 @@ msgstr "Ім'я підписанта, яке відображатиметься 
 #: cms/templates/js/signatory-editor.underscore:21
 msgid "Title "
 msgstr "Назва"
+
+#: cms/templates/js/signatory-editor.underscore:22
+msgid "Title of the signatory"
+msgstr "Посада підписанта"
 
 #: cms/templates/js/signatory-editor.underscore:23
 msgid ""
@@ -7140,6 +8406,10 @@ msgstr ""
 #: cms/templates/js/signatory-editor.underscore:29
 msgid "Organization "
 msgstr "Організація"
+
+#: cms/templates/js/signatory-editor.underscore:30
+msgid "Organization of the signatory"
+msgstr "Організація підписанта"
 
 #: cms/templates/js/signatory-editor.underscore:31
 msgid ""
@@ -7159,9 +8429,99 @@ msgstr "Зображення має бути у форматі PNG"
 msgid "Upload Signature Image"
 msgstr "Завантажити зображення підпису"
 
+#: cms/templates/js/staff-lock-editor.underscore:4
+msgid "Unit Visibility"
+msgstr "Видимість блоку"
+
+#: cms/templates/js/staff-lock-editor.underscore:6
+msgid "Section Visibility"
+msgstr "Видимість розділу"
+
+#: cms/templates/js/staff-lock-editor.underscore:14
+msgid "Visible to learners"
+msgstr "Видно для учнів"
+
+#: cms/templates/js/staff-lock-editor.underscore:16
+msgid ""
+"It is visible to learners, ensuring that all learners can view its contents."
+msgstr ""
+"Він видимий для учнів, що гарантує, що всі учні можуть переглядати його "
+"контент."
+
+#: cms/templates/js/staff-lock-editor.underscore:22
+msgid "Hide in Course Outline, accessible via Link"
+msgstr "Сховати в Структурі курсу, доступній за посиланням"
+
+#: cms/templates/js/staff-lock-editor.underscore:24
+msgid ""
+"It is intentionally hidden from standard navigation, ensuring that only "
+"individuals with the link can view its contents."
+msgstr ""
+"Він навмисно прихований від стандартної навігації, гарантуючи, що лише "
+"особи, які мають посилання, можуть переглядати його контент."
+
+#: cms/templates/js/staff-lock-editor.underscore:27
+msgid ""
+"If you make this section visible in the table of content, learners will be "
+"able to see its content."
+msgstr ""
+"Якщо ви зробите цей розділ видимим у змісті, учні зможуть побачити його "
+"контент."
+
+#: cms/templates/js/staff-lock-editor.underscore:40
+msgid ""
+"It is intentionally hidden from learners, ensuring that only the course "
+"staff can view its contents."
+msgstr ""
+"Він навмисно прихований від учнів, щоб лише персонал курсу міг переглядати "
+"його контент."
+
+#: cms/templates/js/staff-lock-editor.underscore:45
+msgid ""
+"If the unit was previously published and released to learners, any changes "
+"you made to the unit when it was hidden will now be visible to learners."
+msgstr ""
+"Якщо блок раніше був опублікований та доступний учням, будь-які зміни, "
+"внесені в блок, коли він був прихований, тепер будуть видимими для учнів."
+
+#: cms/templates/js/staff-lock-editor.underscore:47
+#, python-format
+msgid ""
+"If you make this %(xblockType)s visible to learners, learners will be able "
+"to see its content after the release date has passed and you have published "
+"the unit. Only units that are explicitly hidden from learners will remain "
+"hidden after you clear this option for the %(xblockType)s."
+msgstr ""
+"Якщо ви зробите це %(xblockType)s видимим для учнів, то вони зможуть "
+"побачити його контент після того, як дата випуску минула, і ви опублікуєте "
+"блок. Тільки блоки, які явно приховані від учнів, залишаться прихованими "
+"після того, як ви очистите цей варіант для %(xblockType)s."
+
+#: cms/templates/js/summary-configuration-editor.underscore:3
+msgid "Xpert unit summaries"
+msgstr "Підсумки блоку Xpert"
+
+#: cms/templates/js/summary-configuration-editor.underscore:8
+msgid "Enable summaries"
+msgstr "Дозволяти Підсумки"
+
+#: cms/templates/js/team-member.underscore:4
+msgid "Current Role:"
+msgstr "Поточна Роль:"
+
 #: cms/templates/js/team-member.underscore:8
 msgid "You!"
 msgstr "Ви!"
+
+#: cms/templates/js/team-member.underscore:19
+#, python-brace-format
+msgid "send an email message to {email}"
+msgstr "Ви надішліть повідомлення {email}"
+
+#: cms/templates/js/team-member.underscore:32
+msgid "Promote another member to Admin to remove your admin rights"
+msgstr ""
+"Підвищити іншого учасника до admin, щоб позбавити вас прав адміністратора"
 
 #: cms/templates/js/team-member.underscore:35
 #, python-brace-format
@@ -7173,13 +8533,178 @@ msgstr "Додати доступ для {role}"
 msgid "Remove {role} Access"
 msgstr "Видалити доступ для {role}"
 
+#: cms/templates/js/team-member.underscore:44
+#, python-brace-format
+msgid "Delete the user, {username}"
+msgstr "Видаляти користувача {username}"
+
+#: cms/templates/js/timed-examination-preference-editor.underscore:2
+msgid "Set as a Special Exam"
+msgstr "Встановити як Контрольний Іспит"
+
+#: cms/templates/js/timed-examination-preference-editor.underscore:4
+msgid "Exam Types"
+msgstr "Види екзаменів"
+
+#: cms/templates/js/timed-examination-preference-editor.underscore:9
+msgid ""
+"This subsection was released to learners as a proctored exam, but was "
+"reverted back to a basic or timed exam. You may not configure it as a "
+"proctored exam now. Contact edX Support for assistance."
+msgstr ""
+"Цей Підрозділ було надано учням як іспит під наглядом, але його повернули до"
+" базового або обмеженого часом іспиту. Наразі ви не можете конфігурувати "
+"його як іспит під наглядом. Зверніться до служби підтримки edX для отримання"
+" допомоги."
+
+#: cms/templates/js/timed-examination-preference-editor.underscore:17
+msgid ""
+"This proctored exam has been released to learners. You may not convert it to"
+" another type of special exam. You may revert this subsection back to being "
+"a basic exam by selecting 'None', or a timed exam, but you will NOT be able "
+"to configure it as a proctored exam in the future."
+msgstr ""
+"Цей іспит під наглядом вже доступний для учнів. Ви не можете перетворити "
+"його на інший тип спеціального іспиту. Ви можете повернути цей підрозділ до "
+"базового іспиту, вибравши «Жодного» (None) або іспит з обмеженим часом, але "
+"ви НЕ ЗМОЖЕТЕ конфігурувати його як іспит під наглядом у майбутньому."
+
+#: cms/templates/js/timed-examination-preference-editor.underscore:29
+msgid "Timed"
+msgstr "З обмеженим часом"
+
+#: cms/templates/js/timed-examination-preference-editor.underscore:31
+msgid ""
+"Use a timed exam to limit the time learners can spend on problems in this "
+"subsection. Learners must submit answers before the time expires. You can "
+"allow additional time for individual learners through the Instructor "
+"Dashboard."
+msgstr ""
+"Використовуйте іспит з обмеженим часом, щоб лімітувати час, який учні можуть"
+" витрачати на задачі в цьому підрозділі. Учні повинні надіслати відповіді до"
+" закінчення часу. Ви можете надати додатковий час окремим учням через панель"
+" інструментів викладача."
+
+#: cms/templates/js/timed-examination-preference-editor.underscore:38
+msgid "Proctored"
+msgstr "Під наглядом"
+
+#: cms/templates/js/timed-examination-preference-editor.underscore:40
+msgid ""
+"Proctored exams are timed and they record video of each learner taking the "
+"exam. The videos are then reviewed to ensure that learners follow all "
+"examination rules. Please note that setting this exam as proctored will "
+"change the visibility settings to \"Hide content after due date.\""
+msgstr ""
+"Іспити під наглядом контролюються часом виконання, і вони роблять відеозапис"
+" кожного учня, який складає іспит. Потім відео перевіряються, щоб "
+"переконатися, що учні дотримуються всіх правил іспиту. Зверніть увагу, що "
+"встановлення цього іспиту як \"іспит під наглядом\" змінить налаштування "
+"видимості на «сховати контент після кінцевої дати»."
+
+#: cms/templates/js/timed-examination-preference-editor.underscore:49
+msgid "Onboarding"
+msgstr "Ознайомлення"
+
+#: cms/templates/js/timed-examination-preference-editor.underscore:51
+msgid ""
+"Use Onboarding to introduce learners to proctoring, verify their identity, "
+"and create an onboarding profile. Learners must complete the onboarding "
+"profile step prior to taking a proctored exam. Profile reviews take 2+ "
+"business days."
+msgstr ""
+"Використовуйте Ознайомлення, щоб ознайомити учнів з Прокторингом, "
+"підтвердити їхню особу та створити профіль. Учні повинні пройти етап "
+"створення профілю перед тим, як скласти іспит під наглядом. Відгуки про "
+"профіль займають понад 2 робочі дні."
+
+#: cms/templates/js/timed-examination-preference-editor.underscore:58
+msgid "Practice Proctored"
+msgstr "Пробний під наглядом"
+
+#: cms/templates/js/timed-examination-preference-editor.underscore:60
+msgid ""
+"Use a practice proctored exam to introduce learners to the proctoring tools "
+"and processes. Results of a practice exam do not affect a learner's grade."
+msgstr ""
+"Використовуйте практичний іспит під наглядом, щоб ознайомити учнів з "
+"інструментами та процесами нагляду. Результати практичного іспиту не "
+"впливають на оцінку учня."
+
+#: cms/templates/js/timed-examination-preference-editor.underscore:67
+msgid "Time Allotted (HH:MM):"
+msgstr "Розподілений час (ЧЧ:ММ):"
+
+#: cms/templates/js/timed-examination-preference-editor.underscore:71
+msgid ""
+"Select a time allotment for the exam. If it is over 24 hours, type in the "
+"amount of time. You can grant individual learners extra time to complete the"
+" exam through the Instructor Dashboard."
+msgstr ""
+"Виберіть часовий відрізок для іспиту. Якщо він перевищує 24 години, введіть "
+"кількість часу. Ви можете надати окремим учням додатковий час для складання "
+"іспиту через панель інструментів викладача."
+
 #: cms/templates/js/timed-examination-preference-editor.underscore:77
 msgid "Review Rules"
 msgstr "Переглянути правила"
 
+#: cms/templates/js/timed-examination-preference-editor.underscore:86
+#, python-brace-format
+msgid ""
+"Specify any rules or rule exceptions that the proctoring review team should "
+"enforce when reviewing the videos. For example, you could specify that "
+"calculators are allowed. These specified rules are visible to learners "
+"before the learners start the exam, along with the {linkStart}general "
+"proctored exam rules{linkEnd}."
+msgstr ""
+"Укажіть будь-які правила або винятки з правил, яких має дотримуватися "
+"команда перевірки під час перегляду відео. Наприклад, ви можете вказати, що "
+"калькулятори дозволені. Ці вказані правила, разом із {linkStart}загальними "
+"правилами іспитів під наглядом{linkEnd}, бачать учні перед тим, як учні "
+"розпочнуть іспит."
+
+#: cms/templates/js/timed-examination-preference-editor.underscore:90
+msgid "General Proctored Exam Rules"
+msgstr "Загальні Правила Іспиту Під Наглядом"
+
+#: cms/templates/js/timed-examination-preference-editor.underscore:95
+msgid ""
+"Specify any rules or rule exceptions that the proctoring review team should "
+"enforce when reviewing the videos. For example, you could specify that "
+"calculators are allowed. These specified rules are visible to learners "
+"before the learners start the exam."
+msgstr ""
+"Вкажіть будь-які правила або винятки з правил, які команда оглядачів повинна"
+" застосовувати під час перевірки відео. Наприклад, ви можете вказати, що "
+"дозволено використовувати калькулятори. Ці визначені правила видно учням до "
+"того, як вони розпочнуть іспит."
+
 #: cms/templates/js/transcript-organization-credentials.underscore:3
 msgid "Account"
 msgstr "Обліковий запис"
+
+#: cms/templates/js/transcript-organization-credentials.underscore:5
+#, python-brace-format
+msgid ""
+"This action updates the {provider} information for your entire organization."
+msgstr "Ця дія оновлює інформацію {provider} для всієї організації."
+
+#: cms/templates/js/transcript-organization-credentials.underscore:7
+msgid "Enter the account information for your organization."
+msgstr "Введіть дані облікового запису для своєї організації."
+
+#: cms/templates/js/transcript-organization-credentials.underscore:11
+msgid "API Key"
+msgstr "API Ключ"
+
+#: cms/templates/js/transcript-organization-credentials.underscore:22
+msgid "API Secret"
+msgstr "API Секрет"
+
+#: cms/templates/js/unit-access-editor.underscore:8
+msgid "Unit Access"
+msgstr "Доступ до Блоку"
 
 #: cms/templates/js/unit-access-editor.underscore:11
 msgid "Restrict access to:"
@@ -7197,13 +8722,134 @@ msgstr "Обрати одну чи більше груп:"
 msgid "Deleted Group"
 msgstr "Видалена група"
 
+#: cms/templates/js/unit-access-editor.underscore:32
+msgid ""
+"This group no longer exists. Choose another group or do not restrict access "
+"to this unit."
+msgstr ""
+"Ця група більше не існує. Виберіть іншу групу або не обмежуйте доступ до "
+"цього блоку."
+
 #: cms/templates/js/upload-dialog.underscore:25
 msgid "File upload succeeded"
 msgstr "Файл успішно завантажено"
 
+#: cms/templates/js/validation-error-modal.underscore:16
+msgid ""
+"Please check the following validation feedbacks and reflect them in your "
+"course settings:"
+msgstr ""
+"Будь ласка, перевірте наступний зворотній зв'язок про перевірку та "
+"відображте його у налаштуваннях курсу:"
+
+#: cms/templates/js/verification-access-editor.underscore:3
+msgid "Verification Checkpoint"
+msgstr "Контрольний Пункт Перевірки"
+
+#: cms/templates/js/verification-access-editor.underscore:19
+msgid "Must complete verification checkpoint"
+msgstr "Потрібно завершити перевірку контрольної точки"
+
+#: cms/templates/js/verification-access-editor.underscore:23
+msgid "Verification checkpoint to be completed"
+msgstr "Контрольний пункт перевірки завершив"
+
+#: cms/templates/js/verification-access-editor.underscore:38
+msgid ""
+"Learners who require verification must pass the selected checkpoint to see "
+"the content in this unit. Learners who do not require verification see this "
+"content by default."
+msgstr ""
+"Учні, які потребують перевірки, повинні перейти до обраного контрольного "
+"пункту, щоб побачити контент цього блоку. Учні, які не потребують перевірки,"
+" бачитимуть цей контент за замовчуванням."
+
+#: cms/templates/js/video-thumbnail.underscore:17
+#, python-brace-format
+msgid ""
+"Recommended image resolution is {imageResolution}, maximum image file size "
+"should be {maxFileSize} and format must be one of {supportedImageFormats}."
+msgstr ""
+"Рекомендованою роздільною здатністю зображення є {imageResolution}, "
+"максимальний розмір файлу зображення має бути {maxFileSize}, а формат "
+"повинен бути одним з {supportedImageFormats}."
+
 #: cms/templates/js/video-transcript-upload-status.underscore:4
 msgid "Read more"
 msgstr "Читати більше"
+
+#: cms/templates/js/video-transcripts.underscore:9
+msgid "No transcript uploaded."
+msgstr "Не додано жодного транскрипту."
+
+#: cms/templates/js/video-transcripts.underscore:17
+#, python-brace-format
+msgid "Show transcripts ({totalTranscripts})"
+msgstr "Показати транскрипти ({totalTranscripts})"
+
+#: cms/templates/js/xblock-access-editor.underscore:3
+msgid "Set Access"
+msgstr "Встановити доступ"
+
+#: cms/templates/js/xblock-string-field-editor.underscore:9
+#, python-format
+msgid "Edit %(display_name)s (required)"
+msgstr "Редагувати %(display_name)s (вимагається)"
+
+#: cms/templates/js/maintenance/force-published-course-response.underscore:3
+msgid ""
+"You have done a dry run of force publishing the course. Nothing has changed."
+" Had you run it, the following course versions would have been change."
+msgstr ""
+"Ви зробили пробний запуск, публікуючи курс. Нічого не змінилося. Якби ви "
+"його запустили, наступні версії курсів були б змінені."
+
+#: cms/templates/js/maintenance/force-published-course-response.underscore:7
+#, python-brace-format
+msgid ""
+"The published branch version, {published}, was reset to the draft branch "
+"version, {draft}."
+msgstr ""
+"Опублікована версія галузі, {published}, була скинута до версії галузі "
+"чернетки, {draft}."
+
+#: cms/templates/js/video/transcripts/metadata-videolist-entry.underscore:8
+msgid "Add URLs for additional versions"
+msgstr "Додайте URL-адреси для додаткових версій"
+
+#: cms/templates/js/video/transcripts/metadata-videolist-entry.underscore:11
+msgid ""
+"To be sure all students can access the video, we recommend providing both an"
+" .mp4 and a .webm version of your video. Click below to add a URL for "
+"another version. These URLs cannot be YouTube URLs. The first listed video "
+"that's compatible with the student's computer will play."
+msgstr ""
+"Щоб упевнитися, що всі студенти можуть отримати доступ до відео, "
+"рекомендуємо давати версію відео у форматі .mp4 та .webm. Натисніть нижче, "
+"щоб додати URL-адресу для іншої версії. Ці URL-адреси не можуть бути URL-"
+"адресами YouTube. Перше відео, яке буде сумісне з комп'ютером студента, буде"
+" відтворено."
+
+#: cms/templates/js/video/transcripts/metadata-videolist-entry.underscore:25
+msgid "Default Timed Transcript"
+msgstr "Синхронні субтитри За замовчуванням"
+
+#: cms/templates/js/video/transcripts/messages/transcripts-choose.underscore:3
+#: cms/templates/js/video/transcripts/messages/transcripts-replace.underscore:3
+msgid "Timed Transcript Conflict"
+msgstr "Конфлікт Часового Транскрипту"
+
+#: cms/templates/js/video/transcripts/messages/transcripts-choose.underscore:7
+msgid ""
+"The timed transcript for the first video file does not appear to be the same"
+" as the timed transcript for the second video file."
+msgstr ""
+"Часовий транскрипт для першого відеофайлу не збігається з часовим записом "
+"для другого відеофайлу."
+
+#: cms/templates/js/video/transcripts/messages/transcripts-choose.underscore:9
+msgid "Which timed transcript would you like to use?"
+msgstr "Який транскрипт з часом ви хочете використовувати?"
 
 #: cms/templates/js/video/transcripts/messages/transcripts-choose.underscore:14
 #: cms/templates/js/video/transcripts/messages/transcripts-found.underscore:7
@@ -7214,6 +8860,142 @@ msgstr "Читати більше"
 #: cms/templates/js/video/transcripts/messages/transcripts-use-existing.underscore:13
 msgid "Error."
 msgstr "Помилка."
+
+#: cms/templates/js/video/transcripts/messages/transcripts-choose.underscore:22
+#, python-format
+msgid "Timed Transcript from %(filename)s"
+msgstr "Часовий Транскрипт від %(filename)s"
+
+#: cms/templates/js/video/transcripts/messages/transcripts-found.underscore:1
+msgid "Timed Transcript Found"
+msgstr "Часовий транскрипт знайдено"
+
+#: cms/templates/js/video/transcripts/messages/transcripts-found.underscore:3
+msgid ""
+"EdX has a timed transcript for this video. If you want to edit this "
+"transcript, you can download, edit, and re-upload the existing transcript. "
+"If you want to replace this transcript, upload a new .srt transcript file."
+msgstr ""
+"EdX має часовий транскрипт для цього відео. Якщо ви хочете редагувати цей "
+"транскрипт, ви можете завантажити, редагувати та повторно додати існуючий "
+"запис. Якщо ви хочете замінити цей транскрипт, додайте новий файл "
+"транскрипту .srt."
+
+#: cms/templates/js/video/transcripts/messages/transcripts-found.underscore:10
+#: cms/templates/js/video/transcripts/messages/transcripts-found.underscore:11
+#: cms/templates/js/video/transcripts/messages/transcripts-import.underscore:13
+#: cms/templates/js/video/transcripts/messages/transcripts-import.underscore:14
+#: cms/templates/js/video/transcripts/messages/transcripts-not-found.underscore:10
+#: cms/templates/js/video/transcripts/messages/transcripts-not-found.underscore:11
+#: cms/templates/js/video/transcripts/messages/transcripts-uploaded.underscore:10
+#: cms/templates/js/video/transcripts/messages/transcripts-uploaded.underscore:11
+#: cms/templates/js/video/transcripts/messages/transcripts-use-existing.underscore:32
+#: cms/templates/js/video/transcripts/messages/transcripts-use-existing.underscore:33
+#: cms/templates/js/video/transcripts/messages/transcripts-use-existing.underscore:36
+msgid "Upload New Transcript"
+msgstr "Додати Новий Транскрипт"
+
+#: cms/templates/js/video/transcripts/messages/transcripts-found.underscore:10
+#: cms/templates/js/video/transcripts/messages/transcripts-import.underscore:13
+msgid "Upload New .srt Transcript"
+msgstr "Додати Новий .srt Транскрипт"
+
+#: cms/templates/js/video/transcripts/messages/transcripts-found.underscore:13
+#: cms/templates/js/video/transcripts/messages/transcripts-found.underscore:14
+#: cms/templates/js/video/transcripts/messages/transcripts-not-found.underscore:13
+#: cms/templates/js/video/transcripts/messages/transcripts-not-found.underscore:14
+#: cms/templates/js/video/transcripts/messages/transcripts-uploaded.underscore:13
+#: cms/templates/js/video/transcripts/messages/transcripts-uploaded.underscore:14
+msgid "Download Transcript for Editing"
+msgstr "Завантаження тексту для Редагування"
+
+#: cms/templates/js/video/transcripts/messages/transcripts-import.underscore:1
+msgid "No EdX Timed Transcript"
+msgstr "Немає Часового EdX Транскрипту"
+
+#: cms/templates/js/video/transcripts/messages/transcripts-import.underscore:3
+msgid ""
+"EdX doesn't have a timed transcript for this video in Studio, but we found a"
+" transcript on YouTube. You can import the YouTube transcript or upload your"
+" own .srt transcript file."
+msgstr ""
+"EdX не має часового транскрипту для цього відео в студії, але ми знайшли "
+"розшифровку на YouTube. Можна імпортувати транскрипт YouTube або завантажити"
+" власний файл транскрипту .srt."
+
+#: cms/templates/js/video/transcripts/messages/transcripts-import.underscore:10
+#: cms/templates/js/video/transcripts/messages/transcripts-import.underscore:11
+msgid "Import YouTube Transcript"
+msgstr "Імпорт Транскрипту YouTube"
+
+#: cms/templates/js/video/transcripts/messages/transcripts-not-found.underscore:1
+msgid "No Timed Transcript"
+msgstr "Немає Часового Транскрипту"
+
+#: cms/templates/js/video/transcripts/messages/transcripts-not-found.underscore:3
+msgid ""
+"EdX doesn\\'t have a timed transcript for this video. Please upload an .srt "
+"file."
+msgstr ""
+"EdX не має часового розкладу для цього відео. Будь ласка, завантажте an .srt"
+" файл."
+
+#: cms/templates/js/video/transcripts/messages/transcripts-replace.underscore:7
+msgid ""
+"The timed transcript for this video on edX is out of date, but YouTube has a"
+" current timed transcript for this video."
+msgstr ""
+"Часовий транскрипт для цього відео на edX застарів, але YouTube має поточну "
+"транскрипцію для цього відео."
+
+#: cms/templates/js/video/transcripts/messages/transcripts-replace.underscore:9
+msgid "Do you want to replace the edX transcript with the YouTube transcript?"
+msgstr "Замінити транскрипт edX транскриптом YouTube?"
+
+#: cms/templates/js/video/transcripts/messages/transcripts-replace.underscore:22
+#: cms/templates/js/video/transcripts/messages/transcripts-replace.underscore:23
+#: cms/templates/js/video/transcripts/messages/transcripts-replace.underscore:26
+msgid "Yes, replace the edX transcript with the YouTube transcript"
+msgstr "Так, замінити транскрипт edX транскриптом YouTube"
+
+#: cms/templates/js/video/transcripts/messages/transcripts-uploaded.underscore:1
+msgid "Timed Transcript Uploaded Successfully"
+msgstr "Транскрипт з тайм-кодом Додано Успішно"
+
+#: cms/templates/js/video/transcripts/messages/transcripts-uploaded.underscore:3
+msgid ""
+"EdX has a timed transcript for this video. If you want to replace this "
+"transcript, upload a new .srt transcript file. If you want to edit this "
+"transcript, you can download, edit, and re-upload the existing transcript."
+msgstr ""
+"EdX має часовий транскрипт для цього відео. Якщо ви хочете замінити цей "
+"запис, додати новий файл транскрипту .srt. Якщо ви хочете редагувати цей "
+"транскрипт, ви можете завантажити, редагувати та повторно додати існуючий "
+"запис."
+
+#: cms/templates/js/video/transcripts/messages/transcripts-use-existing.underscore:3
+msgid "Confirm Timed Transcript"
+msgstr "Підтвердьте Часовий Транскрипт"
+
+#: cms/templates/js/video/transcripts/messages/transcripts-use-existing.underscore:7
+msgid ""
+"You changed a video URL, but did not change the timed transcript file. Do "
+"you want to use the current timed transcript or upload a new .srt transcript"
+" file?"
+msgstr ""
+"Ви змінили URL-адресу відео, але не змінили файл часового транскрипту. Ви "
+"бажаєте використовувати поточний часовий транскрипт або додати новий файл "
+"транскрипту .srt?"
+
+#: cms/templates/js/video/transcripts/messages/transcripts-use-existing.underscore:21
+#: cms/templates/js/video/transcripts/messages/transcripts-use-existing.underscore:22
+#: cms/templates/js/video/transcripts/messages/transcripts-use-existing.underscore:25
+msgid "Use Current Transcript"
+msgstr "Використати Поточний Транскрипт"
+
+#: common/static/common/templates/image-modal.underscore:14
+msgid "Large"
+msgstr "Великий"
 
 #: common/static/common/templates/image-modal.underscore:27
 msgid "Zoom In"
@@ -7227,6 +9009,10 @@ msgstr "Віддалити"
 #, python-format
 msgid "Page number out of %(total_pages)s"
 msgstr "Номер сторінки із %(total_pages)s"
+
+#: common/static/common/templates/components/paging-footer.underscore:11
+msgid "Enter the page number you'd like to quickly navigate to."
+msgstr "Введіть номер сторінки, на яку ви хочете швидко переміститись."
 
 #: common/static/common/templates/components/paging-header.underscore:11
 msgid "Sorted by"
@@ -7252,6 +9038,11 @@ msgstr "Пошук"
 msgid "Add a Response"
 msgstr "Додати відповідь"
 
+#: common/static/common/templates/discussion/templates.underscore:24
+#: common/static/common/templates/discussion/templates.underscore:629
+msgid "This thread is closed."
+msgstr "Ця тема закрита."
+
 #: common/static/common/templates/discussion/templates.underscore:28
 msgid "Add a response:"
 msgstr "Додати відповідь:"
@@ -7262,6 +9053,16 @@ msgstr "Додати відповідь:"
 #: lms/templates/verify_student/incourse_reverify.underscore:62
 msgid "Submit"
 msgstr "Надіслати"
+
+#: common/static/common/templates/discussion/templates.underscore:74
+#, python-format
+msgid "discussion posted %(time_ago)s by %(author)s"
+msgstr "обговорення опубліковано %(time_ago)s користувачем %(author)s"
+
+#: common/static/common/templates/discussion/templates.underscore:76
+#, python-format
+msgid "question posted %(time_ago)s by %(author)s"
+msgstr "Питання залишив %(time_ago)s користувач %(author)s"
 
 #: common/static/common/templates/discussion/templates.underscore:84
 #: common/static/common/templates/discussion/templates.underscore:330
@@ -7283,6 +9084,82 @@ msgstr "Закритий"
 msgid "Related to: %(courseware_title_linked)s"
 msgstr "Пов'язано з: %(courseware_title_linked)s"
 
+#: common/static/common/templates/discussion/templates.underscore:118
+#, python-format
+msgid "This post is visible only to %(group_name)s."
+msgstr "Це повідомлення видно лише для %(group_name)s."
+
+#: common/static/common/templates/discussion/templates.underscore:124
+msgid "This post is visible to everyone."
+msgstr "Це повідомлення видно всім."
+
+#: common/static/common/templates/discussion/templates.underscore:131
+msgid "Editing post"
+msgstr "Редагування повідомлення"
+
+#: common/static/common/templates/discussion/templates.underscore:138
+#: common/static/common/templates/discussion/templates.underscore:461
+msgid ""
+"Add a clear and descriptive title to encourage participation. (Required)"
+msgstr ""
+"Додайте зрозумілу та вичерпну назву, щоб заохотити участь. (Обов'язкове "
+"поле)"
+
+#: common/static/common/templates/discussion/templates.underscore:144
+msgid "Edit your post below."
+msgstr "Редагувати допис."
+
+#: common/static/common/templates/discussion/templates.underscore:147
+msgid "Update post"
+msgstr "Оновити повідомлення"
+
+#: common/static/common/templates/discussion/templates.underscore:154
+#, python-format
+msgid "Show Comment (%(num_comments)s)"
+msgid_plural "Show Comments (%(num_comments)s)"
+msgstr[0] "Показати коментар (%(num_comments)s)"
+msgstr[1] "Показати коментарі (%(num_comments)s)"
+msgstr[2] "Показати коментарі (%(num_comments)s)"
+msgstr[3] "Показати коментарі (%(num_comments)s)"
+
+#: common/static/common/templates/discussion/templates.underscore:164
+#: common/static/common/templates/discussion/templates.underscore:166
+msgid "Add a comment"
+msgstr "Додати коментар"
+
+#: common/static/common/templates/discussion/templates.underscore:189
+#, python-format
+msgid "marked as answer %(time_ago)s by %(user)s"
+msgstr "відмічено як відповідь %(time_ago)s користувачем %(user)s"
+
+#: common/static/common/templates/discussion/templates.underscore:193
+#, python-format
+msgid "marked as answer %(time_ago)s"
+msgstr "відмічено як відповідь %(time_ago)s"
+
+#: common/static/common/templates/discussion/templates.underscore:199
+#, python-format
+msgid "endorsed %(time_ago)s by %(user)s"
+msgstr "підтримано %(time_ago)s користувачем %(user)s"
+
+#: common/static/common/templates/discussion/templates.underscore:203
+#, python-format
+msgid "endorsed %(time_ago)s"
+msgstr "підтримано %(time_ago)s"
+
+#: common/static/common/templates/discussion/templates.underscore:242
+msgid "Editing response"
+msgstr "Редагування відповіді"
+
+#: common/static/common/templates/discussion/templates.underscore:245
+msgid "Update response"
+msgstr "Оновити відповідь"
+
+#: common/static/common/templates/discussion/templates.underscore:275
+#, python-format
+msgid "posted %(time_ago)s by %(author)s"
+msgstr "послано %(time_ago)s від %(author)s"
+
 #: common/static/common/templates/discussion/templates.underscore:289
 msgid "Editing comment"
 msgstr "Редагування коментаря"
@@ -7303,23 +9180,169 @@ msgstr "питання з відповіддю"
 msgid "unanswered question"
 msgstr "питання без відповіді"
 
+#: common/static/common/templates/discussion/templates.underscore:337
+msgid "Following"
+msgstr "Стеження"
+
+#: common/static/common/templates/discussion/templates.underscore:351
+msgid "Community TA"
+msgstr "Спільнота асистентів"
+
+#: common/static/common/templates/discussion/templates.underscore:379
+#, python-brace-format
+msgid "{unread_comments_count} new"
+msgstr "{unread_comments_count} нових"
+
+#: common/static/common/templates/discussion/templates.underscore:398
+#, python-format
+msgid ""
+"%(comments_count)s %(span_sr_open)scomments (%(unread_comments_count)s "
+"unread comments)%(span_close)s"
+msgstr ""
+"%(comments_count)s %(span_sr_open)sкоментарі (%(unread_comments_count)s "
+"непрочитані коментарі)%(span_close)s"
+
+#: common/static/common/templates/discussion/templates.underscore:401
+#, python-format
+msgid "%(comments_count)s %(span_sr_open)scomments %(span_close)s"
+msgstr "%(comments_count)s %(span_sr_open)sкоментарів %(span_close)s"
+
+#: common/static/common/templates/discussion/templates.underscore:425
+#: common/static/common/templates/discussion/templates.underscore:559
+msgid "Add a Post"
+msgstr "Додати публікацію"
+
+#: common/static/common/templates/discussion/templates.underscore:440
+msgid "Visible to"
+msgstr "Видимо для"
+
+#: common/static/common/templates/discussion/templates.underscore:443
+msgid ""
+"Discussion admins, moderators, and TAs can make their posts visible to all "
+"students or specify a single group."
+msgstr ""
+"Адміністратори обговорень, модератори та асистенти викладача можуть робити "
+"свої пости видимими для всіх студентів або вказати одну групу."
+
 #: common/static/common/templates/discussion/templates.underscore:447
 msgid "All Groups"
 msgstr "Всі групи"
+
+#: common/static/common/templates/discussion/templates.underscore:477
+msgid "follow this post"
+msgstr "стежити за цим повідомленням"
+
+#: common/static/common/templates/discussion/templates.underscore:483
+msgid "post anonymously to classmates"
+msgstr "посилати анонімно для однокласників"
+
+#: common/static/common/templates/discussion/templates.underscore:507
+msgid "Error posting your message."
+msgstr "Помилка при надсиланні вашого повідомлення."
+
+#: common/static/common/templates/discussion/templates.underscore:520
+#, python-format
+msgid "This post will be visible only to %(group_name)s."
+msgstr "Ця публікація буде доступною лише для %(group_name)s"
+
+#: common/static/common/templates/discussion/templates.underscore:526
+msgid "This post will be visible to everyone."
+msgstr "Ця публікація буде доступна для всіх."
+
+#: common/static/common/templates/discussion/templates.underscore:532
+msgid "Topic area"
+msgstr "Тематична область"
+
+#: common/static/common/templates/discussion/templates.underscore:535
+msgid "Add your post to a relevant topic to help others find it. (Required)"
+msgstr ""
+"Додайте ваше повідомлення до відповідної теми, щоб допомогти іншим знайти "
+"його. (Обов'язково)"
+
+#: common/static/common/templates/discussion/templates.underscore:548
+msgid "(Community TA)"
+msgstr "(Спільнота TA)"
+
+#: common/static/common/templates/discussion/templates.underscore:550
+msgid "(Staff)"
+msgstr "(Персонал)"
 
 #: common/static/common/templates/discussion/templates.underscore:572
 #: lms/djangoapps/discussion/static/discussion/templates/user-profile.underscore:6
 msgid "All Posts"
 msgstr "Усі повідомлення"
 
+#: common/static/common/templates/discussion/templates.underscore:573
+msgid "Return to all posts"
+msgstr "Повернутися до всіх дописів"
+
+#: common/static/common/templates/discussion/templates.underscore:636
+msgid "View discussion"
+msgstr "Переглянути обговорення"
+
 #: common/static/common/templates/discussion/templates.underscore:697
 #: common/static/common/templates/discussion/templates.underscore:886
 msgid "Load more"
 msgstr "Завантажити ще"
 
+#: common/static/common/templates/discussion/templates.underscore:707
+msgid "Post type"
+msgstr "Тип повідомлення"
+
+#: common/static/common/templates/discussion/templates.underscore:711
+msgid ""
+"Questions raise issues that need answers. Discussions share ideas and start "
+"conversations. (Required)"
+msgstr ""
+"Запитання підіймають проблеми, які потребують відповідей. Обговорення дають "
+"можливість ділитися ідеями та почати бесіду."
+
 #: common/static/common/templates/discussion/templates.underscore:719
 msgid "Question"
 msgstr "Питання"
+
+#: common/static/common/templates/discussion/templates.underscore:736
+#: common/static/common/templates/discussion/templates.underscore:738
+msgid "Endorse"
+msgstr "Підтримати"
+
+#: common/static/common/templates/discussion/templates.underscore:739
+msgid "Unendorse"
+msgstr "Скасувати підтримку"
+
+#: common/static/common/templates/discussion/templates.underscore:748
+#: common/static/common/templates/discussion/templates.underscore:750
+msgid "Mark as Answer"
+msgstr "Відмітити як Відповідь"
+
+#: common/static/common/templates/discussion/templates.underscore:751
+msgid "Unmark as Answer"
+msgstr "Зняти відмітку про відповідь"
+
+#: common/static/common/templates/discussion/templates.underscore:760
+#: common/static/common/templates/discussion/templates.underscore:762
+msgid "Follow"
+msgstr "Стежити"
+
+#: common/static/common/templates/discussion/templates.underscore:763
+msgid "Unfollow"
+msgstr "Відписатися"
+
+#: common/static/common/templates/discussion/templates.underscore:776
+msgid "Vote for this post,"
+msgstr "Голосувати за це повідомлення"
+
+#: common/static/common/templates/discussion/templates.underscore:792
+msgid "Report abuse"
+msgstr "Поскаржитися"
+
+#: common/static/common/templates/discussion/templates.underscore:794
+msgid "Report"
+msgstr "Поскаржитися"
+
+#: common/static/common/templates/discussion/templates.underscore:795
+msgid "Unreport"
+msgstr "Відмінити скаргу"
 
 #: common/static/common/templates/discussion/templates.underscore:806
 #: common/static/common/templates/discussion/templates.underscore:808
@@ -7347,6 +9370,10 @@ msgstr "Як користуватись обговореннями %(platform_na
 msgid "Find discussions"
 msgstr "Знайти обговорення"
 
+#: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore:21
+msgid "Use the All Topics menu to find specific topics."
+msgstr "Використовуйте меню \"Всі обговорення\", щоб знайти певну тему."
+
 #: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore:25
 #: lms/djangoapps/discussion/static/discussion/templates/search.underscore:6
 #: lms/djangoapps/discussion/static/discussion/templates/search.underscore:8
@@ -7361,9 +9388,25 @@ msgstr " Фільтруйте та впорядковуйте теми"
 msgid "Engage with posts"
 msgstr "Оцінюйте повідомлення"
 
+#: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore:36
+msgid "Vote for good posts and responses"
+msgstr "Голосуйте за хороші повідомлення та відповіді"
+
+#: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore:40
+msgid "Report abuse, topics, and responses"
+msgstr "Повідомити про порушення у темах та відповідях"
+
+#: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore:44
+msgid "Follow or unfollow posts"
+msgstr "Підписатися або відписатся від повідомлень"
+
 #: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore:49
 msgid "Receive updates"
 msgstr "Отримувати оновлення"
+
+#: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore:52
+msgid "Toggle Notifications Setting"
+msgstr "Змінити налаштування повідомлень"
 
 #: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore:58
 msgid ""
@@ -7377,15 +9420,55 @@ msgstr ""
 msgid "username or email"
 msgstr "ім'я користувача або електронна пошта"
 
+#: lms/djangoapps/support/static/support/templates/certificates.underscore:17
+msgid "course id"
+msgstr "id курсу"
+
 #: lms/djangoapps/support/static/support/templates/certificates_results.underscore:2
 #: lms/templates/instructor/instructor_dashboard_2/certificate-allowlist.underscore:16
 #: lms/templates/instructor/instructor_dashboard_2/certificate-invalidation.underscore:23
 msgid "No results"
 msgstr "Немає результатів"
 
+#: lms/djangoapps/support/static/support/templates/certificates_results.underscore:6
+msgid "Course Key"
+msgstr "Курс Key"
+
 #: lms/djangoapps/support/static/support/templates/certificates_results.underscore:8
 msgid "Status"
 msgstr "Статус"
+
+#: lms/djangoapps/support/static/support/templates/certificates_results.underscore:9
+msgid "Grade"
+msgstr "Оцінка"
+
+#: lms/djangoapps/support/static/support/templates/certificates_results.underscore:10
+msgid "Last Updated"
+msgstr "Останнє оновлення"
+
+#: lms/djangoapps/support/static/support/templates/certificates_results.underscore:28
+msgid "Regenerate"
+msgstr "Відновити"
+
+#: lms/djangoapps/support/static/support/templates/certificates_results.underscore:29
+msgid "Regenerate the user's certificate"
+msgstr "Відновити сертифікат користувача"
+
+#: lms/djangoapps/support/static/support/templates/certificates_results.underscore:35
+msgid "Generate"
+msgstr "Згенерувати"
+
+#: lms/djangoapps/support/static/support/templates/certificates_results.underscore:36
+msgid "Generate the user's certificate"
+msgstr "Згенерувати сертифікат користувача"
+
+#: lms/djangoapps/support/static/support/templates/enrollment-modal.underscore:4
+msgid "Current enrollment mode:"
+msgstr "Режим запису на курс:"
+
+#: lms/djangoapps/support/static/support/templates/enrollment-modal.underscore:6
+msgid "New enrollment mode:"
+msgstr "Новий режим запису на курс:"
 
 #: lms/djangoapps/support/static/support/templates/enrollment-modal.underscore:14
 msgid "Reason for change:"
@@ -7394,6 +9477,15 @@ msgstr "Причина для зміни:"
 #: lms/djangoapps/support/static/support/templates/enrollment-modal.underscore:16
 msgid "Choose One"
 msgstr "Виберіть один"
+
+#: lms/djangoapps/support/static/support/templates/enrollment-modal.underscore:21
+#: lms/djangoapps/support/static/support/templates/enrollment-modal.underscore:22
+msgid "Explain if other."
+msgstr "Якщо є інше, пояснити."
+
+#: lms/djangoapps/support/static/support/templates/enrollment-modal.underscore:24
+msgid "Submit enrollment change"
+msgstr "Надіслати зміну запису"
 
 #: lms/djangoapps/support/static/support/templates/enrollment.underscore:9
 #: lms/templates/instructor/instructor_dashboard_2/certificate-invalidation.underscore:7
@@ -7404,228 +9496,18 @@ msgstr "Ім'я користувача або адреса електронно�
 msgid "Course ID"
 msgstr "ID курсу"
 
-#: lms/djangoapps/support/static/support/templates/enrollment.underscore:25
-msgid "Enrollment Date"
-msgstr "Дата запису на курс"
+#: lms/djangoapps/support/static/support/templates/enrollment.underscore:21
+msgid "Course Start"
+msgstr "Курс розпочнеться"
 
-#: lms/djangoapps/support/static/support/templates/enrollment.underscore:28
-msgid "Reason"
-msgstr "Причина"
+#: lms/djangoapps/support/static/support/templates/enrollment.underscore:22
+msgid "Course End"
+msgstr "Курс завершено"
 
-#: lms/djangoapps/support/static/support/templates/enrollment.underscore:29
-msgid "Last modified by"
-msgstr "Востаннє було змінено автором"
+#: lms/djangoapps/support/static/support/templates/enrollment.underscore:23
+msgid "Upgrade Deadline"
+msgstr "Кінцевий термін оновлення"
 
-#: lms/djangoapps/support/static/support/templates/enrollment.underscore:30
-msgid "Active"
-msgstr "Активний"
-
-#: lms/djangoapps/support/static/support/templates/manage_user.underscore:22
-msgid "Date Joined"
-msgstr "Дата приєднання"
-
-#: lms/djangoapps/teams/static/teams/templates/edit-team.underscore:49
-msgid "Create team."
-msgstr "Створити команду."
-
-#: lms/djangoapps/teams/static/teams/templates/edit-team.underscore:51
-msgid "Update team."
-msgstr "Оновити команду."
-
-#: lms/djangoapps/teams/static/teams/templates/instructor-tools.underscore:7
-msgid "Delete Team"
-msgstr "Видалити команду"
-
-#: lms/templates/ccx/schedule.underscore:15
-msgid "Due Date"
-msgstr "Кінцева дата"
-
-#: lms/templates/discovery/course_card.underscore:6
-msgid "LEARN MORE"
-msgstr "Дізнатися більше"
-
-#: lms/templates/discovery/course_card.underscore:17
-#, python-format
-msgid "Starts: %(start_date)s"
-msgstr "Починається: %(start_date)s"
-
-#: lms/templates/discovery/course_card.underscore:26
-msgid "Starts"
-msgstr "Розпочинається"
-
-#: lms/templates/instructor/instructor_dashboard_2/certificate-allowlist-editor.underscore:1
-msgid "Individual Exceptions"
-msgstr "Індивідуальні винятки"
-
-#: lms/templates/instructor/instructor_dashboard_2/certificate-allowlist-editor.underscore:2
-msgid ""
-"Enter the username or email address of each learner that you want to add as "
-"an exception."
-msgstr ""
-"Введіть ім'я користувача або електронну пошту кожного студента, якого ви "
-"хочете додати як виняток."
-
-#: lms/templates/instructor/instructor_dashboard_2/certificate-allowlist-editor.underscore:5
-#: lms/templates/instructor/instructor_dashboard_2/certificate-allowlist-editor.underscore:6
-msgid "Student email or username"
-msgstr "Ім'я користувача або поштова адреса студента"
-
-#: lms/templates/instructor/instructor_dashboard_2/certificate-allowlist-editor.underscore:8
-#: lms/templates/instructor/instructor_dashboard_2/certificate-allowlist-editor.underscore:9
-msgid "Free text notes"
-msgstr "Нотатки"
-
-#: lms/templates/instructor/instructor_dashboard_2/certificate-allowlist-editor.underscore:12
-#: lms/templates/instructor/instructor_dashboard_2/certificate-bulk-allowlist.underscore:15
-msgid "Add to Exception List"
-msgstr "Додати до списку винятків"
-
-#: lms/templates/instructor/instructor_dashboard_2/certificate-allowlist.underscore:1
-#: lms/templates/instructor/instructor_dashboard_2/certificate-allowlist.underscore:13
-msgid "Generate Exception Certificates"
-msgstr "Генерація сертифікатів для винятків"
-
-#: lms/templates/instructor/instructor_dashboard_2/certificate-allowlist.underscore:6
-msgid "All users on the Exception list who do not yet have a certificate"
-msgstr "Всі користувачі у списку винятків, які ще не мають сертифікатів"
-
-#: lms/templates/instructor/instructor_dashboard_2/certificate-allowlist.underscore:10
-msgid "All users on the Exception list"
-msgstr "Всі користувачі у списку винятків"
-
-#: lms/templates/instructor/instructor_dashboard_2/certificate-bulk-allowlist.underscore:1
-msgid "Bulk Exceptions"
-msgstr "Масові винятки"
-
-#: lms/templates/instructor/instructor_dashboard_2/certificate-bulk-allowlist.underscore:4
-msgid ""
-"Upload a comma separated values (.csv) file that contains the usernames or "
-"email addresses of learners who have been given exceptions. Include the "
-"username or email address in the first comma separated field. You can "
-"include an optional note describing the reason for the exception in the "
-"second comma separated field."
-msgstr ""
-"Завантажте файл зі значеннями, розділеними комами (.csv), який містить імена"
-" користувачів або адреси електронної пошти тих студентів, яким надано "
-"виняток. Першим введіть ім'я користувача або адресу електронної пошти та "
-"відокремте комою. За бажанням Ви можете додати примітку, яка б описувала "
-"причину винятку. Вона буде відображатися у другому полі."
-
-#: lms/templates/instructor/instructor_dashboard_2/certificate-bulk-allowlist.underscore:8
-msgid "Upload a CSV file"
-msgstr "Завантажити  CSV файл"
-
-#: lms/templates/instructor/instructor_dashboard_2/certificate-invalidation.underscore:2
-msgid ""
-"To invalidate a certificate for a particular learner, add the username or "
-"email address below."
-msgstr ""
-"Щоб анулювати сертифікат для певного користувача, додайте ім'я користувача "
-"або адресу поштової скриньки. "
-
-#: lms/templates/instructor/instructor_dashboard_2/certificate-invalidation.underscore:11
-msgid "Add notes about this learner"
-msgstr "Додати нотатки для цього студента"
-
-#: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore:26
-#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:25
-msgid "(Required Field)"
-msgstr "(Обов'язкове поле)"
-
-#: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore:30
-msgid "e.g. johndoe@example.com, JaneDoe, joeydoe@example.com"
-msgstr "наприклад: johndoe@example.com, JaneDoe, joeydoe@example.com"
-
-#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:5
-msgid "Add a New Cohort"
-msgstr "Створити нову когорту"
-
-#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:19
-msgid "Enter the name of the cohort"
-msgstr "Введіть назву когорти"
-
-#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:44
-msgid "Cohort Assignment Method"
-msgstr "Метод призначення когорти"
-
-#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:47
-msgid "Automatic"
-msgstr "Автоматичний"
-
-#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:50
-msgid "Manual"
-msgstr "Вручну"
-
-#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:62
-msgid "Associated Content Group"
-msgstr "Пов'язана контентна група"
-
-#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:64
-msgid "No Content Group"
-msgstr "Без контентної групи"
-
-#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:66
-msgid "Select a Content Group"
-msgstr "Обрати контентну групу"
-
-#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:123
-#, python-brace-format
-msgid ""
-"{screen_reader_start}Warning:{screen_reader_end} No content groups exist."
-msgstr ""
-"{screen_reader_start}Попередження:{screen_reader_end} жодної контентої групи"
-" не створено. "
-
-#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:133
-msgid "Create a content group"
-msgstr "Створити контентну групу "
-
-#: lms/templates/instructor/instructor_dashboard_2/cohorts.underscore:2
-msgid "Enable Cohorts"
-msgstr "Увімкнути когорти"
-
-#: lms/templates/learner_dashboard/course_enroll.underscore:7
-msgid "View Course"
-msgstr "Переглянути курс"
-
-#: lms/templates/learner_dashboard/program_card.underscore:60
-#, python-format
-msgid "%(programName)s Home Page."
-msgstr "%(programName)s Домашня сторінка "
-
-#: lms/templates/learner_dashboard/program_details_tab_view.underscore:33
-#: lms/templates/learner_dashboard/program_details_view.underscore:8
-msgid "Congratulations!"
-msgstr "Вітаємо!"
-
-#: lms/templates/student_account/account.underscore:6
-msgid "Password"
-msgstr "Пароль"
-
-#: lms/templates/student_account/login.underscore:7
-msgid "Create an Account."
-msgstr "Створити обліковий запис"
-
-#: lms/templates/student_account/password_reset.underscore:4
-msgid "Password assistance"
-msgstr "Допомога у зміні пароля"
-
-#: lms/templates/verify_student/face_photo_step.underscore:38
-#: lms/templates/verify_student/id_photo_step.underscore:30
-#: lms/templates/verify_student/incourse_reverify.underscore:29
-msgid "Frequently Asked Questions"
-msgstr "Питання та відповіді"
-
-#: lms/templates/verify_student/make_payment_step_ab_testing.underscore:49
-#, python-brace-format
-msgid "Verified Certificate for {courseName}"
-msgstr "Перевірений сертифікат для {courseName}"
-
-#: openedx/features/course_bookmarks/static/course_bookmarks/templates/bookmarks-list.underscore:44
-msgid "You have not bookmarked any courseware pages yet"
-msgstr "Ви ще не маєте жодної закладки на сторінках навчальних програм"
-
-#: openedx/features/course_search/static/course_search/templates/course_search_results.underscore:25
-#: openedx/features/course_search/static/course_search/templates/dashboard_search_results.underscore:26
-msgid "Sorry, no results were found."
-msgstr "На жаль, жодного результату не знайдено."
+#: lms/djangoapps/support/static/support/templates/enrollment.underscore:24
+msgid "Verification Deadline"
+msgstr "Кінцевий термін перевірки"

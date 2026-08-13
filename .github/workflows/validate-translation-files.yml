@@ -5,6 +5,10 @@ name: Validate translation files
 on:
   - pull_request
 
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
 jobs:
   validate-translation-files:
     runs-on: ubuntu-latest
@@ -18,7 +22,7 @@ jobs:
     steps:
       # Define translation filepaths, so we can skip this action unless a
       # translation file has been modified in this diff
-      - uses: dorny/paths-filter@v3
+      - uses: dorny/paths-filter@v4
         id: filter
         with:
           list-files: shell
@@ -29,7 +33,7 @@ jobs:
       # Clones the openedx-translations repo
       - name: clone openedx/openedx-translations
         if: steps.filter.outputs.changedtranslations == 'true'
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
 
       - name: Install msgfmt from gettext for po-file validation
         if: steps.filter.outputs.changedtranslations == 'true' && matrix.file-type == 'po'
@@ -41,7 +45,7 @@ jobs:
         uses: actions/setup-python@v5
         id: setup_python
         with:
-          python-version: '3.11'
+          python-version: "3.12"
           cache: pip
           cache-dependency-path: |
             requirements/translations.txt
@@ -54,9 +58,9 @@ jobs:
 
       - name: Setup node
         if: steps.filter.outputs.changedtranslations == 'true' && matrix.file-type == 'json'
-        uses: actions/setup-node@v5
+        uses: actions/setup-node@v6
         with:
-          node-version-file: '.nvmrc'
+          node-version-file: ".nvmrc"
 
       - name: Install nodejs requirements
         if: steps.filter.outputs.changedtranslations == 'true' && matrix.file-type == 'json'
@@ -83,10 +87,10 @@ jobs:
         # Due to GitHub Actions security reasons posting a comment isn't possible on fork pull requests.
         # This shouldn't be an issue, because bots writes directly to this repository.
         if: ${{ always() && !github.event.pull_request.head.repo.fork }}
-        uses: mshick/add-pr-comment@b8f338c590a895d50bcbfa6c5859251edc8952fc
+        uses: mshick/add-pr-comment@ffd016c7e151d97d69d21a843022fd4cd5b96fe5
         with:
           # enable multiple sticky comments depending on file types.
-          message-id: 'validate-translation-files-${{ matrix.file-type }}'
+          message-id: "validate-translation-files-${{ matrix.file-type }}"
           message: |
             :white_check_mark: All `.${{ matrix.file-type }}` translation files are valid.
 

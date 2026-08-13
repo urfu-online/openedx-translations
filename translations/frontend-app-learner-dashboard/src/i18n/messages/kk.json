@@ -2,7 +2,6 @@
   "learner-dash.loadingSR": "Жүктелуде...",
   "learner-dash.error-page-message": "Қайталанатын сәтсіздіктерге тап болсаңыз, {supportEmail} мекенжайына қолдау көрсетуге электрондық хат жіберіңіз.",
   "learner-dash.title": "Білім алушының негізгі беті",
-  "learner-dash.notices.error404Message": "Бұл платформада ескертулер плагині орнатылмағандықтан орын алған болуы мүмкін.",
   "learner-dash.courseCard.bannerAlt": "Курстың нобайы",
   "learner-dash.courseCard.verifiedBanner": "Тексерілді",
   "learner-dash.courseCard.verifiedHoverDescription": "Сіз расталған студент ретінде тіркелдіңіз",
@@ -144,5 +143,6 @@
   "learner-dash.courseCard.banners.credit.rejected": "{providerName} курс кредитіне сұрауыңызды мақұлдамады. Қосымша ақпарат алу үшін {linkToProviderSite} тікелей хабарласыңыз.",
   "learner-dash.courseCard.banners.credit.requestCredit": "Кредит сұрау",
   "learner-dash.courseCard.banners.credit.viewCredit": "Кредитті көру",
-  "learner-dash.courseCard.banners.credit.viewDetails": "Мәліметтерді көру"
+  "learner-dash.courseCard.banners.credit.viewDetails": "Мәліметтерді көру",
+  "learner-dash.page.title": "Оқушының басты беті | {siteName}"
 }

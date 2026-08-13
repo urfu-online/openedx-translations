@@ -1,0 +1,16 @@
+{
+  "footer.powered.by": "",
+  "footer.revealLinks.more": "",
+  "footer.trademark.notice": "edX және Open edX — edX LLC компаниясының тіркелген сауда белгілері.",
+  "header.help": "Көмек",
+  "header.navigation.skipNavLink": "",
+  "header.user.menu.account": "",
+  "header.user.menu.dashboard": "",
+  "header.user.menu.login": "",
+  "header.user.menu.logout": "",
+  "header.user.menu.order.history": "",
+  "header.user.menu.profile": "",
+  "header.user.menu.register": "",
+  "home.content": "Басты бет мазмұны.",
+  "org.openedx.frontend.slot.header.courseNavigationBar.tabs.label": "Курс бойынша навигация жолағы"
+}

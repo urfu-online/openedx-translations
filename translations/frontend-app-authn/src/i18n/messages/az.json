@@ -141,6 +141,7 @@
   "email.invalid.format.error": "Düzgün bir e-poçt ünvanı daxil edin.",
   "username.validation.message": "İstifadəçi adı 2 ilə 30 simvol arasında olmalıdır",
   "name.validation.message": "Düzgün bir ad daxil edin",
+  "registration.name.validation.length.message": "Tam ad {limit} simvoldan uzun olmamalıdır",
   "username.format.validation.message": "İstifadəçi adları yalnız hərflər (A-Z, a-z), rəqəmlər (0-9), alt xətlər (_) və tirelər (-) ehtiva edə bilər. İstifadəçi adlarında boşluqlar ola bilməz.",
   "registration.request.failure.header": "Hesabınızı aça bilmədik.",
   "registration.empty.form.submission.error": "Zəhmət olmasa, daxil etdiklərinizi yoxlayın və yenidən cəhd edin.",
@@ -178,5 +179,6 @@
   "complete.your.profile.2": "profilinizi",
   "register.page.terms.of.service.and.honor.code": "Hesab yaradaraq, {tosAndHonorCode} qəbul etdiyinizi və {platformName} və hər bir Üzvün şəxsi məlumatlarınızı {privacyPolicy} uyğun olaraq emal etdiyini təsdiqləyirsiniz.",
   "register.page.honor.code": "Mən {platformName}&nbsp;{tosAndHonorCode} qəbul edirəm",
-  "register.page.terms.of.service": "Mən {platformName}&nbsp;{termsOfService} qəbul edirəm"
+  "register.page.terms.of.service": "Mən {platformName}&nbsp;{termsOfService} qəbul edirəm",
+  "error.notfound.page.title": "Səhifə tapılmadı | {siteName}"
 }

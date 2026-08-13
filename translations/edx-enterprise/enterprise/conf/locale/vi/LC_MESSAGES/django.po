@@ -1,20 +1,18 @@
 # edX translation file.
-# Copyright (C) 2025 EdX
+# Copyright (C) 2026 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
-# EdX Team <info@edx.org>, 2025.
+# EdX Team <info@edx.org>, 2026.
 # 
 # Translators:
-# Hoàng Trương <hoangta@vnu.edu.vn>, 2024
-# Hoang Truong <truonganhhoang@gmail.com>, 2024
-# edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>, 2025
+# Brian Smith, 2026
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2023-06-13 08:00+0000\n"
-"PO-Revision-Date: 2023-11-20 11:35+0000\n"
-"Last-Translator: edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>, 2025\n"
+"PO-Revision-Date: 2026-08-07 10:24+0000\n"
+"Last-Translator: Brian Smith, 2026\n"
 "Language-Team: Vietnamese (https://app.transifex.com/open-edx/teams/6205/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -318,11 +316,11 @@ msgstr "Ngày giờ mã thông báo phiên được cung cấp lần cuối"
 msgid "If checked, subjects will not be sent to Cornerstone"
 msgstr "Nếu được chọn, các môn học sẽ không được gửi đến Cornerstone"
 
-#: integrated_channels/cornerstone/models.py:306
+#: integrated_channels/cornerstone/models.py:311
 msgid "This is the edX course key that is used as a unique identifier."
 msgstr "Đây là khóa học edX được sử dụng làm mã định danh duy nhất."
 
-#: integrated_channels/cornerstone/models.py:313
+#: integrated_channels/cornerstone/models.py:318
 msgid "This is the course key that is being sent to our partners."
 msgstr "Đây là khóa học đang được gửi cho các đối tác của chúng tôi."
 
@@ -504,7 +502,7 @@ msgstr ""
 "truyền dữ liệu của người học, cả theo lịch trình và dựa trên tín hiệu"
 
 #: integrated_channels/integrated_channel/models.py:537
-#: integrated_channels/integrated_channel/models.py:713
+#: integrated_channels/integrated_channel/models.py:718
 msgid "Data pertaining to the transmissions API request response."
 msgstr "Dữ liệu liên quan đến phản hồi yêu cầu API truyền."
 
@@ -570,7 +568,7 @@ msgstr ""
 
 #: integrated_channels/sap_success_factors/exporters/content_metadata.py:223
 #: integrated_channels/sap_success_factors/exporters/content_metadata.py:298
-#: enterprise/views.py:1604
+#: enterprise/views.py:1608
 msgid "Starts"
 msgstr "Bắt đầu"
 
@@ -699,31 +697,31 @@ msgstr "Để ghi danh người học vào một khóa học, hãy nhập ID kh�
 msgid "Course enrollment track"
 msgstr "Lộ trình ghi danh khóa học"
 
-#: enterprise/admin/forms.py:74 enterprise/api/v1/serializers.py:1629
+#: enterprise/admin/forms.py:74 enterprise/api/v1/serializers.py:1642
 msgid "Audit"
 msgstr "Kiểm toán"
 
-#: enterprise/admin/forms.py:75 enterprise/api/v1/serializers.py:1630
+#: enterprise/admin/forms.py:75 enterprise/api/v1/serializers.py:1643
 msgid "Verified"
 msgstr "Đã xác minh"
 
-#: enterprise/admin/forms.py:76 enterprise/api/v1/serializers.py:1631
+#: enterprise/admin/forms.py:76 enterprise/api/v1/serializers.py:1644
 msgid "Professional Education"
 msgstr "Giáo dục chuyên nghiệp"
 
-#: enterprise/admin/forms.py:77 enterprise/api/v1/serializers.py:1632
+#: enterprise/admin/forms.py:77 enterprise/api/v1/serializers.py:1645
 msgid "Professional Education (no ID)"
 msgstr "Giáo dục chuyên nghiệp (không có ID)"
 
-#: enterprise/admin/forms.py:78 enterprise/api/v1/serializers.py:1633
+#: enterprise/admin/forms.py:78 enterprise/api/v1/serializers.py:1646
 msgid "Credit"
 msgstr "Tín dụng"
 
-#: enterprise/admin/forms.py:79 enterprise/api/v1/serializers.py:1634
+#: enterprise/admin/forms.py:79 enterprise/api/v1/serializers.py:1647
 msgid "Honor"
 msgstr "Danh dự"
 
-#: enterprise/admin/forms.py:80 enterprise/api/v1/serializers.py:1635
+#: enterprise/admin/forms.py:80 enterprise/api/v1/serializers.py:1648
 msgid "Unpaid Executive Education"
 msgstr "Giáo dục điều hành không lương"
 
@@ -912,20 +910,20 @@ msgstr ""
 "được đăng ký {enrolled_in} . Khi những người học này tạo tài khoản, họ sẽ "
 "được đăng ký tự động: {pending_email_list}"
 
-#: enterprise/admin/views.py:912
+#: enterprise/admin/views.py:919
 #, python-brace-format
 msgid "Email {email} is not associated with Enterprise Customer {ec_name}"
 msgstr ""
 "Email {email} không được liên kết với Khách hàng doanh nghiệp {ec_name}"
 
-#: enterprise/admin/views.py:976
+#: enterprise/admin/views.py:983
 msgid ""
 "Successfully written the \"Auth org id\" field for this enterprise customer."
 msgstr ""
 "Đã viết thành công trường &quot;Xác thực id tổ chức&quot; cho khách hàng "
 "doanh nghiệp này."
 
-#: enterprise/api/utils.py:97
+#: enterprise/api/utils.py:357
 #, python-brace-format
 msgid ""
 "{token_email} from {token_enterprise_name} has requested {token_number_codes} additional codes. Please reach out to them.\n"
@@ -936,7 +934,7 @@ msgstr ""
 " Ghi chú bổ sung:\n"
 " {token_notes} ."
 
-#: enterprise/api/utils.py:104
+#: enterprise/api/utils.py:364
 #, python-brace-format
 msgid ""
 "{token_email} from {token_enterprise_name} has requested "
@@ -945,7 +943,7 @@ msgstr ""
 "{token_email} từ {token_enterprise_name} đã yêu cầu {token_number_codes} mã "
 "bổ sung. Hãy liên hệ với họ."
 
-#: enterprise/api/utils.py:110
+#: enterprise/api/utils.py:370
 #, python-brace-format
 msgid ""
 "{token_email} from {token_enterprise_name} has requested additional codes. Please reach out to them.\n"
@@ -956,7 +954,7 @@ msgstr ""
 " Ghi chú bổ sung:\n"
 " {token_notes} ."
 
-#: enterprise/api/utils.py:116
+#: enterprise/api/utils.py:376
 #, python-brace-format
 msgid ""
 "{token_email} from {token_enterprise_name} has requested additional codes. "
@@ -965,19 +963,19 @@ msgstr ""
 "{token_email} từ {token_enterprise_name} đã yêu cầu mã bổ sung. Hãy liên hệ "
 "với họ."
 
-#: enterprise/api/v1/serializers.py:95
+#: enterprise/api/v1/serializers.py:96
 msgid "Total count of items."
 msgstr "Tổng số mặt hàng."
 
-#: enterprise/api/v1/serializers.py:96
+#: enterprise/api/v1/serializers.py:97
 msgid "URL to fetch next page of items."
 msgstr "URL để tìm nạp trang tiếp theo của mục."
 
-#: enterprise/api/v1/serializers.py:97
+#: enterprise/api/v1/serializers.py:98
 msgid "URL to fetch previous page of items."
 msgstr "URL để tìm nạp trang trước của các mục."
 
-#: enterprise/api/v1/serializers.py:98
+#: enterprise/api/v1/serializers.py:99
 msgid "List of items."
 msgstr "Danh sách các mục."
 
@@ -1036,7 +1034,7 @@ msgstr ""
 "edX."
 
 #: enterprise/api_client/discovery.py:60
-#: enterprise/api_client/discovery.py:399 enterprise/utils.py:1638
+#: enterprise/api_client/discovery.py:399 enterprise/utils.py:1642
 msgid ""
 "To get a CatalogIntegration object, this package must be installed in an "
 "Open edX environment."
@@ -1146,7 +1144,7 @@ msgstr ""
 "{privacy_policy_link_start} Chính sách quyền riêng tư "
 "{privacy_policy_link_end} khác với {enterprise_customer_name} ."
 
-#: enterprise/constants.py:86
+#: enterprise/constants.py:92
 msgid ""
 "A series of Master’s-level courses to advance your career, created by top "
 "universities and recognized by companies. MicroMasters Programs are credit-"
@@ -1158,7 +1156,7 @@ msgstr ""
 "chương trình MicroMasters đủ điều kiện nhận tín chỉ, cung cấp kiến thức theo"
 " yêu cầu và có thể được áp dụng để tăng tốc bằng Thạc sĩ."
 
-#: enterprise/constants.py:92
+#: enterprise/constants.py:98
 msgid ""
 "Designed by industry leaders and top universities to enhance professional "
 "skills, Professional Certificates develop the proficiency and expertise that"
@@ -1170,7 +1168,7 @@ msgstr ""
 "độ và kiến thức chuyên môn mà các nhà tuyển dụng đang tìm kiếm thông qua đào"
 " tạo chuyên môn và giáo dục chuyên nghiệp."
 
-#: enterprise/constants.py:98
+#: enterprise/constants.py:104
 msgid ""
 "Created by world-renowned experts and top universities, XSeries are designed"
 " to provide a deep understanding of key subjects through a series of "
@@ -1306,7 +1304,7 @@ msgstr "Các loại khách hàng doanh nghiệp"
 msgid "Specifies enterprise customer type."
 msgstr "Chỉ định loại khách hàng doanh nghiệp."
 
-#: enterprise/models.py:215 enterprise/models.py:3382
+#: enterprise/models.py:215 enterprise/models.py:3405
 msgid "Enterprise Customer"
 msgstr "Khách hàng doanh nghiệp"
 
@@ -1423,6 +1421,14 @@ msgstr ""
 "Chỉ định liệu các ưu đãi của doanh nghiệp có được người học biết đến trong "
 "cổng thông tin dành cho người học hay không. Điều này chỉ áp dụng cho những "
 "khách hàng có “ưu đãi”, phiên bản tín dụng cũ của người học."
+
+#: enterprise/models.py:385
+msgid ""
+"Specifies whether to display the Learner Credit message box in the learner "
+"portal."
+msgstr ""
+"Chỉ định xem có hiển thị hộp thông báo Tín chỉ học viên trong cổng thông tin"
+" học viên hay không."
 
 #: enterprise/models.py:391
 msgid ""
@@ -1595,42 +1601,42 @@ msgstr "Học viên khách hàng doanh nghiệp"
 msgid "Enterprise Customer Learners"
 msgstr "Người học khách hàng doanh nghiệp"
 
-#: enterprise/models.py:1722
+#: enterprise/models.py:1739
 msgid "Logo images must be in .png format."
 msgstr "Hình ảnh logo phải ở định dạng .png."
 
-#: enterprise/models.py:1749
+#: enterprise/models.py:1766
 msgid "Branding Configuration"
 msgstr "Cấu hình thương hiệu"
 
-#: enterprise/models.py:1750
+#: enterprise/models.py:1767
 msgid "Branding Configurations"
 msgstr "Cấu hình thương hiệu"
 
-#: enterprise/models.py:1832
+#: enterprise/models.py:1855
 msgid "Specifies whether this is default provider for enterprise customer."
 msgstr ""
 "Chỉ định xem đây có phải là nhà cung cấp mặc định cho khách hàng doanh "
 "nghiệp hay không."
 
-#: enterprise/models.py:1917
+#: enterprise/models.py:1940
 msgid ""
 "The UUID of the course (not course run) in which the learner is entitled."
 msgstr "UUID của khóa học (không phải khóa học) mà người học có quyền."
 
-#: enterprise/models.py:1927
+#: enterprise/models.py:1950
 msgid "The enterprise learner to which this entitlement is attached."
 msgstr "Người học trong doanh nghiệp được hưởng quyền này."
 
-#: enterprise/models.py:2050
+#: enterprise/models.py:2073
 msgid "The enterprise learner to which this enrollment is attached."
 msgstr "Người học doanh nghiệp được đính kèm việc ghi danh này."
 
-#: enterprise/models.py:2057
+#: enterprise/models.py:2080
 msgid "The ID of the course in which the learner was enrolled."
 msgstr "ID của khóa học mà người học đã ghi danh."
 
-#: enterprise/models.py:2064
+#: enterprise/models.py:2087
 msgid ""
 "Specifies whether a user marked this course as saved for later in the "
 "learner portal."
@@ -1638,7 +1644,7 @@ msgstr ""
 "Chỉ định xem người dùng có đánh dấu khóa học này là được lưu để sử dụng sau "
 "trong cổng thông tin dành cho người học hay không."
 
-#: enterprise/models.py:2080
+#: enterprise/models.py:2103
 msgid ""
 "Specifies whether the enterprise course enrollment's course enrollment "
 "object was unenrolled."
@@ -1646,7 +1652,7 @@ msgstr ""
 "Chỉ định xem đối tượng ghi danh khóa học của ghi danh khóa học doanh nghiệp "
 "có được hủy ghi danh hay không."
 
-#: enterprise/models.py:2090
+#: enterprise/models.py:2113
 msgid ""
 "Specifies when an enterprise course enrollment's course enrollment object "
 "was unenrolled."
@@ -1654,15 +1660,15 @@ msgstr ""
 "Chỉ định thời điểm đối tượng ghi danh khóa học của một khóa học doanh nghiệp"
 " được hủy ghi danh."
 
-#: enterprise/models.py:2348
+#: enterprise/models.py:2371
 msgid "The course entitlement the associated subsidy is for."
 msgstr "Quyền lợi của khóa học được trợ cấp liên quan dành cho."
 
-#: enterprise/models.py:2359
+#: enterprise/models.py:2382
 msgid "The course enrollment the associated subsidy is for."
 msgstr "Việc ghi danh khóa học được trợ cấp liên quan."
 
-#: enterprise/models.py:2366
+#: enterprise/models.py:2389
 msgid ""
 "Whether the enterprise subsidy is revoked, e.g., when a user's license is "
 "revoked."
@@ -1670,15 +1676,15 @@ msgstr ""
 "Trợ cấp doanh nghiệp có bị thu hồi hay không, ví dụ: khi giấy phép của người"
 " dùng bị thu hồi."
 
-#: enterprise/models.py:2527
+#: enterprise/models.py:2550
 msgid "The customer for which this default enrollment will be realized."
 msgstr "Khách hàng mà ghi danh mặc định này sẽ được thực hiện."
 
-#: enterprise/models.py:2536
+#: enterprise/models.py:2559
 msgid "The type of content (e.g. a course vs. a course run)."
 msgstr "Loại nội dung (ví dụ: một khóa học so với một kỳ học )."
 
-#: enterprise/models.py:2544
+#: enterprise/models.py:2567
 msgid ""
 "A course or course run that related users should be automatically enrolled "
 "into."
@@ -1686,7 +1692,7 @@ msgstr ""
 "Một khóa học hoặc kỳ học mà người dùng liên quan sẽ được tự động đăng ký "
 "vào."
 
-#: enterprise/models.py:2716
+#: enterprise/models.py:2739
 #, python-brace-format
 msgid ""
 "A default enrollment intention with this enterprise customer and content key"
@@ -1697,11 +1703,11 @@ msgstr ""
 "khóa nội dung , nhưng đã bị xóa mềm. Vui lòng khôi phục mục đích đó <a "
 "href=\"{existing_record_admin_url}\">tại đây</a> ."
 
-#: enterprise/models.py:2731
+#: enterprise/models.py:2754
 msgid "The content key did not resolve to a valid course run."
 msgstr "Khóa nội dung không phân giải thành một kỳ học hợp lệ ."
 
-#: enterprise/models.py:2799
+#: enterprise/models.py:2822
 msgid ""
 "Query parameters which will be used to filter the discovery service's "
 "search/all endpoint results, specified as a JSON object. An empty JSON "
@@ -1713,7 +1719,7 @@ msgstr ""
 " trống có nghĩa là tất cả các mục nội dung khả dụng sẽ được đưa vào danh "
 "mục. Phải là duy nhất."
 
-#: enterprise/models.py:2814
+#: enterprise/models.py:2837
 msgid ""
 "Specifies whether the catalog is allowed to include exec ed (2U) courses.  "
 "This means that, when the content_filter specifies that 'course' content "
@@ -1726,15 +1732,15 @@ msgstr ""
 "Executive-education-2u sẽ không bị loại trừ khỏi nội dung của danh mục được "
 "liên kết."
 
-#: enterprise/models.py:2821
+#: enterprise/models.py:2844
 msgid "Enterprise Catalog Query"
 msgstr "Truy vấn danh mục doanh nghiệp"
 
-#: enterprise/models.py:2822
+#: enterprise/models.py:2845
 msgid "Enterprise Catalog Queries"
 msgstr "Truy vấn danh mục doanh nghiệp"
 
-#: enterprise/models.py:2935
+#: enterprise/models.py:2958
 msgid ""
 "Query parameters which will be used to filter the discovery service's "
 "search/all endpoint results, specified as a Json object. An empty Json "
@@ -1746,7 +1752,7 @@ msgstr ""
 " Json trống có nghĩa là tất cả các mục nội dung có sẵn sẽ được đưa vào danh "
 "mục."
 
-#: enterprise/models.py:2943
+#: enterprise/models.py:2966
 msgid ""
 "Ordered list of enrollment modes which can be displayed to learners for "
 "course runs in this catalog."
@@ -1754,7 +1760,7 @@ msgstr ""
 "Danh sách theo thứ tự các chế độ ghi danh có thể được hiển thị cho người học"
 " trong các khóa học trong danh mục này."
 
-#: enterprise/models.py:2949
+#: enterprise/models.py:2972
 msgid ""
 "Specifies whether courses should be published with direct-to-audit "
 "enrollment URLs."
@@ -1762,15 +1768,15 @@ msgstr ""
 "Chỉ định liệu các khóa học có nên được xuất bản với URL ghi danh trực tiếp "
 "để kiểm tra hay không."
 
-#: enterprise/models.py:2956
+#: enterprise/models.py:2979
 msgid "Enterprise Customer Catalog"
 msgstr "Danh mục khách hàng doanh nghiệp"
 
-#: enterprise/models.py:2957 enterprise/models.py:3504
+#: enterprise/models.py:2980 enterprise/models.py:3527
 msgid "Enterprise Customer Catalogs"
 msgstr "Danh mục khách hàng doanh nghiệp"
 
-#: enterprise/models.py:3224
+#: enterprise/models.py:3247
 msgid ""
 "Fill in a standard Django template that, when rendered, produces the email you want sent to newly-enrolled Enterprise Customer learners. The following variables may be available:\n"
 "<ul><li>user_name: A human-readable name for the person being emailed. Be sure to handle the case where this is not defined, as it may be missing in some cases. It may also be a username, if the learner hasn't configured their \"real\" name in the system.</li>    <li>organization_name: The name of the organization sponsoring the enrollment.</li>    <li>enrolled_in: Details of the course or program that was enrolled in. It may contain:    <ul><li>name: The name of the enrollable item (e.g., \"Demo Course\").</li>        <li>url: A link to the homepage of the enrolled-in item.</li>        <li>branding: A custom branding name for the enrolled-in item. For example, the branding of a MicroMasters program would be \"MicroMasters\".</li>     <li>start: The date the enrolled-in item becomes available. Render this to text using the Django `date` template filter (see <a href=\"https://docs.djangoproject.com/en/1.8/ref/templates/builtins/#date\">the Django documentation</a>).</li><li>type: Whether the enrolled-in item is a course, a program, or something else.</li></ul></ul>"
@@ -1778,7 +1784,7 @@ msgstr ""
 "Điền vào mẫu Django tiêu chuẩn mà khi hiển thị sẽ tạo ra email bạn muốn gửi cho những người học là Khách hàng doanh nghiệp mới ghi danh. Các biến sau đây có thể có sẵn:\n"
 "<ul><li> user_name: Tên dễ đọc của người được gửi email. Hãy chắc chắn xử lý trường hợp không xác định được điều này vì nó có thể bị thiếu trong một số trường hợp. Nó cũng có thể là tên người dùng nếu người học chưa định cấu hình tên &quot;thật&quot; của họ trong hệ thống.</li><li> Organ_name: Tên của tổ chức tài trợ cho việc ghi danh.</li><li> đã đăng ký_in: Chi tiết về khóa học hoặc chương trình đã được ghi danh. Nó có thể chứa:<ul><li> name: Tên của mục có thể ghi danh (ví dụ: &quot;Khóa học demo&quot;).</li><li> url: Liên kết tới trang chủ của mục đã ghi danh.</li><li> xây dựng thương hiệu: Tên thương hiệu tùy chỉnh cho mục đã ghi danh. Ví dụ: nhãn hiệu của chương trình MicroMasters sẽ là &quot;MicroMasters&quot;.</li><li> bắt đầu: Ngày mục đã ghi danh sẽ có sẵn. Hiển thị nội dung này thành văn bản bằng bộ lọc mẫu Django `date` (xem <a href=\"https://docs.djangoproject.com/en/1.8/ref/templates/builtins/#date\">tài liệu Django</a> ).</li><li> loại: Mục đã ghi danh là một khóa học, một chương trình hay thứ gì khác.</li></ul></ul>"
 
-#: enterprise/models.py:3242
+#: enterprise/models.py:3265
 #, python-brace-format
 msgid ""
 "Enter a string that can be used to generate a dynamic subject line for "
@@ -1789,27 +1795,27 @@ msgstr ""
 "báo. Phần giữ chỗ {course_name} sẽ được thay thế bằng tên của khóa học hoặc "
 "chương trình đã đăng ký."
 
-#: enterprise/models.py:3384
+#: enterprise/models.py:3407
 msgid "Active"
 msgstr "Tích cực"
 
-#: enterprise/models.py:3385
+#: enterprise/models.py:3408
 msgid "Include Date"
 msgstr "Bao gồm ngày"
 
-#: enterprise/models.py:3386
+#: enterprise/models.py:3409
 msgid "Include date in the report file name"
 msgstr "Bao gồm ngày trong tên tệp báo cáo"
 
-#: enterprise/models.py:3392
+#: enterprise/models.py:3415
 msgid "Delivery Method"
 msgstr "phương thức vận chuyển"
 
-#: enterprise/models.py:3393
+#: enterprise/models.py:3416
 msgid "The method in which the data should be sent."
 msgstr "Phương thức mà dữ liệu sẽ được gửi."
 
-#: enterprise/models.py:3398
+#: enterprise/models.py:3421
 msgid ""
 "Specifies whether report should be compressed. Without compression files "
 "will not be password protected or encrypted."
@@ -1817,43 +1823,43 @@ msgstr ""
 "Chỉ định liệu báo cáo có nên được nén hay không. Nếu không nén các tập tin "
 "sẽ không được bảo vệ bằng mật khẩu hoặc mã hóa."
 
-#: enterprise/models.py:3405
+#: enterprise/models.py:3428
 msgid "PGP Encryption Key"
 msgstr "Khóa mã hóa PGP"
 
-#: enterprise/models.py:3406
+#: enterprise/models.py:3429
 msgid "The key for encryption, if PGP encrypted file is required."
 msgstr "Chìa khóa để mã hóa, nếu cần có tệp mã hóa PGP."
 
-#: enterprise/models.py:3414
+#: enterprise/models.py:3437
 msgid "Data Type"
 msgstr "Loại dữ liệu"
 
-#: enterprise/models.py:3415
+#: enterprise/models.py:3438
 msgid "The type of data this report should contain."
 msgstr "Loại dữ liệu mà báo cáo này nên chứa."
 
-#: enterprise/models.py:3422
+#: enterprise/models.py:3445
 msgid "Report Type"
 msgstr "Loại báo cáo"
 
-#: enterprise/models.py:3423
+#: enterprise/models.py:3446
 msgid "The type this report should be sent as, e.g. CSV."
 msgstr "Loại báo cáo này phải được gửi dưới dạng, ví dụ: CSV."
 
-#: enterprise/models.py:3427
+#: enterprise/models.py:3450
 msgid "Email"
 msgstr "Email"
 
-#: enterprise/models.py:3428
+#: enterprise/models.py:3451
 msgid "The email(s), one per line, where the report should be sent."
 msgstr "(Các) email, mỗi email một dòng, nơi sẽ gửi báo cáo."
 
-#: enterprise/models.py:3435
+#: enterprise/models.py:3458
 msgid "Frequency"
 msgstr "Tính thường xuyên"
 
-#: enterprise/models.py:3436
+#: enterprise/models.py:3459
 msgid ""
 "The frequency interval (daily, weekly, or monthly) that the report should be"
 " sent."
@@ -1861,11 +1867,11 @@ msgstr ""
 "Khoảng tần suất (hàng ngày, hàng tuần hoặc hàng tháng) mà báo cáo sẽ được "
 "gửi."
 
-#: enterprise/models.py:3441
+#: enterprise/models.py:3464
 msgid "Day of Month"
 msgstr "Ngày trong tháng"
 
-#: enterprise/models.py:3442
+#: enterprise/models.py:3465
 msgid ""
 "The day of the month to send the report. This field is required and only "
 "valid when the frequency is monthly."
@@ -1873,11 +1879,11 @@ msgstr ""
 "Ngày trong tháng gửi báo cáo. Trường này là bắt buộc và chỉ hợp lệ khi tần "
 "suất là hàng tháng."
 
-#: enterprise/models.py:3450
+#: enterprise/models.py:3473
 msgid "Day of Week"
 msgstr "Ngày trong tuần"
 
-#: enterprise/models.py:3451
+#: enterprise/models.py:3474
 msgid ""
 "The day of the week to send the report. This field is required and only "
 "valid when the frequency is weekly."
@@ -1885,11 +1891,11 @@ msgstr ""
 "Ngày trong tuần để gửi báo cáo. Trường này là bắt buộc và chỉ hợp lệ khi tần"
 " suất là hàng tuần."
 
-#: enterprise/models.py:3455
+#: enterprise/models.py:3478
 msgid "Hour of Day"
 msgstr "Giờ trong ngày"
 
-#: enterprise/models.py:3456
+#: enterprise/models.py:3479
 msgid ""
 "The hour of the day to send the report, in Eastern Standard Time (EST). This"
 " is required for all frequency settings."
@@ -1897,7 +1903,7 @@ msgstr ""
 "Giờ trong ngày để gửi báo cáo, theo Giờ chuẩn Miền Đông (EST). Điều này là "
 "cần thiết cho tất cả các cài đặt tần số."
 
-#: enterprise/models.py:3464
+#: enterprise/models.py:3487
 msgid ""
 "This password will be used to secure the zip file. It will be encrypted when"
 " stored in the database."
@@ -1905,28 +1911,28 @@ msgstr ""
 "Mật khẩu này sẽ được sử dụng để bảo mật tệp zip. Nó sẽ được mã hóa khi được "
 "lưu trữ trong cơ sở dữ liệu."
 
-#: enterprise/models.py:3471
+#: enterprise/models.py:3494
 msgid "SFTP Host name"
 msgstr "Tên máy chủ SFTP"
 
-#: enterprise/models.py:3472
+#: enterprise/models.py:3495
 msgid "If the delivery method is sftp, the host to deliver the report to."
 msgstr "Nếu phương thức gửi là sftp, máy chủ sẽ gửi báo cáo tới."
 
-#: enterprise/models.py:3477
+#: enterprise/models.py:3500
 msgid "SFTP Port"
 msgstr "Cổng SFTP"
 
-#: enterprise/models.py:3478
+#: enterprise/models.py:3501
 msgid "If the delivery method is sftp, the port on the host to connect to."
 msgstr ""
 "Nếu phương thức phân phối là sftp thì cổng trên máy chủ sẽ kết nối tới."
 
-#: enterprise/models.py:3485
+#: enterprise/models.py:3508
 msgid "SFTP username"
 msgstr "Tên người dùng SFTP"
 
-#: enterprise/models.py:3486
+#: enterprise/models.py:3509
 msgid ""
 "If the delivery method is sftp, the username to use to securely access the "
 "host."
@@ -1934,7 +1940,7 @@ msgstr ""
 "Nếu phương thức phân phối là sftp thì tên người dùng sẽ sử dụng để truy cập "
 "máy chủ một cách an toàn."
 
-#: enterprise/models.py:3492
+#: enterprise/models.py:3515
 msgid ""
 "If the delivery method is sftp, the password to use to securely access the "
 "host. The password will be encrypted when stored in the database."
@@ -1943,58 +1949,58 @@ msgstr ""
 "máy chủ một cách an toàn. Mật khẩu sẽ được mã hóa khi lưu trữ trong cơ sở dữ"
 " liệu."
 
-#: enterprise/models.py:3499
+#: enterprise/models.py:3522
 msgid "SFTP file path"
 msgstr "Đường dẫn tệp SFTP"
 
-#: enterprise/models.py:3500
+#: enterprise/models.py:3523
 msgid ""
 "If the delivery method is sftp, the path on the host to deliver the report "
 "to."
 msgstr ""
 "Nếu phương thức gửi là sftp thì đường dẫn trên máy chủ sẽ gửi báo cáo tới."
 
-#: enterprise/models.py:3608
+#: enterprise/models.py:3631
 msgid "Delivery method cannot be updated"
 msgstr "Không thể cập nhật phương thức giao hàng"
 
-#: enterprise/models.py:3624
+#: enterprise/models.py:3647
 msgid "Day of week must be set if the frequency is weekly."
 msgstr "Ngày trong tuần phải được đặt nếu tần suất là hàng tuần."
 
-#: enterprise/models.py:3628
+#: enterprise/models.py:3651
 msgid "Day of month must be set if the frequency is monthly."
 msgstr "Ngày trong tháng phải được đặt nếu tần suất là hàng tháng."
 
-#: enterprise/models.py:3631
+#: enterprise/models.py:3654
 msgid "Frequency must be set to either daily, weekly, or monthly."
 msgstr "Tần suất phải được đặt thành hàng ngày, hàng tuần hoặc hàng tháng."
 
-#: enterprise/models.py:3637
+#: enterprise/models.py:3660
 msgid "Email(s) must be set if the delivery method is email."
 msgstr "(Các) email phải được đặt nếu phương thức gửi là email."
 
-#: enterprise/models.py:3641
+#: enterprise/models.py:3664
 msgid "Decrypted password must be set if the delivery method is email."
 msgstr "Phải đặt mật khẩu được giải mã nếu phương thức gửi là email."
 
-#: enterprise/models.py:3645
+#: enterprise/models.py:3668
 msgid "SFTP Hostname must be set if the delivery method is sftp."
 msgstr "Tên máy chủ SFTP phải được đặt nếu phương thức phân phối là sftp."
 
-#: enterprise/models.py:3647
+#: enterprise/models.py:3670
 msgid "SFTP username must be set if the delivery method is sftp."
 msgstr "Tên tài khoản SFTP phải được đặt nếu phương thức phân phối là sftp."
 
-#: enterprise/models.py:3649
+#: enterprise/models.py:3672
 msgid "SFTP File Path must be set if the delivery method is sftp."
 msgstr "Đường dẫn tệp SFTP phải được đặt nếu phương thức phân phối là sftp."
 
-#: enterprise/models.py:3652
+#: enterprise/models.py:3675
 msgid "Decrypted SFTP password must be set if the delivery method is SFTP."
 msgstr "Phải đặt mật khẩu SFTP đã giải mã nếu phương thức phân phối là SFTP."
 
-#: enterprise/models.py:3715
+#: enterprise/models.py:3738
 msgid ""
 "The EnterpriseCustomer for which the role is assigned to for the provided "
 "user. Defaults to the first active Enterprise Customer that the user is "
@@ -2008,19 +2014,19 @@ msgstr ""
 "vui lòng tạo bản ghi sau đó sửa đổi trường khách hàng doanh nghiệp bằng cách"
 " sử dụng trình đơn thả xuống."
 
-#: enterprise/models.py:4004
+#: enterprise/models.py:4027
 msgid "Filters to show banner notifications conditionally."
 msgstr "Bộ lọc để hiển thị thông báo biểu ngữ có điều kiện."
 
-#: enterprise/models.py:4009
+#: enterprise/models.py:4032
 msgid "Admin Notification Filter"
 msgstr "Bộ lọc thông báo quản trị viên"
 
-#: enterprise/models.py:4010
+#: enterprise/models.py:4033
 msgid "Admin Notification Filters"
 msgstr "Bộ lọc thông báo của quản trị viên"
 
-#: enterprise/models.py:4036
+#: enterprise/models.py:4059
 msgid ""
 "Notification banner title which will appear to enterprise admin on admin "
 "portal."
@@ -2028,7 +2034,7 @@ msgstr ""
 "Tiêu đề biểu ngữ thông báo sẽ xuất hiện cho quản trị viên doanh nghiệp trên "
 "cổng quản trị."
 
-#: enterprise/models.py:4044
+#: enterprise/models.py:4067
 msgid ""
 "Notification banner text which will appear to enterprise admin on admin "
 "portal. You can enter maximum of 512 characters. This text support markdown."
@@ -2039,36 +2045,36 @@ msgstr ""
 "dấu. Xem https://commonmark.org/help/ để biết các tính năng giảm giá được hỗ"
 " trợ."
 
-#: enterprise/models.py:4061
+#: enterprise/models.py:4084
 msgid "Admin Notification"
 msgstr "Thông báo của quản trị viên"
 
-#: enterprise/models.py:4062
+#: enterprise/models.py:4085
 msgid "Admin Notifications"
 msgstr "Thông báo của quản trị viên"
 
-#: enterprise/models.py:4100
+#: enterprise/models.py:4123
 msgid "Admin Notification Read"
 msgstr "Đã đọc thông báo của quản trị viên"
 
-#: enterprise/models.py:4101
+#: enterprise/models.py:4124
 msgid "Admin Notifications Read"
 msgstr "Thông báo của quản trị viên đã đọc"
 
-#: enterprise/models.py:4134 enterprise/models.py:4238
-#: enterprise/models.py:4383
+#: enterprise/models.py:4157 enterprise/models.py:4261
+#: enterprise/models.py:4406
 msgid "The enterprise that can be linked using this key."
 msgstr "Doanh nghiệp có thể được liên kết bằng khóa này."
 
-#: enterprise/models.py:4143
+#: enterprise/models.py:4166
 msgid "The number of times this key can be used to link a learner."
 msgstr "Số lần khóa này có thể được sử dụng để liên kết một người học."
 
-#: enterprise/models.py:4152
+#: enterprise/models.py:4175
 msgid "The key will no longer be valid after this date."
 msgstr "Chìa khóa sẽ không còn hiệu lực sau ngày này."
 
-#: enterprise/models.py:4161
+#: enterprise/models.py:4184
 msgid ""
 "Specifies if the key is active. Once deactivated, the key is no longer valid"
 " and cannot be reactivated."
@@ -2076,62 +2082,62 @@ msgstr ""
 "Chỉ định xem khóa có đang hoạt động hay không. Sau khi bị vô hiệu hóa, khóa "
 "sẽ không còn hiệu lực và không thể kích hoạt lại."
 
-#: enterprise/models.py:4242
+#: enterprise/models.py:4265
 msgid "ChatGPT prompt."
 msgstr "Lời nhắc ChatGPT."
 
-#: enterprise/models.py:4244
+#: enterprise/models.py:4267
 msgid "ChatGPT response."
 msgstr "Phản hồi ChatGPT."
 
-#: enterprise/models.py:4245
+#: enterprise/models.py:4268
 msgid "Prompt type."
 msgstr "Loại nhắc nhở."
 
-#: enterprise/models.py:4249
+#: enterprise/models.py:4272
 msgid "ChatGPT Response"
 msgstr "Trò chuyện Phản hồi GPT"
 
-#: enterprise/models.py:4250
+#: enterprise/models.py:4273
 msgid "ChatGPT Responses"
 msgstr "Trò chuyệnPhản hồiGPT"
 
-#: enterprise/models.py:4360
+#: enterprise/models.py:4383
 msgid "Enterprise Customer SSO Configuration"
 msgstr "Cấu hình SSO của khách hàng doanh nghiệp"
 
-#: enterprise/models.py:4361
+#: enterprise/models.py:4384
 msgid "Enterprise Customer SSO Configurations"
 msgstr "Cấu hình SSO của khách hàng doanh nghiệp"
 
-#: enterprise/models.py:4370
+#: enterprise/models.py:4393
 msgid "The display name of the SSO configuration."
 msgstr "Tên hiển thị của cấu hình SSO."
 
-#: enterprise/models.py:4392
+#: enterprise/models.py:4415
 msgid ""
 "Specifies whether the integration with the SSO orchestration is active."
 msgstr ""
 "Chỉ định xem tính năng tích hợp với điều phối SSO có đang hoạt động hay "
 "không."
 
-#: enterprise/models.py:4401
+#: enterprise/models.py:4424
 msgid "The identity provider integrated with by the SSO orchestrator ."
 msgstr "Nhà cung cấp danh tính được tích hợp bởi bộ điều phối SSO."
 
-#: enterprise/models.py:4410
+#: enterprise/models.py:4433
 msgid "The metadata url of the identity provider."
 msgstr "Url siêu dữ liệu của nhà cung cấp danh tính."
 
-#: enterprise/models.py:4418
+#: enterprise/models.py:4441
 msgid "The metadata xml of the identity provider."
 msgstr "Siêu dữ liệu xml của nhà cung cấp danh tính."
 
-#: enterprise/models.py:4427
+#: enterprise/models.py:4450
 msgid "The entity id of the identity provider."
 msgstr "Id thực thể của nhà cung cấp danh tính."
 
-#: enterprise/models.py:4436
+#: enterprise/models.py:4459
 msgid ""
 "Specifies whether the integration with the customer's identity provider "
 "should auto update metadata."
@@ -2139,97 +2145,97 @@ msgstr ""
 "Chỉ định liệu việc tích hợp với nhà cung cấp danh tính của khách hàng có nên"
 " tự động cập nhật siêu dữ liệu hay không."
 
-#: enterprise/models.py:4490
+#: enterprise/models.py:4513
 msgid ""
 "The date and time when the configuration was submitted to the SSO "
 "orchestration."
 msgstr "Ngày và giờ gửi cấu hình tới hệ thống điều phối SSO."
 
-#: enterprise/models.py:4498
+#: enterprise/models.py:4521
 msgid ""
 "The date and time when the configuration was completed by the SSO "
 "orchestration."
 msgstr "Ngày và giờ cấu hình được hoàn tất bởi việc điều phối SSO."
 
-#: enterprise/models.py:4506
+#: enterprise/models.py:4529
 msgid ""
 "The date and time when the configuration was validated and used for the "
 "first time."
 msgstr "Ngày và giờ cấu hình được xác thực và sử dụng lần đầu tiên."
 
-#: enterprise/models.py:4514
+#: enterprise/models.py:4537
 msgid ""
 "The date and time when the orchestrator encountered an error during "
 "configuration."
 msgstr "Ngày và giờ khi người điều phối gặp lỗi trong quá trình cấu hình."
 
-#: enterprise/models.py:4523
+#: enterprise/models.py:4546
 msgid ""
 "Whether admin has indicated the service provider metadata was uploaded."
 msgstr ""
 "Quản trị viên có cho biết siêu dữ liệu của nhà cung cấp dịch vụ đã được tải "
 "lên hay không."
 
-#: enterprise/models.py:4533 enterprise/models.py:4569
+#: enterprise/models.py:4556 enterprise/models.py:4592
 msgid ""
 "SAP specific configuration: the timeout interval for the OData API in "
 "seconds."
 msgstr ""
 "Cấu hình cụ thể của SAP: khoảng thời gian chờ cho API OData tính bằng giây."
 
-#: enterprise/models.py:4543
+#: enterprise/models.py:4566
 msgid "SAP specific configuration: the root url of the OData API."
 msgstr "Cấu hình cụ thể của SAP: url gốc của API OData."
 
-#: enterprise/models.py:4552
+#: enterprise/models.py:4575
 msgid "SAP specific configuration: the company id of the OData API."
 msgstr "Cấu hình cụ thể của SAP: id công ty của API OData."
 
-#: enterprise/models.py:4561
+#: enterprise/models.py:4584
 msgid ""
 "SAP specific configuration: the root url of the SAP SuccessFactors OAuth "
 "API."
 msgstr ""
 "Cấu hình cụ thể của SAP: url gốc của API OAuth của SAP SuccessFactors."
 
-#: enterprise/models.py:4578
+#: enterprise/models.py:4601
 msgid ""
 "SAP specific configuration: the private key used to sign the SAML assertion."
 msgstr "Cấu hình cụ thể của SAP: khóa riêng được sử dụng để ký xác nhận SAML."
 
-#: enterprise/models.py:4587
+#: enterprise/models.py:4610
 msgid "SAP specific configuration: the client id of the OData API."
 msgstr "Cấu hình cụ thể của SAP: id ứng dụng khách của API OData."
 
-#: enterprise/models.py:4596
+#: enterprise/models.py:4619
 msgid "SAP specific configuration: the user id of the OAuth API."
 msgstr "Cấu hình cụ thể của SAP: id người dùng của API OAuth."
 
-#: enterprise/models.py:4618
+#: enterprise/models.py:4641
 msgid "Field is locked as the configuration has already been submitted."
 msgstr "Trường bị khóa vì cấu hình đã được gửi."
 
-#: enterprise/models.py:4656
+#: enterprise/models.py:4679
 msgid "Record has already been submitted for configuration."
 msgstr "Bản ghi đã được gửi để cấu hình."
 
-#: enterprise/models.py:4706
+#: enterprise/models.py:4729
 msgid "Specifies enterprise group name."
 msgstr "Chỉ định tên nhóm doanh nghiệp."
 
-#: enterprise/models.py:4721
+#: enterprise/models.py:4744
 msgid "The type of enterprise group"
 msgstr "Loại hình nhóm doanh nghiệp"
 
-#: enterprise/models.py:4727
+#: enterprise/models.py:4750
 msgid "Enterprise Group"
 msgstr "Nhóm doanh nghiệp"
 
-#: enterprise/models.py:4728
+#: enterprise/models.py:4751
 msgid "Enterprise Groups"
 msgstr "Nhóm doanh nghiệp"
 
-#: enterprise/models.py:4841
+#: enterprise/models.py:4864
 msgid ""
 "The moment at which the membership record is written with an Enterprise "
 "Customer User record."
@@ -2237,17 +2243,17 @@ msgstr ""
 "Thời điểm mà bản ghi thành viên được ghi bằng bản ghi Người dùng Khách hàng "
 "Doanh nghiệp."
 
-#: enterprise/models.py:4851
+#: enterprise/models.py:4874
 msgid "Current status of the membership record"
 msgstr "Tình trạng hiện tại của hồ sơ thành viên"
 
-#: enterprise/models.py:4858
+#: enterprise/models.py:4881
 msgid ""
 "The moment at which the membership record was revoked by an Enterprise "
 "admin."
 msgstr "Thời điểm hồ sơ thành viên bị quản trị viên Doanh nghiệp thu hồi."
 
-#: enterprise/models.py:4866
+#: enterprise/models.py:4889
 msgid ""
 "The last time the membership action was in an error state. Null means the "
 "membership is not errored."
@@ -2255,16 +2261,56 @@ msgstr ""
 "Lần cuối cùng hành động thành viên ở trạng thái lỗi. Null có nghĩa là tư "
 "cách thành viên không bị lỗi."
 
-#: enterprise/models.py:4871
+#: enterprise/models.py:4894
 msgid "Enterprise Group Membership"
 msgstr "Thành viên nhóm doanh nghiệp"
 
-#: enterprise/models.py:4872
+#: enterprise/models.py:4895
 msgid "Enterprise Group Memberships"
 msgstr "Tư cách thành viên nhóm doanh nghiệp"
 
+#: enterprise/models.py:4964
+msgid "Title summarizing the onboarding flow."
+msgstr "Tiêu đề tóm tắt quy trình hướng dẫn sử dụng."
+
+#: enterprise/models.py:4970
+msgid ""
+"Specifies whether this flow is active and shown to admin users in the "
+"onboarding tour."
+msgstr ""
+"Chỉ định xem luồng này có đang hoạt động và hiển thị cho người dùng quản trị"
+" trong hướng dẫn sử dụng hay không."
+
+#: enterprise/models.py:4989
+msgid "The enterprise customer user who is an admin."
+msgstr "Người dùng là khách hàng doanh nghiệp có vai trò là quản trị viên."
+
+#: enterprise/models.py:4994
+msgid "The last time the admin logged into the admin portal."
+msgstr "Lần cuối cùng người quản trị đăng nhập vào cổng thông tin quản trị."
+
+#: enterprise/models.py:4999
+msgid "The onboarding flows that this admin has completed."
+msgstr "Các luồng hướng dẫn mà quản trị viên này đã hoàn tất."
+
+#: enterprise/models.py:5003
+msgid "Whether the admin has dismissed the onboarding tour."
+msgstr "Người quản trị đã bỏ qua chuyến tham quan hướng dẫn chưa."
+
+#: enterprise/models.py:5007
+msgid "Whether the admin has completed the onboarding tour."
+msgstr "Người quản trị đã hoàn tất chuyến tham quan hướng dẫn chưa."
+
+#: enterprise/models.py:5012
+msgid "Enterprise Customer Admin"
+msgstr "Quản trị khách hàng doanh nghiệp"
+
+#: enterprise/models.py:5013
+msgid "Enterprise Customer Admins"
+msgstr "Quản trị viên khách hàng doanh nghiệp"
+
 #: enterprise/templates/enterprise/_data_sharing_decline_modal.html:7
-#: enterprise/views.py:1612 enterprise/views.py:2114
+#: enterprise/views.py:1616 enterprise/views.py:2118
 msgid "Close"
 msgstr "Đóng"
 
@@ -2338,11 +2384,11 @@ msgstr "Truyền siêu dữ liệu khóa học"
 
 #: enterprise/templates/enterprise/enterprise_customer_login_page.html:44
 #: enterprise/templates/enterprise/enterprise_customer_select_form.html:50
-#: enterprise/views.py:372 enterprise/views.py:1608
+#: enterprise/views.py:372 enterprise/views.py:1612
 msgid "Continue"
 msgstr "Tiếp tục"
 
-#: enterprise/utils.py:148
+#: enterprise/utils.py:149
 msgid ""
 "Either \"Email or Username\" or \"CSV bulk upload\" must be specified, but "
 "both were."
@@ -2350,21 +2396,21 @@ msgstr ""
 "Phải chỉ định &quot;Email hoặc Tên tài khoản&quot; hoặc &quot;Tải lên hàng "
 "loạt CSV&quot; nhưng cả hai đều như vậy."
 
-#: enterprise/utils.py:151
+#: enterprise/utils.py:152
 msgid "Error: Learners could not be added. Correct the following errors."
 msgstr "Lỗi: Không thể thêm người học. Sửa các lỗi sau."
 
-#: enterprise/utils.py:153
+#: enterprise/utils.py:154
 #, python-brace-format
 msgid ""
 "Enrollment track {course_mode} is not available for course {course_id}."
 msgstr "Mã ghi danh {course_mode} không có sẵn cho khóa học {course_id} ."
 
-#: enterprise/utils.py:155
+#: enterprise/utils.py:156
 msgid "Select a course enrollment track for the given course(s)."
 msgstr "Chọn một lộ trình ghi danh khóa học cho (các) khóa học nhất định."
 
-#: enterprise/utils.py:157
+#: enterprise/utils.py:158
 #, python-brace-format
 msgid ""
 "Could not retrieve details for the course ID {course_id}. Specify a valid "
@@ -2373,7 +2419,7 @@ msgstr ""
 "Không thể truy xuất thông tin chi tiết về ID khóa học {course_id} . Chỉ định"
 " một ID hợp lệ."
 
-#: enterprise/utils.py:160
+#: enterprise/utils.py:161
 msgid ""
 "Either \"CSV bulk upload\" or a singular course ID may be used for manual "
 "enrollments, but not both together."
@@ -2381,12 +2427,12 @@ msgstr ""
 "Có thể sử dụng &quot;tải lên hàng loạt CSV&quot; hoặc một ID khóa học đơn lẻ"
 " để ghi danh thủ công, nhưng không được sử dụng cả hai cùng nhau."
 
-#: enterprise/utils.py:164
+#: enterprise/utils.py:165
 #, python-brace-format
 msgid "{argument} does not appear to be a valid email address."
 msgstr "{argument} có vẻ không phải là địa chỉ email hợp lệ."
 
-#: enterprise/utils.py:166
+#: enterprise/utils.py:167
 #, python-brace-format
 msgid ""
 "{argument} does not appear to be a valid email address or known username"
@@ -2394,7 +2440,7 @@ msgstr ""
 "{argument} dường như không phải là địa chỉ email hợp lệ hoặc tên người dùng "
 "đã biết"
 
-#: enterprise/utils.py:169
+#: enterprise/utils.py:170
 #, python-brace-format
 msgid ""
 "Expected a CSV file with [{expected_columns}] columns, but found "
@@ -2403,11 +2449,11 @@ msgstr ""
 "Cần một tệp CSV có các cột [ {expected_columns} ] nhưng thay vào đó lại tìm "
 "thấy các cột [ {actual_columns} )."
 
-#: enterprise/utils.py:173
+#: enterprise/utils.py:174
 msgid "Reason field is required but was not filled."
 msgstr "Trường lý do là bắt buộc nhưng chưa được điền."
 
-#: enterprise/utils.py:176
+#: enterprise/utils.py:177
 msgid ""
 "Either \"Email or Username\" or \"CSV bulk upload\" must be specified, but "
 "neither were."
@@ -2415,7 +2461,7 @@ msgstr ""
 "Bạn phải chỉ định &quot;Email hoặc Tên tài khoản&quot; hoặc &quot;Tải lên "
 "hàng loạt CSV&quot; nhưng cả hai đều không được chỉ định."
 
-#: enterprise/utils.py:179
+#: enterprise/utils.py:180
 #, python-brace-format
 msgid ""
 "User with email address {email} is already registered with Enterprise "
@@ -2424,22 +2470,22 @@ msgstr ""
 "Người dùng có địa chỉ email {email} đã được đăng ký với Khách hàng doanh "
 "nghiệp {ec_name}"
 
-#: enterprise/utils.py:181
+#: enterprise/utils.py:182
 msgid "User is not linked with Enterprise Customer"
 msgstr "Người dùng không được liên kết với Khách hàng doanh nghiệp"
 
-#: enterprise/utils.py:182
+#: enterprise/utils.py:183
 #, python-brace-format
 msgid "User with email address {email} doesn't exist."
 msgstr "Người dùng có địa chỉ email {email} không tồn tại."
 
-#: enterprise/utils.py:183
+#: enterprise/utils.py:184
 #, python-brace-format
 msgid "Course ID {course_id} doesn't exist in Enterprise Customer's Catalog"
 msgstr ""
 "ID khóa học {course_id} không tồn tại trong Danh mục khách hàng doanh nghiệp"
 
-#: enterprise/utils.py:185
+#: enterprise/utils.py:186
 #, python-brace-format
 msgid ""
 "Enterprise channel worker user with the username "
@@ -2448,23 +2494,23 @@ msgstr ""
 "Không tìm thấy người dùng nhân viên kênh doanh nghiệp có tên người dùng "
 "&quot; {channel_worker_username} &quot;."
 
-#: enterprise/utils.py:188
+#: enterprise/utils.py:189
 msgid ""
 "Unable to parse CSV file. Please make sure it is a CSV 'utf-8' encoded file."
 msgstr ""
 "Không thể phân tích tệp CSV. Vui lòng đảm bảo rằng đó là tệp được mã hóa CSV"
 " &#39;utf-8&#39;."
 
-#: enterprise/utils.py:191
+#: enterprise/utils.py:192
 msgid "Discount percentage should be from 0 to 100."
 msgstr "Tỷ lệ phần trăm giảm giá phải từ 0 đến 100."
 
-#: enterprise/utils.py:401
+#: enterprise/utils.py:402
 #, python-brace-format
 msgid "You've been enrolled in {course_name}!"
 msgstr "Bạn đã được ghi danh vào {course_name} !"
 
-#: enterprise/utils.py:560 enterprise/utils.py:639
+#: enterprise/utils.py:561 enterprise/utils.py:640
 msgid "`user` must have one of either `email` or `user_email`."
 msgstr "`người dùng` phải có một trong `email` hoặc `user_email`."
 
@@ -2715,213 +2761,3 @@ msgstr ""
 "{bold_end} đồng ý chia sẻ dữ liệu {item} của bạn với "
 "{enterprise_customer_name} . Nếu bạn từ chối bây giờ, bạn sẽ được chuyển "
 "hướng đến trang trước đó."
-
-#: enterprise/views.py:615
-#, python-brace-format
-msgid "your enrollment in this {item}"
-msgstr "việc ghi danh của bạn vào {item} này"
-
-#: enterprise/views.py:616
-msgid "your learning progress"
-msgstr "tiến độ học tập của bạn"
-
-#: enterprise/views.py:617
-msgid "course completion"
-msgstr "hoàn thành khóa học"
-
-#: enterprise/views.py:985
-msgid "Enterprise Slug Login"
-msgstr "Đăng nhập Slug doanh nghiệp"
-
-#: enterprise/views.py:1109
-msgid "Select Organization"
-msgstr "Chọn tổ chức"
-
-#: enterprise/views.py:1110
-msgid "Select an organization"
-msgstr "Chọn một tổ chức"
-
-#: enterprise/views.py:1264
-msgid "Instructor-Paced"
-msgstr "Nhịp độ của người hướng dẫn"
-
-#: enterprise/views.py:1265
-msgid "Self-Paced"
-msgstr "tự chủ"
-
-#: enterprise/views.py:1451
-msgid "FREE"
-msgstr "MIỄN PHÍ"
-
-#: enterprise/views.py:1453
-msgid "Not eligible for a certificate."
-msgstr "Không đủ điều kiện để được cấp chứng chỉ."
-
-#: enterprise/views.py:1455
-msgid "Earn a verified certificate!"
-msgstr "Kiếm được chứng chỉ đã được xác minh!"
-
-#: enterprise/views.py:1514
-#, python-brace-format
-msgid "{num_weeks}, starting on {start_date} and ending at {end_date}"
-msgstr "{num_weeks} , bắt đầu từ {start_date} và kết thúc tại {end_date}"
-
-#: enterprise/views.py:1516 enterprise/views.py:1935
-msgid "{} week"
-msgid_plural "{} weeks"
-msgstr[0] "{} tuần"
-
-#: enterprise/views.py:1576
-#, python-brace-format
-msgid ""
-"Discount provided by {strong_start}{enterprise_customer_name}{strong_end}"
-msgstr ""
-"Giảm giá được cung cấp bởi {strong_start} {enterprise_customer_name} "
-"{strong_end}"
-
-#: enterprise/views.py:1602 enterprise/views.py:1603
-msgid "Confirm your course"
-msgstr "Xác nhận khóa học của bạn"
-
-#: enterprise/views.py:1605
-msgid "View Course Details"
-msgstr "Xem chi tiết khóa học"
-
-#: enterprise/views.py:1606
-msgid "Please select one:"
-msgstr "Vui lòng chọn một:"
-
-#: enterprise/views.py:1607 enterprise/views.py:2108
-msgid "Price"
-msgstr "Giá"
-
-#: enterprise/views.py:1609 enterprise/views.py:2111
-msgid "Level"
-msgstr "Mức độ"
-
-#: enterprise/views.py:1610 enterprise/views.py:2110
-msgid "Effort"
-msgstr "Cố gắng"
-
-#: enterprise/views.py:1611
-msgid "Duration"
-msgstr "Khoảng thời gian"
-
-#: enterprise/views.py:1613 enterprise/views.py:2100
-msgid "What you'll learn"
-msgstr "Bạn sẽ học được gì"
-
-#: enterprise/views.py:1614 enterprise/views.py:2112
-msgid "About This Course"
-msgstr "Giới thiệu về khóa học này"
-
-#: enterprise/views.py:1615 enterprise/views.py:2113
-msgid "Course Staff"
-msgstr "Nhân viên khóa học"
-
-#: enterprise/views.py:2052
-#, python-brace-format
-msgid "{count} Course"
-msgid_plural "{count} Courses"
-msgstr[0] "{count} Các khóa học"
-
-#: enterprise/views.py:2059
-msgid "{}-{} hours per week, per course"
-msgstr "{}-{} giờ mỗi tuần, mỗi khóa học"
-
-#: enterprise/views.py:2066
-msgid "{}-{} weeks per course"
-msgstr "{}-{} tuần mỗi khóa học"
-
-#: enterprise/views.py:2073
-msgid "Purchase all unenrolled courses"
-msgstr "Mua tất cả các khóa học chưa đăng ký"
-
-#: enterprise/views.py:2074
-msgid "enrollment"
-msgstr "ghi danh"
-
-#: enterprise/views.py:2076
-msgid "Pursue the program"
-msgstr "Theo đuổi chương trình"
-
-#: enterprise/views.py:2077
-msgid "program enrollment"
-msgstr "ghi danh chương trình"
-
-#: enterprise/views.py:2098
-msgid "enrolled"
-msgstr "đã ghi danh"
-
-#: enterprise/views.py:2099
-msgid "already enrolled, must pay for certificate"
-msgstr "đã ghi danh, phải trả tiền cho chứng chỉ"
-
-#: enterprise/views.py:2102
-msgid "Real Career Impact"
-msgstr "Tác động nghề nghiệp thực sự"
-
-#: enterprise/views.py:2104
-msgid "See More"
-msgstr "Xem thêm"
-
-#: enterprise/views.py:2105
-msgid "See Less"
-msgstr "Thấy ít"
-
-#: enterprise/views.py:2106
-msgid "Confirm Program"
-msgstr "Xác nhận chương trình"
-
-#: enterprise/views.py:2107
-msgid "Program Summary"
-msgstr "Tóm tắt chương trình"
-
-#: enterprise/views.py:2109
-msgid "Length"
-msgstr "Chiều dài"
-
-#: enterprise/views.py:2115
-msgid "Program not eligible for one-click purchase."
-msgstr "Chương trình không đủ điều kiện để mua bằng một cú nhấp chuột."
-
-#: enterprise/views.py:2116
-#, python-brace-format
-msgid "What is an {platform_name} {program_type}?"
-msgstr "{platform_name} {program_type} là gì?"
-
-#: enterprise/views.py:2120
-#, python-brace-format
-msgid "What is {platform_name}?"
-msgstr "{platform_name} là gì?"
-
-#: enterprise/views.py:2125
-#, python-brace-format
-msgid "Presented by {organization}"
-msgstr "Trình bày bởi {organization}"
-
-#: enterprise/views.py:2126
-#, python-brace-format
-msgid "Confirm your {item}"
-msgstr "Xác nhận {item} của bạn"
-
-#: enterprise/views.py:2138
-msgid "Credit- and Certificate-eligible"
-msgstr "Đủ điều kiện về tín dụng và chứng chỉ"
-
-#: enterprise/views.py:2139
-msgid "Self-paced; courses can be taken in any order"
-msgstr "Tự chủ; các khóa học có thể được thực hiện theo bất kỳ thứ tự nào"
-
-#: enterprise/views.py:2141
-#, python-brace-format
-msgid "{purchase_action} for"
-msgstr "{purchase_action} cho"
-
-#: enterprise_learner_portal/api/v1/serializers.py:40
-msgid ""
-"To use this EnterpriseCourseEnrollmentSerializer, this package must be "
-"installed in an Open edX environment."
-msgstr ""
-"Để sử dụng EnterpriseCourseEnrollmentSerializer này, gói này phải được cài "
-"đặt trong môi trường Open edX."

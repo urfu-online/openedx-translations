@@ -1,22 +1,20 @@
 # edX translation file.
-# Copyright (C) 2025 EdX
+# Copyright (C) 2026 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
-# EdX Team <info@edx.org>, 2025.
+# EdX Team <info@edx.org>, 2026.
 # 
 # Translators:
-# Omar Al-Ithawi <i@omardo.com>, 2024
-# Brian Smith, 2024
-# Nathan Robertson, 2024
-# Aya Salem <aya.hisham@notionwave.com>, 2024
-# Sulaiman Muthanna, 2025
+# Transifex Bot <>, 2026
+# Sulaiman Muthanna, 2026
+# Brian Smith, 2026
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2023-06-13 08:00+0000\n"
-"PO-Revision-Date: 2023-05-31 00:54+0000\n"
-"Last-Translator: Sulaiman Muthanna, 2025\n"
+"PO-Revision-Date: 2026-07-06 14:41+0000\n"
+"Last-Translator: Brian Smith, 2026\n"
 "Language-Team: Arabic (https://app.transifex.com/open-edx/teams/6205/ar/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -30,15 +28,15 @@ msgstr "تعذّر تنفيذ استعلامك؛ يُرجى المحاولة م�
 
 #: mixins/grading.py:89
 msgid "Weight"
-msgstr "وزن"
+msgstr "الثقل"
 
 #: mixins/grading.py:91
 msgid "This assigns an integer value representing the weight of this problem"
-msgstr "يؤدي هذا إلى تعيين قيمة عددية تمثل أهمية هذه المشكلة"
+msgstr "يحدد ذلك قيمة عدد صحيح يمثل ثقل هذه المسألة"
 
 #: mixins/grading.py:170
 msgid "Display Name"
-msgstr "اسم العرض"
+msgstr "الاسم الظاهر"
 
 #: mixins/grading.py:171
 msgid "The display name for this component."
@@ -46,7 +44,7 @@ msgstr "الاسم الظاهر لهذا المُكوّن."
 
 #: mixins/grading.py:172
 msgid "SQL Problem"
-msgstr "مشكلة SQL"
+msgstr "مسألة SQL"
 
 #: mixins/grading.py:176
 msgid "Dataset"
@@ -59,7 +57,7 @@ msgstr ""
 
 #: mixins/grading.py:183
 msgid "Answer Query"
-msgstr "إجابة الاستعلام"
+msgstr "الاستفسار عن الجواب"
 
 #: mixins/grading.py:184
 msgid "A correct response SQL query"
@@ -93,27 +91,27 @@ msgstr ""
 
 #: mixins/grading.py:212
 msgid "Is Ordered?"
-msgstr "هل تم طلبه؟"
+msgstr "هل رُتّب؟"
 
 #: mixins/grading.py:213
 msgid "Should results be in order?"
-msgstr "هل يجب أن تكون النتائج مرتبة؟"
+msgstr "هل ينبغي أن تكون النتائج بالترتيب؟"
 
 #: mixins/grading.py:228
 msgid "Prompt"
-msgstr "علامة الاستعداد"
+msgstr "السؤال"
 
 #: mixins/grading.py:229
 msgid "Explanatory text to accompany the problem"
-msgstr "نص توضيحي مصاحب للمشكلة"
+msgstr "نص توضيحي مصاحب للمسألة"
 
 #: mixins/grading.py:234
 msgid "Submission Query"
-msgstr "الاستعلام عن التقديم"
+msgstr "الاستفسار عن الإجابة"
 
 #: mixins/grading.py:235
 msgid "A Submission Query"
-msgstr "الاستعلام عن التقديم"
+msgstr "الاستفسار عن الإجابة"
 
 #: templates/view.html:6
 #, python-format
@@ -127,32 +125,32 @@ msgid_plural ""
 "        "
 msgstr[0] ""
 "\n"
-"صفر %(score_weighted)s/%(max_score)s (مقيّم)\n"
+"            صفر %(score_weighted)s/%(max_score)s (مقيّم)\n"
 "        "
 msgstr[1] ""
 "\n"
-"درجة واحدة %(score_weighted)s/%(max_score)s (مقيّم)\n"
+"            درجة واحدة %(score_weighted)s/%(max_score)s (مقيّم)\n"
 "        "
 msgstr[2] ""
 "\n"
-"درجتان %(score_weighted)s/%(max_score)s (مقيّم)\n"
+"            درجتان %(score_weighted)s/%(max_score)s (مقيّم)\n"
 "        "
 msgstr[3] ""
 "\n"
-"%(score_weighted)s/%(max_score)s درجات (مقيّم)\n"
+"            %(score_weighted)s/%(max_score)s درجات (مقيّم)\n"
 "        "
 msgstr[4] ""
 "\n"
-"%(score_weighted)s/%(max_score)s درجة (مقيّم)\n"
+"            %(score_weighted)s/%(max_score)s درجة (مقيّم)\n"
 "        "
 msgstr[5] ""
 "\n"
-"%(score_weighted)s/%(max_score)s درجة (مقيّم)\n"
+"            %(score_weighted)s/%(max_score)s درجة (مقيّم)\n"
 "        "
 
 #: templates/view.html:12
 msgid "0 points (ungraded)"
-msgstr "0 درجة (غير مقيّم)"
+msgstr "لا درجات (غير مقيّم)"
 
 #: templates/view.html:21
 msgid "Note:"
@@ -168,15 +166,15 @@ msgstr ""
 
 #: templates/view.html:27
 msgid "Press ESC then TAB or click outside of the code editor to exit"
-msgstr "انقر فوق ESC ثم TAB أو انقر خارج مُحرر الرموز للخروج"
+msgstr "اضغط ESC ثم TAB، أو انقر خارج محرر النصوص البرمجية للخروج"
 
 #: templates/view.html:33
 msgid "Submit"
-msgstr "تقديم"
+msgstr "أرسِل"
 
 #: templates/view.html:40
 msgid "Show Answer"
-msgstr "أظهر الإجابة"
+msgstr "اعرض الجواب"
 
 #: templates/view.html:50
 msgid "Correct"
@@ -184,11 +182,11 @@ msgstr "صحيح"
 
 #: templates/view.html:52
 msgid "Incorrect"
-msgstr "غير صحيح"
+msgstr "خاطئ"
 
 #: templates/view.html:55
 msgid "Unanswered"
-msgstr "بدون إجابة"
+msgstr "لم يُجب عنه"
 
 #: templates/view.html:63
 msgid ""

@@ -2,7 +2,6 @@
   "learner-dash.loadingSR": "Завантаження...",
   "learner-dash.error-page-message": "Якщо у вас виникають повторні збої, надішліть листа в службу підтримки за {supportEmail}",
   "learner-dash.title": "Головна сторінка учня",
-  "learner-dash.notices.error404Message": "Ймовірно, це сталося через те, що на платформі не встановлено плагін для сповіщень.",
   "learner-dash.courseCard.bannerAlt": "Мініатюра курсу",
   "learner-dash.courseCard.verifiedBanner": "Перевірений",
   "learner-dash.courseCard.verifiedHoverDescription": "Ви зараховані як перевірений студент",
@@ -144,5 +143,6 @@
   "learner-dash.courseCard.banners.credit.rejected": "{providerName} не схвалив ваш запит на кредит за курс. Щоб отримати додаткову інформацію, зверніться безпосередньо до {linkToProviderSite} .",
   "learner-dash.courseCard.banners.credit.requestCredit": "Запросити залікові одиниці",
   "learner-dash.courseCard.banners.credit.viewCredit": "Подивитися бали",
-  "learner-dash.courseCard.banners.credit.viewDetails": "Детальніше"
+  "learner-dash.courseCard.banners.credit.viewDetails": "Детальніше",
+  "learner-dash.page.title": "Головна сторінка Студента | {siteName}"
 }

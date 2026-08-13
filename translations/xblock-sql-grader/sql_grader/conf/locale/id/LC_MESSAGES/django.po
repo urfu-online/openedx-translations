@@ -1,18 +1,20 @@
 # edX translation file.
-# Copyright (C) 2024 EdX
+# Copyright (C) 2026 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
-# EdX Team <info@edx.org>, 2024.
+# EdX Team <info@edx.org>, 2026.
 # 
 # Translators:
-# Adit Ur <dhiets85@gmail.com>, 2024
+# Transifex Bot <>, 2026
+# Gerardo Núñez, 2026
+# Eden Huthmacher, 2026
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2023-06-13 08:00+0000\n"
-"PO-Revision-Date: 2023-05-31 00:54+0000\n"
-"Last-Translator: Adit Ur <dhiets85@gmail.com>, 2024\n"
+"PO-Revision-Date: 2026-07-06 14:41+0000\n"
+"Last-Translator: Eden Huthmacher, 2026\n"
 "Language-Team: Indonesian (https://app.transifex.com/open-edx/teams/6205/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -26,7 +28,7 @@ msgstr "We could not execute your query; please try again."
 
 #: mixins/grading.py:89
 msgid "Weight"
-msgstr "Weight"
+msgstr "Bobot"
 
 #: mixins/grading.py:91
 msgid "This assigns an integer value representing the weight of this problem"
@@ -34,11 +36,11 @@ msgstr "This assigns an integer value representing the weight of this problem"
 
 #: mixins/grading.py:170
 msgid "Display Name"
-msgstr "Display Name"
+msgstr "Nama Tampilan"
 
 #: mixins/grading.py:171
 msgid "The display name for this component."
-msgstr "The display name for this component."
+msgstr "Nama tampilan untuk komponen ini"
 
 #: mixins/grading.py:172
 msgid "SQL Problem"
@@ -92,15 +94,15 @@ msgstr "Is Ordered?"
 
 #: mixins/grading.py:213
 msgid "Should results be in order?"
-msgstr "Should results be in order?"
+msgstr "Haruskah hasilnya diurutkan?"
 
 #: mixins/grading.py:228
 msgid "Prompt"
-msgstr "Prompt"
+msgstr "Anjuran"
 
 #: mixins/grading.py:229
 msgid "Explanatory text to accompany the problem"
-msgstr "Explanatory text to accompany the problem"
+msgstr "Teks penjelasan untuk mendampingi masalah"
 
 #: mixins/grading.py:234
 msgid "Submission Query"
@@ -122,7 +124,7 @@ msgid_plural ""
 "        "
 msgstr[0] ""
 "\n"
-"            %(score_weighted)s/%(max_score)s points (graded)\n"
+"            %(score_weighted)s/%(max_score)s poin (dinilai)\n"
 "        "
 
 #: templates/view.html:12
@@ -131,47 +133,47 @@ msgstr "0 points (ungraded)"
 
 #: templates/view.html:21
 msgid "Note:"
-msgstr "Note:"
+msgstr "Catatan:"
 
 #: templates/view.html:22
 msgid ""
 "Your queries are executed using SQLite, so you must conform to the SQL "
 "constructs supported by SQLite."
 msgstr ""
-"Your queries are executed using SQLite, so you must conform to the SQL "
-"constructs supported by SQLite."
+"Kueri Anda dijalankan menggunakan SQLite, jadi Anda harus mematuhi "
+"konstruksi SQL yang didukung oleh SQLite."
 
 #: templates/view.html:27
 msgid "Press ESC then TAB or click outside of the code editor to exit"
-msgstr "Press ESC then TAB or click outside of the code editor to exit"
+msgstr "Tekan ESC kemudian TAB atau klik di luar editor kode untuk keluar"
 
 #: templates/view.html:33
 msgid "Submit"
-msgstr "Submit"
+msgstr "Kirim"
 
 #: templates/view.html:40
 msgid "Show Answer"
-msgstr "Show Answer"
+msgstr "Tampilkan Jawaban"
 
 #: templates/view.html:50
 msgid "Correct"
-msgstr "Correct"
+msgstr "Benar"
 
 #: templates/view.html:52
 msgid "Incorrect"
-msgstr "Incorrect"
+msgstr "Salah"
 
 #: templates/view.html:55
 msgid "Unanswered"
-msgstr "Unanswered"
+msgstr "Tidak terjawab"
 
 #: templates/view.html:63
 msgid ""
 "To check your data modification statement, we ran the following query after "
 "your modification:"
 msgstr ""
-"To check your data modification statement, we ran the following query after "
-"your modification:"
+"Untuk memeriksa pernyataan modifikasi data Anda, kami menjalankan kueri "
+"berikut setelah modifikasi Anda:"
 
 #: templates/view.html:75
 msgid "Your Query Result:"

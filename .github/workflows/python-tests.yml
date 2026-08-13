@@ -5,6 +5,10 @@ name: Python Tests
 on:
   - pull_request
 
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
 jobs:
   python-translations:
     runs-on: ubuntu-latest
@@ -12,7 +16,7 @@ jobs:
     steps:
       # Define which file extensions, when touched, should trigger the
       # Python tests, so we can skip this Action if we've only touched .po files
-      - uses: dorny/paths-filter@v3
+      - uses: dorny/paths-filter@v4
         id: filter
         with:
           filters: |
@@ -24,12 +28,12 @@ jobs:
 
       # Clones the openedx-translations repo
       - name: clone openedx/openedx-translations
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
 
       - name: Setup node for testing
-        uses: actions/setup-node@v5
+        uses: actions/setup-node@v6
         with:
-          node-version-file: '.nvmrc'
+          node-version-file: ".nvmrc"
 
       - name: Install nodejs requirements
         run: |
@@ -45,7 +49,7 @@ jobs:
         if: steps.filter.outputs.non_pofiles == 'true'
         uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
+          python-version: "3.12"
 
       # Run the script
       - name: run python tests

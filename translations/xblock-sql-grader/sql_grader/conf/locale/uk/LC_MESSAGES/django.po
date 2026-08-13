@@ -1,19 +1,21 @@
 # edX translation file.
-# Copyright (C) 2025 EdX
+# Copyright (C) 2026 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
-# EdX Team <info@edx.org>, 2025.
+# EdX Team <info@edx.org>, 2026.
 # 
 # Translators:
-# Brian Smith, 2024
-# Nathan Robertson, 2024
+# Transifex Bot <>, 2026
+# Gerardo Núñez, 2026
+# Yana Lovyagina <yana.lovyagina@raccoongang.com>, 2026
+# Brian Smith, 2026
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2023-06-13 08:00+0000\n"
-"PO-Revision-Date: 2023-05-31 00:54+0000\n"
-"Last-Translator: Nathan Robertson, 2024\n"
+"PO-Revision-Date: 2026-07-06 14:41+0000\n"
+"Last-Translator: Brian Smith, 2026\n"
 "Language-Team: Ukrainian (https://app.transifex.com/open-edx/teams/6205/uk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -29,9 +31,17 @@ msgstr "Ми не змогли виконати ваш запит; будь ла
 msgid "Weight"
 msgstr "Вага"
 
+#: mixins/grading.py:91
+msgid "This assigns an integer value representing the weight of this problem"
+msgstr "Це присвоює ціле число, що представляє вагу цієї задачі"
+
 #: mixins/grading.py:170
 msgid "Display Name"
-msgstr "Назва, що відображається"
+msgstr "Ім'я, що відображається"
+
+#: mixins/grading.py:171
+msgid "The display name for this component."
+msgstr "Назва модулю, яка відображається для цього компоненту. "
 
 #: mixins/grading.py:172
 msgid "SQL Problem"
@@ -40,6 +50,14 @@ msgstr "Проблема SQL"
 #: mixins/grading.py:176
 msgid "Dataset"
 msgstr "Набір даних"
+
+#: mixins/grading.py:177
+msgid "Which initial dataset/database to be used for queries"
+msgstr "Які початкові дані/базу даних використовувати для запитів"
+
+#: mixins/grading.py:183
+msgid "Answer Query"
+msgstr "Відповідь на запит"
 
 #: mixins/grading.py:184
 msgid "A correct response SQL query"
@@ -59,6 +77,10 @@ msgstr ""
 "answer_query змінює базу даних (UPDATE, INSERT, DELETE тощо). Введіть тут "
 "лише один запит SELECT, який використовується для пошуку відповіді"
 
+#: mixins/grading.py:202
+msgid "Modification query statements"
+msgstr "Запити на модифікацію"
+
 #: mixins/grading.py:204
 msgid ""
 "Optional SQL statements, to be executed after the user-submitted query, but "
@@ -77,11 +99,19 @@ msgstr "Чи результати повинні бути в порядку?"
 
 #: mixins/grading.py:228
 msgid "Prompt"
-msgstr "Підказка"
+msgstr "Запит"
 
 #: mixins/grading.py:229
 msgid "Explanatory text to accompany the problem"
 msgstr "Пояснювальний текст до задачі"
+
+#: mixins/grading.py:234
+msgid "Submission Query"
+msgstr "Запит на подання"
+
+#: mixins/grading.py:235
+msgid "A Submission Query"
+msgstr "Запит на подання"
 
 #: templates/view.html:6
 #, python-format

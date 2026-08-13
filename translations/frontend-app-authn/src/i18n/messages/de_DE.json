@@ -141,6 +141,7 @@
   "email.invalid.format.error": "Geben sie eine gültige E-Mail-Adresse an",
   "username.validation.message": "Der Benutzername muss zwischen 2 und 30 Zeichen lang sein",
   "name.validation.message": "Geben Sie einen gültigen Namen ein",
+  "registration.name.validation.length.message": "Der vollständige Name darf nicht länger als {limit} Zeichen sein",
   "username.format.validation.message": "Benutzernamen dürfen nur Buchstaben (AZ, az), Ziffern (0-9), Unterstriche (_) und Bindestriche (-) enthalten. Benutzernamen dürfen keine Leerzeichen enthalten",
   "registration.request.failure.header": "Wir konnten Ihr Konto leider nicht erstellen.",
   "registration.empty.form.submission.error": "Bitte überprüfen Sie Ihre Antworten und versuchen Sie es erneut.",
@@ -178,5 +179,6 @@
   "complete.your.profile.2": "dein Profil",
   "register.page.terms.of.service.and.honor.code": "by Erstellen eines Konto , Sie stimmen to dem {tosAndHonorCode} zu und Sie erkennen an, dass {platformName} und jeder Member Ihre persönlichen Daten verarbeiten in gemäß {privacyPolicy} .",
   "register.page.honor.code": "Ich stimme to dem {platformName} {tosAndHonorCode} zu",
-  "register.page.terms.of.service": "Ich stimme to und {platformName} {termsOfService} zu"
+  "register.page.terms.of.service": "Ich stimme to und {platformName} {termsOfService} zu",
+  "error.notfound.page.title": "Seite nicht gefunden | {siteName}"
 }

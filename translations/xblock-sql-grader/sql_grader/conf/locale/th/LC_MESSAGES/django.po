@@ -1,19 +1,20 @@
 # edX translation file.
-# Copyright (C) 2024 EdX
+# Copyright (C) 2026 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
-# EdX Team <info@edx.org>, 2024.
+# EdX Team <info@edx.org>, 2026.
 # 
 # Translators:
-# Brian Smith, 2024
-# Nathan Robertson, 2024
+# Brian Smith, 2026
+# Transifex Bot <>, 2026
+# Gerardo Núñez, 2026
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2023-06-13 08:00+0000\n"
-"PO-Revision-Date: 2023-05-31 00:54+0000\n"
-"Last-Translator: Nathan Robertson, 2024\n"
+"PO-Revision-Date: 2026-07-06 14:41+0000\n"
+"Last-Translator: Gerardo Núñez, 2026\n"
 "Language-Team: Thai (https://app.transifex.com/open-edx/teams/6205/th/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -55,7 +56,7 @@ msgstr "ชุดข้อมูล/ฐานข้อมูลเริ่ม�
 
 #: mixins/grading.py:183
 msgid "Answer Query"
-msgstr "ตอบคำถาม"
+msgstr "คำตอบคำถาม"
 
 #: mixins/grading.py:184
 msgid "A correct response SQL query"
@@ -85,7 +86,7 @@ msgid ""
 "before the verify_query."
 msgstr ""
 "คำสั่ง SQL ทางเลือกที่จะดำเนินการหลังจากการสืบค้นที่ผู้ใช้ส่งมา แต่ก่อนการ "
-"Verify_query"
+"\"Verify_query\""
 
 #: mixins/grading.py:212
 msgid "Is Ordered?"
@@ -123,7 +124,7 @@ msgid_plural ""
 "        "
 msgstr[0] ""
 "\n"
-"%(score_weighted)s / %(max_score)s คะแนน (ให้คะแนน)\n"
+"            %(score_weighted)s / %(max_score)s คะแนน (ให้คะแนน)\n"
 "        "
 
 #: templates/view.html:12
@@ -132,7 +133,7 @@ msgstr "0 คะแนน (ไม่ได้ให้คะแนน)"
 
 #: templates/view.html:21
 msgid "Note:"
-msgstr "โน้ต:"
+msgstr "หมายเหตุ:"
 
 #: templates/view.html:22
 msgid ""
@@ -148,7 +149,7 @@ msgstr "กด ESC หรือ TAB หรือคลิกนอกพื้�
 
 #: templates/view.html:33
 msgid "Submit"
-msgstr "ยอมรับ"
+msgstr "ส่ง"
 
 #: templates/view.html:40
 msgid "Show Answer"
@@ -164,7 +165,7 @@ msgstr "ไม่ถูกต้อง"
 
 #: templates/view.html:55
 msgid "Unanswered"
-msgstr "Unanswered"
+msgstr "ยังไม่ได้ตอบ"
 
 #: templates/view.html:63
 msgid ""

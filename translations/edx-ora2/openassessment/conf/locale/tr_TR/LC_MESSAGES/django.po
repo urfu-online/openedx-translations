@@ -5,17 +5,15 @@
 # EdX Team <info@edx.org>, 2018.
 # 
 # Translators:
-# Brian Smith, 2024
-# edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>, 2024
-# Ali Işıngör <ali@artistanbul.io>, 2025
+# Brian Smith, 2026
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: edx-ora2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-16 00:46+0000\n"
-"PO-Revision-Date: 2023-05-10 00:48+0000\n"
-"Last-Translator: Ali Işıngör <ali@artistanbul.io>, 2025\n"
+"POT-Creation-Date: 2026-04-30 01:00+0000\n"
+"PO-Revision-Date: 2026-08-07 10:24+0000\n"
+"Last-Translator: Brian Smith, 2026\n"
 "Language-Team: Turkish (Turkey) (https://app.transifex.com/open-edx/teams/6205/tr_TR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -386,6 +384,10 @@ msgstr ""
 "Öğrencilerin not verilmeyen çalışmaları yeniden göndermesine izin vermek "
 "için TRUE olarak ayarlayın. Yeniden gönderimlere izin verilmiyorsa FALSE "
 "olarak ayarlayın."
+
+#: templates/legacy/edit/oa_edit_basic_settings_list.html:178
+msgid "Resubmission Grace Period"
+msgstr "Yeniden Gönderim Süresi"
 
 #: templates/legacy/edit/oa_edit_basic_settings_list.html:187
 msgid ""
@@ -869,6 +871,36 @@ msgstr "Seçilmedi"
 msgid "points"
 msgstr "puan"
 
+#: templates/legacy/grade/oa_assessment_feedback.html:8
+#, python-format
+msgid ""
+"\n"
+"                %(start_tag)s%(title)s%(end_tag)s%(start_grade_tag)s - %(grade)s%(end_tag)s\n"
+"              "
+msgstr ""
+"\n"
+"%(start_tag)s %(title)s %(end_tag)s %(start_grade_tag)s - %(grade)s %(end_tag)s\n"
+"              "
+
+#: templates/legacy/grade/oa_assessment_title.html:7
+#, python-format
+msgid ""
+"\n"
+"                      %(assessment_title)s - %(points)s point\n"
+"                  "
+msgid_plural ""
+"\n"
+"                      %(assessment_title)s - %(points)s points\n"
+"                  "
+msgstr[0] ""
+"\n"
+"%(assessment_title)s - %(points)s noktası\n"
+"                  "
+msgstr[1] ""
+"\n"
+"%(assessment_title)s - %(points)s puan\n"
+"                  "
+
 #: templates/legacy/grade/oa_assessment_title.html:24
 #, python-format
 msgid "More information about %(name)s"
@@ -1180,9 +1212,101 @@ msgstr ""
 "Bu görev devam ediyor. Değerlendirme dönemi başladığında tekrar kontrol "
 "edin."
 
+#: templates/legacy/message/oa_message_incomplete.html:20
+#, python-format
+msgid ""
+"\n"
+"                                    %(start_strong)sThis assignment is in progress. The self assessment step will close soon.%(end_strong)s You still need to complete the %(start_link)sself assessment%(end_link)s step.\n"
+"                                "
+msgstr ""
+"\n"
+"%(start_strong)s Bu atama devam ediyor. Öz değerlendirme adımı yakında kapanacak. %(end_strong)s Yine de %(start_link)s öz değerlendirme %(end_link)s adımını tamamlamanız gerekiyor.\n"
+"                                "
+
+#: templates/legacy/message/oa_message_incomplete.html:24
+#, python-format
+msgid ""
+"\n"
+"                                    This assignment is in progress. You still need to complete the %(start_link)sself assessment%(end_link)s step.\n"
+"                                "
+msgstr ""
+"\n"
+"Bu atama devam ediyor. Yine de %(start_link)s öz değerlendirme %(end_link)s adımını tamamlamanız gerekiyor.\n"
+"                                "
+
+#: templates/legacy/message/oa_message_incomplete.html:38
+#, python-format
+msgid ""
+"\n"
+"                                    This assignment is in progress.%(start_strong)sThe peer assessment step will close soon.%(end_strong)s All submitted peer responses have been assessed. Check back later to see if more learners have submitted responses. You still need to complete the %(start_link)speer assessment%(end_link)s step.\n"
+"                                "
+msgstr ""
+"\n"
+"Bu atama devam ediyor. %(start_strong)s Akran değerlendirmesi adımı yakında kapanacak. %(end_strong)s Gönderilen tüm akran yanıtları değerlendirildi. Daha fazla öğrencinin yanıt gönderip göndermediğini görmek için daha sonra tekrar kontrol edin. Yine de %(start_link)s akran değerlendirmesi %(end_link)s adımını tamamlamanız gerekiyor.\n"
+"                                "
+
+#: templates/legacy/message/oa_message_incomplete.html:42
+#, python-format
+msgid ""
+"\n"
+"                                    This assignment is in progress. All submitted peer responses have been assessed. Check back later to see if more learners have submitted responses. You still need to complete the %(start_link)speer assessment%(end_link)s step.\n"
+"                                "
+msgstr ""
+"\n"
+"Bu atama devam ediyor. Gönderilen tüm akran yanıtları değerlendirildi. Daha fazla öğrencinin yanıt gönderip göndermediğini görmek için daha sonra tekrar kontrol edin. Yine de %(start_link)s akran değerlendirmesi %(end_link)s adımını tamamlamanız gerekiyor.\n"
+"                                "
+
+#: templates/legacy/message/oa_message_incomplete.html:46
+#, python-format
+msgid ""
+"\n"
+"                                    This assignment is in progress. %(start_strong)sThe peer assessment step will close soon.%(end_strong)s You still need to complete the %(start_link)speer assessment%(end_link)s step.\n"
+"                                "
+msgstr ""
+"\n"
+"Bu atama devam ediyor. %(start_strong)s Akran değerlendirmesi adımı yakında kapanacak. %(end_strong)s Yine de %(start_link)s akran değerlendirmesi %(end_link)s adımını tamamlamanız gerekiyor.\n"
+"                                "
+
+#: templates/legacy/message/oa_message_incomplete.html:50
+#, python-format
+msgid ""
+"\n"
+"                                    This assignment is in progress. You still need to complete the %(start_link)speer assessment%(end_link)s step.\n"
+"                                "
+msgstr ""
+"\n"
+"Bu atama devam ediyor. Yine de %(start_link)s akran değerlendirmesi %(end_link)s adımını tamamlamanız gerekiyor.\n"
+"                                "
+
 #: templates/legacy/message/oa_message_no_team.html:4
 msgid "Team membership is required to view this assignment"
 msgstr "Bu görevi görmek için takım üyeliği gerekiyor"
+
+#: templates/legacy/message/oa_message_no_team.html:7
+#, python-format
+msgid ""
+"\n"
+"            This is a team assignment for team-set \"%(teamset_name)s\".\n"
+"            You are currently not on a team in team-set \"%(teamset_name)s\".\n"
+"            You must be on a team in team-set \"%(teamset_name)s\" to access this team assignment.\n"
+"            "
+msgstr ""
+"\n"
+"Bu, &quot; %(teamset_name)s &quot; takım seti için bir takım ödevidir.\n"
+" Şu anda &quot; %(teamset_name)s &quot; takım setindeki bir takımda değilsiniz.\n"
+" Bu takım atamasına erişebilmek için &quot; %(teamset_name)s &quot; takım setindeki bir takımda olmanız gerekir.\n"
+"            "
+
+#: templates/legacy/message/oa_message_open.html:7
+#, python-format
+msgid ""
+"\n"
+"                    Assignment submissions will close soon. To receive a grade, first provide a response to the prompt, then complete the steps below the %(start_tag)sYour Response%(end_tag)s field.\n"
+"                "
+msgstr ""
+"\n"
+"Ödev başvuruları yakında sona erecektir. Not almak için önce isteme bir yanıt verin, ardından %(start_tag)s Yanıtınız %(end_tag)s alanının altındaki adımları tamamlayın.\n"
+"                "
 
 #: templates/legacy/message/oa_message_open.html:11
 #, python-format
@@ -1409,6 +1533,17 @@ msgstr ""
 msgid "Not Available"
 msgstr "Kullanılabilir değil"
 
+#: templates/legacy/peer/oa_peer_waiting.html:20
+#, python-format
+msgid ""
+"\n"
+"          In Progress (%(review_number)s of %(num_must_grade)s)\n"
+"        "
+msgstr ""
+"\n"
+"Devam Ediyor ( %(review_number)s / %(num_must_grade)s )\n"
+"        "
+
 #: templates/legacy/peer/oa_peer_waiting.html:37
 msgid ""
 "All available peer responses have been assessed. Check back later to see if "
@@ -1543,6 +1678,21 @@ msgstr "Takımdasınız"
 msgid "Team Members: "
 msgstr "Takım Üyeleri:"
 
+#: templates/legacy/response/oa_response.html:155
+#, python-format
+msgid ""
+"\n"
+"                                              %(team_members_with_external_submissions)s\n"
+"                                              have/has already submitted a response to this assignment with another team,\n"
+"                                              and will not be a part of your team's submission or assignment grade.\n"
+"                                          "
+msgstr ""
+"\n"
+"%(team_members_with_external_submissions)s\n"
+" Bu göreve başka bir ekiple zaten bir yanıt göndermişsiniz/göndermişsiniz,\n"
+" ve takımınızın gönderim veya ödev notunun bir parçası olmayacaktır.\n"
+"                                          "
+
 #: templates/legacy/response/oa_response.html:171
 msgid "Team Response "
 msgstr "Takım Yanıtı"
@@ -1561,9 +1711,46 @@ msgstr "(Gerekli)"
 msgid "(Optional)"
 msgstr "(İsteğe Bağlı)"
 
+#: templates/legacy/response/oa_response.html:183
+msgid ""
+"\n"
+"                                              Teams should designate one team member to submit a response on behalf of the\n"
+"                                              entire team.  All team members can use this space to work on draft responses,\n"
+"                                              but you will not be able to see your teammates' drafts made in this space, so\n"
+"                                              please coordinate with them to decide on the final response the designated team\n"
+"                                              member should submit.\n"
+"                                          "
+msgstr ""
+"\n"
+"Ekipler, ekip adına yanıt göndermek üzere bir ekip üyesini görevlendirmelidir.\n"
+" tüm takım. Tüm ekip üyeleri bu alanı taslak yanıtlar üzerinde çalışmak için kullanabilir.\n"
+" ancak takım arkadaşlarınızın taslaklarını bu alanda göremeyeceksiniz, bu nedenle\n"
+" lütfen belirlenen ekibin nihai tepkisine karar vermek için onlarla koordinasyon sağlayın\n"
+" üye teslim etmelidir.\n"
+"                                          "
+
 #: templates/legacy/response/oa_response.html:197
 msgid "Enter your response to the prompt above."
 msgstr "Üstteki soruya cevabınızı giriniz."
+
+#: templates/legacy/response/oa_response.html:211
+#, python-format
+msgid ""
+"\n"
+"                                      You are currently on Team %(team_name)s. Since you were on Team %(previous_team_name)s\n"
+"                                      when they submitted a response to this assignment, you are seeing Team %(previous_team_name)s’s\n"
+"                                      response and will receive the same grade for this assignment as your former teammates.\n"
+"                                      You will not be part of Team %(team_name)s’s submission for this assignment and will not\n"
+"                                      receive a grade for their submission.\n"
+"                                  "
+msgstr ""
+"\n"
+"Şu anda %(team_name)s Takımındasınız. %(previous_team_name)s Takımında olduğunuzdan beri\n"
+" bu ödeve yanıt gönderdiklerinde %(previous_team_name)s Ekibini görüyorsunuz\n"
+" Yanıt verin ve bu ödev için eski takım arkadaşlarınızla aynı notu alacaksınız.\n"
+" Bu ödev için %(team_name)s Takımının gönderiminin bir parçası olmayacaksınız ve\n"
+" gönderimlerinden dolayı bir not alırlar.\n"
+"                                  "
 
 #: templates/legacy/response/oa_response.html:224
 msgid "We could not save your progress"
@@ -1745,6 +1932,39 @@ msgstr ""
 "Yanıtınız gönderildi. Tüm adımlar tamamlandıktan ve yanıtınız tam olarak "
 "değerlendirildikten sonra notunuzu alacaksınız."
 
+#: templates/legacy/response/oa_response_submitted.html:34
+#, python-format
+msgid ""
+"\n"
+"                        You still need to complete the %(peer_start_tag)speer assessment%(end_tag)s and %(self_start_tag)sself assessment%(end_tag)s steps.\n"
+"                    "
+msgstr ""
+"\n"
+"Yine de %(peer_start_tag)s akran değerlendirmesi %(end_tag)s ve %(self_start_tag)s öz değerlendirme %(end_tag)s adımlarını tamamlamanız gerekiyor.\n"
+"                    "
+
+#: templates/legacy/response/oa_response_submitted.html:38
+#, python-format
+msgid ""
+"\n"
+"                        You still need to complete the %(start_tag)speer assessment%(end_tag)s step.\n"
+"                    "
+msgstr ""
+"\n"
+"Yine de %(start_tag)s akran değerlendirmesi %(end_tag)s adımını tamamlamanız gerekiyor.\n"
+"                    "
+
+#: templates/legacy/response/oa_response_submitted.html:42
+#, python-format
+msgid ""
+"\n"
+"                        You still need to complete the %(start_tag)sself assessment%(end_tag)s step.\n"
+"                    "
+msgstr ""
+"\n"
+"Yine de %(start_tag)s öz değerlendirme %(end_tag)s adımını tamamlamanız gerekiyor.\n"
+"                    "
+
 #: templates/legacy/response/oa_response_submitted.html:63
 msgid "We could not reset your response"
 msgstr "Yanıtınızı sıfırlayamadık"
@@ -1756,6 +1976,23 @@ msgstr "Yanıtı sıfırlayıp tekrar gönderin"
 #: templates/legacy/response/oa_response_team_already_submitted.html:15
 msgid "Error"
 msgstr "Hata"
+
+#: templates/legacy/response/oa_response_team_already_submitted.html:29
+#, python-format
+msgid ""
+"\n"
+"                            You joined Team %(team_name)s after they submitted a response for this assignment\n"
+"                            and you will not receive a grade for their response. You have also not previously submitted\n"
+"                            a response to this assignment with another team. Please contact course staff to discuss your\n"
+"                            options for this assignment.\n"
+"                        "
+msgstr ""
+"\n"
+"Bu ödev için yanıt gönderdikten sonra %(team_name)s Ekibine katıldınız\n"
+" ve onların yanıtı için bir not almayacaksınız. Ayrıca daha önce göndermediniz\n"
+" bu göreve başka bir ekiple yanıt olarak. Lütfen durumunuzu görüşmek için kurs personeliyle iletişime geçin.\n"
+" Bu atama için seçenekler.\n"
+"                        "
 
 #: templates/legacy/self/oa_self_assessment.html:33
 msgid "Assess Your Response"
@@ -1897,6 +2134,17 @@ msgstr "Problemin dereceli  puanlama anahtarını kullanarak bu takıma not ver.
 msgid "Give this learner a grade using the problem's rubric."
 msgstr "Problem rubrikini kullanarak bu öğrenciye not ver."
 
+#: templates/legacy/staff_area/oa_staff_grade_learners_assessment.html:26
+#, python-format
+msgid ""
+"\n"
+"                                        Response for: %(team_name)s with %(team_usernames)s\n"
+"                                    "
+msgstr ""
+"\n"
+"                                        Yanıt: %(team_name)s takımından %(team_usernames)s\n"
+"                                    "
+
 #: templates/legacy/staff_area/oa_staff_grade_learners_assessment.html:30
 #: templates/legacy/staff_area/oa_staff_override_assessment.html:20
 #, python-format
@@ -1932,6 +2180,17 @@ msgstr "Değerlendirmeyi teslim et"
 #: templates/legacy/staff_area/oa_staff_grade_learners_assessment.html:70
 msgid "Submit assessment and continue grading"
 msgstr "Değerlendirmeyi gönder ve notlandırmaya devam et"
+
+#: templates/legacy/staff_area/oa_staff_grade_learners_count.html:6
+#, python-format
+msgid ""
+"\n"
+"                %(ungraded)s Available and %(in_progress)s Checked Out\n"
+"            "
+msgstr ""
+"\n"
+"                %(ungraded)s Mevcut ve %(in_progress)s kadarı Kontrol Edildi\n"
+"            "
 
 #: templates/legacy/staff_area/oa_staff_override_assessment.html:7
 msgid "Override this learner's current grade using the problem's rubric."
@@ -2439,320 +2698,3 @@ msgstr "Sadece Öz Değerlendirme"
 #: xblock/openassesment_template_mixin.py:68
 msgid "Staff Assessment Only"
 msgstr "Sadece Personel Değerlendirmesi"
-
-#: xblock/openassesment_template_mixin.py:69
-msgid "Self Assessment to Peer Assessment"
-msgstr "Akran Değerlendirmesinden Öz Değerlendirmeye"
-
-#: xblock/openassesment_template_mixin.py:70
-msgid "Self Assessment to Staff Assessment"
-msgstr "Personel Değerlendirmesinden Öz Değerlendirme"
-
-#: xblock/openassessmentblock.py:1365
-msgid "You can't reset your submission."
-msgstr "Gönderiminizi sıfırlayamazsınız."
-
-#: xblock/openassessmentblock.py:1378
-msgid "The user does not exist."
-msgstr "Kullanıcı mevcut değil."
-
-#: xblock/openassessmentblock.py:1381
-msgid "There is no submission to reset."
-msgstr "Sıfırlanacak bir gönderim yok."
-
-#: xblock/openassessmentblock.py:1383
-msgid "Submission reset successfully."
-msgstr "Gönderim başarıyla sıfırlandı."
-
-#: xblock/rubric_reuse_mixin.py:62
-msgid "You must specify a block id from which to copy a rubric."
-msgstr ""
-"Dereceli puanlama anahtarının kopyalanacağı block kimliğini belirtmeniz "
-"gerekir."
-
-#: xblock/rubric_reuse_mixin.py:66
-msgid "Invalid block id."
-msgstr "Geçersiz block kimliği."
-
-#: xblock/rubric_reuse_mixin.py:72
-#, python-brace-format
-msgid ""
-"No Open Response Assessment found in {course_id} with block id {block_id}"
-msgstr ""
-"{course_id} {block_id} block kimliğine sahip Açık Yanıt Değerlendirmesi "
-"bulunamadı"
-
-#: xblock/staff_area_mixin.py:42
-msgid "You do not have permission to schedule training"
-msgstr "Eğitimi programlamak için izniniz yok"
-
-#: xblock/staff_area_mixin.py:43
-msgid "You do not have permission to reschedule tasks."
-msgstr "Görevleri yeniden planlamak için izniniz yok."
-
-#: xblock/staff_area_mixin.py:69
-msgid "You do not have permission to access the ORA staff area"
-msgstr "ORA görevli bilgilerine erişim için izniniz yok"
-
-#: xblock/staff_area_mixin.py:70
-msgid "You do not have permission to access ORA learner information."
-msgstr "ORA öğrenci bilgilerine erişim için izniniz yok."
-
-#: xblock/staff_area_mixin.py:71
-msgid "You do not have permission to access ORA staff grading."
-msgstr "ORA görevli notlandırmalarına erişim için izniniz yok."
-
-#: xblock/staff_area_mixin.py:241
-msgid "Pending"
-msgstr "Beklemede"
-
-#: xblock/staff_area_mixin.py:242
-msgid "Complete/Overwritten"
-msgstr "Tamamlandı/Üzerine Yazıldı"
-
-#: xblock/staff_area_mixin.py:245
-msgid "Not applicable"
-msgstr "Uygulanamaz"
-
-#: xblock/staff_area_mixin.py:246
-msgid "Not submitted"
-msgstr "Gönderilmedi"
-
-#: xblock/staff_area_mixin.py:247
-msgid "Submitted"
-msgstr "Girildi"
-
-#: xblock/staff_area_mixin.py:341
-msgid "Error getting learner information."
-msgstr "Öğrenci bilgisini alırken hata oluştu."
-
-#: xblock/staff_area_mixin.py:384
-msgid "Error loading the checked out learner response."
-msgstr "Teslim alınan öğrenci yanıtı yüklenirken hata oluştu."
-
-#: xblock/staff_area_mixin.py:385
-msgid "No other learner responses are available for grading at this time."
-msgstr "Şu anda not vermek için başka öğrenci yanıtı mevcut değil."
-
-#: xblock/staff_area_mixin.py:387
-msgid "Error getting staff grade information."
-msgstr "Personel not bilgisini alırken hata oluştu."
-
-#: xblock/staff_area_mixin.py:703
-msgid "Please enter valid reason to remove the submission."
-msgstr "Gönderimi kaldırmak için geçerli bir sebep girin."
-
-#: xblock/staff_area_mixin.py:714
-msgid "Submission not found"
-msgstr "Gönderim bulunamadı"
-
-#: xblock/staff_area_mixin.py:725
-msgid "Submission for team assignment has no associated team submission"
-msgstr "Takım ödevi gönderimine ilişkili bir takım ataması yok"
-
-#: xblock/staff_area_mixin.py:754
-msgid ""
-"The learner submission has been removed from peer assessment. The learner "
-"receives a grade of zero unless you delete the learner's state for the "
-"problem to allow them to resubmit a response."
-msgstr ""
-"Öğrenci gönderisi kişi değerlendirme sayfasından kaldırıldı. Eğer siz "
-"öğrencinin denemesini sıfırlayıp tekrar cevap göndermesine izin vermezseniz "
-"öğrenci sıfır puan alacak."
-
-#: xblock/staff_area_mixin.py:789
-msgid ""
-"The team’s submission has been removed from grading. The team receives a "
-"grade of zero unless you delete a team member’s state for the problem to "
-"allow the team to resubmit a response."
-msgstr ""
-"Takımın gönderimi notlandırmadan kaldırıldı. Ekibin yeniden yanıt "
-"göndermesine olanak sağlamak amacıyla bir ekip üyesinin sorunla ilgili "
-"durumunu silmediğiniz sürece ekip sıfır notu alır."
-
-#: xblock/studio_mixin.py:247 xblock/studio_mixin.py:259
-msgid "Error updating XBlock configuration"
-msgstr "XBlock yapılandırması güncellenirken hata"
-
-#: xblock/studio_mixin.py:264
-msgid "Error: Text Response and File Upload Response cannot both be disabled"
-msgstr ""
-"Hata: Metin ve Dosya Yükleme yanıtlarının ikisi birden devre dışı "
-"bırakılamaz"
-
-#: xblock/studio_mixin.py:268
-msgid ""
-"Error: When Text Response is disabled, File Upload Response must be Required"
-msgstr ""
-"Hata: Metin Yanıtı devre dışı bırakıldığında, Dosya Yükleme Yanıtı Gerekli "
-"Olmalıdır"
-
-#: xblock/studio_mixin.py:271
-msgid ""
-"Error: When File Upload Response is disabled, Text Response must be Required"
-msgstr ""
-"Hata: Dosya Yükleme Yanıtı devre dışı bırakıldığında, Metin Yanıtı Gerekli "
-"Olmalıdır"
-
-#: xblock/studio_mixin.py:295
-#, python-brace-format
-msgid "Validation error: {error}"
-msgstr "Doğrulama hatası: {error}"
-
-#: xblock/studio_mixin.py:329
-msgid "Successfully updated OpenAssessment XBlock"
-msgstr "OpenAssessment XBlock başarıyla yüklendi."
-
-#: xblock/utils/data_conversion.py:315
-msgid "You must provide options selected in the assessment."
-msgstr "Değerlendirme için gerekli seçenekleri sağlamalısınız."
-
-#: xblock/utils/data_conversion.py:318
-msgid "You must provide overall feedback in the assessment."
-msgstr "Değerlendirmede genel geri bildirim sağlamalısınız."
-
-#: xblock/utils/data_conversion.py:321
-msgid "You must provide feedback for criteria in the assessment."
-msgstr "Değerlendirmedeki kriterlere ilişkin geri bildirim sağlamalısınız."
-
-#: xblock/utils/resolve_dates.py:52
-#, python-brace-format
-msgid ""
-"'{date}' is an invalid date format. Make sure the date is formatted as YYYY-"
-"MM-DDTHH:MM:SS."
-msgstr ""
-"'{date}' geçersiz tarih formatı. Tarih formatının GG-AA-YYYY SA:DK:SN "
-"olduğundan emin olun."
-
-#: xblock/utils/resolve_dates.py:57
-#, python-brace-format
-msgid "'{date}' must be a date string or datetime"
-msgstr "'{date}' tarih dizgesi ya da tarih zamanı olmalı"
-
-#: xblock/utils/resolve_dates.py:210
-#, python-brace-format
-msgid ""
-"This step's start date '{start}' cannot be earlier than the previous step's "
-"start date '{prev}'."
-msgstr ""
-"Bu adımın başlangıç tarihi '{start}', önceki adımın başlangıç tarihinden "
-"'{prev}' önce olamaz"
-
-#: xblock/utils/resolve_dates.py:218
-#, python-brace-format
-msgid ""
-"This step's due date '{due}' cannot be later than the next step's due date "
-"'{prev}'."
-msgstr ""
-"Bu adımın son tarihi '{due}' sonraki adımın son tarihi '{prev}'den sonra "
-"olamaz."
-
-#: xblock/utils/resolve_dates.py:234
-#, python-brace-format
-msgid "The start date '{start}' cannot be later than the due date '{due}'"
-msgstr "Başlangıç tarihi '{start}' son tarih '{due}'den sonra olamaz."
-
-#: xblock/utils/validation.py:120
-msgid "This problem must include at least one assessment."
-msgstr "Bu sorun en azından bir değelendirme içermelidir."
-
-#: xblock/utils/validation.py:124
-msgid "The assessment order you selected is invalid."
-msgstr "Seçtiğiniz değerlendirme sırası geçersiz."
-
-#: xblock/utils/validation.py:134
-msgid "In peer assessment, the \"Must Grade\" value must be a positive integer."
-msgstr ""
-"Eş değerlendirmede, \"Puanlandırılmalı\" değeri pozitif tam sayı olmalıdır."
-
-#: xblock/utils/validation.py:137
-msgid "In peer assessment, the \"Graded By\" value must be a positive integer."
-msgstr "Eş değerlendirmede, \"Puanlandıran\" değeri pozitif tam sayı olmalıdır."
-
-#: xblock/utils/validation.py:141
-msgid ""
-"In peer assessment, the \"Must Grade\" value must be greater than or equal "
-"to the \"Graded By\" value."
-msgstr ""
-"Eş değerlendirmede, \"Puanlandırılmalı\" değeri \"Puanlandırılan\" "
-"değerinden büyük ya da eşit olmalıdır."
-
-#: xblock/utils/validation.py:150
-msgid "You must provide at least one example response for learner training."
-msgstr "Öğrenci eğitimi için en az bir örnek cevap sağlamalısınız."
-
-#: xblock/utils/validation.py:153
-msgid "Each example response for learner training must be unique."
-msgstr "Öğrenci eğitimi için olan her örnek cevap eşsiz olmalıdır."
-
-#: xblock/utils/validation.py:160
-msgid "The \"required\" value must be true if staff assessment is the only step."
-msgstr "Personel değerlendirmesi tek adımsa \"required\" değeri true olmalıdır."
-
-#: xblock/utils/validation.py:164
-msgid ""
-"The number of assessments cannot be changed after the problem has been "
-"released."
-msgstr "Problem yayımlandıktan sonra değerlendirme sayısı değiştirilemez. "
-
-#: xblock/utils/validation.py:169
-msgid ""
-"The assessment type cannot be changed after the problem has been released."
-msgstr "Problem yayımlandıktan sonra değerlendirme tipi değiştirilemez."
-
-#: xblock/utils/validation.py:176
-msgid ""
-"The grading strategy for peer assessments cannot be changed after the "
-"problem has been released."
-msgstr ""
-"Akran değerlendirmelerine yönelik derecelendirme stratejisi, problem "
-"yayınlandıktan sonra değiştirilemez."
-
-#: xblock/utils/validation.py:200
-msgid "This rubric definition is not valid."
-msgstr "Bu rubrik tanımı geçerli değil."
-
-#: xblock/utils/validation.py:203
-msgid "You must provide at least one prompt."
-msgstr "En az bir prompt sağlamalısınız."
-
-#: xblock/utils/validation.py:209
-#, python-brace-format
-msgid "Options in '{criterion}' have duplicate name(s): {duplicates}"
-msgstr "'{criterion}'daki seçenekler yinelenen isim(ler)e sahip: {duplicates}"
-
-#: xblock/utils/validation.py:217
-msgid "Criteria with no options must require written feedback."
-msgstr "Seçenekleri olmayan kriterler yazılı geri bildirim gerektirir."
-
-#: xblock/utils/validation.py:226
-msgid "Prompts cannot be created or deleted after a problem is released."
-msgstr "Problem yayımlandıktan sonra komutlar oluşturulamaz ve silinemez."
-
-#: xblock/utils/validation.py:230
-msgid "The number of criteria cannot be changed after a problem is released."
-msgstr "Problem yayımlandıktan sonra kriter sayısı değiştirilemez."
-
-#: xblock/utils/validation.py:243
-msgid "Criteria names cannot be changed after a problem is released"
-msgstr "Problem yayımlandıktan sonra kriter isimleri değiştirilemez."
-
-#: xblock/utils/validation.py:248
-msgid "The number of options cannot be changed after a problem is released."
-msgstr "Problem yayımlandıktan sonra seçeneklerin sayısı değiştirilemez."
-
-#: xblock/utils/validation.py:253
-msgid "Point values cannot be changed after a problem is released."
-msgstr "Problem yayımlandıktan sonra nokta değerleri değiştirilemez."
-
-#: xblock/utils/validation.py:304
-msgid "Learner training must have at least one training example."
-msgstr "Öğrenci eğitiminde en az bir eğitim örneği bulunmalıdır."
-
-#: xblock/utils/validation.py:369
-msgid "Leaderboard number is invalid."
-msgstr "Afiş sayısı geçersiz."
-
-#: xblock/utils/validation.py:392
-msgid "The submission format is invalid."
-msgstr "Gönderi formatı geçersiz."

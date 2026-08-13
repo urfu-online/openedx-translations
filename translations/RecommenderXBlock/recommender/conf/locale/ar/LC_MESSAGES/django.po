@@ -1,20 +1,18 @@
 # edX translation file.
-# Copyright (C) 2025 EdX
+# Copyright (C) 2026 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
-# EdX Team <info@edx.org>, 2025.
+# EdX Team <info@edx.org>, 2026.
 # 
 # Translators:
-# Brian Smith, 2024
-# Nathan Robertson, 2024
-# Sulaiman Muthanna, 2025
+# Brian Smith, 2026
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2023-06-13 08:00+0000\n"
-"PO-Revision-Date: 2023-06-03 00:54+0000\n"
-"Last-Translator: Sulaiman Muthanna, 2025\n"
+"PO-Revision-Date: 2026-08-07 10:24+0000\n"
+"Last-Translator: Brian Smith, 2026\n"
 "Language-Team: Arabic (https://app.transifex.com/open-edx/teams/6205/ar/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -198,7 +196,7 @@ msgstr "احفظ التغييرات"
 
 #: templates/recommender.html:222
 msgid "Provide a resource description"
-msgstr "اكتُب وصفاً للموارد"
+msgstr "اكتب وصفاً للموارد"
 
 #: templates/recommender.html:227
 msgid "Provide a file of resource screenshot"
@@ -255,7 +253,7 @@ msgstr ""
 msgid ""
 "Recommend a new resource which may be helpful to other students solving this"
 " problem"
-msgstr "انصَح بمصدر جديد ربما يكون مفيداً للطلاب الآخَرين في حل هذه المسألة"
+msgstr "انصح بمصدر جديد ربما يكون مفيداً للطلاب الآخرين في حل هذه المسألة"
 
 #: static/js/src/cats.js:66
 msgid "Edit this resource"
@@ -324,7 +322,7 @@ msgstr "أعطِ سبباً مُقنِعاً حول ضرورة إزالة هذا
 
 #: static/js/src/cats.js:83
 msgid "Flag this resource as problematic and give your reason"
-msgstr "ضَع علامة على هذا المورد على أنّه يُسبِّب مشاكلاً، واذكُر السبب"
+msgstr "ضَع علامة على هذا المورد على أنّه مسبب للمشاكل، واذكر السبب"
 
 #: static/js/src/cats.js:84
 msgid "Delete this resource"
@@ -344,7 +342,7 @@ msgstr "انقُر فوق الأيقونة لتوصي بهذا المورد "
 
 #: static/js/src/cats.js:88
 msgid "This resource is endorsed by staff"
-msgstr "لقد أُعتُمِد هذا المورد من قِبَل الفريق"
+msgstr "لقد اعتُمد هذا المورد من قِبل الفريق"
 
 #: static/js/src/cats.js:89
 msgid "Click to view resources for removal"
@@ -403,7 +401,7 @@ msgstr "أزِل المورد"
 
 #: static/js/src/cats.js:116
 msgid "Upload resources in JSON format to the database."
-msgstr "ارفَغ الموارد بنَسَق JSON إلى قاعدة البيانات."
+msgstr "ارفغ الموارد بنَسَق JSON إلى قاعدة البيانات."
 
 #: static/js/src/cats.js:117
 msgid ""

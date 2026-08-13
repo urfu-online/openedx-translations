@@ -1,0 +1,16 @@
+{
+  "footer.powered.by": "",
+  "footer.revealLinks.more": "",
+  "footer.trademark.notice": "edX dhe Open edX janë marka tregtare të regjistruara të edX LLC.",
+  "header.help": "Ndihmë",
+  "header.navigation.skipNavLink": "",
+  "header.user.menu.account": "",
+  "header.user.menu.dashboard": "",
+  "header.user.menu.login": "",
+  "header.user.menu.logout": "",
+  "header.user.menu.order.history": "",
+  "header.user.menu.profile": "",
+  "header.user.menu.register": "",
+  "home.content": "Përmbajtja e faqes kryesore.",
+  "org.openedx.frontend.slot.header.courseNavigationBar.tabs.label": "Shiriti i navigimit të kursit"
+}
