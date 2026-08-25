@@ -80,7 +80,7 @@
   "ora-grading.ReviewModal.reloadSubmission": "Обновить ответ",
   "ora-grading.ReviewModal.gradeNotSubmitted.heading": "Оценка не отправлена",
   "ora-grading.ReviewModal.gradeNotSubmitted.Content": "К сожалению, при попытке отправить эту оценку что-то пошло не так. Пожалуйста, попробуйте еще раз.",
-  "ora-grading.ReviewModal.resubmitGrade": "",
+  "ora-grading.ReviewModal.resubmitGrade": "Отправить оценку повторно",
   "ora-grading.ReviewModal.dismiss": "Скрыть",
   "ora-grading.ReviewModal.errorSubmittingGrade.Heading": "Ошибка при отправке оценки",
   "ora-grading.ReviewModal.errorSubmittingGrade.Content": "Похоже, кто-то другой пришел сюда первым! Ваша подача оценки была отклонена",

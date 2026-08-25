@@ -1,0 +1,17 @@
+{
+  "notification.title": "Сповіщення",
+  "notification.today.heading": "Останні 24 години",
+  "notification.earlier.heading": "Раніше",
+  "notification.mark.as.read": "Позначити все як прочитане",
+  "notification.fullStop": "•",
+  "notification.load.more.notifications": "Завантажити більше сповіщень",
+  "notification.recent.all.message": "Це всі Ваші сповіщення.",
+  "notification.expired.delete.message": "Сповіщення автоматично видаляються через {days} днів",
+  "notification.no.message": "Наразі сповіщень немає",
+  "notification.no.help.message": "Коли Ви отримаєте сповіщення, вони з’являться тут",
+  "notification.bell.icon.alt.message": "Піктограма дзвоника сповіщення",
+  "tour.action.dismiss": "Відхилити",
+  "tour.action.end": "Гаразд",
+  "tour.example.title": "Приклад Туру",
+  "tour.example.body": "Це приклад туру"
+}

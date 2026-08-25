@@ -1,0 +1,17 @@
+{
+  "notification.title": "Bildirishnomalar",
+  "notification.today.heading": "Soʻnggi 24 soat",
+  "notification.earlier.heading": "Avvalroq",
+  "notification.mark.as.read": "Barchasini oʻqilgan deb belgilash",
+  "notification.fullStop": "•",
+  "notification.load.more.notifications": "Koʻproq bildirishnomalarni yuklash",
+  "notification.recent.all.message": "Barcha soʻnggi bildirishnomalaringiz shu!",
+  "notification.expired.delete.message": "Bildirishnomalar {days} kundan keyin avtomatik ravishda tozalanadi",
+  "notification.no.message": "Hali bildirishnomalar yoʻq.",
+  "notification.no.help.message": "Bildirishnomalar kelganda, ular shu yerda koʻrinadi",
+  "notification.bell.icon.alt.message": "Bildirishnoma qoʻngʻirogʻi belgisi",
+  "tour.action.dismiss": "Rad etish",
+  "tour.action.end": "xop",
+  "tour.example.title": "Ekskursiyaga misol",
+  "tour.example.body": "Bu ekskursiyaning namunasidir"
+}

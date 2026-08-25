@@ -1,0 +1,17 @@
+{
+  "notification.title": "הודעות",
+  "notification.today.heading": "24 השעות האחרונות",
+  "notification.earlier.heading": "מוקדם יותר",
+  "notification.mark.as.read": "סמן הכל כנקרא",
+  "notification.fullStop": "•",
+  "notification.load.more.notifications": "טען התראות נוספות",
+  "notification.recent.all.message": "אלה כל ההתראות האחרונות שלך!",
+  "notification.expired.delete.message": "התראות נמחקות אוטומטית לאחר {days} ימים",
+  "notification.no.message": "אין התראות עדיין",
+  "notification.no.help.message": "כשתקבלו התראות, הן יופיעו כאן",
+  "notification.bell.icon.alt.message": "אייקון פעמון התראות",
+  "tour.action.dismiss": "ביטול",
+  "tour.action.end": "אוקיי",
+  "tour.example.title": "סיור לדוגמה",
+  "tour.example.body": "זהו סיור לדוגמה"
+}

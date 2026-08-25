@@ -1,0 +1,17 @@
+{
+  "notification.title": "اطلاعیه",
+  "notification.today.heading": "24 ساعت گذشته",
+  "notification.earlier.heading": "",
+  "notification.mark.as.read": "علامت‌گذاری همه به عنوان خوانده‌شده",
+  "notification.fullStop": "•",
+  "notification.load.more.notifications": "بارگذاری اطلاعیه‌های بیشتر",
+  "notification.recent.all.message": "این‌ها تمام اعلان‌های اخیر شما هستند!",
+  "notification.expired.delete.message": "اعلان‌ها پس از {days} روز به‌طور خودکار پاک می‌شوند",
+  "notification.no.message": "هنوز هیچ اطلاعیه‌ای وجود ندارد",
+  "notification.no.help.message": "وقتی اعلان‌ها را دریافت می‌کنید، اینجا نمایش داده می‌شوند",
+  "notification.bell.icon.alt.message": "نماد زنگ اعلان",
+  "tour.action.dismiss": "رد",
+  "tour.action.end": "باشه",
+  "tour.example.title": "نمونه تور",
+  "tour.example.body": "این یک تور نمونه است"
+}

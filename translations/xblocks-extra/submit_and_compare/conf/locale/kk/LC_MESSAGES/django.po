@@ -1,0 +1,113 @@
+# edX translation file.
+# Copyright (C) 2026 EdX
+# This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
+# EdX Team <info@edx.org>, 2026.
+# 
+# Translators:
+# Gerardo Núñez, 2026
+# Transifex Bot <>, 2026
+# Michelle Philbrick, 2026
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1a\n"
+"Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
+"POT-Creation-Date: 2023-06-13 08:00+0000\n"
+"PO-Revision-Date: 2026-05-15 01:50+0000\n"
+"Last-Translator: Michelle Philbrick, 2026\n"
+"Language-Team: Kazakh (https://app.transifex.com/open-edx/teams/6205/kk/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: kk\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: templates/edit.html:8
+msgid "Display Name"
+msgstr "Көрсетілетін атау"
+
+#: templates/edit.html:16
+msgid "Weight"
+msgstr "Салмағы"
+
+#: templates/edit.html:19
+msgid "This assigns an integer value representing the weight of this problem"
+msgstr "Бұл мәселенің салмағын көрсететін бүтін мәнді тағайындайды"
+
+#: templates/edit.html:24
+msgid "Max Attempts"
+msgstr "Максималды әрекеттер саны"
+
+#: templates/edit.html:27
+msgid ""
+"This assigns an integer value representing the maximum number of times a "
+"student can attempt the problem"
+msgstr ""
+"Бұл студенттің есепті орындауға болатын максималды әрекет санын білдіретін "
+"бүтін мәнді тағайындайды"
+
+#: templates/edit.html:32
+msgid "Label for Student Answer"
+msgstr "Студент жауабының белгісі"
+
+#: templates/edit.html:35
+msgid "Label for the text area containing the student's answer"
+msgstr "Оқушының жауабы бар мәтін аймағының белгісі"
+
+#: templates/edit.html:40
+msgid "Label for Expert Answer"
+msgstr "Сарапшы жауабының белгісі"
+
+#: templates/edit.html:43
+msgid "Label for the 'expert' answer"
+msgstr "«Сарапшы» жауабына арналған белгі"
+
+#: templates/edit.html:48
+msgid "Label for Submit Button"
+msgstr "Жіберу түймесінің белгісі"
+
+#: templates/edit.html:51
+msgid "Label for the submit button"
+msgstr "Жіберу батырмасының белгісі"
+
+#: templates/edit.html:56
+msgid "Definition"
+msgstr "Анықтама"
+
+#: templates/edit.html:57
+msgid "The XML definition for the question and expert answer"
+msgstr "Сұрақ пен сарапшы жауабына арналған XML анықтамасы"
+
+#: templates/edit.html:69
+msgid "Save"
+msgstr "Сақтау"
+
+#: templates/edit.html:72
+msgid "Cancel"
+msgstr "Болдырмау"
+
+#: views.py:225
+#, python-brace-format
+msgid "Hint ({number} of {total}): {hint}"
+msgstr "Кеңес ({number} ішінен {total}): {hint}"
+
+#: views.py:246
+#, python-brace-format
+msgid "You have used {count_attempts} of {max_attempts} submission"
+msgid_plural "You have used {count_attempts} of {max_attempts} submissions"
+msgstr[0] "Сіз {max_attempts} жіберудің {count_attempts} пайдаландыңыз"
+msgstr[1] "Сіз {max_attempts} жіберілімдерінің {count_attempts} пайдаландыңыз"
+
+#: views.py:289
+#, python-brace-format
+msgid "{weight} point possible"
+msgid_plural "{weight} points possible"
+msgstr[0] "{weight} нүктесі мүмкін"
+msgstr[1] "{weight} ұпай мүмкін"
+
+#: views.py:301
+#, python-brace-format
+msgid "/{weight} point"
+msgid_plural "/{weight} points"
+msgstr[0] "/{weight} ұпай"
+msgstr[1] "/{weight} ұпай"

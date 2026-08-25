@@ -1,0 +1,17 @@
+{
+  "notification.title": "Meldingen",
+  "notification.today.heading": "Afgelopen 24 uur",
+  "notification.earlier.heading": "Eerder",
+  "notification.mark.as.read": "",
+  "notification.fullStop": "•",
+  "notification.load.more.notifications": "Meer meldingen laden",
+  "notification.recent.all.message": "Dat waren al je recente meldingen!",
+  "notification.expired.delete.message": "Meldingen worden automatisch gewist na {days} dagen",
+  "notification.no.message": "Nog geen meldingen",
+  "notification.no.help.message": "Wanneer je meldingen ontvangt, verschijnen ze hier",
+  "notification.bell.icon.alt.message": "Meldingsbelpictogram",
+  "tour.action.dismiss": "Afwijzen",
+  "tour.action.end": "Oké",
+  "tour.example.title": "Voorbeeld rondleiding",
+  "tour.example.body": "Dit is een voorbeeldtour"
+}

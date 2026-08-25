@@ -1,0 +1,17 @@
+{
+  "notification.title": "Értesítések",
+  "notification.today.heading": "Az elmúlt 24 óra",
+  "notification.earlier.heading": "Korábban",
+  "notification.mark.as.read": "",
+  "notification.fullStop": "•",
+  "notification.load.more.notifications": "További értesítések betöltése",
+  "notification.recent.all.message": "",
+  "notification.expired.delete.message": "Az értesítések {days} nap után automatikusan törlődnek",
+  "notification.no.message": "Még nincsenek értesítések",
+  "notification.no.help.message": "Amikor értesítéseket kapsz, azok itt fognak megjelenni",
+  "notification.bell.icon.alt.message": "Értesítési harang ikon",
+  "tour.action.dismiss": "Elvetés",
+  "tour.action.end": "Rendben",
+  "tour.example.title": "Példatúra",
+  "tour.example.body": "Ez egy példa túra"
+}
