@@ -943,7 +943,7 @@ msgstr "Ваш ответ"
 
 #: templates/legacy/grade/oa_grade_complete.html:41
 msgid "Your Upload"
-msgstr "Загруженный вами файл"
+msgstr "Ваш файл"
 
 #: templates/legacy/grade/oa_grade_complete.html:46
 msgid "Assessments of Your Response"
@@ -1288,8 +1288,8 @@ msgid ""
 "                    This assignment has several steps. In the first step, you'll provide a response to the prompt. The other steps appear below the %(start_tag)sYour Response%(end_tag)s field.\n"
 "                "
 msgstr ""
-"\n"
-"Это задание выполняется в несколько шагов. На первом шаге вы даете ответ на вопрос. Следующие шаги появятся ниже поля %(start_tag)sВаш ответ%(end_tag)s."
+"Задание состоит из нескольких шагов. Сначала отправьте ответ. Следующие шаги"
+" появятся ниже поля %(start_tag)sВаш ответ%(end_tag)s."
 
 #: templates/legacy/message/oa_message_unavailable.html:4
 msgid "Instructions Unavailable"
@@ -1305,8 +1305,8 @@ msgid ""
 "response to the prompt. The other steps appear below the Your Response "
 "field."
 msgstr ""
-"Данное задание включает несколько шагов. На первом шаге вы должны ответить "
-"на вопрос. Следующие шаги появятся ниже поля с вашим ответом."
+"Задание состоит из нескольких шагов. Сначала отправьте ответ. Следующие шаги"
+" появятся ниже поля «Ваш ответ»."
 
 #: templates/legacy/oa_base.html:37 templates/openassessmentblock/base.html:56
 #: templates/openassessmentblock/base.html:105
@@ -1348,7 +1348,7 @@ msgstr "Загружено"
 
 #: templates/legacy/oa_uploaded_file.html:16
 msgid "Files that were uploaded by you:"
-msgstr "Файлы, загруженные вами:"
+msgstr "Ваши файлы:"
 
 #: templates/legacy/oa_uploaded_file.html:48
 msgid ""
@@ -1553,45 +1553,43 @@ msgstr ""
 
 #: templates/legacy/response/oa_response.html:89
 msgid "Enter your response to the prompt."
-msgstr "Введите свой ответ на вопрос."
+msgstr "Введите ответ на задание."
 
 #: templates/legacy/response/oa_response.html:92
 msgid ""
 "Your work will save automatically and you can return to complete your "
 "response at any time before the subsection due date "
 msgstr ""
-"Ваша работа будет сохраняться автоматически, и вы сможете вернуться, чтобы "
-"завершить ответ в любое время до истечения срока сдачи подраздела. "
+"Черновик сохраняется автоматически. Вы можете вернуться и дописать ответ до "
+"срока сдачи подраздела "
 
 #: templates/legacy/response/oa_response.html:94
 msgid ""
 "Your work will save automatically and you can return to complete your "
 "response at any time before the course ends "
 msgstr ""
-"Ваша работа будет сохраняться автоматически, и вы сможете вернуться, чтобы "
-"завершить ответ в любое время до окончания курса. "
+"Черновик сохраняется автоматически. Вы можете вернуться и дописать ответ до "
+"окончания курса "
 
 #: templates/legacy/response/oa_response.html:96
 msgid ""
 "Your work will save automatically and you can return to complete your "
 "response at any time before the due date "
 msgstr ""
-"Ваша работа будет сохраняться автоматически, и вы сможете вернуться, чтобы "
-"завершить ответ в любое время до срока сдачи. "
+"Черновик сохраняется автоматически. Вы можете вернуться и дописать ответ до "
+"срока сдачи "
 
 #: templates/legacy/response/oa_response.html:108
 msgid ""
 "Your work will save automatically and you can return to complete your "
 "response at any time."
 msgstr ""
-"Ваша работа будет сохраняться автоматически, и вы сможете вернуться, чтобы "
-"завершить ответ в любое время."
+"Черновик сохраняется автоматически. Вы можете вернуться и дописать ответ в "
+"любое время."
 
 #: templates/legacy/response/oa_response.html:110
 msgid "After you submit your response, you cannot edit it"
-msgstr ""
-"После того, как вы отправите свой ответ на проверку, вы не сможете его "
-"изменить."
+msgstr "После отправки на проверку ответ изменить нельзя"
 
 #: templates/legacy/response/oa_response.html:120
 msgid "What will this assignment be graded on?"
@@ -1807,7 +1805,7 @@ msgstr "Ваш ответ"
 #: templates/legacy/response/oa_response_graded.html:33
 #: templates/legacy/response/oa_response_submitted.html:54
 msgid "Your Uploaded Files"
-msgstr "Загруженные вами файлы"
+msgstr "Ваши файлы"
 
 #: templates/legacy/response/oa_response_submitted.html:32
 msgid ""
@@ -3034,3 +3032,13 @@ msgstr ""
 
 msgid "Response not started."
 msgstr "Ответ не начат."
+
+msgid "Waiting for a Staff Grade"
+msgstr "Ожидание оценки преподавателя"
+
+msgid ""
+"Check back later to see if a course staff member has assessed your response."
+" You will receive your grade after the assessment is complete."
+msgstr ""
+"Загляните позже: преподаватель ещё оценивает ваш ответ. Оценка появится, "
+"когда проверка будет завершена."

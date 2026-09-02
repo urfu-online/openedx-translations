@@ -445,6 +445,11 @@
   "instruct.specifyProblemField.problemNotFound": "Не удалось найти задачу, соответствующую идентификатору: {identifier}",
   "instruct.specifyProblemField.selectedProblem": "Выбранное задание:",
   "instruct.usernameFilter.searchPlaceholder": "",
-  "instructor-dashboard.page.title": "Панель Управления Преподавателя | {siteName}",
-  "pageWrapper.pageTitle": "Панель управления преподавателя"
+  "instructor-dashboard.page.title": "Панель преподавателя | {siteName}",
+  "pageWrapper.pageTitle": "Панель преподавателя",
+  "dashboard.instructorDashboardHeader": "Панель преподавателя",
+  "dashboard.instructor.page.title": "Панель преподавателя | {siteName}",
+  "instruct.courseInfo.status.active": "Активен",
+  "instruct.courseInfo.status.archived": "В архиве",
+  "instruct.courseInfo.status.upcoming": "Скоро"
 }
