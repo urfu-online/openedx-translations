@@ -14773,3 +14773,17 @@ msgid ""
 msgstr ""
 "{display_name} доступен только для зарегистрированных учащихся. Войдите или "
 "зарегистрируйтесь и запишитесь на этот курс, чтобы просмотреть его."
+
+#: lms/templates/vert_module.html
+msgid "Past due"
+msgstr "Просрочено"
+
+#: lms/templates/vert_module.html
+#, python-brace-format
+msgid "{subsection_format} due {{date}}"
+msgstr "{subsection_format}, срок сдачи {{date}}"
+
+#: lms/templates/vert_module.html
+#, python-brace-format
+msgid "Due {date}"
+msgstr "Срок сдачи {date}"
