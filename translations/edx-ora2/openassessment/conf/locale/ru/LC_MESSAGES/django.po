@@ -1288,8 +1288,8 @@ msgid ""
 "                    This assignment has several steps. In the first step, you'll provide a response to the prompt. The other steps appear below the %(start_tag)sYour Response%(end_tag)s field.\n"
 "                "
 msgstr ""
-"Задание состоит из нескольких шагов. Сначала отправьте ответ. Следующие шаги"
-" появятся ниже поля %(start_tag)sВаш ответ%(end_tag)s."
+"\n"
+"Задание состоит из нескольких шагов. Сначала отправьте ответ. Следующие шаги появятся ниже поля %(start_tag)sВаш ответ%(end_tag)s."
 
 #: templates/legacy/message/oa_message_unavailable.html:4
 msgid "Instructions Unavailable"
