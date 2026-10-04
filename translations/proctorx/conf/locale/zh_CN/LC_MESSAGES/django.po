@@ -1,423 +1,431 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: proctorx-guide\n"
+"Language: zh_CN\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
 msgid "Инструкция для студентов"
-msgstr "Instructions for students"
+msgstr "学生须知"
 
 msgid "Вернуться в панель управления"
-msgstr "Return to the control panel"
+msgstr "返回控制面板"
 
 msgid "Инструкция по прохождению прокторинга"
-msgstr "Instructions for completing proctoring"
+msgstr "监考考试操作说明"
 
 msgid "Внимательно прочитайте инструкцию перед началом экзамена!"
-msgstr "Please read the instructions carefully before starting the exam!"
+msgstr "开始考试前请仔细阅读说明！"
 
 msgid "Установка Exam Guard"
-msgstr "Installing Exam Guard"
+msgstr "安装 Exam Guard"
 
 msgid "<strong>Exam Guard (ExamUrFU)</strong> — программа на компьютере, которая записывает камеру, микрофон и экран и проверяет среду экзамена. Экзамен проходит в обычном браузере, а запись идёт из этого приложения."
-msgstr "<strong>Exam Guard (ExamUrFU)</strong> is a program on your computer that records the camera, microphone, and screen and checks the exam environment. The exam runs in a regular browser, and the recording comes from this application."
+msgstr "<strong>Exam Guard (ExamUrFU)</strong> 是安装在电脑上的程序，用于录制摄像头、麦克风和屏幕，并检查考试环境。考试在普通浏览器中进行，录制由该程序完成。"
 
 msgid "Совет:"
-msgstr "Tip:"
+msgstr "提示："
 
 msgid "Установите Exam Guard заранее. При первом запуске разрешите доступ к камере, микрофону и записи экрана. На время экзамена выключите антивирус и не включайте его, пока попытка не будет отправлена."
-msgstr "Install Exam Guard in advance. On the first launch, allow the camera, microphone, and screen recording. For the exam, turn the antivirus off and do not turn it back on until the attempt has been submitted."
+msgstr "请提前安装 Exam Guard。首次启动时请允许访问摄像头、麦克风和屏幕录制。考试期间请关闭杀毒软件，在答卷提交之前不要重新打开。"
 
 msgid "Запись на дату экзамена"
-msgstr "Signing up for the exam date"
+msgstr "预约考试日期"
 
 msgid "Перед сдачей экзамена необходимо записаться на конкретную дату через календарь бронирования. Начать экзамен можно только в день записи."
-msgstr "Before taking the exam, you must sign up for a specific date via the booking calendar. You can only start the exam on the day of your appointment."
+msgstr "考试前必须通过预约日历预约具体日期。只能在预约当天开始考试。"
 
 msgid "Откройте страницу курса"
-msgstr "Open the course page"
+msgstr "打开课程页面"
 
 msgid "Перейдите в раздел с экзаменом в обычном браузере."
-msgstr "Go to the exam section in a regular browser."
+msgstr "在普通浏览器中进入考试部分。"
 
 msgid "Найдите виджет «Запись на прокторинг»"
-msgstr "Find the \\\"Sign up for Proctoring\\\" widget"
+msgstr "找到「预约监考」组件"
 
 msgid "Он расположен на странице курса рядом с экзаменом."
-msgstr "It is located on the course page next to the exam."
+msgstr "它位于课程页面上、考试旁边。"
 
 msgid "Нажмите «Открыть календарь»"
-msgstr "Click \\\"Open Calendar\\\""
+msgstr "点击「打开日历」"
 
 msgid "Выберите экзамен и доступную дату. Учитывайте количество свободных мест."
-msgstr "Choose the exam and the available date. Take the number of available slots into account."
+msgstr "选择考试和可用日期，并留意剩余名额。"
 
 msgid "Подтвердите запись"
-msgstr "Confirm your appointment"
+msgstr "确认预约"
 
 msgid "После записи вы увидите подтверждение с выбранной датой."
-msgstr "After signing up, you will see a confirmation with the selected date."
+msgstr "预约后你会看到所选日期的确认信息。"
 
 msgid "Важно:"
-msgstr "Important:"
+msgstr "重要："
 
 msgid "Вы можете перенести запись на другую дату, пока экзамен не начат. После начала экзамена изменить дату нельзя."
-msgstr "You can reschedule your appointment for another date as long as the exam has not started. The date cannot be changed after the exam has started."
+msgstr "考试开始前可以把预约改到其他日期。考试开始后不能更改日期。"
 
 msgid "Подтверждение личности"
-msgstr "Proof of identity"
+msgstr "身份确认"
 
 msgid "Перед началом экзамена загрузите <strong>фотографию студенческого билета</strong> кнопкой «Загрузить студенческий билет» на панели прокторинга."
-msgstr "Before the exam, upload a <strong>photo of your student ID</strong> with the \\\"Upload student ID\\\" button on the proctoring panel."
+msgstr "考试开始前，请用监考面板上的「上传学生证」按钮上传<strong>学生证照片</strong>。"
 
 msgid "Студенческий билет"
-msgstr "Student ID card"
+msgstr "学生证"
 
 msgid "Требования к фото документа:"
-msgstr "Requirements for a photo of a document:"
+msgstr "证件照片要求："
 
 msgid "Формат: JPG, PNG или PDF"
-msgstr "Format: JPG, PNG or PDF"
+msgstr "格式：JPG、PNG 或 PDF"
 
 msgid "Размер: не более 5 МБ"
-msgstr "Size: less than 5 MB"
+msgstr "大小：不超过 5 MB"
 
 msgid "Фото должно быть чётким, без бликов"
-msgstr "The photo should be clear and glare-free"
+msgstr "照片应清晰、无反光"
 
 msgid "Все данные должны быть читаемы"
-msgstr "All data must be readable"
+msgstr "所有信息必须可读"
 
 msgid "Подготовьте фото заранее и положите файл на компьютер, с которого будете сдавать экзамен."
-msgstr "Prepare the photo in advance and save the file on the computer you will use for the exam."
+msgstr "请提前准备照片，并把文件放在你用来考试的电脑上。"
 
 msgid "Пример: студенческий билет"
-msgstr "Example: Student ID card"
+msgstr "示例：学生证"
 
 msgid "Проверка оборудования"
-msgstr "Checking the equipment"
+msgstr "设备检查"
 
 msgid "Компьютер"
-msgstr "Computer"
+msgstr "电脑"
 
 msgid "Минимум 4 ГБ оперативной памяти"
-msgstr "At least 4 GB of RAM"
+msgstr "至少 4 GB 内存"
 
 msgid "Планшеты и телефоны не поддерживаются"
-msgstr "Tablets and phones are not supported"
+msgstr "不支持平板和手机"
 
 msgid "Интернет"
-msgstr "Internet"
+msgstr "网络"
 
 msgid "Стабильное соединение от 2 Мбит/с"
-msgstr "Stable internet connection from 2 Mbps"
+msgstr "稳定连接，不低于 2 Mbit/s"
 
 msgid "Проводное подключение предпочтительнее"
-msgstr "Wired connection is preferable"
+msgstr "优先使用有线网络"
 
 msgid "Избегайте публичных Wi-Fi сетей"
-msgstr "Avoid public Wi-Fi networks"
+msgstr "避免使用公共 Wi-Fi"
 
 msgid "Камера и микрофон"
-msgstr "Camera and microphone"
+msgstr "摄像头和麦克风"
 
 msgid "Веб-камера (встроенная или внешняя)"
-msgstr "Web camera (built-in or external)"
+msgstr "网络摄像头（内置或外接）"
 
 msgid "Микрофон для записи звука"
-msgstr "Microphone for sound recording"
+msgstr "用于录音的麦克风"
 
 msgid "Ту же камеру и микрофон выберите в проверке оборудования и в Exam Guard кнопкой «Применить»"
-msgstr "Select the same camera and microphone in the equipment check and in Exam Guard with the Apply button"
+msgstr "在设备检查和 Exam Guard 中选择同一摄像头和麦克风，并点击「应用」"
 
 msgid "Рабочее место"
-msgstr "Workplace"
+msgstr "考场环境"
 
 msgid "Тихое, хорошо освещённое помещение"
-msgstr "A quiet, well-lit room"
+msgstr "安静、光线充足的房间"
 
 msgid "Лицо должно быть чётко видно в камере"
-msgstr "Your face must be clearly visible on camera"
+msgstr "脸部必须在摄像头中清晰可见"
 
 msgid "Уберите посторонние предметы"
-msgstr "Remove foreign objects"
+msgstr "收起无关物品"
 
 msgid "Начало экзамена в день записи"
-msgstr "Starting the exam on the appointment day"
+msgstr "在预约当天开始考试"
 
 msgid "Откройте курс в одном разрешённом браузере"
-msgstr "Open the course in one allowed browser"
+msgstr "只用一个允许的浏览器打开课程"
 
 msgid "Подойдут Chrome, Edge, Яндекс, Firefox, Opera или Brave. Другие браузеры должны быть закрыты. Второй открытый браузер аннулирует уже начатую попытку."
-msgstr "Chrome, Edge, Yandex, Firefox, Opera, or Brave will do. Other browsers must be closed. A second open browser voids an attempt that has already started."
+msgstr "可使用 Chrome、Edge、Yandex、Firefox、Opera 或 Brave。其他浏览器必须关闭。已经开始的考试中再打开第二个浏览器，会使本次尝试作废。"
 
 msgid "Запустите Exam Guard и введите код"
-msgstr "Start Exam Guard and enter the code"
+msgstr "启动 Exam Guard 并输入代码"
 
 msgid "На странице экзамена появится код привязки. Введите его в окно ExamUrFU и в браузере нажмите «Разрешить этот компьютер»."
-msgstr "A pairing code will appear on the exam page. Enter it in the ExamUrFU window and click \\\"Allow this computer\\\" in the browser."
+msgstr "考试页面上会出现绑定码。请把它输入 ExamUrFU 窗口，并在浏览器中点击「允许这台电脑」。"
 
 msgid "Проверьте камеру и микрофон"
-msgstr "Check the camera and microphone"
+msgstr "检查摄像头和麦克风"
 
 msgid "В проверке оборудования нажмите «Готово» на нужных устройствах. В Exam Guard выберите те же камеру и микрофон и нажмите «Применить». Во время экзамена картинка камеры в браузере может быть чёрной: она показывается в окне агента."
-msgstr "In the equipment check, confirm the devices you need. In Exam Guard, select the same camera and microphone and click Apply. During the exam the camera picture in the browser may be black: it is shown in the agent window."
+msgstr "在设备检查中对所需设备确认完成。在 Exam Guard 中选择同一摄像头和麦克风并点击「应用」。考试期间浏览器里的画面可能是黑的：画面显示在代理程序窗口中。"
 
 msgid "Перейдите к экзамену"
-msgstr "Go to the exam"
+msgstr "进入考试"
 
 msgid "Найдите нужный экзамен в курсе."
-msgstr "Find the required exam in the course."
+msgstr "在课程中找到所需考试。"
 
 msgid "Вы увидите панель «Прокторинг УрФУ»."
-msgstr "You will see the \\\"UrFU Proctoring\\\" panel."
+msgstr "你会看到「乌拉尔联邦大学监考」面板。"
 
 msgid "Убедитесь, что всё готово"
-msgstr "Make sure everything is ready"
+msgstr "确认一切就绪"
 
 msgid "На панели должны быть выполнены все условия:"
-msgstr "All conditions must be met:"
+msgstr "面板上的条件必须全部满足："
 
 msgid "Документ загружен"
-msgstr "The document is uploaded"
+msgstr "证件已上传"
 
 msgid "Оборудование проверено"
-msgstr "The equipment is checked"
+msgstr "设备已检查"
 
 msgid "Запись на сегодня подтверждена"
-msgstr "The appointment for today is confirmed"
+msgstr "已确认预约为今天"
 
 msgid "Exam Guard подключён"
-msgstr "Exam Guard is connected"
+msgstr "Exam Guard 已连接"
 
 msgid "Начните экзамен в браузере"
-msgstr "Start the exam in the browser"
+msgstr "在浏览器中开始考试"
 
 msgid "Когда агент подключён, начните экзамен на странице курса. Не закрывайте Exam Guard до отправки попытки."
-msgstr "When the agent is connected, start the exam on the course page. Do not close Exam Guard until the attempt is submitted."
+msgstr "代理程序连接后，在课程页面开始考试。在答卷提交之前不要关闭 Exam Guard。"
 
 msgid "Не закрывайте Exam Guard во время экзамена!"
-msgstr "Do not close Exam Guard during the exam!"
+msgstr "考试期间不要关闭 Exam Guard！"
 
 msgid "Если закрыть Exam Guard, пропадёт сеть или откроется второй браузер, запрещённая программа или запрещённое расширение, попытка аннулируется. Новая вкладка в том же окне браузера сама по себе попытку не отменяет, но она видна на записи экрана."
-msgstr "If you close Exam Guard, the network drops, or a second browser, a forbidden program, or a forbidden extension opens, the attempt is voided. A new tab in the same browser window does not void the attempt by itself, but it is visible on the screen recording."
+msgstr "如果关闭 Exam Guard、网络中断，或打开第二个浏览器、被禁止的程序或被禁止的扩展，本次尝试将作废。同一浏览器窗口中的新标签本身不会取消尝试，但会显示在屏幕录像中。"
 
 msgid "Правила во время экзамена"
-msgstr "Rules during the exam"
+msgstr "考试期间的规则"
 
 msgid "Exam Guard не закрывает другие сайты за вас. Второй браузер, запрещённая программа или запрещённое расширение аннулируют начатую попытку. Нарушения правил также фиксируются на записи."
-msgstr "Exam Guard does not close other websites for you. A second browser, a forbidden program, or a forbidden extension voids an attempt that has started. Rule violations are also recorded."
+msgstr "Exam Guard 不会替你关闭其他网站。第二个浏览器、被禁止的程序或被禁止的扩展会使已开始的尝试作废。违规也会记录在录像中。"
 
 msgid "Разрешено"
-msgstr "Allowed"
+msgstr "允许"
 
 msgid "Запрещено"
-msgstr "Forbidden"
+msgstr "禁止"
 
 msgid "Часто задаваемые вопросы"
-msgstr "Frequently Asked Questions"
+msgstr "常见问题"
 
 msgid "Exam Guard не запускается или антивирус блокирует запись"
-msgstr "Exam Guard does not start, or the antivirus blocks recording"
+msgstr "Exam Guard 无法启动，或杀毒软件阻止录制"
 
 msgid "В браузере чёрный квадрат вместо камеры"
-msgstr "The browser shows a black square instead of the camera"
+msgstr "浏览器里摄像头位置是黑块"
 
 msgid "Скачайте ExamUrFU заново со страницы экзамена и запустите его"
-msgstr "Download ExamUrFU again from the exam page and start it"
+msgstr "从考试页面重新下载 ExamUrFU 并启动它"
 
 msgid "Выключите антивирус и не включайте его до конца экзамена, пока попытка не будет отправлена."
-msgstr "Turn the antivirus off and do not turn it back on until the exam is over and the attempt has been submitted."
+msgstr "请关闭杀毒软件，在考试结束且答卷提交之前不要重新打开。"
 
 msgid "Нажмите <strong>«Завершить экзамен»</strong> в интерфейсе курса"
-msgstr "Click <strong>Finish exam</strong> in the course interface"
+msgstr "在课程界面点击<strong>「结束考试」</strong>"
 
 msgid "Перезагрузите компьютер и откройте только один браузер"
-msgstr "Restart the computer and open only one browser"
+msgstr "重启电脑，并且只打开一个浏览器"
 
 msgid "Во время экзамена камеру держит Exam Guard. Смотрите картинку в окне агента. В браузере превью нужно только на проверке оборудования, до начала записи."
-msgstr "During the exam, Exam Guard holds the camera. Watch the picture in the agent window. The browser preview is only for the equipment check, before recording starts."
+msgstr "考试期间摄像头由 Exam Guard 占用。请看代理程序窗口中的画面。浏览器预览只用于开始录制前的设备检查。"
 
 msgid "В Windows откройте <em>Параметры → Конфиденциальность → Камера/Микрофон</em> и разрешите доступ приложениям."
-msgstr "In Windows, open <em>Settings → Privacy → Camera/Microphone</em> and allow access for apps."
+msgstr "在 Windows 中打开<em>设置 → 隐私 → 摄像头/麦克风</em>，并允许应用访问。"
 
 msgid "Закройте другие программы, которые заняли камеру, и нажмите «Применить» в Exam Guard."
-msgstr "Close other programs that are using the camera, and click Apply in Exam Guard."
+msgstr "关闭占用摄像头的其他程序，并在 Exam Guard 中点击「应用」。"
 
 msgid "Не могу начать запись — кнопка неактивна"
-msgstr "I can't start recording — the button is inactive"
+msgstr "无法开始录制——按钮不可用"
 
 msgid "Экзамен прервался: закрылся Exam Guard или пропал интернет"
-msgstr "The exam was interrupted: Exam Guard closed or the internet dropped"
+msgstr "考试中断：Exam Guard 已关闭或网络中断"
 
 msgid "Ошибка «Начать запись можно только в день записи»"
-msgstr "Error \\\"You can start recording only on the appointment day\\\""
+msgstr "错误「只能在预约当天开始录制」"
 
 msgid "Нужна помощь?"
-msgstr "Need some help?"
+msgstr "需要帮助？"
 
 msgid "Если у вас возникли технические проблемы или вопросы по прокторингу:"
-msgstr "If you have technical problems or questions about proctoring:"
+msgstr "如果监考出现技术问题或疑问："
 
 msgid "При обращении укажите: вашу почту, название курса."
-msgstr "When contacting us, please specify: your email, the course name."
+msgstr "联系时请注明你的邮箱和课程名称。"
 
 msgid "Смотреть на экран и клавиатуру"
-msgstr "Look at the screen and keyboard"
+msgstr "看屏幕和键盘"
 
 msgid "Пить воду из прозрачной бутылки"
-msgstr "Drink water from a transparent bottle"
+msgstr "用透明瓶子喝水"
 
 msgid "Использовать встроенный калькулятор (если предусмотрено)"
-msgstr "Use the built-in calculator (if provided)"
+msgstr "使用内置计算器（如果考试提供）"
 
 msgid "Черновик на бумаге"
-msgstr "Draft on paper"
+msgstr "纸质草稿纸"
 
 msgid "Покидать рабочее место / уходить из кадра"
-msgstr "Leave the workplace / go out of frame"
+msgstr "离开座位或离开画面"
 
 msgid "Разговаривать с кем-либо, получать подсказки третьих лиц"
-msgstr "Talk to anyone, receive tips from third parties"
+msgstr "与他人交谈或接受他人提示"
 
 msgid "Использовать телефон или второе устройство (планшет, второй компьютер и т.д.)"
-msgstr "Use a phone or second device (tablet, second computer, etc.)"
+msgstr "使用手机或第二台设备（平板、另一台电脑等）"
 
 msgid "Использовать наушники"
-msgstr "Use headphones"
+msgstr "使用耳机"
 
 msgid "Присутствие посторонних в комнате"
-msgstr "Presence of strangers in the room"
+msgstr "房间里有其他人"
 
 msgid "Читать вопросы вслух"
-msgstr "Read questions aloud"
+msgstr "大声朗读题目"
 
 msgid "Пользоваться шпаргалками и конспектами"
-msgstr "Use cheat sheets and notes"
+msgstr "使用小抄和笔记"
 
 msgid "Фотографировать/переписывать задания, фиксировать вопросы любым способом"
-msgstr "Photograph/copy assignments, record questions in any way"
+msgstr "拍摄或抄录题目，以任何方式记录问题"
 
 msgid "Использовать программы записи/трансляции/удалённого доступа (OBS, Discord, Skype, Zoom/Teams, AnyDesk/TeamViewer/Radmin и т.п.)"
-msgstr "Use recording/broadcasting/remote access programs (OBS, Discord, Skype, Zoom/Teams, AnyDesk/TeamViewer/Radmin, etc.)"
+msgstr "使用录制、直播或远程访问软件（OBS、Discord、Skype、Zoom/Teams、AnyDesk/TeamViewer/Radmin 等）"
 
 msgid "Использовать чужие коды/попытки или материалы других слушателей"
-msgstr "Use other people's codes/attempts or materials from other students"
+msgstr "使用他人的代码、尝试或材料"
 
 msgid "Держать открытым второй браузер или запрещённое расширение"
-msgstr "Keep a second browser or a forbidden extension open"
+msgstr "保持第二个浏览器或被禁止的扩展处于打开状态"
 
 msgid "Сдавать экзамен из виртуальной машины или через удалённый рабочий стол"
-msgstr "Take the exam from a virtual machine or over a remote desktop"
+msgstr "在虚拟机中或通过远程桌面参加考试"
 
 msgid "Обязательные условия"
-msgstr "Mandatory conditions"
+msgstr "必要条件"
 
 msgid "Обеспечьте достаточное освещение (не сидите спиной к окну/лампе), минимальный шум."
-msgstr "Ensure adequate lighting (do not sit with your back to the window/lamp), minimal noise."
+msgstr "保证足够照明（不要背对窗户或灯），并尽量减少噪音。"
 
 msgid "Не закрывайте камеру и не покидайте зону видимости камеры во время экзамена."
-msgstr "Do not close the camera and do not leave the camera's field of view during the exam."
+msgstr "考试期间不要遮挡摄像头，也不要离开摄像头视野。"
 
 msgid "Оборудование и рабочее место"
-msgstr "Equipment and workplace"
+msgstr "设备与座位"
 
 msgid "Используйте одну клавиатуру и одну мышь (без дополнительных устройств ввода)."
-msgstr "Use one keyboard and one mouse (no additional input devices)."
+msgstr "只使用一个键盘和一个鼠标（不要使用额外的输入设备）。"
 
 msgid "По запросу проктора будьте готовы показать в камеру рабочее место: стол, область слева/справа от монитора и пространство вокруг, чтобы подтвердить отсутствие посторонних людей и материалов."
-msgstr "At the proctor's request, be ready to show the workplace on camera: table, area to the left/right of the monitor and the space around to confirm the absence of other people and materials."
+msgstr "如监考人员要求，请用摄像头展示工位：桌子、显示器左右区域和周围空间，以确认没有其他人和材料。"
 
 msgid "Черновик"
-msgstr "Draft"
+msgstr "草稿纸"
 
 msgid "Перед началом экзамена покажите в камеру, что черновик чистый (по возможности — обе стороны листа)."
-msgstr "Before the exam begins, show on camera that the draft is clean (if possible — both sides of the sheet)."
+msgstr "考试开始前，向摄像头展示草稿纸是空白的（尽量展示正反两面）。"
 
 msgid "После завершения экзамена покажите черновик в камеру по запросу (для подтверждения, что вопросы не были зафиксированы)."
-msgstr "After completing the exam, show the draft on camera upon request (to confirm that the questions were not recorded)."
+msgstr "考试结束后，按要求向摄像头展示草稿纸，以确认没有记下题目。"
 
 msgid "Если правила нарушены"
-msgstr "If the rules are violated"
+msgstr "如果违反规则"
 
 msgid "В случае выявления нарушений попытка может быть признана использованной, а итоговый контроль — несданным."
-msgstr "If violations are detected, the attempt may be considered used, and the final control may be considered failed."
+msgstr "如发现违规，该次尝试可能被视为已使用，结业考核视为未通过。"
 
 msgid "Завершение экзамена"
-msgstr "Completing the exam"
+msgstr "结束考试"
 
 msgid "Завершите все задания экзамена"
-msgstr "Complete all exam tasks"
+msgstr "完成全部考试题目"
 
 msgid "Дождитесь, пока попытка будет отправлена"
-msgstr "Wait until the attempt has been submitted"
+msgstr "等到本次尝试已经提交"
 
 msgid "Только после этого закройте Exam Guard"
-msgstr "Only then close Exam Guard"
+msgstr "然后再关闭 Exam Guard"
 
 msgid "Сначала отправьте экзамен в браузере и только потом закрывайте Exam Guard. Если закрыть агент раньше, попытка аннулируется, и кнопка завершения её не восстановит."
-msgstr "Submit the exam in the browser first, and only then close Exam Guard. If you close the agent earlier, the attempt is voided, and the finish button will not restore it."
+msgstr "先在浏览器中提交考试，然后再关闭 Exam Guard。如果提前关闭代理程序，尝试会作废，结束按钮也无法恢复。"
 
 msgid "Что происходит после завершения?"
-msgstr "What happens after completion?"
+msgstr "结束后会发生什么？"
 
 msgid "Ваша видеозапись и ответы отправляются на проверку. Проктор просмотрит запись и примет решение в течении 5 рабочих дней."
-msgstr "Your video recording and answers are sent for review. The proctor will review the recording and make a decision within 5 business days."
+msgstr "你的录像和答案会送去审核。监考人员会查看录像，并在 5 个工作日内作出决定。"
 
 msgid "Перезагрузите компьютер"
-msgstr "Restart your computer"
+msgstr "重启电脑"
 
 msgid "Проверьте выполнение всех условий:"
-msgstr "Check that all conditions are met:"
+msgstr "请检查是否满足全部条件："
 
 msgid "Загружен студенческий билет"
-msgstr "Student ID uploaded"
+msgstr "已上传学生证"
 
 msgid "Пройдена проверка оборудования"
-msgstr "Equipment check completed"
+msgstr "已完成设备检查"
 
 msgid "Вы записаны на сегодняшнюю дату"
-msgstr "You are registered for today's date"
+msgstr "你的预约是今天"
 
 msgid "Если все условия выполнены, но кнопка неактивна — обновите страницу (F5)."
-msgstr "If all conditions are met but the button is inactive — refresh the page (F5)."
+msgstr "如果条件都已满足但按钮仍不可用，请刷新页面（F5）。"
 
 msgid "Если попытка уже начата, закрытие Exam Guard, обрыв связи, второй браузер, запрещённая программа или запрещённое расширение аннулируют её. Напишите в поддержку и не нажимайте «Завершить экзамен» в надежде отправить аннулированную попытку."
-msgstr "If the attempt has already started, closing Exam Guard, a lost connection, a second browser, a forbidden program, or a forbidden extension voids it. Contact support, and do not click Finish exam hoping to submit a voided attempt."
+msgstr "如果尝试已经开始，关闭 Exam Guard、断网、第二个浏览器、被禁止的程序或扩展都会使其作废。请联系支持，不要指望点击「结束考试」来提交已作废的尝试。"
 
 msgid "Если экзамен ещё не начат, снова откройте страницу, запустите Exam Guard и введите новый код."
-msgstr "If the exam has not started yet, open the page again, start Exam Guard, and enter a new code."
+msgstr "如果考试尚未开始，请重新打开页面，启动 Exam Guard 并输入新的代码。"
 
 msgid "Вы пытаетесь начать экзамен в день, отличный от забронированного."
-msgstr "You are trying to start the exam on a day other than the one booked."
+msgstr "你试图在非预约日期开始考试。"
 
 msgid "Проверьте дату своей записи в виджете «Запись на прокторинг»"
-msgstr "Check the date of your appointment in the \\\"Sign up for Proctoring\\\" widget"
+msgstr "请在「预约监考」组件中查看你的预约日期"
 
 msgid "Если нужно перенести — откройте календарь и выберите другую дату"
-msgstr "If you need to reschedule — open the calendar and choose another date"
+msgstr "如需改期，请打开日历并选择其他日期"
 
 msgid "Если сегодня — ваш день, но ошибка всё равно появляется, обновите страницу"
-msgstr "If today is your day but the error still appears, refresh the page"
+msgstr "如果今天就是你的日期但错误仍然出现，请刷新页面"
 
 msgid "Скопировать email"
-msgstr "Copy email"
+msgstr "复制邮箱"
 
 msgid "Скопировано!"
-msgstr "Copied!"
+msgstr "已复制！"
 
 msgid "قبل сдачей экзамена необходимо <strong>записаться на конкретную дату</strong> через календарь бронирования. Начать экзамен можно только в день записи."
-msgstr "Before the exam you must <strong>book a specific date</strong> in the booking calendar. You can start the exam only on that day."
+msgstr "考试前必须通过预约日历<strong>预约具体日期</strong>。只能在预约当天开始考试。"
 
 msgid "Планшеты и телефоны <strong>не поддерживаются</strong>"
-msgstr "Tablets and phones are <strong>not supported</strong>"
+msgstr "平板和手机<strong>不受支持</strong>"
 
 msgid "<strong>Черновик на бумаге</strong> — при соблюдении правил ниже"
-msgstr "<strong>Paper draft</strong> — if you follow the rules below"
+msgstr "<strong>纸质草稿纸</strong>——须遵守以下规则"
 
 msgid "<strong>Не отключайте микрофон</strong> во время экзамена и убедитесь, что вас слышно."
-msgstr "<strong>Do not turn off the microphone</strong> during the exam and make sure you can be heard."
+msgstr "考试期间<strong>不要关闭麦克风</strong>，并确认能听到你的声音。"
 
 msgid "Используйте для идентификации <strong>оригинал</strong> документа (студенческий билет) и предъявляйте по требованию."
-msgstr "Use the <strong>original</strong> document (student ID) for identification and show it when asked."
+msgstr "身份核验请使用证件<strong>原件</strong>（学生证），并在要求时出示。"
 
 msgid "Используйте <strong>только один</strong> монитор/экран вывода изображения. Если подключён второй монитор — отключите его и перезагрузите компьютер."
-msgstr "Use <strong>only one</strong> monitor. If a second monitor is connected, disconnect it and restart the computer."
+msgstr "请<strong>只使用一台</strong>显示器。如果接了第二台，请断开并重启电脑。"
 
 msgid "На черновике <strong>запрещено</strong> фиксировать текст заданий/вопросов и варианты ответов."
-msgstr "On the draft it is <strong>forbidden</strong> to write down the tasks, questions, or answer choices."
+msgstr "草稿纸上<strong>禁止</strong>抄录题目、问题或选项。"
 
